@@ -1,0 +1,121 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{nty}
+    \entry{NIST_ASD}{misc}{}
+      \name{labelname}{4}{}{%
+        {{hash=c1dc5f19f2cd63eb8829ff2e68fc6f93}{A.\bibnamedelimi Kramida}{K\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=01248dc8fe4bbe0fa3867bebb0a1c283}{{Yu.\bibnamedelimi Ralchenko}}{Y\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=9bc45d36885394dcebf9e9c8b9e8bb27}{J.\bibnamedelimi Reader}{R\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=4768240d3b81924f02fc9832b0de7597}{{and\bibnamedelimb NIST\bibnamedelimb ASD\bibnamedelimb Team}}{a\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=c1dc5f19f2cd63eb8829ff2e68fc6f93}{A.\bibnamedelimi Kramida}{K\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=01248dc8fe4bbe0fa3867bebb0a1c283}{{Yu.\bibnamedelimi Ralchenko}}{Y\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=9bc45d36885394dcebf9e9c8b9e8bb27}{J.\bibnamedelimi Reader}{R\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=4768240d3b81924f02fc9832b0de7597}{{and\bibnamedelimb NIST\bibnamedelimb ASD\bibnamedelimb Team}}{a\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{57cf97364b4c59d824626f076c80e80a}
+      \strng{fullhash}{d03d4efbb23bd38044dd88808edf18af}
+      \field{sortinit}{A}
+      \field{howpublished}{{NIST Atomic Spectra Database (ver. 5.2), [Online]. Available: {\tt{http://physics.nist.gov/asd}} [2015, May 11]. National Institute of Standards and Technology, Gaithersburg, MD.}}
+      \field{year}{2014}
+    \endentry
+    \entry{gehm}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=9d7dde31bc01c4be34c7d4ec0d147350}{Gehm}{G\bibinitperiod}{Michael\bibnamedelima E.}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=9d7dde31bc01c4be34c7d4ec0d147350}{Gehm}{G\bibinitperiod}{Michael\bibnamedelima E.}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{9d7dde31bc01c4be34c7d4ec0d147350}
+      \strng{fullhash}{9d7dde31bc01c4be34c7d4ec0d147350}
+      \field{sortinit}{G}
+      \field{labeltitle}{Properties of Lithium-6}
+      \field{title}{Properties of Lithium-6}
+      \field{year}{2003}
+    \endentry
+    \entry{alpha}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=43913df7c07e91c6a6171700f0b6f369}{Johnson}{J\bibinitperiod}{W.\bibnamedelimi R.}{W\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=43913df7c07e91c6a6171700f0b6f369}{Johnson}{J\bibinitperiod}{W.\bibnamedelimi R.}{W\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{43913df7c07e91c6a6171700f0b6f369}
+      \strng{fullhash}{43913df7c07e91c6a6171700f0b6f369}
+      \field{sortinit}{J}
+      \field{labeltitle}{Scalar and Tensor Polarizabilities of Atoms}
+      \field{title}{Scalar and Tensor Polarizabilities of Atoms}
+      \field{year}{2009}
+    \endentry
+    \entry{magic01}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=b982e1fb30224945401b6440e77f2e53}{M.\bibnamedelimi S.\bibnamedelimi Safronova}{M\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim S\bibinitperiod}{U.\bibnamedelimi I.\bibnamedelimi Safronova}{U\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=a9c4ba58fa344ab004dde3db37c9f670}{Clark}{C\bibinitperiod}{Charles\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=b982e1fb30224945401b6440e77f2e53}{M.\bibnamedelimi S.\bibnamedelimi Safronova}{M\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim S\bibinitperiod}{U.\bibnamedelimi I.\bibnamedelimi Safronova}{U\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=a9c4ba58fa344ab004dde3db37c9f670}{Clark}{C\bibinitperiod}{Charles\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{aa6ff443089bffc0f16278f1c27d33f3}
+      \strng{fullhash}{aa6ff443089bffc0f16278f1c27d33f3}
+      \field{sortinit}{M}
+      \field{labeltitle}{Magic wavelengths for optical cooling and trapping of lithium}
+      \field{title}{Magic wavelengths for optical cooling and trapping of lithium}
+      \field{year}{2012}
+    \endentry
+    \entry{factor}{online}{}
+      \name{labelname}{1}{}{%
+        {{hash=0abde002e510c0a9bdcbbcdf166d056a}{Pudlik}{P\bibinitperiod}{Ted}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=0abde002e510c0a9bdcbbcdf166d056a}{Pudlik}{P\bibinitperiod}{Ted}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0abde002e510c0a9bdcbbcdf166d056a}
+      \strng{fullhash}{0abde002e510c0a9bdcbbcdf166d056a}
+      \field{sortinit}{P}
+      \field{day}{8}
+      \field{month}{5}
+      \field{year}{2015}
+      \verb{url}
+      \verb http://physics.stackexchange.com/questions/38343/why-is-there-a-factor-of-1-2-in-the-interaction-energy-of-an-induced-dipole-with
+      \endverb
+    \endentry
+    \entry{dipole}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=0306f3dfe23c7299e29940f592f9a088}{Rudolf\bibnamedelima Grimm}{R\bibinitperiod\bibinitdelim G\bibinitperiod}{Matthias\bibnamedelima Weidemueller}{M\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=0bc49bab5feed8a1251c27ab768de69e}{Ovchinnikov}{O\bibinitperiod}{Yurii\bibnamedelima B.}{Y\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=0306f3dfe23c7299e29940f592f9a088}{Rudolf\bibnamedelima Grimm}{R\bibinitperiod\bibinitdelim G\bibinitperiod}{Matthias\bibnamedelima Weidemueller}{M\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=0bc49bab5feed8a1251c27ab768de69e}{Ovchinnikov}{O\bibinitperiod}{Yurii\bibnamedelima B.}{Y\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f0b9775d8e3cb1a0fa13d7751a90f86a}
+      \strng{fullhash}{f0b9775d8e3cb1a0fa13d7751a90f86a}
+      \field{sortinit}{R}
+      \field{labeltitle}{Optical dipole traps for neutral atoms}
+      \field{title}{Optical dipole traps for neutral atoms}
+      \field{year}{1999}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

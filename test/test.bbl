@@ -1,0 +1,49 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{nty}
+    \entry{test1}{book}{}
+      \name{labelname}{3}{}{%
+        {{hash=0743efb276e9219ee664a9b3dbd60619}{Goossens}{G\bibinitperiod}{Michel}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=9355edd511e3f6fdd880ee98722a53fb}{Mittelbach}{M\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=e341c89f7bb5be4f5a050618c0b63942}{Samarin}{S\bibinitperiod}{Alexander}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=0743efb276e9219ee664a9b3dbd60619}{Goossens}{G\bibinitperiod}{Michel}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=9355edd511e3f6fdd880ee98722a53fb}{Mittelbach}{M\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=e341c89f7bb5be4f5a050618c0b63942}{Samarin}{S\bibinitperiod}{Alexander}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Reading, Mass.}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley}%
+      }
+      \strng{namehash}{369a4e878eb8157d94588ee72e0b486b}
+      \strng{fullhash}{369a4e878eb8157d94588ee72e0b486b}
+      \field{sortinit}{G}
+      \field{labeltitle}{The LaTeX Companion}
+      \field{title}{The LaTeX Companion}
+      \field{year}{1994}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

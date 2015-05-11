@@ -1,0 +1,142 @@
+\chapter{Theory}
+
+To understand the function of an optical dipole-trap one has to understand how far detuned light, more specificly the electric field component, interacts with a neutral atom. There are several models providing different levels of accuracy for the respective application. The atom can be treated rather classically by regarding it as a classical oscillator interacting with an electric field. It can be treated semiclassically by considering the quantum nature and structure of the atom while still approximate the incoming light as electromagnetic waves. The problem can in this case be solved with second-order pertubation theory. The third approach is treating the atom quantum mechanically as well as the light now consisting of quantised photons interacting with the atom. For this thesis only the first two approaches are relevant.
+
+\section{The Hamiltonian}
+
+The problem of the interaction between an atom, laser-light and in the case of this experiment also magnetic fields is composed of different parts of the general hamiltonian. The basis for all calculations is the atomic hamiltonian of the regardet Lithium-atoms $H_A$. The ato-light-interaction is represented by firstly the Hamiltonian of the light itself $H_L$ and the interaction Hamiltonian $H_{AL}$. The last part is the representation of the magnetic field $H_M$.
+\begin{equation}
+H=H_A+H_L+H_{AL}+H_{M}
+\end{equation}\label{hamiltonian}
+
+\section{Lithium Level-structure}
+The atomic hamiltonian $H_A$ coresponds to the energy of the atomic species that is used in our experiment, which is Lithium-6. Lithium is an alkali-metal, whose electronic structure is mostly dependent of its one valence electron \cite{gehm}. In this approximation, the \textit{central-field approximation}, the two other bound electrons on the most inner level only contribute to the central electric field, that is suppost to be sphericaly symetric. Thus the calculation can follow the well understood model of hydrogen. Nevertheless the real Lithium-atom has a substructure arising from interaction of the electronic spin and the spin of the core with the angular momentum of the orbit respectively. These effects result in the fine- and hyperfinestructure that break the degeneracy of the levels with same quantum number $n$ and different angular-momentum-quantum-number $l$. In the fine-structure picture this results in the total angular momentum $J=L\pm S$ and the respective projections onto the different spacial axis $m_j=j,j-1,\dots,-j+1,j$, while in the hyperfinestructure the total angular momentum $J$ and the spin of the core $I$ couple to the new total angular momentum $F=J\pm I$ with their respective projections $m_F=F,F-1,\dots,-F+1,F$ that result in a even finer splitting of the lines as indicated schematicly in the following figure.
+
+\begin{figure}[H]
+
+\begin{center}
+\includegraphics[scale=.5] {levels1}
+\end{center}
+\caption{Extract of the level structure for Lithium-6 \cite{gehm}}
+
+\end{figure}\label{levels1}
+Although the hyperfine splitting is highly relevant for the experiment itself, it is sufficient for the calculation of the Stark-Shift to only consider the fine-structure regime. Aspecially at high-strength magnetic fields, the hyperfine Paschen-Back-Effect leads to degeneracy of the different hyperfine states and the total angular momentum $J$ is a "good quantum-number" again. In the low-field-regime the corrections due to hyperfine-splitting are small, because of the little energy-differences compared to the relevant transitions between the levels in the fine-structure-regime. Hence also there this picture is sufficient.\\\\
+The important quantities arising from the model, relevant for the later-on calculation of the \textsc{AC}-Stark-Shifts are firstly of course the energy-eigenvalues, i.e. the different levels with their respective detuning as well as the overlap of the wavefunctions for each energy-level, otherwise called the dipole-transition-matrix-element, that determines how strongly the different levels are coupled. As seen later on, for the explicit calculation only the so called reduced matrix elements are needed, whose numerical values are listed below in atomic units for the relevant states.
+
+\begin{figure}[H]
+\begin{center}
+\begin{tabular}{ccc}
+Transition&Matrix-element [$\unit{a.u.}$]&Resonance [$\unit{nm}$]\\\hline\hline\\
+$2s_{1/2}-2p_{1/2}$&3.3169&670.791\\
+$2s_{1/2}-2p_{3/2}$&4.6909&670.776\\
+$2s_{1/2}-3p_{1/2}$&0.183&323.2657\\
+$2s_{1/2}-3p_{3/2}$&0.259&323.2657\\
+$2s_{1/2}-4p_{1/2}$&0.160&274.1203\\
+$2s_{1/2}-4p_{3/2}$&0.226&274.1203\\
+$2s_{1/2}-5p_{1/2}$&0.1198&256.2312\\
+$2s_{1/2}-5p_{3/2}$&0.169&256.2312\\
+$2s_{1/2}-6p_{1/2}$&0.0925&247.5061\\
+$2s_{1/2}-6p_{3/2}$&0.131&247.5061\\
+$2s_{1/2}-7p_{1/2}$&0.0737&242.5426\\
+$2s_{1/2}-7p_{3/2}$&0.1042&242.5426\\
+$2p_{1/2}-3s_{1/2}$&3.4403&812.645\\
+$2p_{1/2}-4s_{1/2}$&0.9167&497.175\\
+$2p_{1/2}-5s_{1/2}$&0.4929&427.313\\
+$2p_{1/2}-6s_{1/2}$&0.3268&398.554\\
+$2p_{1/2}-7s_{1/2}$&0.2397&383.564\\
+$2p_{1/2}-3d_{3/2}$&2.2658&610.366\\
+$2p_{1/2}-3d_{5/2}$&6.7975&670.776\\
+$2p_{1/2}-4d_{3/2}$&0.8627&460.283\\
+$2p_{1/2}-4d_{5/2}$&2.5882&460.289\\
+$2p_{1/2}-5d_{3/2}$&0.5015&413.262\\
+$2p_{1/2}-5d_{5/2}$&1.5045&413.262\\
+$2p_{1/2}-6d_{3/2}$&0.3435&391.535\\
+$2p_{1/2}-6d_{5/2}$&1.0306&391.535\\
+$2p_{1/2}-7d_{3/2}$&0.2565&379.507\\
+$2p_{1/2}-7d_{5/2}$&0.7696&379.507\\\\\hline
+\end{tabular}
+\end{center}
+\caption{Reduced Dipole-Transition-Matrix-Elements \cite{magic01} in a.u. and the respective detuning \cite{NIST_ASD}, i.e. the resonance-energy for the relevant levels: $1s_22s_{1/2}$ and $1s_22p_{3/2}$}
+\label{matrixelements}
+\end{figure}
+
+
+\newpage
+\newpage
+\section{AC-Stark-Shift}
+The \textsc{ac}-Stark-Shift arises from the interaction of electric fields with the regarded atom. Before treating this problem quantum-mechanicaly in terms of our Hamiltonian (\ref{hamiltonian}), we look at the problem in a classical model, that already results in a formula, that is very accurate in certain systems. 
+\subsection{Lorentz Oscillator Model}
+
+ Classicaly the problem of light-matter-interaction can be described in terms of the atomic dipole moment induced by an oscillating electric field, following \cite{dipole}. The atom is hereby described as a damped harmonic ocillator driven by the field. The potential arising from these conditions is the following\footnote{The force on a dipole is given by \cite{factor}:
+\begin{equation*}
+\boldsymbol{F}=(\boldsymbol{p}\cdot\nabla)\boldsymbol{E}
+\end{equation*}
+We know that the following holds:
+\begin{equation*}
+\nabla(\boldsymbol{p}\cdot\boldsymbol{E})=\boldsymbol{p}\times(\nabla\times\boldsymbol{E})+\boldsymbol{E}\times(\nabla\times\boldsymbol{p})+(\boldsymbol{p}\cdot\nabla)\boldsymbol{E}+(\boldsymbol{E}\cdot\nabla)\boldsymbol{p}
+\label{dipoleforce}\end{equation*}
+We consider the trap to consist of a retro-reflected laserbeam, that is in phase, so the B-field-component of the electromagnetic wave is onsidered to be 0 as well as $\nabla\times\boldsymbol{E}=-\partial\boldsymbol{B}/\partial t=0$. In our case the dipole-moment is not constant but \(\boldsymbol{p}=\alpha \boldsymbol{E}\) and thus becomes:
+\begin{equation*}
+\nabla(\boldsymbol{p}\cdot\boldsymbol{E})=\alpha\boldsymbol{E}\times(\nabla\times\boldsymbol{E})+\alpha\boldsymbol{E}\times(\nabla\times\boldsymbol{E})+(\alpha\boldsymbol{E}\cdot\nabla)\boldsymbol{E}+\alpha(\boldsymbol{E}\cdot\nabla)\boldsymbol{E}
+\end{equation*}
+which becomes:
+\begin{align*}
+\nabla(\boldsymbol{p}\cdot\boldsymbol{E})&=2\alpha(\boldsymbol{E}\cdot\nabla)\boldsymbol{E}=2(\boldsymbol{p}\cdot\nabla)\boldsymbol{E}\\
+\Rightarrow \boldsymbol{F}&=\frac{1}{2}\nabla(\boldsymbol{p}\cdot\boldsymbol{E})
+\end{align*}
+To get the corresponting potential one has to integrate the force. For a rapidly oscillating field we futher have to take the time average to get an effective value for the trapping potential.
+\begin{equation*}
+U=-\frac{1}{2}\mean{\boldsymbol{p E}}
+\end{equation*}}:
+\begin{equation}
+U=-\frac{1}{2}\mean{\boldsymbol{p E}}
+\label{dipole}
+\end{equation} 
+Here $\boldsymbol{p}$ is the induced dipole moment, $\boldsymbol{E}$ the electric field. The time-average is introduced since the electric field in an electro-magnetic wave is oscillating very fast and the atom “feels“ an effective potential averaged over the oscillation. If we only consider the real part $\boldsymbol{p}\boldsymbol{E}\propto \cos^2$,the time average is $\mean{\boldsymbol{p}\boldsymbol{E}}=1/2 \mathrm{ Re}(\alpha)E^2$. One can rewrite (\ref{dipole}) in terms of the Intentity $I=1/2\epsilon_0cE^2 $:
+\begin{equation}
+U=-\frac{1}{2\epsilon_0 c}\mathrm{Re}(\alpha)I
+\end{equation} 
+
+To calculate the exact potential one has to obtain a value for $\alpha$. In this classical description an electron is considered bound to the core elastically with the oscillation eigenfrequency $\omega_0$ corresponding to the optical transition frequency. In our practical case that is the frequency of the Lithium-D2-Line. In a real atom, there are of course multiple resonances, corresponding to multible states of the electron, thus this is approximation yields only for certain cases in which the system can also be regarded as a quantummechanical two-state-system. We will later see, that while this approach leads to a very accurate calculation for the Lithium ground state, it can not at all be applied to the calculation of the trapping potential of the first excited state, since there is, in contrast to the ground state, no single dominant transition but multiple resonances, all contributing to the respective energy-shift.
+
+The polarizability now can be calculated by solving the equation of motion of a driven and damped harmonic oscillator.
+\begin{equation}
+\ddot x+\Gamma_\omega\dot x+\omega^2_0x=-\frac{eE(t)}{m_e}
+\end{equation} 
+for that the solution can be calculated using basic tools for differential-equation-solving. The result is then:
+\begin{equation}
+\alpha=\frac{e^2}{m_e}\frac{1}{\omega^2_0-\omega^2-\mathrm{i}\omega\Gamma_\omega}
+\end{equation} 
+With
+\begin{equation}
+\Gamma_\omega=\frac{e^2\om^2}{6\pi\epsilon_0m_ec^3}
+\end{equation}
+We can substitute $e^2/m_e=6\pi\epsilon_0c^3\Gamma_\omega/\om^2$ and define the on-resonance damping rate $\Gamma:=(\om_0/\om)^2\Gamma_\omega$ witch results in the form:
+\begin{equation}
+\alpha=6\pi\epsilon_0c^3\frac{\Gamma/\om^2_0}{\omega^2_0-\omega^2-\mathrm{i}(\om^3/\om^2_0)\Gamma}
+\end{equation} 
+We now can plug the real part of this expression in \ref{dipole} and obtain the very known formula:
+\begin{equation}
+U_{dip}(\boldsymbol{r})=-\frac{3\pi c^2}{2\om^3_0}(\frac{\Gamma}{\om_0-\om}+\frac{\Gamma}{\om_0+\om})I(\boldsymbol{r})
+\label{classic}\end{equation}
+In this case, the damping parameter $\Gamma$ corresponds to the linewidth of the optical transition, which numerical value is $\Gamma=5.8724 \unit{MHz}$ for the considered D2-Line \cite{gehm}.
+
+\subsection{Energy-Shift in Pertubation Theory}
+
+After this classical treatment, we come back to calculating the same effect quantum-mechanically. For calculating the energy-shift for the first excited state, this is the only way to get a trustworthy result since in contrast to the ground state of Lithium it can not be approximated by a two-level-system with only one transition. Therefore we have to solve the problem more precicely. 
+
+The interaction of the atom with laser-light is described by the two additional parts in the original hamiltonian (\ref{hamiltonian}) $H_L+H_{AL}$. The light-hamiltonian $H_L$ is hereby negligible, because the regarded laser-light of the used dipole-trap is farly detuned from the relevant transition resonances. Therefore the only relevant part of this set of terms is the interaction-hamiltonian, which depends on the dipole-operator $\mu$ and the electric-field-operator $E$ and has the following form: $H_{AL}=-\mu E=-e\boldsymbol{r} E$. It can be treated as a small pertubation of the atomic hamiltonian, thus in the relevant second-order pertubation-theory the energy-shift is the following \cite{dipole}:
+\begin{equation}
+\Delta W=\sum_{k\neq j}\frac{|\braopket{j}{H_{AL}}{k}|^2}{W_k-W_j}
+\end{equation}
+Considering the problem in the fine-structure-regime this can be expressed in terms of $J$ and $m_J$ and with the explicit form of $H_{AL}$ this becomes\cite{alpha}:
+\begin{equation}
+\Delta W_{Jm_j}=-e^2\sum_{k\neq j}\sum_{m_k}\frac{\braopket{j}{\boldsymbol{r}E}{k}\braopket{k}{\boldsymbol{r}E}{j}}{W_k-W_j}
+\end{equation}
+\section{Magnetic Field}
+
+Within the experiment, the regarded atoms are exposed to strong magnetic fields. Therefore, additionally the Zeeman-Effect shifts the respective levels contributing to the \textsc{ac}-Stark-Shift. In this approach we simply regard both effects independently. At strong magnetic fields, as used in the experiment, the Paschen-Back-Effect for hyperfine states dominates and instead of $F$ and $m_F$, the quantum numbers $J$ and $m_J$ are still “good“. Therefore the formula for the shift of each state is given by:
+\begin{equation}
+\Delta E=g_Jm_j\hslash\gamma B
+\end{equation}
+With $\gamma=e/(2m_e)$ and $g_J$ being the Landé-factor. The results are new values of energy-difference i.e. detuning for the respective transitions that now have a different contribution to the \textsc{ac}-Stark-Effect. This picture is of course a simplification, since both effects are treated as independent pertubations of the non-interacting hamiltonian. A more careful calculation should consider both electric and magnetic field 

@@ -1,0 +1,5 @@
+[1] Config.pm:425> INFO - This is Biber 1.7
+[2] Config.pm:428> INFO - Logfile is 'literature.bib.blg'
+[596] biber-MSWIN:249> INFO - === %a %b %e, %Y, %H:%M:%S
+[1942] Utils.pm:185> ERROR - Cannot find control file 'literature.bib.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
+[1943] Biber.pm:109> INFO - ERRORS: 1
