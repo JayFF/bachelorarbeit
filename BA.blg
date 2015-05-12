@@ -1,17 +1,18 @@
-[0] Config.pm:425> INFO - This is Biber 1.7
-[0] Config.pm:428> INFO - Logfile is 'BA.blg'
-[92] biber-MSWIN:249> INFO - === %a %b %e, %Y, %H:%M:%S
-[93] Biber.pm:333> INFO - Reading 'BA.bcf'
-[186] Biber.pm:630> INFO - Found 6 citekeys in bib section 0
-[215] Biber.pm:2997> INFO - Processing section 0
-[242] Biber.pm:3134> INFO - Looking for bibtex format file 'BA.bib' for section 0
-[246] bibtex.pm:911> INFO - Decoding LaTeX character macros into UTF-8
-[250] bibtex.pm:786> INFO - Found BibTeX data source 'BA.bib'
-[271] Utils.pm:169> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
-[271] Utils.pm:169> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
-[345] Biber.pm:2883> INFO - Overriding locale 'DE' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[345] Biber.pm:2889> INFO - Sorting 'entry' list 'nty' keys
-[345] Biber.pm:2893> INFO - No sort tailoring available for locale 'DE'
-[405] bbl.pm:479> INFO - Writing 'BA.bbl' with encoding 'UTF-8'
-[407] bbl.pm:552> INFO - Output to BA.bbl
-[408] Biber.pm:105> INFO - WARNINGS: 2
+[1] Config.pm:321> INFO - This is Biber 1.9
+[2] Config.pm:324> INFO - Logfile is 'BA.blg'
+[80] biber:277> INFO - === Tue May 12, 2015, 16:04:15
+[81] Biber.pm:334> INFO - Reading 'BA.bcf'
+[199] Biber.pm:636> INFO - Found 7 citekeys in bib section 0
+[596] Biber.pm:3052> INFO - Processing section 0
+[696] Biber.pm:3190> INFO - Looking for bibtex format file 'BA.bib' for section 0
+[698] bibtex.pm:979> INFO - Decoding LaTeX character macros into UTF-8
+[702] bibtex.pm:853> INFO - Found BibTeX data source 'BA.bib'
+[781] Utils.pm:144> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[781] Utils.pm:144> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
+[941] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[941] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[941] Biber.pm:2929> INFO - Sorting list 'nty' of type 'entry' with scheme 'nty' and locale 'en-US'
+[941] Biber.pm:2933> INFO - No sort tailoring available for locale 'en-US'
+[1013] bbl.pm:517> INFO - Writing 'BA.bbl' with encoding 'UTF-8'
+[1015] bbl.pm:606> INFO - Output to BA.bbl
+[1016] Biber.pm:107> INFO - WARNINGS: 2

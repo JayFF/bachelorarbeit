@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.2 $
+% $ biblatex bbl format version 2.4 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,7 +18,7 @@
 
 
 \refsection{0}
-  \sortlist{entry}{nty}
+  \sortlist{nty}{nty}
     \entry{NIST_ASD}{misc}{}
       \name{labelname}{4}{}{%
         {{hash=c1dc5f19f2cd63eb8829ff2e68fc6f93}{A.\bibnamedelimi Kramida}{K\bibinitperiod}{}{}{}{}{}{}}%
@@ -35,6 +35,7 @@
       \strng{namehash}{57cf97364b4c59d824626f076c80e80a}
       \strng{fullhash}{d03d4efbb23bd38044dd88808edf18af}
       \field{sortinit}{A}
+      \field{sortinithash}{c8a29dea43e9d2645817723335a4dbe8}
       \field{howpublished}{{NIST Atomic Spectra Database (ver. 5.2), [Online]. Available: {\tt{http://physics.nist.gov/asd}} [2015, May 11]. National Institute of Standards and Technology, Gaithersburg, MD.}}
       \field{year}{2014}
     \endentry
@@ -48,9 +49,25 @@
       \strng{namehash}{9d7dde31bc01c4be34c7d4ec0d147350}
       \strng{fullhash}{9d7dde31bc01c4be34c7d4ec0d147350}
       \field{sortinit}{G}
+      \field{sortinithash}{480ee01f9ffd559b3258d822f54a8ac2}
       \field{labeltitle}{Properties of Lithium-6}
       \field{title}{Properties of Lithium-6}
       \field{year}{2003}
+    \endentry
+    \entry{wigner}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=43913df7c07e91c6a6171700f0b6f369}{Johnson}{J\bibinitperiod}{W.\bibnamedelimi R.}{W\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=43913df7c07e91c6a6171700f0b6f369}{Johnson}{J\bibinitperiod}{W.\bibnamedelimi R.}{W\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{43913df7c07e91c6a6171700f0b6f369}
+      \strng{fullhash}{43913df7c07e91c6a6171700f0b6f369}
+      \field{sortinit}{J}
+      \field{sortinithash}{f75b22df8c340a961dce37019e29107f}
+      \field{labeltitle}{Lectures on Atomic Physics}
+      \field{title}{Lectures on Atomic Physics}
+      \field{year}{2006}
     \endentry
     \entry{alpha}{article}{}
       \name{labelname}{1}{}{%
@@ -62,6 +79,7 @@
       \strng{namehash}{43913df7c07e91c6a6171700f0b6f369}
       \strng{fullhash}{43913df7c07e91c6a6171700f0b6f369}
       \field{sortinit}{J}
+      \field{sortinithash}{f75b22df8c340a961dce37019e29107f}
       \field{labeltitle}{Scalar and Tensor Polarizabilities of Atoms}
       \field{title}{Scalar and Tensor Polarizabilities of Atoms}
       \field{year}{2009}
@@ -78,6 +96,7 @@
       \strng{namehash}{aa6ff443089bffc0f16278f1c27d33f3}
       \strng{fullhash}{aa6ff443089bffc0f16278f1c27d33f3}
       \field{sortinit}{M}
+      \field{sortinithash}{4203d16473bc940d4ac780773cb7c5dd}
       \field{labeltitle}{Magic wavelengths for optical cooling and trapping of lithium}
       \field{title}{Magic wavelengths for optical cooling and trapping of lithium}
       \field{year}{2012}
@@ -92,6 +111,7 @@
       \strng{namehash}{0abde002e510c0a9bdcbbcdf166d056a}
       \strng{fullhash}{0abde002e510c0a9bdcbbcdf166d056a}
       \field{sortinit}{P}
+      \field{sortinithash}{b8af9282ac256b81613dc9012a0ac921}
       \field{day}{8}
       \field{month}{5}
       \field{year}{2015}
@@ -111,6 +131,7 @@
       \strng{namehash}{f0b9775d8e3cb1a0fa13d7751a90f86a}
       \strng{fullhash}{f0b9775d8e3cb1a0fa13d7751a90f86a}
       \field{sortinit}{R}
+      \field{sortinithash}{ff5a3533ecf9d5a03ff60b1e1389b63d}
       \field{labeltitle}{Optical dipole traps for neutral atoms}
       \field{title}{Optical dipole traps for neutral atoms}
       \field{year}{1999}

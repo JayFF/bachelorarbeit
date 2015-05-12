@@ -131,8 +131,73 @@ The interaction of the atom with laser-light is described by the two additional 
 \end{equation}
 Considering the problem in the fine-structure-regime this can be expressed in terms of $J$ and $m_J$ and with the explicit form of $H_{AL}$ this becomes\cite{alpha}:
 \begin{equation}
-\Delta W_{Jm_j}=-e^2\sum_{k\neq j}\sum_{m_k}\frac{\braopket{j}{\boldsymbol{r}E}{k}\braopket{k}{\boldsymbol{r}E}{j}}{W_k-W_j}
+\Delta W_{Jm_j}=-e^2\sum_{K\neq J}\sum_{m_k}\frac{\braopket{Jm_J}{\boldsymbol{r}E}{Km_K}\braopket{Km_K}{\boldsymbol{r}E}{Jm_J}}{W_k-W_j}\boldsymbol{r}E\label{pertub2}
 \end{equation}
+We will now describe the electric field in terms of irreducible tensor operators:
+\begin{align}
+E_{\pm}=\mp\frac{1}{2}\sqrt{2}(E_x\pm \mathrm{i}E_y),\ \ \ E_0=E_z\\
+r_{\pm}=\mp\frac{1}{2}\sqrt{2}(r_x\pm \mathrm{i}r_y),\ \ \ r_0=r_z\\
+\end{align}
+In this notation we can rewrite (\ref{pertub2}) in terms of these operators:
+\begin{equation}
+\Delta W_{Jm_j}=-e^2\sum_{K\neq J}\sum_{m_k}\sum_{\mu\nu}(-1)^{\mu+\nu}E_\mu E_\nu\frac{\braopket{Jm_J}{r_{-\mu}}{Km_K}\braopket{Km_K}{r_{-\nu}}{Jm_J}}{W_k-W_j}\label{pertub3}
+\end{equation}
+With $\mu=0,\pm1$. Now, we define the following sum, that will be used later on. Note that is a simple shorting for simplification.
+\begin{equation}
+\mathcal{E}(L,m_L):=\\sum_{\mu\nu}\sqrt{2L+1}(-1)^{m_L}\threej{1}{1}{L}{\mu}{\nu}{-m_L}E_\mu E_\nu\label{irreducible}
+\end{equation}
+We here also use the Wigner 3-j-symbol-notation\footnote{The Wigner 3-j symbol and 6-j symbol are definded in terms of Clebsch-Gordan-Coefficients:\begin{align}\threej{j_1}{j_2}{j_3}{m_1}{m_2}{m_3}:=&\frac{(-1)^{j_1-j_2-m_3}}{\sqrt{2j_3+1}}\braket{j_1m_1j_2m_2}{j_3-m_3}\\\sixj{j_1}{j_2}{j_3}{j_4}{j_5}{j_6}:=&\sum^6_{m_j}(-1)^{\sum^6_{k=1}(j_k-m_k)}\threej{j_1}{j_2}{j_3}{m_1}{m_2}{-m_3}\threej{j_1}{j_5}{j_6}{-m_1}{m_5}{m_6}\\\times&\threej{j_4}{j_5}{j_3}{m_4}{-m_5}{m_3}\threej{j_4}{j_2}{j_6}{-m_4}{-m_2}{-m_6}\label{jsymbols}\end{align}}. Therefore we can write the product in (\ref{pertub3}) in terms of this sum: 
+\begin{equation}
+E_\mu E_\nu=\sum^2_{L=0}\sum^L_{m_L=-L}\sqrt{2L+1}(-1)^{m_L}\threej{1}{1}{L}{\mu}{\nu}{-m_L}\mathcal{E}(L,m_L)
+\end{equation}
+For later-on simplification, we can calculate (\ref{irreducible}) explicitly for different combinations of $L$ and $m_L$.
+\begin{align*}
+\mathcal{E}(0,0)&=-\frac{1}{\sqrt{3}}(E^2_0-2E_{-1}E_{1})=-\frac{1}{\sqrt{3}}(E^2_z-2(-\frac{1}{2}(E_x+\mathrm{i}E_y)(E_x+\mathrm{i}E_y))\\&=-\frac{1}{\sqrt{3}}(E^2_z+E²_x+E^2_y)=-\frac{1}{\sqrt{3}}E^2\\
+\mathcal{E}(1,\pm 1)&=0\\
+\mathcal{E}(1,0)&=0\\
+\mathcal{E}(2,\pm2)&=E^2_{\pm1}=\frac{1}{2}(E_x\pm \mathrm{i}E_y)^2\\
+\mathcal{E}(2,\pm1)&=(E_x\pm \mathrm{i}E_y)E_z\\
+\mathcal{E}(2,0)&=\sqrt{\frac{2}{3}}(E^2_0+E_{-1}E_1)=\sqrt{\frac{2}{3}}(E^2_z+\frac{1}{2}E^2_z-\frac{1}{2}E^2_z-\frac{1}{2}(E^2_x+E^2_y))\\&=\frac{1}{\sqrt{6}}(3E^2_z-E^2)
+\end{align*}
+After finishing that horrible calculation, the next step is to evaluate the sum in (\ref{pertub3}), which is even more terrifying, as you can imagine!
+
+The first step is to evaluate the inner part, that is the summation over the respective magnetic quantum numbers $m_J$. Thus we give it an own name and define:
+\begin{equation}
+\mathcal{S}(J,m_J)=\sum_{m_k}\sum_{\mu\nu}(-1)^{\mu+\nu}E_\mu E_\nu\braopket{Jm_J}{r_{-\mu}}{Km_K}\braopket{Km_K}{r_{-\nu}}{Jm_J}\label{sum}
+\end{equation}
+The matrix elements can be calculated using the Wigner-Eckart theorem\footnote{The Wigner-Eckart theorem simplifies the calculation of matrix-elements in a spherical basis and breaks it down to the calculation of few reduced matrix elements. For an irreducible tensor-operator $T^r_q$ between two angular-momentum eigen-states the following holds \cite[17]{wigner}:
+\begin{equation}
+\braopket{j,m_j}{T^r_q}{k,m_k}=\braopket{j}{|T^r|}{k}C^{jm_j}_{rqkm_k}
+\end{equation}
+In this formula $r$ denotes the rank of the tensor, and $q$ is simply the respective component of the tensor. Writing this in terms of the 3-j symbols yields:
+\begin{equation}
+\braopket{j,m_j}{T^r_q}{k,m_k}=(-1)^{j-m_j}\threej{j}{r}{k}{-m_j}{q}{m_k}\braopket{j}{|T^r|}{k}
+\end{equation}
+The resulting reduced matrix elements are independent of the respective component of the operator and the $m$-quantum-number. Therefore for every pair of angular-momentum quantum numbers $j$ and $k$ only one reduced matrix element has to be calculated to evaluate all elements of eigenstates involving said angular momenta.}.
+\begin{align}
+\mathcal{S}(J,m_J)=&(-1)^{J-K}|\braopket{J}{|r|}{K}|^2\times\notag\\&\sum_L\sqrt{2L+1}\sum_{m_L}\mathcal{E}(L,m_L)\sum_{\mu\nu}(-1)^{\mu+\nu}(-1)^{m_L}\threej{1}{1}{L}{\mu}{\nu}{-m_L}\times\notag\\&\sum_{m_K}\left[(-1)^{J-m_J}\threej{J}{1}{K}{-m_J}{-\mu}{m_K}(-1)^{K-m_K}\threej{K}{1}{J}{-m_K}{-\nu}{m_J}\right]\label{sum2}
+\end{align}
+Note, that the first part of this term can be written in this way because because using the Wigner-Eckert theorem the tensor operator in the matrix element now has become the normal spherical coordinate-operator in the respective reduced matrix element, which of course is hermitian. The sum over $\mu,\nu$ and $m_K$ can be evaluated and rewritten in terms of the 6-j symbol.
+\begin{align}
+&\sum_{\mu\nu}(-1)^{\mu+\nu}(-1)^{m_L}\threej{1}{1}{L}{\mu}{\nu}{-m_L}\times\notag\\&\sum_{m_K}\left[(-1)^{J-m_J}\threej{J}{1}{K}{-m_J}{-\mu}{m_K}(-1)^{K-m_K}\threej{K}{1}{J}{-m_K}{-\nu}{m_J}\right]\notag\\&\ \ =(-1)^{2J}(-1)^{J-m_J}\threej{J}{L}{J}{-m_J}{0}{m_J}\sixj{J}{1}{K}{1}{K}{L}\delta_{m_L,0}
+\end{align}
+This, together with the values for $\mathcal{E}(L,m_L)$, leads to the fact, that only terms with $L=0,2$ and $m_L=0$ remain and the following holds:
+\begin{align}
+\mathcal{S}(J,m_J)=&(-1)^{J-K}|\braopket{J}{|r|}{K}|^2\times\notag\\&\sum_{L}\mathcal{E}(L,0)\sqrt{2L+1} (-1)^{J-m_J}\threej{J}{L}{J}{-m_J}{0}{m_J}\sixj{J}{1}{K}{1}{K}{L}\label{sum3}
+\end{align}
+Now, we arrive at the point, where we can go back to evaluating (\ref{pertub2}). The finding in (\ref{sum3}) means, that we can decompose $\Delta W_{Jm_J}$ into a sum over different $L$:
+\begin{equation}
+\Delta W_{Jm_J}=\sum_L\Delta W^L_{Jm_J}
+\end{equation}
+in which each of the components can be written, using the form of (\ref{sum3}).
+\begin{align}
+\Delta W^L_{Jm_J}=&-e^2\sum_{K\neq J}\frac{\braopket{J}{|r|}{K}|^2}{W_K-W_J}\mathcal{E}(L,0)\sqrt{2L+1}\notag\\&(-1)^{J+K} (-1)^{J-m_J}\threej{J}{L}{J}{-m_J}{0}{m_J}\sixj{J}{1}{K}{1}{K}{L}\label{pertub4}
+\end{align}
+For this equation we can analyse the only two different cases, namely for $L=0,2$. If we evaluate both components and use the values vor $\mathcal{E}(1,0)$ and $\mathcal{E}(1,0)$, we get to the both contributions to the energy-shift:
+\begin{align}
+\Delta W^0_{Jm_J}=&\\
+\Delta W^2_{Jm_J}=&
+\end{align}
 \section{Magnetic Field}
 
 Within the experiment, the regarded atoms are exposed to strong magnetic fields. Therefore, additionally the Zeeman-Effect moves the respective levels contributing to the \textsc{ac}-Stark-Shift. In this approach we simply regard both effects as independent pertubations to the basic Hamiltonian. At strong magnetic fields, as used in the experiment, the Paschen-Back-Effect for hyperfine states dominates and instead of $F$ and $m_F$, the quantum numbers $J$ and $m_J$ are still “good“. Therefore the formula for the shift of each state is given by:
