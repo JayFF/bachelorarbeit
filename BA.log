@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2015.5.11)  13 MAY 2015 21:20
+This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2015.5.11)  14 MAY 2015 00:16
  restricted \write18 enabled.
 **BA.tex
 (./BA.tex
@@ -340,7 +340,7 @@ luatexbase-attr: luatexbase.attributes["luaotfload@cursbase"] = 6
 luatexbase-attr: luatexbase.attributes["luaotfload@curscurs"] = 7
 luatexbase-attr: luatexbase.attributes["luaotfload@cursdone"] = 8
 luatexbase-attr: luatexbase.attributes["luaotfload@state"] = 9
-luaotfload | main : fontloader loaded in 0.022 seconds
+luaotfload | main : fontloader loaded in 0.020 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -1032,8 +1032,7 @@ Package biblatex Info: ... file 'english.lbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2014/06/25 v2.9a biblatex localization (PK/JW/AB)
-) (./BA.aux
-(./titlepage.aux) (./inhalt.aux) (./theory.aux) (./calculation.aux))
+) (./BA.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
@@ -1185,27 +1184,14 @@ luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_RB.otf" [1
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 [2]) (./inhalt.tex
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_R.otf" (./B
-A.toc
-luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_R.otf"
-luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_R.otf"
-LaTeX Font Info:    Try loading font information for U+msa on input line 7.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 7.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+A.toc)
 \tf@toc=\write4
 ) [3
 
 
 
 
-] (./theory.tex
-[4
+] (./theory.tex [4
 
 
 
@@ -1227,8 +1213,19 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              a package that still implements the
 (scrbook)              deprecated \float@addtolist interface .
 
-luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_RI.otf" <le
-vels1.png, id=17, 527.72156pt x 497.60907pt>
+luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_R.otf"
+luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_R.otf"
+LaTeX Font Info:    Try loading font information for U+msa on input line 7.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 7.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_RI.otf"
+<levels1.png, id=17, 527.72156pt x 497.60907pt>
 File: levels1.png Graphic file (type png)
  <use levels1.png>
 Package pdftex.def Info: levels1.png used on input line 18.
@@ -1246,6 +1243,10 @@ put line 30.
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_RI.otf"
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_RI.otf" [6<.
 /levels1.png>] [7]
+luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_RB.otf"
+
+LaTeX Warning: Reference `hamiltonian' on page 8 undefined on input line 36.
+
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_R.otf"
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_R.otf"
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_R.otf"
@@ -1253,22 +1254,53 @@ luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_RB.otf"
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_RB.otf"
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_RB.otf"
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_RB.otf"
-luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_RB.otf" [8]
+
+LaTeX Warning: Reference `dipole' on page 8 undefined on input line 64.
+
+[8]
+
+LaTeX Warning: Reference `dipole' on page 9 undefined on input line 87.
+
 
 Overfull \hbox (7.89282pt too wide) in paragraph at lines 95--96
 []\EU2/LinuxLibertineO(0)/m/n/10.95 Af-ter this clas-si-cal treat-ment, we come
  back to cal-cu-lat-ing the same ef-fect quantum-mechanically.
  []
 
+
+LaTeX Warning: Reference `hamiltonian' on page 9 undefined on input line 97.
+
 [9]
 Underfull \hbox (badness 10000) in paragraph at lines 104--107
 
  []
 
+
+LaTeX Warning: Reference `pertub2' on page 10 undefined on input line 111.
+
+
+LaTeX Warning: Reference `pertub3' on page 10 undefined on input line 119.
+
 [10]
+
+LaTeX Warning: Reference `irreducible' on page 11 undefined on input line 123.
+
+
+LaTeX Warning: Reference `pertub3' on page 11 undefined on input line 132.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
+
+LaTeX Warning: Reference `pertub2' on page 12 undefined on input line 158.
+
+
+LaTeX Warning: Reference `sum3' on page 12 undefined on input line 158.
+
+
+LaTeX Warning: Reference `sum3' on page 12 undefined on input line 162.
+
 [12] [13]) [14] (./calculation.tex
 Chapter 2.
 
@@ -1280,6 +1312,9 @@ Underfull \vbox (badness 4859) has occurred while \output is active []
 
 
 ]
+
+LaTeX Warning: Reference `alphages' on page 16 undefined on input line 51.
+
 <alphaground.pdf, id=73, 361.35pt x 210.7875pt>
 File: alphaground.pdf Graphic file (type pdf)
  <use alphaground.pdf>
@@ -1308,12 +1343,6 @@ Package pdftex.def Info: alphaalltogether.pdf used on input line 67.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16]
-Overfull \hbox (140.29547pt too wide) in paragraph at lines 79--92
-[][]\EU2/LinuxLibertineO(0)/m/n/10.95 fasöd-k-f-jald-sj-fals-d-jölkas-d-cl
-ka-jd-slk-f-jaöls-d-kjö-fas-d-kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaöldd
- []
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1351,19 +1380,30 @@ s.nist.gov/asd
 
 ] (./BA.aux (./titlepage.aux) (./inhalt.aux) (./theory.aux)
 (./calculation.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                BA
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'BA.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 25487 strings out of 493787
+ 25455 strings out of 493787
  100000,953878 words of node,token memory allocated
  766 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 20 kern, 26 attribute, 53 glue_spec, 26 att
 ribute_list, 1 write nodes
-   avail lists: 1:3,2:7788,3:286,4:1479,5:289,6:2636,7:118,9:547,10:260
- 28425 multiletter control sequences out of 65536+600000
+   avail lists: 1:3,2:7904,3:286,4:1479,5:289,6:2670,7:118,9:547,10:260
+ 28421 multiletter control sequences out of 65536+600000
  100 fonts using 13187655 bytes
- 75i,16n,62p,1428b,1548s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 75i,16n,62p,1642b,1525s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf></usr/share/texl
 ive/texmf-dist/fonts/opentype/public/libertine/LinLibertine_RI.otf></usr/share/t
 exlive/texmf-dist/fonts/opentype/public/libertine/LinLibertine_R.otf></usr/share
@@ -1389,7 +1429,7 @@ type1/public/amsfonts/cm/cmsy6.pfb><</usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy8.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy9.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /symbols/msbm10.pfb>
-Output written on BA.pdf (19 pages, 4080444 bytes).
+Output written on BA.pdf (19 pages, 4081367 bytes).
 
 PDF statistics: 254 PDF objects out of 1000 (max. 8388607)
  180 compressed objects within 2 object streams
