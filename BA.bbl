@@ -39,6 +39,21 @@
       \field{howpublished}{{NIST Atomic Spectra Database (ver. 5.2), [Online]. Available: {\tt{http://physics.nist.gov/asd}} [2015, May 11]. National Institute of Standards and Technology, Gaithersburg, MD.}}
       \field{year}{2014}
     \endentry
+    \entry{cohen}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=38e5259097713faf39227a43c3fddbca}{Claude\bibnamedelima Cohen-Tannoudji}{C\bibinitperiod\bibinitdelim C\bibinithyphendelim T\bibinitperiod}{Gilbert\bibnamedelima Grynberg}{G\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{Jacques\bibnamedelima Dupont-Roc}{J\bibinitperiod\bibinitdelim D\bibinithyphendelim R\bibinitperiod}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=38e5259097713faf39227a43c3fddbca}{Claude\bibnamedelima Cohen-Tannoudji}{C\bibinitperiod\bibinitdelim C\bibinithyphendelim T\bibinitperiod}{Gilbert\bibnamedelima Grynberg}{G\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{Jacques\bibnamedelima Dupont-Roc}{J\bibinitperiod\bibinitdelim D\bibinithyphendelim R\bibinitperiod}}%
+      }
+      \strng{namehash}{38e5259097713faf39227a43c3fddbca}
+      \strng{fullhash}{38e5259097713faf39227a43c3fddbca}
+      \field{sortinit}{C}
+      \field{sortinithash}{dd0e4ddd17488a6ebf12cd6de2f2c237}
+      \field{labeltitle}{Atom-Photon Interactions}
+      \field{title}{Atom-Photon Interactions}
+      \field{year}{1998}
+    \endentry
     \entry{gehm}{article}{}
       \name{labelname}{1}{}{%
         {{hash=9d7dde31bc01c4be34c7d4ec0d147350}{Gehm}{G\bibinitperiod}{Michael\bibnamedelima E.}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
@@ -54,7 +69,7 @@
       \field{title}{Properties of Lithium-6}
       \field{year}{2003}
     \endentry
-    \entry{wigner}{article}{}
+    \entry{wigner}{book}{}
       \name{labelname}{1}{}{%
         {{hash=43913df7c07e91c6a6171700f0b6f369}{Johnson}{J\bibinitperiod}{W.\bibnamedelimi R.}{W\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
       }
@@ -137,6 +152,7 @@
       \field{year}{1999}
     \endentry
   \endsortlist
+  \missing{magic}
 \endrefsection
 \endinput
 

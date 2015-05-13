@@ -18,8 +18,8 @@ The atomic hamiltonian $H_A$ coresponds to the energy of the atomic species that
 \includegraphics[scale=.5] {levels1}
 \end{center}
 \caption{Extract of the level structure for Lithium-6 \cite{gehm}}
-
-\end{figure}\label{levels1}
+\label{levels1}
+\end{figure}
 Although the hyperfine splitting is highly relevant for the experiment itself, it is sufficient for the calculation of the Stark-Shift to only consider the fine-structure regime. Aspecially at high-strength magnetic fields, the hyperfine Paschen-Back-Effect leads to degeneracy of the different hyperfine states and the total angular momentum $J$ is a "good quantum-number" again. In the low-field-regime the corrections due to hyperfine-splitting are small, because of the little energy-differences compared to the relevant transitions between the levels in the fine-structure-regime and the considered large detuning of the dipole-trap-light. Hence also there this picture is sufficient.\\
 
 \section{Magnetic Field}
@@ -178,12 +178,12 @@ We are hereby shortening $C:=\sqrt{5J(2J-1)/6(2J+3)(J+1)(2J+1)}$.
 Note, that if the z-direction also defines the quantisation axis in a magnetic field, this means assuming $\pi$-polarized laser-light. If the light is then supposed to be $\sigma$-polarized, the z-component has to be considered individually and is holds $E^2_z=1/2\ E^2$.
 We now draw an analogy to the classical calculation and link the total energy-shift to the dipole potential by defining a polarizability, composed of the now defined scalar and tensor polarizability.
 \begin{align}
-\alpha:=&\frac{1}{2}e^2\left[\alpha^0_J+\frac{2m^2_J-J(J+1)}{J(2J-1)}\alpha^2_J\right]\\
+\alpha:=&e^2\left[\alpha^0_J+\frac{3m^2_J-J(J+1)}{J(2J-1)}\alpha^2_J\right]\\
 \notag\\
 \alpha^0_J=&\frac{2}{3(2J+1)}\sum_{K\neq J}\frac{|\braopket{J}{|r|}{K}|^2}{W_K-W_J}\\
 \alpha^2_J=&4C\sum_{K\neq J}(-1)^{J+K}\sixj{J}{1}{K}{1}{J}{2}\frac{|\braopket{J}{|r|}{K}|^2}{W_K-W_J}
 \end{align}
-The aditional factor is done in analogy to the classical formula. The electric field is oscillating and the average thus results in a factor of $1/2$, because we did not take the time into account, when calculating the polarizability.
+An additional factor has to be multiplied in analogy to the classical formula. The electric field is oscillating and the average thus results in a factor of $1/2$, because we did not take the time into account, when calculating the polarizability.
 \begin{align}
 U=&-\frac{1}{2}\alpha E^2\notag\\
 U=&-\frac{1}{4}e^2\left[\alpha^0_J+\frac{2m^2_J-J(J+1)}{J(2J-1)}\alpha^2_J\right]E^2\label{shift}
