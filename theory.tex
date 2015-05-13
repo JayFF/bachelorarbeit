@@ -60,6 +60,13 @@ $2p_{1/2}-7d_{5/2}$&0.7696&379.507\\\\\hline
 \label{matrixelements}
 \end{figure}
 
+\section{Magnetic Field}
+
+Within the experiment, the regarded atoms are exposed to strong magnetic fields. Therefore, additionally the Zeeman-Effect moves the respective levels contributing to the \textsc{ac}-Stark-Shift. In this approach we simply regard both effects as independent pertubations to the basic Hamiltonian. At strong magnetic fields, as used in the experiment, the Paschen-Back-Effect for hyperfine states dominates and instead of $F$ and $m_F$, the quantum numbers $J$ and $m_J$ are still “good“. Therefore the formula for the shift of each state is given by:
+\begin{equation}
+\Delta E=g_Jm_j\hslash\gamma B
+\end{equation}
+With $\gamma=e/(2m_e)$ and $g_J$ being the Landé-factor. The results are new values of energy-difference i.e. detuning for the respective transitions that now have a different contribution to the \textsc{ac}-Stark-Effect. Doing that 
 
 \newpage
 \newpage
@@ -133,6 +140,7 @@ Considering the problem in the fine-structure-regime this can be expressed in te
 \begin{equation}
 \Delta W_{Jm_j}=-e^2\sum_{K\neq J}\sum_{m_k}\frac{\braopket{Jm_J}{\boldsymbol{r}E}{Km_K}\braopket{Km_K}{\boldsymbol{r}E}{Jm_J}}{W_k-W_j}\boldsymbol{r}E\label{pertub2}
 \end{equation}
+The main problem now is to calculate the coupling of different angular momenta. That is why most of the calculation is dedicated to simplify the calculation of all relevant Clebsch-Gordan coefficients.\\\\
 We will now describe the electric field in terms of irreducible tensor operators:
 \begin{align}
 E_{\pm}=\mp\frac{1}{2}\sqrt{2}(E_x\pm \mathrm{i}E_y),\ \ \ E_0=E_z\\
@@ -210,8 +218,8 @@ We now draw an analogy to the classical calculation and link the total energy-sh
 \begin{align}
 \alpha:=&\frac{1}{2}e^2\left[\alpha^0_J+\frac{2m^2_J-J(J+1)}{J(2J-1)}\alpha^2_J\right]\\
 \notag\\
-\alpha^0_J=&\frac{2}{3(2J+1)}\sum_{K\neq J}\frac{\braopket{J}{|r|}{K}|^2}{W_K-W_J}\\
-\alpha^2_J=&4C\sum_{K\neq J}(-1)^{J+K}\sixj{J}{1}{K}{1}{J}{2}\frac{\braopket{J}{|r|}{K}|^2}{W_K-W_J}
+\alpha^0_J=&\frac{2}{3(2J+1)}\sum_{K\neq J}\frac{|\braopket{J}{|r|}{K}|^2}{W_K-W_J}\\
+\alpha^2_J=&4C\sum_{K\neq J}(-1)^{J+K}\sixj{J}{1}{K}{1}{J}{2}\frac{|\braopket{J}{|r|}{K}|^2}{W_K-W_J}
 \end{align}
 The aditional factor is done in analogy to the classical formula. The electric field is oscillating and the average thus results in a factor of $1/2$, because we did not take the time into account, when calculating the polarizability.
 \begin{align}
@@ -219,11 +227,6 @@ U=&-\frac{1}{2}\alpha E^2\notag\\
 U=&-\frac{1}{4}e^2\left[\alpha^0_J+\frac{2m^2_J-J(J+1)}{J(2J-1)}\alpha^2_J\right]E^2
 \end{align}
 
+\section{Dipole Traps}
 
-\section{Magnetic Field}
-
-Within the experiment, the regarded atoms are exposed to strong magnetic fields. Therefore, additionally the Zeeman-Effect moves the respective levels contributing to the \textsc{ac}-Stark-Shift. In this approach we simply regard both effects as independent pertubations to the basic Hamiltonian. At strong magnetic fields, as used in the experiment, the Paschen-Back-Effect for hyperfine states dominates and instead of $F$ and $m_F$, the quantum numbers $J$ and $m_J$ are still “good“. Therefore the formula for the shift of each state is given by:
-\begin{equation}
-\Delta E=g_Jm_j\hslash\gamma B
-\end{equation}
-With $\gamma=e/(2m_e)$ and $g_J$ being the Landé-factor. The results are new values of energy-difference i.e. detuning for the respective transitions that now have a different contribution to the \textsc{ac}-Stark-Effect. Doing that 
+The \textsc{ac}-Stark-Shift, as described above can, as stated in the beginning, be used to trap neutral atoms. We so far have seen, that an electric field induces a dipole moment in the atom that leads to a dipole-potential.The resulting force is proportional to the gradient of the intensity-distribution around the atom, therefore to understand how a dipole trap works exactly, one has to study the properties of the applied laser-beams.
