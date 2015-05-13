@@ -21,44 +21,6 @@ The atomic hamiltonian $H_A$ coresponds to the energy of the atomic species that
 
 \end{figure}\label{levels1}
 Although the hyperfine splitting is highly relevant for the experiment itself, it is sufficient for the calculation of the Stark-Shift to only consider the fine-structure regime. Aspecially at high-strength magnetic fields, the hyperfine Paschen-Back-Effect leads to degeneracy of the different hyperfine states and the total angular momentum $J$ is a "good quantum-number" again. In the low-field-regime the corrections due to hyperfine-splitting are small, because of the little energy-differences compared to the relevant transitions between the levels in the fine-structure-regime and the considered large detuning of the dipole-trap-light. Hence also there this picture is sufficient.\\
-The important quantities arising from the model, relevant for the later-on calculation of the \textsc{AC}-Stark-Shifts are of course the energy-eigenvalues, i.e. the different levels with their respective detuning as well as the overlap of the wavefunctions for each energy-level, otherwise called the dipole-transition-matrix-element, that determines how strongly the different levels are coupled. As seen later on, for the explicit calculation only the so called reduced matrix elements are needed, whose numerical values are listed below in atomic units for the relevant states.
-
-\begin{figure}[H]
-\begin{center}
-\begin{tabular}{ccc}
-Transition&Matrix-element [$\unit{a.u.}$]&Resonance [$\unit{nm}$]\\\hline\hline\\
-$2s_{1/2}-2p_{1/2}$&3.3169&670.791\\
-$2s_{1/2}-2p_{3/2}$&4.6909&670.776\\
-$2s_{1/2}-3p_{1/2}$&0.183&323.2657\\
-$2s_{1/2}-3p_{3/2}$&0.259&323.2657\\
-$2s_{1/2}-4p_{1/2}$&0.160&274.1203\\
-$2s_{1/2}-4p_{3/2}$&0.226&274.1203\\
-$2s_{1/2}-5p_{1/2}$&0.1198&256.2312\\
-$2s_{1/2}-5p_{3/2}$&0.169&256.2312\\
-$2s_{1/2}-6p_{1/2}$&0.0925&247.5061\\
-$2s_{1/2}-6p_{3/2}$&0.131&247.5061\\
-$2s_{1/2}-7p_{1/2}$&0.0737&242.5426\\
-$2s_{1/2}-7p_{3/2}$&0.1042&242.5426\\
-$2p_{1/2}-3s_{1/2}$&3.4403&812.645\\
-$2p_{1/2}-4s_{1/2}$&0.9167&497.175\\
-$2p_{1/2}-5s_{1/2}$&0.4929&427.313\\
-$2p_{1/2}-6s_{1/2}$&0.3268&398.554\\
-$2p_{1/2}-7s_{1/2}$&0.2397&383.564\\
-$2p_{1/2}-3d_{3/2}$&2.2658&610.366\\
-$2p_{1/2}-3d_{5/2}$&6.7975&670.776\\
-$2p_{1/2}-4d_{3/2}$&0.8627&460.283\\
-$2p_{1/2}-4d_{5/2}$&2.5882&460.289\\
-$2p_{1/2}-5d_{3/2}$&0.5015&413.262\\
-$2p_{1/2}-5d_{5/2}$&1.5045&413.262\\
-$2p_{1/2}-6d_{3/2}$&0.3435&391.535\\
-$2p_{1/2}-6d_{5/2}$&1.0306&391.535\\
-$2p_{1/2}-7d_{3/2}$&0.2565&379.507\\
-$2p_{1/2}-7d_{5/2}$&0.7696&379.507\\\\\hline
-\end{tabular}
-\end{center}
-\caption{Reduced Dipole-Transition-Matrix-Elements \cite{magic01} in a.u. and the respective detuning \cite{NIST_ASD}, i.e. the resonance-energy for the relevant levels: $1s_22s_{1/2}$ and $1s_22p_{3/2}$}
-\label{matrixelements}
-\end{figure}
 
 \section{Magnetic Field}
 
@@ -224,7 +186,7 @@ We now draw an analogy to the classical calculation and link the total energy-sh
 The aditional factor is done in analogy to the classical formula. The electric field is oscillating and the average thus results in a factor of $1/2$, because we did not take the time into account, when calculating the polarizability.
 \begin{align}
 U=&-\frac{1}{2}\alpha E^2\notag\\
-U=&-\frac{1}{4}e^2\left[\alpha^0_J+\frac{2m^2_J-J(J+1)}{J(2J-1)}\alpha^2_J\right]E^2
+U=&-\frac{1}{4}e^2\left[\alpha^0_J+\frac{2m^2_J-J(J+1)}{J(2J-1)}\alpha^2_J\right]E^2\label{shift}
 \end{align}
 
 \section{Dipole Traps}
