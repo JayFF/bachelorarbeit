@@ -5,12 +5,12 @@ The calculation of the \textsc{ac}-Stark-Shift is done, using the formulas resul
 \section{Polarizability}
 For the calculation of the polarizabilities for the respective states, the geometry and power of the used laser-beams are not important, since it only depends on the wavelength of the incoming light and on its polarization, that has a notable role for the tensor-polarizability in the vicinity of a transition resonance and renders unimportant, when using very far detuned trap-light. Before talking about concrete results, we recall the formulas given in the theory-section. 
 \begin{align}
-\alpha=\left[\alpha^0_J+\frac{3m^2_J-J(J+1)}{J(2J-1)}\alpha^2_J\right]\\
+\alpha=&\left[\alpha^0_J+\frac{3m^2_J-J(J+1)}{J(2J-1)}\alpha^2_J\right]\\
 \notag\\
 \alpha^0_J=&\frac{2}{3(2J+1)}\sum_{K\neq J}\frac{|\braopket{J}{|r|}{K}|^2}{W_K-W_J}\notag\\
 \alpha^2_J=&4C\sum_{K\neq J}(-1)^{J+K}\sixj{J}{1}{K}{1}{J}{2}\frac{|\braopket{J}{|r|}{K}|^2}{W_K-W_J}\notag
 \end{align}
-Following \cite{magic}, the polarizability is calculated using atomic units (a.u.). For the calculation transitions up to $n=7$ were considered. The respective dipole-transition matrix elements are listed below, together with the energy-differences between the levels.
+Following \cite{magic01}, the polarizability is calculated using atomic units (a.u.). For the calculation transitions up to $n=7$ were considered. The respective dipole-transition matrix elements are listed below, together with the energy-differences between the levels.
 
 \begin{figure}[H]
 \begin{center}
@@ -79,9 +79,9 @@ What can be seen in the plots are some interesting properties. The first importa
 \begin{figure}[h]
 \begin{center}
 \begin{tabular}{ccc}
-State&$\alpha$ at $1070\unit{nm}$ [$\unit{\alpha_{ground}}$]&$\alpha$ at $1064\unit{nm}$ [$\unit{\alpha_{ground}}$] [$\unit{nm}$]\\\hline\hline\\
-$1s2p_{3/2}, |m_j|=1/2$&0.7694&0.7726\\
-$1s2p_{3/2}, |m_j|=3/2$&0.6487&0.6472\\
+State&$\alpha$ at $1070\unit{nm}$ [$\unit{\alpha_{ground}}$]&$\alpha$ at $1064\unit{nm}$ [$\unit{\alpha_{ground}}$]\\\hline\hline\\
+$2p_{3/2}, |m_j|=1/2$&0.7694&0.7726\\
+$2p_{3/2}, |m_j|=3/2$&0.6487&0.6472\\
 \\\hline
 \end{tabular}
 \end{center}
@@ -89,4 +89,18 @@ $1s2p_{3/2}, |m_j|=3/2$&0.6487&0.6472\\
 \label{relativealpha}
 \end{figure}
 
-The picture looks different, when cosidering higher frequencies. There, the picture looks different, aspecially when comparing the two excited states with different magnetic quantum number. Below around 900 nm and $m_j=3/2$ the absolute value of the polarizability is much higher than for both other states. Mathematically this can easiest be seen, when looking at the formula for the total polarizability. The tensor-part of this formula is multiplied by a factor, that is -1 or +1, depending on whether $|m_j|=1/2$ or $|m_j|=3/2$. This means, that it decides whether the tensor part is added or subtracted, when calculating the total value. If it is substracted, as for $|m_j|=3/2$ in the vicinity of many resonances the diverging terms will cancel each other out and instead of a singularity, a finite value is the result and the absolute value is smaller.
+The picture looks different, when cosidering higher frequencies. There, the picture looks different, aspecially when comparing the two excited states with different magnetic quantum number. Below around 900 nm and $m_j=3/2$ the absolute value of the polarizability is much higher than for both other states. Mathematically this can easiest be seen, when looking at the formula for the total polarizability. The tensor-part of this formula is multiplied by a factor, that is -1 or +1, depending on whether $|m_j|=1/2$ or $|m_j|=3/2$. This means, that it decides whether the tensor part is added or subtracted, when calculating the total value. If it is substracted, in case of $|m_j|=3/2$, in the vicinity of many resonances, the diverging terms will cancel each other out and instead of a singularity a finite value is the result.
+
+This does not mean, that one state can be trapped easier. When using laser-light, that is not far detuned from the respective resonances absorbtion effects cause the light to transfer momentum onto the atoms, that thus will heat up and the overall force field is no longer conervative. However using this effects in special settings can also result in effectve trapping and cooling techniques. An optical molasse for example uses a standing wave of circular polarized laser-beams, so that the electric field and thus the polarizability and the respective light-shift are spacially dependent. Using the fact, that for different $m_J$-levels the light shift is different, one can tune the different beams such that after an absorbtion cycle the atoms decay into lower $m_J$-states and thus lose energy and cool down. In an optical dipole trap however, absorbtion is an unwanted heating-effect and therefore it is most efficient, when using laser-light farly detuned from the resonances. In this regime, all magnetic sublevels strive towards the same vale of polarizability, only depending on the scalar part, that is isotropic and does not depend on the light-polarization.
+
+\section{Trap Depth}
+
+We shall now calculate the trap depth and the differential light shift, that can be meassured in the experiment. Since the ground state and the first excited states have different polarizabilities, also the light shift is varying. That means, that the energy-difference between the two states changes in case of incoming trap-light and as a result the resonance-frequency of the transition shifts, which can be much easier meassured than the actual depth of the trap. Although the crossed dipole-trap is not a single beam, the beam profile in the middle, where the intensity is at its maximum, is gaussian. That means, that like for a normal gaussian beam, the trap is characterized by its beam-power and its waist. The power in this case is two times the power leaving the laser, since it gets reflected and forms the second beam as well. The waist in this case is 40 \mu m, with an error estimated to be around 5\%. The experiment will later be performed at multible powers, that have a much higher accuracy with an error, being roughly 0.1\%.
+
+\section{Using the meassurement to calculate trap depth}
+
+The trap depth is a parameter, that is not easy to meassure exactly but can be a quantity, that is important to know. If the meassurement of the differential light shift through some sort of imaging is possible one can use this to estimate the overall depth of the trap for the respective ground and excited states.
+
+\section{Comparison to the classical formula}
+
+Since the classical formula in (\ref{classic}) is widely used to calculate depths for optical dipole traps it is interesting to see, in how far it differs from the quantum-mechanical approach. For the excited state, for allready stated reasons, it is not possible to calculate a good value using this approach, but the ground state, for that the coupling to other states is dominated by the transition to the first excited state, the formula gives values, that differ only 3.99 \% when calculating the shift considering transitions up to $n=7$ and using 1070 nm light. When only considering the D-Line transition, both values are the same in range of about 0.01 \%. That shows, that using the approach of a harmonic oscillator to model the dipole-trap potential gives good results, when dealing with a system that can be approximated to only consist of two states. In the case of the Lithium-6 ground state, where for infrared light and higher excited states the transitions are very farly detuned, the model gives a good estimate, that is less complicated to calculate than the approach of pertubation theory.
