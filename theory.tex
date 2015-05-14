@@ -10,7 +10,16 @@ H=H_A+H_L+H_{AL}+H_{M}
 \end{equation}\label{hamiltonian}
 
 \section{Lithium Level-structure}
-The atomic hamiltonian $H_A$ coresponds to the energy of the atomic species that is used in our experiment, which is Lithium-6. Lithium is a fermionic alkali-metal, whose electronic structure is mostly dependent of its one valence electron \cite{gehm}. In this approximation, the \textit{central-field approximation}, the two other bound electrons on the most inner level only contribute to the central electric field, that is suppost to be sphericaly symetric. Thus the calculation can follow the well understood model of hydrogen. Nevertheless the real Lithium-atom has a substructure arising from interaction of the electronic spin and the spin of the core with the angular momentum of the orbit respectively. These effects result in the fine- and hyperfinestructure that break the degeneracy of the levels with same quantum number $n$ and different angular-momentum-quantum-number $l$. In the fine-structure picture this results in the total angular momentum $J=L\pm S$ and the respective projections onto the different spacial axis $m_j=j,j-1,\dots,-j+1,j$, while in the hyperfinestructure the total angular momentum $J$ and the spin of the core $I$ couple to the new total angular momentum $F=J\pm I$ with their respective projections $m_F=F,F-1,\dots,-F+1,F$ that result in a even finer splitting of the lines as indicated schematicly in the following figure.
+The atomic hamiltonian $H_A$ coresponds to the energy of the atomic species that is used in our experiment, which is Lithium-6. Lithium is a fermionic alkali-metal, whose electronic structure is mostly dependent of its one valence electron \cite{gehm}. In this approximation, the \textit{central-field approximation}, the two other bound electrons on the most inner level only contribute to the central electric field, that is suppost to be sphericaly symetric. Thus the calculation can follow the well understood model of hydrogen. The ansatz in this case is considering an elelctron with the reduced mass $\mu$ in a coulomb-potential.
+\begin{equation}
+U(\boldsymbol{r})=-\frac{e^2Z}{4\pi\epsilon_0\boldsymbol{r}}
+\end{equation}
+That leads to the Hamiltonian:
+\begin{equation}
+H_A=\frac{p^2}{2\mu}-\frac{e^2Z}{4\pi\epsilon_0\boldsymbol{r}}
+\end{equation}
+Solving the Schrödinger-Equation considering this Hamiltonian leads to a set of wave-functions characterized by the quantum numbers $N,L,m_L$, $N$ being the main quantum number, $L$ the angular momentum quantum number and $m_L$ the projection onto the coordinate axis. The energy-levels for different $L$ are degenerate, but when the spin of the valence electron is considered this degeneracy is broken and the coupling of this spin to the orbital angular momentum leads to the fine-structure picture in which $J=l\pm S$  and $m_J=J,J-1,\dots,-J+1,J$ are the respective quantum numbers.
+Nevertheless the real Lithium-atom has a substructure arising from interaction of the spin of the core with the angular momentum of the orbit. This effect results in the hyperfinestructure that breaks the degeneracy of the levels with same quantum number $J$. In the picture of hyperfinestructure the total angular momentum and the spin of the core $I$ couple to the new total angular momentum $F=J\pm I$ with their respective projections $m_F=F,F-1,\dots,-F+1,F$ that result in a even finer splitting of the lines, and fully characterize a lithium-atom.
 
 \begin{figure}[H]
 
@@ -20,7 +29,6 @@ The atomic hamiltonian $H_A$ coresponds to the energy of the atomic species that
 \caption{Extract of the level structure for Lithium-6 \cite{gehm}}
 \label{levels1}
 \end{figure}
-Although the hyperfine splitting is highly relevant for the experiment itself, it is sufficient for the calculation of the Stark-Shift to only consider the fine-structure regime. Aspecially at high-strength magnetic fields, the hyperfine Paschen-Back-Effect leads to degeneracy of the different hyperfine states and the total angular momentum $J$ is a "good quantum-number" again. In the low-field-regime the corrections due to hyperfine-splitting are small, because of the little energy-differences compared to the relevant transitions between the levels in the fine-structure-regime and the considered large detuning of the dipole-trap-light. Hence also there this picture is sufficient.\\
 
 \section{Magnetic Field}
 
@@ -28,7 +36,7 @@ Within the experiment, the regarded atoms are exposed to strong magnetic fields.
 \begin{equation}
 \Delta E=g_Jm_j\hslash\gamma B
 \end{equation}
-With $\gamma=e/(2m_e)$ and $g_J$ being the Landé-factor. The results are new values of energy-difference i.e. detuning for the respective transitions that now have a different contribution to the \textsc{ac}-Stark-Effect. Doing that 
+With $\gamma=e/(2m_e)$ and $g_J$ being the Landé-factor. The results are new values of energy-difference i.e. detuning for the respective transitions that now have a different contribution to the \textsc{ac}-Stark-Effect. 
 
 \newpage
 \newpage
@@ -97,8 +105,9 @@ After this classical treatment, we come back to calculating the same effect quan
 The interaction of the atom with laser-light is described by the two additional parts in the original hamiltonian (\ref{hamiltonian}) $H_L+H_{AL}$. The light-hamiltonian $H_L$ is hereby negligible, because the regarded laser-light of the used dipole-trap is farly detuned from the relevant transition resonances. Therefore the only relevant part of this set of terms is the interaction-hamiltonian, which depends on the dipole-operator $\mu$ and the electric-field-operator $E$ and has the following form: $H_{AL}=-\mu E=-e\boldsymbol{r} E$. It can be treated as a small pertubation of the atomic hamiltonian, thus in the relevant second-order pertubation-theory the energy-shift is the following \cite{dipole}:
 \begin{equation}
 \Delta W=\sum_{k\neq j}\frac{|\braopket{j}{H_{AL}}{k}|^2}{W_k-W_j}
+\label{pertub1}
 \end{equation}
-Considering the problem in the fine-structure-regime this can be expressed in terms of $J$ and $m_J$ and with the explicit form of $H_{AL}$ this becomes\cite{alpha}:
+Although the hyperfine splitting is highly relevant for the experiment itself, it is sufficient for the calculation of the Stark-Shift to only consider the fine-structure regime. Aspecially at high-strength magnetic fields, the hyperfine Paschen-Back-Effect leads to degeneracy of the different hyperfine states and the total angular momentum $J$ is a "good quantum-number" again. In the low-field-regime the corrections due to hyperfine-splitting are small, because of the little energy-differences compared to the relevant transitions between the levels in the fine-structure-regime and the considered large detuning of the dipole-trap-light. Hence also there this picture is sufficient. In this case (\ref{pertub1}) can be expressed in terms of $J$ and $m_J$ and with the explicit form of $H_{AL}$ this becomes\cite{alpha}:
 \begin{equation}
 \Delta W_{Jm_j}=-e^2\sum_{K\neq J}\sum_{m_k}\frac{\braopket{Jm_J}{\boldsymbol{r}E}{Km_K}\braopket{Km_K}{\boldsymbol{r}E}{Jm_J}}{W_k-W_j}\boldsymbol{r}E\label{pertub2}
 \end{equation}
