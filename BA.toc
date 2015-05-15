@@ -28,6 +28,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.1}Magnetic Field}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Using the meassurement to calculate trap depth}{17}
+\contentsline {section}{\numberline {2.3}Using the meassurement to calculate trap depth}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Comparison to the classical formula}{17}
+\contentsline {section}{\numberline {2.4}Comparison to the classical formula}{18}

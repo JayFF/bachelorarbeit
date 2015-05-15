@@ -115,11 +115,26 @@ Another interesing question is, how far one has to go in calculating the energy 
 
 \section{Trap Depth}
 
-We shall now calculate the trap depth and the differential light shift, that can be meassured in the experiment. Since the ground state and the first excited states have different polarizabilities, also the light shift is varying. That means, that the energy-difference between the two states changes in case of incoming trap-light and as a result the resonance-frequency of the transition shifts, which can be much easier meassured than the actual depth of the trap. Although the crossed dipole-trap is not a single beam, the beam profile in the middle, where the intensity is at its maximum, is gaussian. That means, that like for a normal gaussian beam, the trap is characterized by its beam-power and its waist. The power in this case is two times the power leaving the laser, since it gets reflected and forms the second beam as well. The waist in this case is 40 \mu m, with an error estimated to be around 5\%. The experiment will later be performed at multible powers, that have a much higher accuracy with an error, being roughly 0.1\%.
+We shall now calculate the trap depth and the differential light shift, that can be meassured in the experiment. Since the ground state and the first excited states have different polarizabilities, also the light shift is varying. That means, that the energy-difference between the two states changes in case of incoming trap-light and as a result the resonance-frequency of the transition shifts, which can be much easier meassured than the actual depth of the trap. Although the crossed dipole-trap is not a single beam, the beam profile in the middle, where the intensity is at its maximum, is gaussian. That means, that like for a normal gaussian beam, the trap is characterized by its beam-power and waist. The power in this case is two times the power leaving the laser initially, since it gets reflected and forms the second beam as well. The waist in this case is 40 \mu m, with an error estimated to be around 5\%. The experiment will later be performed at multible powers, that have a much higher accuracy with an error, being roughly 0.1\%.
+
+
 
 \subsection{Magnetic Field}
 
-As stated in the theory-section, the magnetic field shifts the different levels, depending on their respective angular momentum and magnetic quantum numbers. This results in different values for the detuning, that determines the polarizability. However, at 527 G, that is a high field in the framework of the experiment, the shifts due to the Zeeman-effect are very small and the overall change in the resonance is orders of magnitude below the error in predicting the differential light shift alltogether. This is an important result, thus it tells us, that in cold atom experiments, where different values of magnetic field from weak to strong are used to tune the respective interaction strength, the trapping efficiency is nearly independent from such tunings. 
+As stated in the theory-section, the magnetic field shifts the different levels, depending on their respective angular momentum and magnetic quantum numbers. This results in different values for the detuning, that determines the polarizability. However, at 527 G, that is a high field in the framework of the experiment, the shifts due to the Zeeman-effect are very small and the overall change in the resonance is orders of magnitude below the error in predicting the differential light shift alltogether. This is an important result, thus it tells us, that in cold atom experiments, where different values of magnetic field from weak to strong are used to tune the respective interaction strength, the trapping efficiency is nearly independent from such tunings.
+
+\begin{figure}[h]
+\begin{center}
+\begin{tabular}{cccc}
+Transition&$\Delta E_{dif} [\unit{MHz}\ h]$&$\Delta E_{dif}$ at $572\unit{G}  [\unit{MHz }\ h]$&$\Delta\Delta E_{dif} [\unit{MHz }\ h]$\\\hline\hline\\
+$2s\rightarrow 2p_{3/2}, |m_j|=1/2$&2.87545&2.87538&1.58106\\
+$2s\rightarrow 2p_{3/2}, |m_j|=3/2$&4.38047&4.38050&1.29365\\
+\\\hline
+\end{tabular}
+\end{center}
+\caption{Differential \textsc{ac}-Stark shift at 50 W of total beam power with and without magnetic field. The sensitivity to the waist-uncertainty leads to a large error and to the irrelevance of the magnetic field.}
+\label{relativealpha}
+\end{figure}
 
 \section{Using the meassurement to calculate trap depth}
 
