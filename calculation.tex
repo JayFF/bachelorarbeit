@@ -126,7 +126,7 @@ As stated in the theory-section, the magnetic field shifts the different levels,
 \begin{figure}[h]
 \begin{center}
 \begin{tabular}{cccc}
-Transition&$\Delta E_{dif} [\unit{MHz}\ h]$&$\Delta E_{dif}$ at $572\unit{G}  [\unit{MHz }\ h]$&$\Delta\Delta E_{dif} [\unit{MHz }\ h]$\\\hline\hline\\
+Transition&$\Delta E_\delta [\unit{MHz}\ h]$&$\Delta E_\delta$ at $572\unit{G}  [\unit{MHz }\ h]$&$\Delta\Delta E_\delta [\unit{MHz }\ h]$\\\hline\hline\\
 $2s\rightarrow 2p_{3/2}, |m_j|=1/2$&2.87545&2.87538&1.58106\\
 $2s\rightarrow 2p_{3/2}, |m_j|=3/2$&4.38047&4.38050&1.29365\\
 \\\hline
@@ -138,8 +138,26 @@ $2s\rightarrow 2p_{3/2}, |m_j|=3/2$&4.38047&4.38050&1.29365\\
 
 \section{Using the meassurement to calculate trap depth}
 
-The trap depth is a parameter, that is not easy to meassure exactly but can be a quantity, that is important to know. If the meassurement of the differential light shift through some sort of imaging is possible one can use this to estimate the overall depth of the trap for the respective ground and excited states.
+The trap depth is a parameter, that is not easy to meassure exactly but can be a quantity, important to know. If the meassurement of the differential light shift through some sort of imaging is possible one can use this to estimate the overall depth of the trap for the respective ground and excited states.
+\begin{align}
+U_{\mathrm{g}}=&-\frac{1}{1-\alpha_{\mathrm{e}}/\alpha_{\mathrm{g}}}\cdot \Delta E_\delta\\
+U_{\mathrm{e}}=&-\frac{1}{1-\alpha_{\mathrm{g}}/\alpha_{\mathrm{e}}}\cdot \Delta E_\delta
+\end{align}
 
+Also this meassurement can make it possible to find values for other quantities of the trap. The waist of the trap beam for example is usually not exactly easy to measure, in contrast to its power. In a large dipole-trap, as we will see, the light shift is not very complicated to meassure with a good precision. Therefore this can be used to for example calculate the waist.
+\begin{align}
+I=&\frac{2\epsilon_0 c}{\alpha}\cdot \Delta E_\delta\\\notag\\
+w_0=&\sqrt{\frac{2P}{\pi I}}
+\end{align}
+In this calculation $I$ is the actual maximum-intensity forming the potential and $P$ the initial power of the trap beams.
+\begin{figure}[h]
+\centering
+\begin{subfigure}[b]{0.6\textwidth}
+                \includegraphics[width=\textwidth]{bachwards}
+\end{subfigure}
+\caption{Examples of backwards-calculation for different light shifts from left to right 2.0, 4.0 and 6.0 MHz for different combinations of power and waist of the trap beam.}
+\label{backwards}
+\end{figure}
 \section{Comparison to the classical formula}
 
 Since the classical formula in (\ref{classic}) is widely used to calculate depths for optical dipole traps it is interesting to see, in how far it differs from the quantum-mechanical approach. For the excited state, for allready stated reasons, it is not possible to calculate a good value using this approach, but the ground state, for that the coupling to other states is dominated by the transition to the first excited state, the formula gives values, that differ only 3.99 \% when calculating the shift considering transitions up to $n=7$ and using 1070 nm light. When only considering the D-Line transition, both values are the same in range of about 0.01 \%. That shows, that using the approach of a harmonic oscillator to model the dipole-trap potential gives good results, when dealing with a system that can be approximated to only consist of two states. In the case of the Lithium-6 ground state, where for infrared light and higher excited states the transitions are very farly detuned, the model gives a good estimate, that is less complicated to calculate than the approach of pertubation theory.
