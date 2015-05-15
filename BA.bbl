@@ -54,6 +54,24 @@
       \field{title}{Atom-Photon Interactions}
       \field{year}{1998}
     \endentry
+    \entry{transitions}{online}{}
+      \name{labelname}{1}{}{%
+        {{hash=a7e8e1ffc15552435a9f692b503665ba}{Freiburg}{F\bibinitperiod}{Universität}{U\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=a7e8e1ffc15552435a9f692b503665ba}{Freiburg}{F\bibinitperiod}{Universität}{U\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a7e8e1ffc15552435a9f692b503665ba}
+      \strng{fullhash}{a7e8e1ffc15552435a9f692b503665ba}
+      \field{sortinit}{F}
+      \field{sortinithash}{9661cce5f16ac30b6b0c804d4583ed99}
+      \field{day}{11}
+      \field{month}{5}
+      \field{year}{2015}
+      \verb{url}
+      \verb http://ruby.chemie.uni-freiburg.de/Vorlesung/SVG/Methoden_ac/li_spektrum_svg.svg
+      \endverb
+    \endentry
     \entry{gehm}{article}{}
       \name{labelname}{1}{}{%
         {{hash=9d7dde31bc01c4be34c7d4ec0d147350}{Gehm}{G\bibinitperiod}{Michael\bibnamedelima E.}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
@@ -152,7 +170,6 @@
       \field{year}{1999}
     \endentry
   \endsortlist
-  \missing{magic}
 \endrefsection
 \endinput
 

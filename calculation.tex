@@ -95,7 +95,7 @@ This does not mean, that one state can be trapped easier. When using laser-light
 
 \subsection{Convergence for the calculation}
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \begin{subfigure}[b]{0.4\textwidth}
                 \includegraphics[width=\textwidth]{alphascalarconvexcited}
@@ -111,12 +111,50 @@ This does not mean, that one state can be trapped easier. When using laser-light
 \label{alphaconv}
 \end{figure}
 
-Another interesing question is, how far one has to go in calculating the energy shift in this pertubation framework to get a good approximation of the actual value. The maximum accuracy, as written above, was considering levels up to $n=7$. Figure (\ref{alphaconv}) shows how the value of $\alpha$ changes when considering higher levels. The x-coordinate is simply the index of the states, counted from low to high detuning. That means, that the most fundamental changes happen when considering states up to $n=3$. Taking the states above into account 
+Another interesing question is, how far one has to go in calculating the energy shift in this pertubation framework to get a good approximation of the actual value. The maximum accuracy, as written above, was considering levels up to $n=7$. Figure (\ref{alphaconv}) shows how the value of $\alpha$ changes when considering higher levels. The x-coordinate is simply the index of the states, counted from low to high detuning. One can see, that for the excitet state, when going above $n=3$(Index > 4) the curve seems to converge. However for up to $n=3$, the value of $\alpha$ reaches only 85\% of its value at the full calculation. It reaches 95\% not until considering levels up to $n=5$. This is because all levels further above show little differences in detuning and also in te respective reduced matrix elements and therefore the function curve converges more slowly than for the ground state. In this case, considering only the two lowest transitions already results in a value that has 99.8\% of the final value. Therefore the high precision calculation when taking into accound higher levels brings little benefit.
 
-\section{Trap Depth}
+\begin{figure}[h]
+\centering
+\begin{subfigure}[b]{0.4\textwidth}
+                \includegraphics[width=\textwidth]{alphascalarconvground1}
+                \caption{Polrizability \alpha}
+\end{subfigure}
+\begin{subfigure}[b]{0.4\textwidth}
+               \includegraphics[width=\textwidth]{alphascalarconvground2}
+                \caption{Zoom in the flat region}
+\end{subfigure}
 
-We shall now calculate the trap depth and the differential light shift, that can be meassured in the experiment. Since the ground state and the first excited states have different polarizabilities, also the light shift is varying. That means, that the energy-difference between the two states changes in case of incoming trap-light and as a result the resonance-frequency of the transition shifts, which can be much easier meassured than the actual depth of the trap. Although the crossed dipole-trap is not a single beam, the beam profile in the middle, where the intensity is at its maximum, is gaussian. That means, that like for a normal gaussian beam, the trap is characterized by its beam-power and waist. The power in this case is two times the power leaving the laser initially, since it gets reflected and forms the second beam as well. The waist in this case is 40 \mu m, with an error estimated to be around 5\%. The experiment will later be performed at multible powers, that have a much higher accuracy with an error, being roughly 0.1\%.
 
+\caption{Convergence of the polarizability value for the ground state $1s2s_{1/2}$ at 1070 nm.}
+\label{alphaconv2}
+
+\end{figure}
+
+\section{Depth of the big dipole trap}
+\begin{figure}[H]
+\centering
+ \includegraphics[width=0.3\textwidth,angle=90]{crossed_dipole_trap}
+
+\caption{Intensity distribution for big dipole trap. The depth is decided by the maximum intensity in the center, that can be calculated considering a gaussian profile.}
+\label{backwards}
+\end{figure}
+
+We now want to calculate the trap depth and the differential light shift, that can be meassured in the experiment. Since the ground state and the first excited states have different polarizabilities, also the light shift is varying. That means, that the energy-difference between the two states changes in case of incoming trap-light and as a result the resonance-frequency of the transition shifts, which can be much easier meassured than the actual depth of the trap. Although the crossed dipole-trap is not a single beam, the beam profile in the middle, where the intensity is at its maximum, is gaussian. That means, that like for a normal gaussian beam, the trap is characterized by its beam-power and waist. The power in this case is two times the power leaving the laser initially, since it gets reflected and forms the second beam as well. The waist in this case is 40 \mu m, with an error estimated to be around 5\%. The experiment will later be performed at multible powers, that have a much higher accuracy with an error, being roughly 0.1\%.
+\begin{figure}[h]
+\centering
+\begin{subfigure}[b]{0.4\textwidth}
+                \includegraphics[width=\textwidth]{shift}
+                \caption{Trap-depth for ground (red) and excited (blue) state.}
+\end{subfigure}
+\begin{subfigure}[b]{0.4\textwidth}
+               \includegraphics[width=\textwidth]{difshifterror}
+                \caption{$D_2$-Resonance-Shift (blue) and the error boundary (red)}
+\end{subfigure}
+
+
+\caption{Potential for ground ($2s$) and excited ($2p_{3/2}$$|m_J|=3/2$) state and the difference of both, i.e. the shift of the D2-resonance, for different total powers of the trap-beam.}
+\label{potential}
+\end{figure}
 
 
 \subsection{Magnetic Field}
@@ -132,7 +170,7 @@ $2s\rightarrow 2p_{3/2}, |m_j|=3/2$&4.38047&4.38050&1.29365\\
 \\\hline
 \end{tabular}
 \end{center}
-\caption{Differential \textsc{ac}-Stark shift at 50 W of total beam power with and without magnetic field. The sensitivity to the waist-uncertainty leads to a large error and to the irrelevance of the magnetic field.}
+\caption{Differential \textsc{ac}-Stark shift at 50 W of total beam power with and without magnetic field. The sensitivity to the waist-uncertainty leads to a large error and to irrelevance of the magnetic field.}
 \label{relativealpha}
 \end{figure}
 
@@ -149,8 +187,8 @@ Also this meassurement can make it possible to find values for other quantities 
 I=&\frac{2\epsilon_0 c}{\alpha}\cdot \Delta E_\delta\\\notag\\
 w_0=&\sqrt{\frac{2P}{\pi I}}
 \end{align}
-In this calculation $I$ is the actual maximum-intensity forming the potential and $P$ the initial power of the trap beams.
-\begin{figure}[h]
+In this calculation $I$ is the actual maximum-intensity forming the potential and $P$ the initial laser-power in the trap.
+\begin{figure}[H]
 \centering
 \begin{subfigure}[b]{0.6\textwidth}
                 \includegraphics[width=\textwidth]{bachwards}
@@ -160,4 +198,4 @@ In this calculation $I$ is the actual maximum-intensity forming the potential an
 \end{figure}
 \section{Comparison to the classical formula}
 
-Since the classical formula in (\ref{classic}) is widely used to calculate depths for optical dipole traps it is interesting to see, in how far it differs from the quantum-mechanical approach. For the excited state, for allready stated reasons, it is not possible to calculate a good value using this approach, but the ground state, for that the coupling to other states is dominated by the transition to the first excited state, the formula gives values, that differ only 3.99 \% when calculating the shift considering transitions up to $n=7$ and using 1070 nm light. When only considering the D-Line transition, both values are the same in range of about 0.01 \%. That shows, that using the approach of a harmonic oscillator to model the dipole-trap potential gives good results, when dealing with a system that can be approximated to only consist of two states. In the case of the Lithium-6 ground state, where for infrared light and higher excited states the transitions are very farly detuned, the model gives a good estimate, that is less complicated to calculate than the approach of pertubation theory.
+Since the classical formula in (\ref{classic}) is widely used to calculate depths for optical dipole traps it is interesting to see, in how far it differs from the quantum-mechanical approach. For the excited state, for allready stated reasons, it is not possible to calculate a good value using this approach, but the ground state, for that the coupling to other states is dominated by the transition to the first excited state, the formula gives values, that differ only 0.3\% when calculating the shift considering transitions up to $n=7$ and using 1070 nm light. When only considering the D-Line transition, both values are the same in range and differ about 0.01 \%. That shows, that using the approach of a harmonic oscillator to model the dipole-trap potential gives good results, when dealing with a system that can be approximated to only consist of two states. In the case of the Lithium-6 ground state, where for infrared light and higher excited states the transitions are very farly detuned, the model gives a good estimate, that is less complicated to calculate than the approach of pertubation theory.
