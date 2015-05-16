@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2015.5.11)  16 MAY 2015 16:10
+This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2015.5.11)  16 MAY 2015 19:55
  restricted \write18 enabled.
 **BA.tex
 (./BA.tex
@@ -338,7 +338,7 @@ luatexbase-attr: luatexbase.attributes["luaotfload@cursbase"] = 6
 luatexbase-attr: luatexbase.attributes["luaotfload@curscurs"] = 7
 luatexbase-attr: luatexbase.attributes["luaotfload@cursdone"] = 8
 luatexbase-attr: luatexbase.attributes["luaotfload@state"] = 9
-luaotfload | main : fontloader loaded in 0.230 seconds
+luaotfload | main : fontloader loaded in 0.022 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -1281,12 +1281,12 @@ File: alphaexited32.pdf Graphic file (type pdf)
 Package pdftex.def Info: alphaexited32.pdf used on input line 63.
 (pdftex.def)             Requested size: 167.29967pt x 97.12589pt.
 
-<alphaalltogether.pdf, id=65, 581.17125pt x 349.305pt>
+<alphaalltogether.pdf, id=65, 361.35pt x 210.7875pt>
 File: alphaalltogether.pdf Graphic file (type pdf)
 
 <use alphaalltogether.pdf>
 Package pdftex.def Info: alphaalltogether.pdf used on input line 67.
-(pdftex.def)             Requested size: 167.29967pt x 100.55498pt.
+(pdftex.def)             Requested size: 167.29967pt x 97.5906pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1403,15 +1403,29 @@ File: withodt-eps-converted-to.pdf Graphic file (type pdf)
 <use withodt-eps-converted-to.pdf>
 Package pdftex.def Info: withodt-eps-converted-to.pdf used on input line 10.
 (pdftex.def)             Requested size: 200.76086pt x 140.38203pt.
+Package epstopdf Info: Source file: <Shift2.eps>
+(epstopdf)                    date: 2015-05-16 15:16:46
+(epstopdf)                    size: 58881 bytes
+(epstopdf)             Output file: <Shift2-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-16 17:53:53
+(epstopdf)                    size: 29311 bytes
+(epstopdf)             Command: <repstopdf --outfile=Shift2-eps-converted-to.pdf
+ Shift2.eps>
+(epstopdf)             \includegraphics on input line 24.
+Package epstopdf Info: Output file is already uptodate.
 
-<bachwards.pdf, id=234, 361.35pt x 221.82875pt>
-File: bachwards.pdf Graphic file (type pdf)
- <use bachwards.pdf>
-Package pdftex.def Info: bachwards.pdf used on input line 38.
-(pdftex.def)             Requested size: 250.95587pt x 154.0605pt.
- [19<./withoutodt-eps-converted-to.pdf><./withodt-eps-converted-to.pdf>]) [20<./
-bachwards.pdf>] (./BA.aux (./theory.aux) (./calculation.aux) (./measurements.au
-x))
+<Shift2-eps-converted-to.pdf, id=234, 774.895pt x 593.21625pt>
+File: Shift2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Shift2-eps-converted-to.pdf>
+Package pdftex.def Info: Shift2-eps-converted-to.pdf used on input line 24.
+(pdftex.def)             Requested size: 200.76086pt x 153.68948pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19<./withoutodt-eps-converted-to.pdf><./withodt-eps-converted-to.pdf>] [20<./S
+hift2-eps-converted-to.pdf>]) [21] (./BA.aux (./theory.aux) (./calculation.aux)
+(./measurements.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1419,14 +1433,14 @@ Package logreq Info: Writing requests to 'BA.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 25515 strings out of 493787
+ 25540 strings out of 493787
  100000,953878 words of node,token memory allocated
- 822 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 22 kern, 28 attribute, 53 glue_spec, 28 att
+ 843 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 24 kern, 30 attribute, 53 glue_spec, 30 att
 ribute_list, 2 write nodes
-   avail lists: 1:4,2:7840,3:320,4:1445,5:297,6:2632,7:133,9:737,10:244
- 28417 multiletter control sequences out of 65536+600000
- 98 fonts using 12703671 bytes
+   avail lists: 1:4,2:7836,3:323,4:1442,5:295,6:2632,7:133,9:737,10:244
+ 28418 multiletter control sequences out of 65536+600000
+ 98 fonts using 12703719 bytes
  70i,16n,60p,2407b,1534s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texlive/texmf-dist/fonts/opentype/public/libertine/LinLibertine_RI.o
 tf></usr/share/texlive/texmf-dist/fonts/opentype/public/libertine/LinLibertine_R
@@ -1451,10 +1465,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><</usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy8.pfb><</usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy9.pfb><</usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/symbols/msbm10.pfb>
-Output written on BA.pdf (20 pages, 11189127 bytes).
+Output written on BA.pdf (21 pages, 9612307 bytes).
 
-PDF statistics: 411 PDF objects out of 1000 (max. 8388607)
- 269 compressed objects within 3 object streams
+PDF statistics: 433 PDF objects out of 1000 (max. 8388607)
+ 266 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
