@@ -1979,11 +1979,12 @@
     <bcf:citekey order="9">dipole</bcf:citekey>
     <bcf:citekey order="10">alpha</bcf:citekey>
     <bcf:citekey order="11">wigner</bcf:citekey>
-    <bcf:citekey order="12">magic01</bcf:citekey>
+    <bcf:citekey order="12">dipole</bcf:citekey>
     <bcf:citekey order="13">magic01</bcf:citekey>
-    <bcf:citekey order="14">NIST_ASD</bcf:citekey>
-    <bcf:citekey order="15">magic01</bcf:citekey>
-    <bcf:citekey order="16">NIST_ASD</bcf:citekey>
-    <bcf:citekey order="17">cohen</bcf:citekey>
+    <bcf:citekey order="14">magic01</bcf:citekey>
+    <bcf:citekey order="15">NIST_ASD</bcf:citekey>
+    <bcf:citekey order="16">magic01</bcf:citekey>
+    <bcf:citekey order="17">NIST_ASD</bcf:citekey>
+    <bcf:citekey order="18">cohen</bcf:citekey>
   </bcf:section>
 </bcf:controlfile>
