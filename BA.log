@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2015.5.11)  16 MAY 2015 19:55
+This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2015.5.11)  16 MAY 2015 20:04
  restricted \write18 enabled.
 **BA.tex
 (./BA.tex
@@ -338,7 +338,7 @@ luatexbase-attr: luatexbase.attributes["luaotfload@cursbase"] = 6
 luatexbase-attr: luatexbase.attributes["luaotfload@curscurs"] = 7
 luatexbase-attr: luatexbase.attributes["luaotfload@cursdone"] = 8
 luatexbase-attr: luatexbase.attributes["luaotfload@state"] = 9
-luaotfload | main : fontloader loaded in 0.022 seconds
+luaotfload | main : fontloader loaded in 0.021 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -1292,36 +1292,36 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
 [13<./alphaground.pdf><./alphaexited12.pdf><./alphaexited32.pdf><./alphaalltoget
-her.pdf>] <alphascalarconvexcited.pdf, id=142, 361.35pt x 215.80624pt>
+her.pdf>] <alphascalarconvexcited.pdf, id=142, 361.35pt x 193.72375pt>
 File: alphascalarconvexcited.pdf Graphic file (type pdf)
 
 <use alphascalarconvexcited.pdf>
 Package pdftex.def Info: alphascalarconvexcited.pdf used on input line 101.
-(pdftex.def)             Requested size: 167.29967pt x 99.91418pt.
+(pdftex.def)             Requested size: 167.29967pt x 89.69041pt.
 
-<alphatensorconvexcited.pdf, id=143, 361.35pt x 223.83624pt>
+<alphatensorconvexcited.pdf, id=143, 361.35pt x 202.7575pt>
 File: alphatensorconvexcited.pdf Graphic file (type pdf)
 
 <use alphatensorconvexcited.pdf>
 Package pdftex.def Info: alphatensorconvexcited.pdf used on input line 105.
-(pdftex.def)             Requested size: 167.29967pt x 103.63193pt.
+(pdftex.def)             Requested size: 167.29967pt x 93.87288pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14]
-<alphascalarconvground1.pdf, id=147, 361.35pt x 232.87pt>
+<alphascalarconvground1.pdf, id=147, 361.35pt x 212.795pt>
 File: alphascalarconvground1.pdf Graphic file (type pdf)
 
 <use alphascalarconvground1.pdf>
 Package pdftex.def Info: alphascalarconvground1.pdf used on input line 119.
-(pdftex.def)             Requested size: 167.29967pt x 107.81438pt.
+(pdftex.def)             Requested size: 167.29967pt x 98.52003pt.
 
-<alphascalarconvground2.pdf, id=148, 361.35pt x 222.8325pt>
+<alphascalarconvground2.pdf, id=148, 361.35pt x 201.75375pt>
 File: alphascalarconvground2.pdf Graphic file (type pdf)
 
 <use alphascalarconvground2.pdf>
 Package pdftex.def Info: alphascalarconvground2.pdf used on input line 123.
-(pdftex.def)             Requested size: 167.29967pt x 103.16722pt.
+(pdftex.def)             Requested size: 167.29967pt x 93.40816pt.
 
 <crossed_dipole_trap.png, id=149, 118.4425pt x 433.62pt>
 File: crossed_dipole_trap.png Graphic file (type png)
@@ -1338,14 +1338,14 @@ Overfull \hbox (41.13464pt too wide) in paragraph at lines 136--137
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15<./alphascalarconvexcited.pdf><./alphatensorconvexcited.pdf><./alphascalarco
-nvground1.pdf><./alphascalarconvground2.pdf>] <shift.pdf, id=187, 361.35pt x 21
+nvground1.pdf><./alphascalarconvground2.pdf>] <shift.pdf, id=222, 361.35pt x 21
 4.8025pt>
 File: shift.pdf Graphic file (type pdf)
 
 <use shift.pdf>
 Package pdftex.def Info: shift.pdf used on input line 146.
 (pdftex.def)             Requested size: 167.29967pt x 99.44948pt.
- <difshifterror.pdf, id=188, 361.35pt x 214.8025pt>
+ <difshifterror.pdf, id=223, 361.35pt x 214.8025pt>
 File: difshifterror.pdf Graphic file (type pdf)
 
 <use difshifterror.pdf>
@@ -1380,7 +1380,7 @@ Package epstopdf Info: Source file: <withoutodt.eps>
 .pdf withoutodt.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
-<withoutodt-eps-converted-to.pdf, id=232, 821.0675pt x 574.145pt>
+<withoutodt-eps-converted-to.pdf, id=267, 821.0675pt x 574.145pt>
 File: withoutodt-eps-converted-to.pdf Graphic file (type pdf)
 
 <use withoutodt-eps-converted-to.pdf>
@@ -1397,7 +1397,7 @@ f withodt.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 
-<withodt-eps-converted-to.pdf, id=233, 821.0675pt x 574.145pt>
+<withodt-eps-converted-to.pdf, id=268, 821.0675pt x 574.145pt>
 File: withodt-eps-converted-to.pdf Graphic file (type pdf)
 
 <use withodt-eps-converted-to.pdf>
@@ -1414,7 +1414,7 @@ Package epstopdf Info: Source file: <Shift2.eps>
 (epstopdf)             \includegraphics on input line 24.
 Package epstopdf Info: Output file is already uptodate.
 
-<Shift2-eps-converted-to.pdf, id=234, 774.895pt x 593.21625pt>
+<Shift2-eps-converted-to.pdf, id=269, 774.895pt x 593.21625pt>
 File: Shift2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Shift2-eps-converted-to.pdf>
@@ -1433,14 +1433,14 @@ Package logreq Info: Writing requests to 'BA.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 25540 strings out of 493787
+ 25539 strings out of 493787
  100000,953878 words of node,token memory allocated
  843 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 24 kern, 30 attribute, 53 glue_spec, 30 att
 ribute_list, 2 write nodes
-   avail lists: 1:4,2:7836,3:323,4:1442,5:295,6:2632,7:133,9:737,10:244
- 28418 multiletter control sequences out of 65536+600000
- 98 fonts using 12703719 bytes
+   avail lists: 1:4,2:7850,3:323,4:1442,5:295,6:2632,7:133,9:737,10:244
+ 28417 multiletter control sequences out of 65536+600000
+ 98 fonts using 12703623 bytes
  70i,16n,60p,2407b,1534s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texlive/texmf-dist/fonts/opentype/public/libertine/LinLibertine_RI.o
 tf></usr/share/texlive/texmf-dist/fonts/opentype/public/libertine/LinLibertine_R
@@ -1465,10 +1465,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><</usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy8.pfb><</usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy9.pfb><</usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/symbols/msbm10.pfb>
-Output written on BA.pdf (21 pages, 9612307 bytes).
+Output written on BA.pdf (21 pages, 9975506 bytes).
 
-PDF statistics: 433 PDF objects out of 1000 (max. 8388607)
- 266 compressed objects within 3 object streams
+PDF statistics: 468 PDF objects out of 1000 (max. 8388607)
+ 294 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
