@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2015.5.11)  17 MAY 2015 01:24
+This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2015.5.11)  17 MAY 2015 17:33
  restricted \write18 enabled.
 **BA.tex
 (./BA.tex
@@ -338,7 +338,7 @@ luatexbase-attr: luatexbase.attributes["luaotfload@cursbase"] = 6
 luatexbase-attr: luatexbase.attributes["luaotfload@curscurs"] = 7
 luatexbase-attr: luatexbase.attributes["luaotfload@cursdone"] = 8
 luatexbase-attr: luatexbase.attributes["luaotfload@state"] = 9
-luaotfload | main : fontloader loaded in 0.022 seconds
+luaotfload | main : fontloader loaded in 0.021 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -692,6 +692,10 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks25
 \@floatcapt=\box259
 )
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathpazo.sty
+Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup6
+)
 \g__file_internal_ior=\read1
 luaotfload | cache : Lookup cache loaded from /home/jonathan/.texmf-var/luatex-c
 ache/generic/names/luaotfload-lookup-cache.luc.
@@ -779,8 +783,9 @@ smcp;"
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_R.otf"
 Package scrkbase Info: You've told me to redefine the font selection of the
 (scrkbase)             element `sectioning' that is an alias of element
-(scrkbase)             `disposition' on input line 10.
- (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(scrkbase)             `disposition' on input line 11.
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
@@ -1032,31 +1037,31 @@ Package biblatex Info: ... file 'english.lbx' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2014/06/25 v2.9a biblatex localization (PK/JW/AB)
 ) (./BA.aux
-(./theory.aux) (./calculation.aux
+(./theory.aux) (./experiment.aux) (./calculation.aux
 
 LaTeX Warning: Label `relativealpha' multiply defined.
 
 ) (./measurements.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 29.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 32.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 32.
  (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    ... okay on input line 32.
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_R.otf"
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1089,70 +1094,6 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 ))
-.................................................
-. fontspec info: "setup-math"
-. 
-. Adjusting the maths setup (use [no-math] to avoid this).
-.................................................
-\symlegacymaths=\mathgroup6
-LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 29.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 29.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 29.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 29.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 29.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 29.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 29.
-LaTeX Font Info:    Redeclaring math accent \check on input line 29.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 29.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 29.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 29.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 29.
-LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `normal' on input line 29.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> EU2/LinuxLibertineO(0)/m/n on input line
- 29.
-LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `bold' on input line 29.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> EU2/LinuxLibertineO(0)/m/n on input lin
-e 29.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  EU2/LinuxLibertineO(0)/m/n --> EU2/LinuxLibertineO(0)/m/
-n on input line 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> EU2/LinuxLibertineO(0)/m/it on input li
-ne 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> EU2/LinuxLibertineO(0)/bx/n on input li
-ne 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU2/lmss/m/n on input line 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU2/lmtt/m/n on input line 29.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  EU2/LinuxLibertineO(0)/m/n --> EU2/LinuxLibertineO(0)/bx
-/n on input line 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> EU2/LinuxLibertineO(0)/bx/it on input 
-line 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU2/lmss/bx/n on input line 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU2/lmtt/bx/n on input line 29.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: LuaTeX detected.
@@ -1163,8 +1104,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'BA.bbl' found.
 
 (./BA.bbl)
-Package biblatex Info: Reference section=0 on input line 29.
-Package biblatex Info: Reference segment=0 on input line 29.
+Package biblatex Info: Reference section=0 on input line 32.
+Package biblatex Info: Reference segment=0 on input line 32.
  (./theory.tex
 Chapter 1.
 
@@ -1185,20 +1126,121 @@ Class scrbook Warning: \float@addtolists detected!
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_R.otf"
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_R.otf"
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_R.otf"
-luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_R.otf"
-LaTeX Font Info:    Try loading font information for U+msa on input line 7.
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 7.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 7.
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/adobe/palatino/pplr7t.vf.
+checksum mismatch in font pplr7t.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/adobe/palatino/pplr7t.vf.
+checksum mismatch in font pplr7t.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/adobe/palatino/pplr7t.vf.
+checksum mismatch in font pplr7t.vf ignored 
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 7.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7m.vf.
+checksum mismatch in font zplmr7m.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7m.vf.
+checksum mismatch in font zplmr7m.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7m.vf.
+checksum mismatch in font zplmr7m.vf ignored 
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 7.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7y.vf.
+checksum mismatch in font zplmr7y.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7y.vf.
+checksum mismatch in font zplmr7y.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7y.vf.
+checksum mismatch in font zplmr7y.vf ignored 
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 7.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7v.vf.
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7v.vf.
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7v.vf.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 7.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 7.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 7.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 7.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 7.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 7.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 7.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7t.vf.
+checksum mismatch in font zplmr7t.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7t.vf.
+checksum mismatch in font zplmr7t.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7t.vf.
+checksum mismatch in font zplmr7t.vf ignored 
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_RI.otf"
-luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_RB.otf"
-luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_RB.otf"
-luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_RB.otf"
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/adobe/palatino/pplb7t.vf.
+checksum mismatch in font pplb7t.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/adobe/palatino/pplb7t.vf.
+checksum mismatch in font pplb7t.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/adobe/palatino/pplb7t.vf.
+checksum mismatch in font pplb7t.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmb7m.vf.
+checksum mismatch in font zplmb7m.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmb7m.vf.
+checksum mismatch in font zplmb7m.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmb7m.vf.
+checksum mismatch in font zplmb7m.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmb7y.vf.
+checksum mismatch in font zplmb7y.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmb7y.vf.
+checksum mismatch in font zplmb7y.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmb7y.vf.
+checksum mismatch in font zplmb7y.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmb7t.vf.
+checksum mismatch in font zplmb7t.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmb7t.vf.
+checksum mismatch in font zplmb7t.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmb7t.vf.
+checksum mismatch in font zplmb7t.vf ignored 
 <levels2.png, id=1, 932.283pt x 888.921pt>
 File: levels2.png Graphic file (type png)
  <use levels2.png>
@@ -1229,15 +1271,101 @@ LaTeX Font Info:    Font shape `EU2/LinuxLibertineO(0)/m/sl' in size <10.95> not
 put line 38.
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_RI.otf"
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_RI.otf" [2<.
-/levels2.png>]
-luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_R.otf" [3<./
-levels1.png>]
+/levels2.png>] [3<./levels1.png>]
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_R.otf"
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_R.otf"
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_R.otf"
-luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_RB.otf"
-luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_RB.otf" [4]
-
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/adobe/palatino/pplr7t.vf.
+checksum mismatch in font pplr7t.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/adobe/palatino/pplr7t.vf.
+checksum mismatch in font pplr7t.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/adobe/palatino/pplr7t.vf.
+checksum mismatch in font pplr7t.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7m.vf.
+checksum mismatch in font zplmr7m.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7m.vf.
+checksum mismatch in font zplmr7m.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7m.vf.
+checksum mismatch in font zplmr7m.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7y.vf.
+checksum mismatch in font zplmr7y.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7y.vf.
+checksum mismatch in font zplmr7y.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7y.vf.
+checksum mismatch in font zplmr7y.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7v.vf.
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7v.vf.
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7v.vf.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 74.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 74.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 74.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 74.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 74.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 74.
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7t.vf.
+checksum mismatch in font zplmr7t.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7t.vf.
+checksum mismatch in font zplmr7t.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7t.vf.
+checksum mismatch in font zplmr7t.vf ignored 
+luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_R.otf"
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/adobe/palatino/pplb7t.vf.
+checksum mismatch in font pplb7t.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/adobe/palatino/pplb7t.vf.
+checksum mismatch in font pplb7t.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/adobe/palatino/pplb7t.vf.
+checksum mismatch in font pplb7t.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmb7m.vf.
+checksum mismatch in font zplmb7m.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmb7m.vf.
+checksum mismatch in font zplmb7m.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmb7m.vf.
+checksum mismatch in font zplmb7m.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmb7y.vf.
+checksum mismatch in font zplmb7y.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmb7y.vf.
+checksum mismatch in font zplmb7y.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmb7y.vf.
+checksum mismatch in font zplmb7y.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmb7t.vf.
+checksum mismatch in font zplmb7t.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmb7t.vf.
+checksum mismatch in font zplmb7t.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmb7t.vf.
+checksum mismatch in font zplmb7t.vf ignored  [4]
 Overfull \hbox (7.89282pt too wide) in paragraph at lines 110--111
 []\EU2/LinuxLibertineO(0)/m/n/10.95 Af-ter this clas-si-cal treat-ment, we come
  back to cal-cu-lat-ing the same ef-fect quantum-mechanically.
@@ -1249,39 +1377,91 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--123
  []
 
 [6]
-Underfull \vbox (badness 1755) has occurred while \output is active []
+Missing character: There is no ² (U+00B2) in font pplr7t!
+Missing character: There is no ² (U+00B2) in font pplr7t!
+
+Underfull \vbox (badness 1960) has occurred while \output is active []
 
  [7]
-[8] [9]) [10] (./calculation.tex
+[8]
+Overfull \hbox (0.35536pt too wide) in paragraph at lines 192--196
+\EU2/LinuxLibertineO(0)/m/n/10.95 direction also de-fines the quan-ti-sa-tion a
+xis in a mag-netic field, this means as-sum-ing $\OML/zplm/m/it/10.95 $\EU2/Li
+nuxLibertineO(0)/m/n/10.95 -polarized
+ []
+
+[9]) [10] (./experiment.tex
 Chapter 2.
+) [11
 
-Underfull \vbox (badness 4859) has occurred while \output is active []
 
- [11
+
+
+] [12] (./calculation.tex
+Chapter 3.
+
+Underfull \vbox (badness 4120) has occurred while \output is active []
+
+ [13
 
 
 
 
 ]
-<alphaground.pdf, id=62, 361.35pt x 210.7875pt>
+<alphaground.pdf, id=57, 361.35pt x 210.7875pt>
 File: alphaground.pdf Graphic file (type pdf)
  <use alphaground.pdf>
 Package pdftex.def Info: alphaground.pdf used on input line 55.
 (pdftex.def)             Requested size: 167.29967pt x 97.5906pt.
-luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_R.otf"
-<alphaexited12.pdf, id=63, 361.35pt x 206.7725pt>
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/adobe/palatino/pplr7t.vf.
+checksum mismatch in font pplr7t.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/adobe/palatino/pplr7t.vf.
+checksum mismatch in font pplr7t.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7m.vf.
+checksum mismatch in font zplmr7m.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7m.vf.
+checksum mismatch in font zplmr7m.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7y.vf.
+checksum mismatch in font zplmr7y.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7y.vf.
+checksum mismatch in font zplmr7y.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7v.vf.
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7v.vf.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 56.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 56.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 56.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 56.
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7t.vf.
+checksum mismatch in font zplmr7t.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7t.vf.
+checksum mismatch in font zplmr7t.vf ignored 
+<alphaexited12.pdf, id=58, 361.35pt x 206.7725pt>
 File: alphaexited12.pdf Graphic file (type pdf)
  <use alphaexited12.pdf>
 Package pdftex.def Info: alphaexited12.pdf used on input line 59.
 (pdftex.def)             Requested size: 167.29967pt x 95.73174pt.
 
-<alphaexited32.pdf, id=64, 361.35pt x 209.78375pt>
+<alphaexited32.pdf, id=59, 361.35pt x 209.78375pt>
 File: alphaexited32.pdf Graphic file (type pdf)
  <use alphaexited32.pdf>
 Package pdftex.def Info: alphaexited32.pdf used on input line 63.
 (pdftex.def)             Requested size: 167.29967pt x 97.12589pt.
 
-<alphaalltogether.pdf, id=65, 361.35pt x 210.7875pt>
+<alphaalltogether.pdf, id=60, 361.35pt x 210.7875pt>
 File: alphaalltogether.pdf Graphic file (type pdf)
 
 <use alphaalltogether.pdf>
@@ -1290,16 +1470,16 @@ Package pdftex.def Info: alphaalltogether.pdf used on input line 67.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12]
-[13<./alphaground.pdf><./alphaexited12.pdf><./alphaexited32.pdf><./alphaalltoget
-her.pdf>] <alphascalarconvexcited.pdf, id=142, 361.35pt x 193.72375pt>
+ [14]
+[15<./alphaground.pdf><./alphaexited12.pdf><./alphaexited32.pdf><./alphaalltoget
+her.pdf>] <alphascalarconvexcited.pdf, id=135, 361.35pt x 193.72375pt>
 File: alphascalarconvexcited.pdf Graphic file (type pdf)
 
 <use alphascalarconvexcited.pdf>
 Package pdftex.def Info: alphascalarconvexcited.pdf used on input line 101.
 (pdftex.def)             Requested size: 167.29967pt x 89.69041pt.
 
-<alphatensorconvexcited.pdf, id=143, 361.35pt x 202.7575pt>
+<alphatensorconvexcited.pdf, id=136, 361.35pt x 202.7575pt>
 File: alphatensorconvexcited.pdf Graphic file (type pdf)
 
 <use alphatensorconvexcited.pdf>
@@ -1308,22 +1488,22 @@ Package pdftex.def Info: alphatensorconvexcited.pdf used on input line 105.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14]
-<alphascalarconvground1.pdf, id=147, 361.35pt x 212.795pt>
+ [16]
+<alphascalarconvground1.pdf, id=140, 361.35pt x 212.795pt>
 File: alphascalarconvground1.pdf Graphic file (type pdf)
 
 <use alphascalarconvground1.pdf>
 Package pdftex.def Info: alphascalarconvground1.pdf used on input line 119.
 (pdftex.def)             Requested size: 167.29967pt x 98.52003pt.
 
-<alphascalarconvground2.pdf, id=148, 361.35pt x 201.75375pt>
+<alphascalarconvground2.pdf, id=141, 361.35pt x 201.75375pt>
 File: alphascalarconvground2.pdf Graphic file (type pdf)
 
 <use alphascalarconvground2.pdf>
 Package pdftex.def Info: alphascalarconvground2.pdf used on input line 123.
 (pdftex.def)             Requested size: 167.29967pt x 93.40816pt.
 
-<crossed_dipole_trap.png, id=149, 118.4425pt x 433.62pt>
+<crossed_dipole_trap.png, id=142, 118.4425pt x 433.62pt>
 File: crossed_dipole_trap.png Graphic file (type png)
 
 <use crossed_dipole_trap.png>
@@ -1337,24 +1517,24 @@ Overfull \hbox (41.13464pt too wide) in paragraph at lines 136--137
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15<./alphascalarconvexcited.pdf><./alphatensorconvexcited.pdf><./alphascalarco
-nvground1.pdf><./alphascalarconvground2.pdf>] <shift.pdf, id=222, 361.35pt x 21
+ [17<./alphascalarconvexcited.pdf><./alphatensorconvexcited.pdf><./alphascalarco
+nvground1.pdf><./alphascalarconvground2.pdf>] <shift.pdf, id=215, 361.35pt x 21
 4.8025pt>
 File: shift.pdf Graphic file (type pdf)
 
 <use shift.pdf>
 Package pdftex.def Info: shift.pdf used on input line 146.
 (pdftex.def)             Requested size: 167.29967pt x 99.44948pt.
- <difshifterror.pdf, id=223, 361.35pt x 214.8025pt>
+ <difshifterror.pdf, id=216, 361.35pt x 214.8025pt>
 File: difshifterror.pdf Graphic file (type pdf)
 
 <use difshifterror.pdf>
 Package pdftex.def Info: difshifterror.pdf used on input line 150.
 (pdftex.def)             Requested size: 167.29967pt x 99.44948pt.
 
-Underfull \hbox (badness 4156) in paragraph at lines 151--151
-[][][]|$\OML/cmm/m/it/10 D[]$\EU2/LinuxLibertineO(0)/m/n/10 -Resonance-Shift (b
-lue) and the
+Underfull \hbox (badness 4467) in paragraph at lines 151--151
+[][][]|$\OML/zplm/m/it/10 D[]$\EU2/LinuxLibertineO(0)/m/n/10 -Resonance-Shift (
+blue) and the
  []
 
 
@@ -1362,14 +1542,14 @@ Underfull \hbox (badness 7133) in paragraph at lines 151--151
 \EU2/LinuxLibertineO(0)/m/n/10 er-ror bound-ary (red). Slope of
  []
 
-) [16<./crossed_dipole_trap.png><./shift.pdf><./difshifterror.pdf>] [17]
-(./measurements.tex [18
+) [18<./crossed_dipole_trap.png><./shift.pdf><./difshifterror.pdf>] [19]
+(./measurements.tex [20
 
 
 
 
 ]
-Chapter 3.
+Chapter 4.
 Package epstopdf Info: Source file: <withoutodt.eps>
 (epstopdf)                    date: 2015-05-16 15:16:46
 (epstopdf)                    size: 48275 bytes
@@ -1380,7 +1560,7 @@ Package epstopdf Info: Source file: <withoutodt.eps>
 .pdf withoutodt.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
-<withoutodt-eps-converted-to.pdf, id=267, 821.0675pt x 574.145pt>
+<withoutodt-eps-converted-to.pdf, id=260, 821.0675pt x 574.145pt>
 File: withoutodt-eps-converted-to.pdf Graphic file (type pdf)
 
 <use withoutodt-eps-converted-to.pdf>
@@ -1397,7 +1577,7 @@ f withodt.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 
-<withodt-eps-converted-to.pdf, id=268, 821.0675pt x 574.145pt>
+<withodt-eps-converted-to.pdf, id=261, 821.0675pt x 574.145pt>
 File: withodt-eps-converted-to.pdf Graphic file (type pdf)
 
 <use withodt-eps-converted-to.pdf>
@@ -1414,7 +1594,7 @@ Package epstopdf Info: Source file: <Shift2.eps>
 (epstopdf)             \includegraphics on input line 24.
 Package epstopdf Info: Output file is already uptodate.
 
-<Shift2-eps-converted-to.pdf, id=269, 774.895pt x 593.21625pt>
+<Shift2-eps-converted-to.pdf, id=262, 774.895pt x 593.21625pt>
 File: Shift2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Shift2-eps-converted-to.pdf>
@@ -1423,9 +1603,9 @@ Package pdftex.def Info: Shift2-eps-converted-to.pdf used on input line 24.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19<./withoutodt-eps-converted-to.pdf><./withodt-eps-converted-to.pdf>] [20<./S
-hift2-eps-converted-to.pdf>]) [21] (./BA.aux (./theory.aux) (./calculation.aux)
-(./measurements.aux))
+ [21<./withoutodt-eps-converted-to.pdf><./withodt-eps-converted-to.pdf>] [22<./S
+hift2-eps-converted-to.pdf>]) [23] (./BA.aux (./theory.aux) (./experiment.aux)
+(./calculation.aux) (./measurements.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1433,42 +1613,30 @@ Package logreq Info: Writing requests to 'BA.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 25539 strings out of 493787
+ 25934 strings out of 493787
  100000,953878 words of node,token memory allocated
- 863 words of node memory still in use:
+ 865 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 26 kern, 32 attribute, 53 glue_spec, 32 att
 ribute_list, 2 write nodes
-   avail lists: 1:4,2:7850,3:326,4:1440,5:293,6:2632,7:133,9:737,10:244
- 28417 multiletter control sequences out of 65536+600000
- 98 fonts using 12703815 bytes
- 70i,16n,60p,2407b,1534s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/share/texlive/texmf-dist/fonts/opentype/public/libertine/LinLibertine_RI.o
-tf></usr/share/texlive/texmf-dist/fonts/opentype/public/libertine/LinLibertine_R
-.otf><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><</
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><</us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><</usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><</usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><</usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><</usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi8.pfb><</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi9.pfb><</usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmib10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cmextra/cmmib9.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr5.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6
-.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><</
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><</usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><</usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><</usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy8.pfb><</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy9.pfb><</usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/symbols/msbm10.pfb>
-Output written on BA.pdf (21 pages, 9976594 bytes).
+   avail lists: 1:3,2:14394,3:328,4:1435,5:427,6:4684,7:952,9:737,10:389
+ 28560 multiletter control sequences out of 65536+600000
+ 244 fonts using 18996735 bytes
+ 70i,16n,60p,4698b,1534s stack positions out of 5000i,500n,10000p,200000b,100000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/t
+exmf-dist/fonts/opentype/public/libertine/LinLibertine_RI.otf></usr/share/texliv
+e/texmf-dist/fonts/opentype/public/libertine/LinLibertine_R.otf><</usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><</usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><</usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb><</usr/share/texlive/texmf-dist/fon
+ts/type1/public/mathpazo/fplmr.pfb><</usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/mathpazo/fplmri.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/symbols/msbm10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/urw/palatin
+o/uplbi8a.pfb><</usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pf
+b><</usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on BA.pdf (23 pages, 9878744 bytes).
 
-PDF statistics: 468 PDF objects out of 1000 (max. 8388607)
- 294 compressed objects within 3 object streams
+PDF statistics: 423 PDF objects out of 1000 (max. 8388607)
+ 260 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
