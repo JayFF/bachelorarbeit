@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2015.5.11)  18 MAY 2015 14:52
+This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2015.5.11)  18 MAY 2015 15:05
  restricted \write18 enabled.
 **BA.tex
 (./BA.tex
@@ -338,7 +338,7 @@ luatexbase-attr: luatexbase.attributes["luaotfload@cursbase"] = 6
 luatexbase-attr: luatexbase.attributes["luaotfload@curscurs"] = 7
 luatexbase-attr: luatexbase.attributes["luaotfload@cursdone"] = 8
 luatexbase-attr: luatexbase.attributes["luaotfload@state"] = 9
-luaotfload | main : fontloader loaded in 0.021 seconds
+luaotfload | main : fontloader loaded in 0.020 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -1410,15 +1410,18 @@ File: withodt-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: withodt-eps-converted-to.pdf used on input line 10.
 (pdftex.def)             Requested size: 200.76086pt x 140.38203pt.
 Package epstopdf Info: Source file: <Shift2.eps>
-(epstopdf)                    date: 2015-05-16 15:16:46
-(epstopdf)                    size: 58881 bytes
+(epstopdf)                    date: 2015-05-18 15:04:58
+(epstopdf)                    size: 59887 bytes
 (epstopdf)             Output file: <Shift2-eps-converted-to.pdf>
 (epstopdf)                    date: 2015-05-16 17:53:53
 (epstopdf)                    size: 29311 bytes
 (epstopdf)             Command: <repstopdf --outfile=Shift2-eps-converted-to.pdf
  Shift2.eps>
 (epstopdf)             \includegraphics on input line 24.
-Package epstopdf Info: Output file is already uptodate.
+system(repstopdf --outfile=Shift2-eps-converted-to.pdf Shift2.eps) executed.
+Package epstopdf Info: Result file: <Shift2-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-18 15:05:07
+(epstopdf)                    size: 28988 bytes.
 
 <Shift2-eps-converted-to.pdf, id=275, 774.895pt x 593.21625pt>
 File: Shift2-eps-converted-to.pdf Graphic file (type pdf)
@@ -1466,7 +1469,7 @@ Here is how much of LuaTeX's memory you used:
 ribute_list, 2 write nodes
    avail lists: 1:1,2:14948,3:332,4:1435,5:446,6:4864,7:1024,8:1,9:737,10:400
  28427 multiletter control sequences out of 65536+600000
- 98 fonts using 12703767 bytes
+ 98 fonts using 12703671 bytes
  70i,16n,60p,4920b,1534s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texlive/texmf-dist/fonts/opentype/public/libertine/LinLibertine_RI.o
 tf></usr/share/texlive/texmf-dist/fonts/opentype/public/libertine/LinLibertine_R
@@ -1491,7 +1494,7 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><</usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy8.pfb><</usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy9.pfb><</usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/symbols/msbm10.pfb>
-Output written on BA.pdf (23 pages, 10017803 bytes).
+Output written on BA.pdf (23 pages, 10017476 bytes).
 
 PDF statistics: 538 PDF objects out of 1000 (max. 8388607)
  309 compressed objects within 4 object streams
