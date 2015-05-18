@@ -184,6 +184,21 @@
       \field{title}{Optical dipole traps for neutral atoms}
       \field{year}{1999}
     \endentry
+    \entry{friedhelm}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=ba6e698426325addc02945711876d36a}{Serwane}{S\bibinitperiod}{Friedhelm}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=ba6e698426325addc02945711876d36a}{Serwane}{S\bibinitperiod}{Friedhelm}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ba6e698426325addc02945711876d36a}
+      \strng{fullhash}{ba6e698426325addc02945711876d36a}
+      \field{sortinit}{S}
+      \field{sortinithash}{4125bb4c3a0eb3eaee3ea6da32eb70c8}
+      \field{labeltitle}{Deterministic preparation of a tunable few-fermion system}
+      \field{title}{Deterministic preparation of a tunable few-fermion system}
+      \field{year}{2011}
+    \endentry
   \endsortlist
 \endrefsection
 \endinput
