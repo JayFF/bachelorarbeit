@@ -117,6 +117,21 @@
       \field{title}{Scalar and Tensor Polarizabilities of Atoms}
       \field{year}{2009}
     \endentry
+    \entry{lompe}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=9793089a7cc464bc8f66bdda7d050813}{Lompe}{L\bibinitperiod}{Thomas}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=9793089a7cc464bc8f66bdda7d050813}{Lompe}{L\bibinitperiod}{Thomas}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{9793089a7cc464bc8f66bdda7d050813}
+      \strng{fullhash}{9793089a7cc464bc8f66bdda7d050813}
+      \field{sortinit}{L}
+      \field{sortinithash}{c41a2b5886eeae464e75d1a9df4cd13e}
+      \field{labeltitle}{Efimov Physics in a three-component Fermi gas}
+      \field{title}{Efimov Physics in a three-component Fermi gas}
+      \field{year}{2011}
+    \endentry
     \entry{magic01}{article}{}
       \name{labelname}{2}{}{%
         {{hash=b982e1fb30224945401b6440e77f2e53}{M.\bibnamedelimi S.\bibnamedelimi Safronova}{M\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim S\bibinitperiod}{U.\bibnamedelimi I.\bibnamedelimi Safronova}{U\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%

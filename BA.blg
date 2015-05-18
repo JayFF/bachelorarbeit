@@ -1,0 +1,18 @@
+[2] Config.pm:321> INFO - This is Biber 1.9
+[2] Config.pm:324> INFO - Logfile is 'BA.blg'
+[80] biber:277> INFO - === Mon May 18, 2015, 14:45:47
+[81] Biber.pm:334> INFO - Reading 'BA.bcf'
+[197] Biber.pm:636> INFO - Found 10 citekeys in bib section 0
+[219] Biber.pm:3052> INFO - Processing section 0
+[243] Biber.pm:3190> INFO - Looking for bibtex format file 'BA.bib' for section 0
+[244] bibtex.pm:979> INFO - Decoding LaTeX character macros into UTF-8
+[247] bibtex.pm:853> INFO - Found BibTeX data source 'BA.bib'
+[266] Utils.pm:144> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[267] Utils.pm:144> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
+[387] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[387] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[387] Biber.pm:2929> INFO - Sorting list 'nty' of type 'entry' with scheme 'nty' and locale 'en-US'
+[387] Biber.pm:2933> INFO - No sort tailoring available for locale 'en-US'
+[415] bbl.pm:517> INFO - Writing 'BA.bbl' with encoding 'UTF-8'
+[417] bbl.pm:606> INFO - Output to BA.bbl
+[417] Biber.pm:107> INFO - WARNINGS: 2
