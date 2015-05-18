@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2015.5.11)  18 MAY 2015 18:06
+This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2015.5.11)  18 MAY 2015 18:24
  restricted \write18 enabled.
 **BA.tex
 (./BA.tex
@@ -1489,9 +1489,9 @@ Here is how much of LuaTeX's memory you used:
  879 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 26 kern, 32 attribute, 53 glue_spec, 32 att
 ribute_list, 2 write nodes
-   avail lists: 2:9409,3:330,4:1437,5:293,6:3042,7:221,8:1,9:737,10:253
+   avail lists: 2:9415,3:330,4:1437,5:293,6:3044,7:221,8:1,9:737,10:253
  28442 multiletter control sequences out of 65536+600000
- 98 fonts using 12703415 bytes
+ 98 fonts using 12703367 bytes
  70i,16n,60p,2407b,1533s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texlive/texmf-dist/fonts/opentype/public/libertine/LinLibertine_RI.o
 tf></usr/share/texlive/texmf-dist/fonts/opentype/public/libertine/LinLibertine_R
@@ -1516,7 +1516,7 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><</usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy8.pfb><</usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy9.pfb><</usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/symbols/msbm10.pfb>
-Output written on BA.pdf (25 pages, 11046644 bytes).
+Output written on BA.pdf (25 pages, 11046687 bytes).
 
 PDF statistics: 547 PDF objects out of 1000 (max. 8388607)
  313 compressed objects within 4 object streams
