@@ -1968,28 +1968,30 @@
     <bcf:datasource type="file" datatype="bibtex">BA.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">gehm</bcf:citekey>
-    <bcf:citekey order="2">transitions</bcf:citekey>
-    <bcf:citekey order="3">transitions</bcf:citekey>
-    <bcf:citekey order="4">gehm</bcf:citekey>
-    <bcf:citekey order="5">gehm</bcf:citekey>
-    <bcf:citekey order="6">dipole</bcf:citekey>
-    <bcf:citekey order="7">factor</bcf:citekey>
-    <bcf:citekey order="8">gehm</bcf:citekey>
-    <bcf:citekey order="9">dipole</bcf:citekey>
-    <bcf:citekey order="10">alpha</bcf:citekey>
-    <bcf:citekey order="11">wigner</bcf:citekey>
+    <bcf:citekey order="1">friedhelm</bcf:citekey>
+    <bcf:citekey order="2">lompe</bcf:citekey>
+    <bcf:citekey order="3">lompe</bcf:citekey>
+    <bcf:citekey order="4">lompe</bcf:citekey>
+    <bcf:citekey order="5">lompe</bcf:citekey>
+    <bcf:citekey order="6">lompe</bcf:citekey>
+    <bcf:citekey order="7">gehm</bcf:citekey>
+    <bcf:citekey order="8">transitions</bcf:citekey>
+    <bcf:citekey order="9">transitions</bcf:citekey>
+    <bcf:citekey order="10">gehm</bcf:citekey>
+    <bcf:citekey order="11">gehm</bcf:citekey>
     <bcf:citekey order="12">dipole</bcf:citekey>
-    <bcf:citekey order="13">friedhelm</bcf:citekey>
-    <bcf:citekey order="14">lompe</bcf:citekey>
-    <bcf:citekey order="15">lompe</bcf:citekey>
-    <bcf:citekey order="16">lompe</bcf:citekey>
-    <bcf:citekey order="17">magic01</bcf:citekey>
-    <bcf:citekey order="18">magic01</bcf:citekey>
-    <bcf:citekey order="19">NIST_ASD</bcf:citekey>
+    <bcf:citekey order="13">factor</bcf:citekey>
+    <bcf:citekey order="14">gehm</bcf:citekey>
+    <bcf:citekey order="15">dipole</bcf:citekey>
+    <bcf:citekey order="16">alpha</bcf:citekey>
+    <bcf:citekey order="17">wigner</bcf:citekey>
+    <bcf:citekey order="18">dipole</bcf:citekey>
+    <bcf:citekey order="19">magic01</bcf:citekey>
     <bcf:citekey order="20">magic01</bcf:citekey>
     <bcf:citekey order="21">NIST_ASD</bcf:citekey>
-    <bcf:citekey order="22">cohen</bcf:citekey>
-    <bcf:citekey order="23">lompe</bcf:citekey>
+    <bcf:citekey order="22">magic01</bcf:citekey>
+    <bcf:citekey order="23">NIST_ASD</bcf:citekey>
+    <bcf:citekey order="24">cohen</bcf:citekey>
+    <bcf:citekey order="25">lompe</bcf:citekey>
   </bcf:section>
 </bcf:controlfile>
