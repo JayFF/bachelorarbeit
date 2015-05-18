@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2015.5.11)  17 MAY 2015 17:33
+This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2015.5.11)  18 MAY 2015 12:05
  restricted \write18 enabled.
 **BA.tex
 (./BA.tex
@@ -338,7 +338,7 @@ luatexbase-attr: luatexbase.attributes["luaotfload@cursbase"] = 6
 luatexbase-attr: luatexbase.attributes["luaotfload@curscurs"] = 7
 luatexbase-attr: luatexbase.attributes["luaotfload@cursdone"] = 8
 luatexbase-attr: luatexbase.attributes["luaotfload@state"] = 9
-luaotfload | main : fontloader loaded in 0.021 seconds
+luaotfload | main : fontloader loaded in 0.044 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -1392,12 +1392,12 @@ nuxLibertineO(0)/m/n/10.95 -polarized
 
 [9]) [10] (./experiment.tex
 Chapter 2.
-) [11
+[11
 
 
 
 
-] [12] (./calculation.tex
+]) [12] (./calculation.tex
 Chapter 3.
 
 Underfull \vbox (badness 4120) has occurred while \output is active []
@@ -1551,15 +1551,19 @@ Underfull \hbox (badness 7133) in paragraph at lines 151--151
 ]
 Chapter 4.
 Package epstopdf Info: Source file: <withoutodt.eps>
-(epstopdf)                    date: 2015-05-16 15:16:46
-(epstopdf)                    size: 48275 bytes
+(epstopdf)                    date: 2015-05-18 12:05:16
+(epstopdf)                    size: 52434 bytes
 (epstopdf)             Output file: <withoutodt-eps-converted-to.pdf>
 (epstopdf)                    date: 2015-05-16 15:27:57
 (epstopdf)                    size: 24587 bytes
 (epstopdf)             Command: <repstopdf --outfile=withoutodt-eps-converted-to
 .pdf withoutodt.eps>
 (epstopdf)             \includegraphics on input line 6.
-Package epstopdf Info: Output file is already uptodate.
+system(repstopdf --outfile=withoutodt-eps-converted-to.pdf withoutodt.eps) execu
+ted.
+Package epstopdf Info: Result file: <withoutodt-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-18 12:05:29
+(epstopdf)                    size: 27785 bytes.
 <withoutodt-eps-converted-to.pdf, id=260, 821.0675pt x 574.145pt>
 File: withoutodt-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1567,15 +1571,18 @@ File: withoutodt-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: withoutodt-eps-converted-to.pdf used on input line 6.
 (pdftex.def)             Requested size: 200.76086pt x 140.38203pt.
 Package epstopdf Info: Source file: <withodt.eps>
-(epstopdf)                    date: 2015-05-16 15:16:46
-(epstopdf)                    size: 48084 bytes
+(epstopdf)                    date: 2015-05-18 12:05:16
+(epstopdf)                    size: 52438 bytes
 (epstopdf)             Output file: <withodt-eps-converted-to.pdf>
 (epstopdf)                    date: 2015-05-16 15:27:57
 (epstopdf)                    size: 24218 bytes
 (epstopdf)             Command: <repstopdf --outfile=withodt-eps-converted-to.pd
 f withodt.eps>
 (epstopdf)             \includegraphics on input line 10.
-Package epstopdf Info: Output file is already uptodate.
+system(repstopdf --outfile=withodt-eps-converted-to.pdf withodt.eps) executed.
+Package epstopdf Info: Result file: <withodt-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-18 12:05:29
+(epstopdf)                    size: 27634 bytes.
 
 <withodt-eps-converted-to.pdf, id=261, 821.0675pt x 574.145pt>
 File: withodt-eps-converted-to.pdf Graphic file (type pdf)
@@ -1618,10 +1625,10 @@ Here is how much of LuaTeX's memory you used:
  865 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 26 kern, 32 attribute, 53 glue_spec, 32 att
 ribute_list, 2 write nodes
-   avail lists: 1:3,2:14394,3:328,4:1435,5:427,6:4684,7:952,9:737,10:389
+   avail lists: 1:3,2:14948,3:328,4:1435,5:446,6:4864,7:1024,9:737,10:400
  28560 multiletter control sequences out of 65536+600000
  244 fonts using 18996735 bytes
- 70i,16n,60p,4698b,1534s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 70i,16n,60p,4920b,1534s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/t
 exmf-dist/fonts/opentype/public/libertine/LinLibertine_RI.otf></usr/share/texliv
 e/texmf-dist/fonts/opentype/public/libertine/LinLibertine_R.otf><</usr/share/tex
@@ -1633,9 +1640,9 @@ ublic/mathpazo/fplmri.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/symbols/msbm10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/urw/palatin
 o/uplbi8a.pfb><</usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pf
 b><</usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on BA.pdf (23 pages, 9878744 bytes).
+Output written on BA.pdf (23 pages, 9885035 bytes).
 
-PDF statistics: 423 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 440 PDF objects out of 1000 (max. 8388607)
  260 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
