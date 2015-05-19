@@ -54,6 +54,22 @@
       \field{title}{Atom-Photon Interactions}
       \field{year}{1998}
     \endentry
+    \entry{demtroder}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=59654c899d48eff28a4d8063e886fb5f}{Demtröder}{D\bibinitperiod}{Wolfgang}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=59654c899d48eff28a4d8063e886fb5f}{Demtröder}{D\bibinitperiod}{Wolfgang}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{59654c899d48eff28a4d8063e886fb5f}
+      \strng{fullhash}{59654c899d48eff28a4d8063e886fb5f}
+      \field{sortinit}{D}
+      \field{sortinithash}{a01c54d1737685bc6dbf0ea0673fa44c}
+      \field{labeltitle}{Experimentalphysik 3}
+      \field{edition}{4}
+      \field{title}{Experimentalphysik 3}
+      \field{year}{2010}
+    \endentry
     \entry{transitions}{online}{}
       \name{labelname}{1}{}{%
         {{hash=a7e8e1ffc15552435a9f692b503665ba}{Freiburg}{F\bibinitperiod}{Universität}{U\bibinitperiod}{}{}{}{}}%
@@ -149,6 +165,23 @@
       \field{title}{Magic wavelengths for optical cooling and trapping of lithium}
       \field{year}{2012}
     \endentry
+    \entry{metcalf}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=f1ca193d37c9e0341b76b99ef733aac8}{Metcalf}{M\bibinitperiod}{Harold\bibnamedelima J.}{H\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=788904a47e2fa0b6fb05171b2d2ac964}{Straten}{S\bibinitperiod}{Peter\bibnamedelima Van}{P\bibinitperiod\bibinitdelim V\bibinitperiod}{der}{d\bibinitperiod}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=f1ca193d37c9e0341b76b99ef733aac8}{Metcalf}{M\bibinitperiod}{Harold\bibnamedelima J.}{H\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=788904a47e2fa0b6fb05171b2d2ac964}{Straten}{S\bibinitperiod}{Peter\bibnamedelima Van}{P\bibinitperiod\bibinitdelim V\bibinitperiod}{der}{d\bibinitperiod}{}{}}%
+      }
+      \strng{namehash}{f77e705948e6ff6b0dbbab0ec9f96116}
+      \strng{fullhash}{f77e705948e6ff6b0dbbab0ec9f96116}
+      \field{sortinit}{M}
+      \field{sortinithash}{4203d16473bc940d4ac780773cb7c5dd}
+      \field{labeltitle}{Laser cooling and trapping}
+      \field{title}{Laser cooling and trapping}
+      \field{year}{1999}
+    \endentry
     \entry{factor}{online}{}
       \name{labelname}{1}{}{%
         {{hash=0abde002e510c0a9bdcbbcdf166d056a}{Pudlik}{P\bibinitperiod}{Ted}{T\bibinitperiod}{}{}{}{}}%
@@ -198,6 +231,23 @@
       \field{labeltitle}{Deterministic preparation of a tunable few-fermion system}
       \field{title}{Deterministic preparation of a tunable few-fermion system}
       \field{year}{2011}
+    \endentry
+    \entry{doublewell}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=c2488a0126b9955f718c819079e116aa}{Zürn}{Z\bibinitperiod}{Simon\bibnamedelimb Murmann;\bibnamedelimb Andrea\bibnamedelimb Bergschneider;\bibnamedelimb Vincent\bibnamedelimb M.\bibnamedelimi Klinkhammer;\bibnamedelima Gerhard}{S\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=084ac77ec29daadd86b99791786428fb}{Jochim}{J\bibinitperiod}{Selim}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=c2488a0126b9955f718c819079e116aa}{Zürn}{Z\bibinitperiod}{Simon\bibnamedelimb Murmann;\bibnamedelimb Andrea\bibnamedelimb Bergschneider;\bibnamedelimb Vincent\bibnamedelimb M.\bibnamedelimi Klinkhammer;\bibnamedelima Gerhard}{S\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=084ac77ec29daadd86b99791786428fb}{Jochim}{J\bibinitperiod}{Selim}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1e0b1afa2bfa7f100036628f3edcd6bc}
+      \strng{fullhash}{1e0b1afa2bfa7f100036628f3edcd6bc}
+      \field{sortinit}{Z}
+      \field{sortinithash}{9cca09897f0dfd9ed260e065f6d82cd6}
+      \field{labeltitle}{Two Fermions in a double well: Exploring a fundamental building block of the Hubbard model}
+      \field{title}{Two Fermions in a double well: Exploring a fundamental building block of the Hubbard model}
+      \field{year}{2015}
     \endentry
   \endsortlist
 \endrefsection

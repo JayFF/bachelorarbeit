@@ -4,13 +4,13 @@ To understand the function of an optical dipole-trap one has to understand how f
 
 \section{The Hamiltonian}
 
-The problem of interaction between an atom, laser-light and in the case of this experiment also magnetic fields is represented by different parts in the total hamiltonian. The basis for all calculations is the atomic hamiltonian of the regardet Lithium-atoms $H_A$. The atom-light-interaction is represented by the Hamiltonian of the light itself $H_L$ and the interaction Hamiltonian $H_{AL}$ while the last contribution is the magnetic field Hamiltonian $H_M$.
+The problem of interaction between an atom, laser-light and in the case of this experiment also magnetic fields is represented by different parts in the total Hamiltonian. The basis for all calculations is the atomic Hamiltonian of Lithium-atoms $H_A$. The atom-light-interaction is represented by the Hamiltonian of the light itself $H_L$ and the interaction Hamiltonian $H_{AL}$, that will lead to the \textsc{ac}-Stark shft. The last contribution is the magnetic field Hamiltonian $H_M$, that is resulting in the Zeeman effect.
 \begin{equation}
 H=H_A+H_L+H_{AL}+H_{M}
-\end{equation}\label{hamiltonian}
+\end{equation}\label{Hamiltonian}
 
 \section{Lithium Level-structure}
-The atomic hamiltonian $H_A$ coresponds to the energy of the atomic species that is used in our experiment, which is Lithium-6. Lithium is a fermionic alkali-metal, whose electronic structure is mostly dependent of its one valence electron \cite{gehm}. In this approximation, the \textit{central-field approximation}, the two other bound electrons on the most inner level only contribute to the central electric field, that is suppost to be sphericaly symetric. Thus the calculation can follow the well understood model of hydrogen. The ansatz in this case is considering an elelctron with the reduced mass $\mu$ in a coulomb-potential.
+The atomic Hamiltonian $H_A$ corresponds to the energy of the atomic species. In our experiment this is Lithium-6, a fermionic alkali-metal, whose electronic structure is mostly dependent of its one valence electron \cite{gehm}. In this approximation, the \textit{central-field approximation}, the two other bound electrons on innermost level only contribute to the central electric field, that is supposed to be sphericaly symmetric. Thus the calculation can follow the well understood model of hydrogen, that can be read in detail for example in \cite{demtroder}. The ansatz in this case considers an electron with the reduced mass $\mu$ in a Coulomb-potential.
 \begin{equation}
 U(\boldsymbol{r})=-\frac{e^2Z}{4\pi\epsilon_0\boldsymbol{r}}
 \end{equation}
@@ -39,16 +39,16 @@ Nevertheless the real Lithium-atom has a substructure arising from interaction o
 
 \section{Magnetic Field}
 
-Within the experiment, the regarded atoms are exposed to strong magnetic fields. Therefore, additionally the Zeeman-Effect moves the respective levels contributing to the \textsc{ac}-Stark-Shift. In this approach we simply regard both effects as independent pertubations to the basic Hamiltonian. At strong magnetic fields, as used in the experiment, the Paschen-Back-Effect for hyperfine states dominates and instead of $F$ and $m_F$, the quantum numbers $J$ and $m_J$ are still “good“. Therefore the formula for the shift of each state is given by:
+Within the experiment, the atoms are exposed to strong magnetic fields. Therefore the Zeeman effect moves the respective levels, and therefore changes also the interaction with laser-light, i.e. the \textsc{ac}-Stark-Shift. In this approach we simply regard both effects as independent pertubations to the basic Hamiltonian. At strong magnetic fields, as used in the experiment, the Paschen-Back-Effect for hyperfine states dominates and instead of $F$ and $m_F$, the quantum numbers $J$ and $m_J$ are still “good“. Therefore the formula for the shift of each state is given by:
 \begin{equation}
 \Delta E=g_Jm_j\hslash\gamma B
 \end{equation}
-With $\gamma=e/(2m_e)$ and $g_J$ being the Landé-factor. The results are new values of energy-difference i.e. detuning for the respective transitions that now have a different contribution to the \textsc{ac}-Stark-Effect. 
+With $\gamma=e/(2m_e)$ and $g_J$ being the Landé-factor. The results are new values of energy-difference, i.e. detuning for the respective transitions. For Lithium-6 the effect shifts the levels in the order of $1\unit{MHz/G}$.
 
 \newpage
 \newpage
 \section{AC-Stark-Shift}
-The \textsc{ac}-Stark-Shift arises from the interaction of electric fields with the regarded atom. Before treating this problem quantum-mechanicaly in terms of our Hamiltonian (\ref{hamiltonian}), we look at the problem in a classical model, that already results in a formula, that is very accurate in certain systems. 
+The \textsc{ac}-Stark-Shift arises from the interaction of electric fields with the regarded atom. Before treating this problem quantum-mechanicaly in terms of our Hamiltonian (\ref{Hamiltonian}), we look at the problem in a classical model, that already results in a formula, that is very accurate in certain systems. 
 \subsection{Lorentz Oscillator Model}
 
  Classicaly the problem of light-matter-interaction can be described in terms of an atomic dipole moment induced by an oscillating electric field, following \cite{dipole}. The atom is hereby described as a damped harmonic ocillator driven by the field. Intuitively one can think of the electrons and the core being pulled away from each other by the electric force, resulting in an oscillation against each other. The potential arising from these conditions is the following\footnote{The force on a dipole is given by \cite{factor}:
@@ -109,7 +109,7 @@ In this case, the damping parameter $\Gamma$ corresponds to the linewidth of the
 
 After this classical treatment, we come back to calculating the same effect quantum-mechanically. For calculating the energy-shift for the first excited state, this is the only way to get a trustworthy result since in contrast to the ground state of Lithium it can not be approximated by a two-level-system with only one transition. Therefore we have to solve the problem more precicely. 
 
-The interaction of the atom with laser-light is described by the two additional parts in the original hamiltonian (\ref{hamiltonian}) $H_L+H_{AL}$. The light-hamiltonian $H_L$ is hereby negligible, because the regarded laser-light of the used dipole-trap is farly detuned from the relevant transition resonances. Therefore the only relevant part of this set of terms is the interaction-hamiltonian, which depends on the dipole-operator $\mu$ and the electric-field-operator $E$ and has the following form: $H_{AL}=-\mu E=-e\boldsymbol{r} E$. It can be treated as a small pertubation of the atomic hamiltonian, thus in the relevant second-order pertubation-theory the energy-shift is the following \cite{dipole}:
+The interaction of the atom with laser-light is described by the two additional parts in the original Hamiltonian (\ref{Hamiltonian}) $H_L+H_{AL}$. The light-Hamiltonian $H_L$ is hereby negligible, because the regarded laser-light of the used dipole-trap is farly detuned from the relevant transition resonances. Therefore the only relevant part of this set of terms is the interaction-Hamiltonian, which depends on the dipole-operator $\mu$ and the electric-field-operator $E$ and has the following form: $H_{AL}=-\mu E=-e\boldsymbol{r} E$. It can be treated as a small pertubation of the atomic Hamiltonian, thus in the relevant second-order pertubation-theory the energy-shift is the following \cite{dipole}:
 \begin{equation}
 \Delta W=\sum_{k\neq j}\frac{|\braopket{j}{H_{AL}}{k}|^2}{W_k-W_j}
 \label{pertub1}
