@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2015.5.11)  18 MAY 2015 18:39
+This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2015.5.11)  19 MAY 2015 11:14
  restricted \write18 enabled.
 **BA.tex
 (./BA.tex
@@ -338,7 +338,7 @@ luatexbase-attr: luatexbase.attributes["luaotfload@cursbase"] = 6
 luatexbase-attr: luatexbase.attributes["luaotfload@curscurs"] = 7
 luatexbase-attr: luatexbase.attributes["luaotfload@cursdone"] = 8
 luatexbase-attr: luatexbase.attributes["luaotfload@state"] = 9
-luaotfload | main : fontloader loaded in 0.021 seconds
+luaotfload | main : fontloader loaded in 0.022 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -1169,7 +1169,7 @@ Package biblatex Info: ... file 'BA.bbl' found.
 (./BA.bbl)
 Package biblatex Info: Reference section=0 on input line 32.
 Package biblatex Info: Reference segment=0 on input line 32.
- (./experiment.tex
+ (./introduction.tex
 Chapter 1.
 
 Class scrbook Warning: \float@addtolists detected!
@@ -1187,8 +1187,22 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              deprecated \float@addtolist interface .
 
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_R.otf"
-luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_R.otf" <exp
-eriment.JPG, id=1, 1305.87875pt x 458.71375pt>
+luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_R.otf") [1
+
+
+
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./experiment.tex
+[2
+
+
+
+
+]
+Chapter 2.
+<experiment.JPG, id=10, 1305.87875pt x 458.71375pt>
 File: experiment.JPG Graphic file (type jpg)
  <use experiment.JPG>
 Package pdftex.def Info: experiment.JPG used on input line 6.
@@ -1204,21 +1218,14 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 17.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
-
-
-
-
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<./experiment.JPG>]
-<dipolefoto.png, id=8, 830.35219pt x 284.56313pt>
+) [3<./experiment.JPG>]
+<dipolefoto.png, id=14, 830.35219pt x 284.56313pt>
 File: dipolefoto.png Graphic file (type png)
  <use dipolefoto.png>
 Package pdftex.def Info: dipolefoto.png used on input line 22.
 (pdftex.def)             Requested size: 334.60571pt x 114.66994pt.
 
-<scheme.png, id=9, 558.58687pt x 671.50874pt>
+<scheme.png, id=15, 558.58687pt x 671.50874pt>
 File: scheme.png Graphic file (type png)
  <use scheme.png>
 Package pdftex.def Info: scheme.png used on input line 31.
@@ -1231,21 +1238,21 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Font Info:    Font shape `EU2/LinuxLibertineO(0)/m/sl' in size <10.95> not
  available
 (Font)              Font shape `EU2/LinuxLibertineO(0)/m/it' tried instead on in
-put line 37.
+put line 38.
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_RI.otf"
-luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_RI.otf" [2<.
-/dipolefoto.png>] [3<./scheme.png>] (./theory.tex [4
+luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_RI.otf" [4<.
+/dipolefoto.png>] [5<./scheme.png>] (./theory.tex [6
 
 
 
 
 ]
-Chapter 2.
+Chapter 3.
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_R.otf"
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_RB.otf"
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_RB.otf"
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_RB.otf" <le
-vels2.png, id=21, 932.283pt x 888.921pt>
+vels2.png, id=27, 932.283pt x 888.921pt>
 File: levels2.png Graphic file (type png)
  <use levels2.png>
 Package pdftex.def Info: levels2.png used on input line 24.
@@ -1256,62 +1263,62 @@ Overfull \hbox (0.47597pt too wide) in paragraph at lines 20--28
 er-ing this Hamil-to-nian leads to a set of wave-functions
  []
 
-[5] <levels1.png, id=30, 527.72156pt x 497.60907pt>
+[7] <levels1.png, id=36, 527.72156pt x 497.60907pt>
 File: levels1.png Graphic file (type png)
  <use levels1.png>
 Package pdftex.def Info: levels1.png used on input line 34.
 (pdftex.def)             Requested size: 263.86014pt x 248.80392pt.
- [6<./levels2.png>] [7<./levels1.png>]
+ [8<./levels2.png>] [9<./levels1.png>]
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_R.otf"
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_R.otf"
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_R.otf"
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_RB.otf"
-luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_RB.otf" [8]
-
+luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_RB.otf" [10
+]
 Overfull \hbox (7.89282pt too wide) in paragraph at lines 110--111
 []\EU2/LinuxLibertineO(0)/m/n/10.95 Af-ter this clas-si-cal treat-ment, we come
  back to cal-cu-lat-ing the same ef-fect quantum-mechanically.
  []
 
-[9]
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 120--123
 
  []
 
-[10]
+[12]
 Underfull \vbox (badness 1755) has occurred while \output is active []
 
- [11]
-[12] [13]) [14] (./calculation.tex
-Chapter 3.
+ [13]
+[14] [15]) [16] (./calculation.tex
+Chapter 4.
 
 Underfull \vbox (badness 4859) has occurred while \output is active []
 
- [15
+ [17
 
 
 
 
 ]
-<alphaground.pdf, id=77, 361.35pt x 210.7875pt>
+<alphaground.pdf, id=83, 361.35pt x 210.7875pt>
 File: alphaground.pdf Graphic file (type pdf)
  <use alphaground.pdf>
 Package pdftex.def Info: alphaground.pdf used on input line 55.
 (pdftex.def)             Requested size: 167.29967pt x 97.5906pt.
 luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_R.otf"
-<alphaexited12.pdf, id=78, 361.35pt x 206.7725pt>
+<alphaexited12.pdf, id=84, 361.35pt x 206.7725pt>
 File: alphaexited12.pdf Graphic file (type pdf)
  <use alphaexited12.pdf>
 Package pdftex.def Info: alphaexited12.pdf used on input line 59.
 (pdftex.def)             Requested size: 167.29967pt x 95.73174pt.
 
-<alphaexited32.pdf, id=79, 361.35pt x 209.78375pt>
+<alphaexited32.pdf, id=85, 361.35pt x 209.78375pt>
 File: alphaexited32.pdf Graphic file (type pdf)
  <use alphaexited32.pdf>
 Package pdftex.def Info: alphaexited32.pdf used on input line 63.
 (pdftex.def)             Requested size: 167.29967pt x 97.12589pt.
 
-<alphaalltogether.pdf, id=80, 361.35pt x 210.7875pt>
+<alphaalltogether.pdf, id=86, 361.35pt x 210.7875pt>
 File: alphaalltogether.pdf Graphic file (type pdf)
 
 <use alphaalltogether.pdf>
@@ -1320,16 +1327,16 @@ Package pdftex.def Info: alphaalltogether.pdf used on input line 67.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16]
-[17<./alphaground.pdf><./alphaexited12.pdf><./alphaexited32.pdf><./alphaalltoget
-her.pdf>] <alphascalarconvexcited.pdf, id=157, 361.35pt x 193.72375pt>
+ [18]
+[19<./alphaground.pdf><./alphaexited12.pdf><./alphaexited32.pdf><./alphaalltoget
+her.pdf>] <alphascalarconvexcited.pdf, id=163, 361.35pt x 193.72375pt>
 File: alphascalarconvexcited.pdf Graphic file (type pdf)
 
 <use alphascalarconvexcited.pdf>
 Package pdftex.def Info: alphascalarconvexcited.pdf used on input line 101.
 (pdftex.def)             Requested size: 167.29967pt x 89.69041pt.
 
-<alphatensorconvexcited.pdf, id=158, 361.35pt x 202.7575pt>
+<alphatensorconvexcited.pdf, id=164, 361.35pt x 202.7575pt>
 File: alphatensorconvexcited.pdf Graphic file (type pdf)
 
 <use alphatensorconvexcited.pdf>
@@ -1338,22 +1345,22 @@ Package pdftex.def Info: alphatensorconvexcited.pdf used on input line 105.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18]
-<alphascalarconvground1.pdf, id=162, 361.35pt x 212.795pt>
+ [20]
+<alphascalarconvground1.pdf, id=168, 361.35pt x 212.795pt>
 File: alphascalarconvground1.pdf Graphic file (type pdf)
 
 <use alphascalarconvground1.pdf>
 Package pdftex.def Info: alphascalarconvground1.pdf used on input line 119.
 (pdftex.def)             Requested size: 167.29967pt x 98.52003pt.
 
-<alphascalarconvground2.pdf, id=163, 361.35pt x 201.75375pt>
+<alphascalarconvground2.pdf, id=169, 361.35pt x 201.75375pt>
 File: alphascalarconvground2.pdf Graphic file (type pdf)
 
 <use alphascalarconvground2.pdf>
 Package pdftex.def Info: alphascalarconvground2.pdf used on input line 123.
 (pdftex.def)             Requested size: 167.29967pt x 93.40816pt.
 
-<crossed_dipole_trap.png, id=164, 118.4425pt x 433.62pt>
+<crossed_dipole_trap.png, id=170, 118.4425pt x 433.62pt>
 File: crossed_dipole_trap.png Graphic file (type png)
 
 <use crossed_dipole_trap.png>
@@ -1362,15 +1369,15 @@ Package pdftex.def Info: crossed_dipole_trap.png used on input line 136.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19<./alphascalarconvexcited.pdf><./alphatensorconvexcited.pdf><./alphascalarco
-nvground1.pdf><./alphascalarconvground2.pdf>] <shift.pdf, id=237, 361.35pt x 21
+ [21<./alphascalarconvexcited.pdf><./alphatensorconvexcited.pdf><./alphascalarco
+nvground1.pdf><./alphascalarconvground2.pdf>] <shift.pdf, id=244, 361.35pt x 21
 4.8025pt>
 File: shift.pdf Graphic file (type pdf)
 
 <use shift.pdf>
 Package pdftex.def Info: shift.pdf used on input line 146.
 (pdftex.def)             Requested size: 167.29967pt x 99.44948pt.
- <difshifterror.pdf, id=238, 361.35pt x 214.8025pt>
+ <difshifterror.pdf, id=245, 361.35pt x 214.8025pt>
 File: difshifterror.pdf Graphic file (type pdf)
 
 <use difshifterror.pdf>
@@ -1390,14 +1397,14 @@ Underfull \hbox (badness 7133) in paragraph at lines 151--151
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20<./crossed_dipole_trap.png><./shift.pdf><./difshifterror.pdf>] [21] (./meas
-urements.tex [22
+ [22<./crossed_dipole_trap.png><./shift.pdf><./difshifterror.pdf>] [23] (./meas
+urements.tex [24
 
 
 
 
 ]
-Chapter 4.
+Chapter 5.
 Package epstopdf Info: Source file: <withoutodt.eps>
 (epstopdf)                    date: 2015-05-18 12:05:16
 (epstopdf)                    size: 52434 bytes
@@ -1408,7 +1415,7 @@ Package epstopdf Info: Source file: <withoutodt.eps>
 .pdf withoutodt.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
-<withoutodt-eps-converted-to.pdf, id=283, 821.0675pt x 574.145pt>
+<withoutodt-eps-converted-to.pdf, id=289, 821.0675pt x 574.145pt>
 File: withoutodt-eps-converted-to.pdf Graphic file (type pdf)
 
 <use withoutodt-eps-converted-to.pdf>
@@ -1425,7 +1432,7 @@ f withodt.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 
-<withodt-eps-converted-to.pdf, id=284, 821.0675pt x 574.145pt>
+<withodt-eps-converted-to.pdf, id=290, 821.0675pt x 574.145pt>
 File: withodt-eps-converted-to.pdf Graphic file (type pdf)
 
 <use withodt-eps-converted-to.pdf>
@@ -1442,13 +1449,13 @@ Package epstopdf Info: Source file: <Shift2.eps>
 (epstopdf)             \includegraphics on input line 24.
 Package epstopdf Info: Output file is already uptodate.
 
-<Shift2-eps-converted-to.pdf, id=285, 774.895pt x 593.21625pt>
+<Shift2-eps-converted-to.pdf, id=291, 774.895pt x 593.21625pt>
 File: Shift2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Shift2-eps-converted-to.pdf>
 Package pdftex.def Info: Shift2-eps-converted-to.pdf used on input line 24.
 (pdftex.def)             Requested size: 334.60571pt x 256.15517pt.
- [23<./withoutodt-eps-converted-to.pdf><./withodt-eps-converted-to.pdf>]
+ [25<./withoutodt-eps-converted-to.pdf><./withodt-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <shiftintens.eps>
 (epstopdf)                    date: 2015-05-18 14:36:10
 (epstopdf)                    size: 52288 bytes
@@ -1460,7 +1467,7 @@ o.pdf shiftintens.eps>
 (epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
 
-<shiftintens-eps-converted-to.pdf, id=374, 774.895pt x 593.21625pt>
+<shiftintens-eps-converted-to.pdf, id=380, 774.895pt x 593.21625pt>
 File: shiftintens-eps-converted-to.pdf Graphic file (type pdf)
 
 <use shiftintens-eps-converted-to.pdf>
@@ -1471,9 +1478,9 @@ Package pdftex.def Info: shiftintens-eps-converted-to.pdf used on input line 35.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[24<./Shift2-eps-converted-to.pdf>]) [25<./shiftintens-eps-converted-to.pdf>]
-(./BA.aux (./experiment.aux) (./theory.aux) (./calculation.aux)
-(./measurements.aux))
+[26<./Shift2-eps-converted-to.pdf>]) [27<./shiftintens-eps-converted-to.pdf>]
+(./BA.aux (./introduction.aux) (./experiment.aux) (./theory.aux)
+(./calculation.aux) (./measurements.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1481,14 +1488,14 @@ Package logreq Info: Writing requests to 'BA.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 25636 strings out of 493787
+ 25655 strings out of 493787
  100000,953878 words of node,token memory allocated
- 879 words of node memory still in use:
+ 880 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 26 kern, 32 attribute, 53 glue_spec, 32 att
 ribute_list, 2 write nodes
-   avail lists: 2:9412,3:330,4:1437,5:293,6:3042,7:219,8:1,9:737,10:253
- 28442 multiletter control sequences out of 65536+600000
- 98 fonts using 12703367 bytes
+   avail lists: 1:1,2:9386,3:330,4:1437,5:293,6:3042,7:221,8:1,9:737,10:253
+ 28445 multiletter control sequences out of 65536+600000
+ 98 fonts using 12703463 bytes
  70i,16n,60p,2407b,1533s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texlive/texmf-dist/fonts/opentype/public/libertine/LinLibertine_RI.o
 tf></usr/share/texlive/texmf-dist/fonts/opentype/public/libertine/LinLibertine_R
@@ -1513,10 +1520,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><</usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy8.pfb><</usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy9.pfb><</usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/symbols/msbm10.pfb>
-Output written on BA.pdf (25 pages, 11046432 bytes).
+Output written on BA.pdf (27 pages, 11048503 bytes).
 
-PDF statistics: 547 PDF objects out of 1000 (max. 8388607)
- 313 compressed objects within 4 object streams
+PDF statistics: 553 PDF objects out of 1000 (max. 8388607)
+ 317 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
