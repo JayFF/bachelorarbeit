@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2015.5.11)  19 MAY 2015 18:09
+This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2015.5.11)  19 MAY 2015 20:55
  restricted \write18 enabled.
 **BA.tex
 (./BA.tex
@@ -338,7 +338,7 @@ luatexbase-attr: luatexbase.attributes["luaotfload@cursbase"] = 6
 luatexbase-attr: luatexbase.attributes["luaotfload@curscurs"] = 7
 luatexbase-attr: luatexbase.attributes["luaotfload@cursdone"] = 8
 luatexbase-attr: luatexbase.attributes["luaotfload@state"] = 9
-luaotfload | main : fontloader loaded in 0.021 seconds
+luaotfload | main : fontloader loaded in 0.020 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -1522,14 +1522,14 @@ Package logreq Info: Writing requests to 'BA.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 25716 strings out of 493787
+ 25717 strings out of 493787
  100000,953878 words of node,token memory allocated
  876 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 26 kern, 31 attribute, 53 glue_spec, 31 att
 ribute_list, 1 write nodes
-   avail lists: 1:1,2:10387,3:331,4:1437,5:294,6:3405,7:250,8:1,9:737,10:346
- 28491 multiletter control sequences out of 65536+600000
- 99 fonts using 12823447 bytes
+   avail lists: 1:1,2:10401,3:331,4:1437,5:294,6:3409,7:249,8:1,9:737,10:346
+ 28492 multiletter control sequences out of 65536+600000
+ 99 fonts using 12823303 bytes
  70i,16n,60p,2572b,1533s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf></usr/share/texl
 ive/texmf-dist/fonts/opentype/public/libertine/LinLibertine_RI.otf></usr/share/t
@@ -1555,7 +1555,7 @@ e1/public/amsfonts/cm/cmsy6.pfb><</usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmsy8.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsy9.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sy
 mbols/msbm10.pfb>
-Output written on BA.pdf (29 pages, 11060484 bytes).
+Output written on BA.pdf (29 pages, 11060633 bytes).
 
 PDF statistics: 566 PDF objects out of 1000 (max. 8388607)
  325 compressed objects within 4 object streams

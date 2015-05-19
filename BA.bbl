@@ -232,6 +232,23 @@
       \field{title}{Deterministic preparation of a tunable few-fermion system}
       \field{year}{2011}
     \endentry
+    \entry{ketterle}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=0e55de05ff7793c4cf9baf5936176830}{W.\bibnamedelimi Ketterle}{W\bibinitperiod\bibinitdelim K\bibinitperiod}{D.S.\bibnamedelimi Durfee}{D\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=713635307e87f65420f5c0ac62acc1dc}{Stamper-Kurn}{S\bibinithyphendelim K\bibinitperiod}{D.M.}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=0e55de05ff7793c4cf9baf5936176830}{W.\bibnamedelimi Ketterle}{W\bibinitperiod\bibinitdelim K\bibinitperiod}{D.S.\bibnamedelimi Durfee}{D\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=713635307e87f65420f5c0ac62acc1dc}{Stamper-Kurn}{S\bibinithyphendelim K\bibinitperiod}{D.M.}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{cd7dc45d637cf39691fc20ea269ee85e}
+      \strng{fullhash}{cd7dc45d637cf39691fc20ea269ee85e}
+      \field{sortinit}{W}
+      \field{sortinithash}{e560dae78a85a037c3da51c61467873a}
+      \field{labeltitle}{Making, probing and understanding Bose-Einstein condensates}
+      \field{title}{Making, probing and understanding Bose-Einstein condensates}
+      \field{year}{1999}
+    \endentry
     \entry{doublewell}{article}{}
       \name{labelname}{2}{}{%
         {{hash=c2488a0126b9955f718c819079e116aa}{Zürn}{Z\bibinitperiod}{Simon\bibnamedelimb Murmann;\bibnamedelimb Andrea\bibnamedelimb Bergschneider;\bibnamedelimb Vincent\bibnamedelimb M.\bibnamedelimi Klinkhammer;\bibnamedelima Gerhard}{S\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
