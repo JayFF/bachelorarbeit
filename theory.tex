@@ -1,6 +1,6 @@
 \chapter{Theory}
 
-To understand the function of an optical dipole-trap one has to understand how far detuned light, more specificly the electric field component, interacts with a neutral atom. There are several models providing different levels of accuracy for the respective application. The atom can be treated rather classically by regarding it as a harmonic oscillator driven by an electric field. It can be treated semiclassically by considering the quantum nature and structure of the atom while still approximate the incoming light as electromagnetic waves. In this model the problem can be solved in second-order pertubation theory. The third approach is treating the atom quantum mechanically as well as the light, now consisting of quantised photons interacting with the atom. For this thesis only the first two approaches are relevant. 
+To understand the function of an optical dipole-trap one has to understand how far detuned light, more specificly the electric field component, interacts with a neutral atom. There are several models providing different levels of accuracy for the respective application. The atom can be treated rather classically by regarding it as a harmonic oscillator driven by an electric field. It can be treated semiclassically by considering the quantum nature and structure of the atom while still approximate the incoming light as electromagnetic waves. In this model the problem can be solved in second-order pertubation theory. The third approach is treating the atom quantum mechanically as well as the light, now consisting of quantised photons interacting with the atom. For this thesis only the first two approaches were considered. 
 
 \section{The Hamiltonian}
 
@@ -10,7 +10,7 @@ H=H_A+H_L+H_{AL}+H_{M}
 \end{equation}\label{Hamiltonian}
 
 \section{Lithium Level-structure}
-The atomic Hamiltonian $H_A$ corresponds to the energy of the atomic species. In our experiment this is Lithium-6, a fermionic alkali-metal, whose electronic structure is mostly dependent of its one valence electron \cite{gehm}. In this approximation, the \textit{central-field approximation}, the two other bound electrons on innermost level only contribute to the central electric field, that is supposed to be sphericaly symmetric. Thus the calculation can follow the well understood model of hydrogen, that can be read in detail for example in \cite{demtroder}. The ansatz in this case considers an electron with the reduced mass $\mu$ in a Coulomb-potential.
+The atomic Hamiltonian $H_A$ corresponds to the energy of the atomic species. In our experiment this is Lithium-6, a fermionic alkali-metal, whose electronic structure is mostly dependent of its single valence electron \cite{gehm}. In this approximation, the \textit{central-field approximation}, the two other bound electrons on innermost level only contribute to the central electric field, that is supposed to be spherically symmetric. Thus the calculation can follow the well understood model of hydrogen, that can be read in detail for example in \cite{demtroder}. The approach in this case considers an electron with the reduced mass $\mu$ in a Coulomb-potential.
 \begin{equation}
 U(\boldsymbol{r})=-\frac{e^2Z}{4\pi\epsilon_0\boldsymbol{r}}
 \end{equation}
@@ -26,7 +26,7 @@ Solving the Schrödinger-Equation considering this Hamiltonian leads to a set of
 \caption{Level structure of Lithium with the respective transitions, according to selection rules \cite{transitions}.}
 \label{levels2}
 \end{figure}
-Nevertheless the real Lithium-atom has a substructure arising from interaction of the nuclear spin and the electrons angular momentum. This effect results in the hyperfinestructure that breaks the degeneracy of the levels with same quantum number $J$. In the picture of hyperfinestructure the total angular momentum and thenuclear spon $I$ couple to the new total angular momentum $F=J\pm I$ with their respective projections $m_F=F,F-1,\dots,-F+1,F$ that result in a even finer splitting of the lines, and fully characterize the state of the Lithium-atom.
+Nevertheless the real Lithium-atom has a substructure arising from interaction of the nuclear spin and the valence electrons angular momentum. This effect results in the hyperfinestructure that breaks the degeneracy of the levels with same quantum number $J$. In the picture of hyperfinestructure the total angular momentum and thenuclear spon $I$ couple to the new total angular momentum $F=J\pm I$ with their respective projections $m_F=F,F-1,\dots,-F+1,F$ that result in a even finer splitting of the lines, which fully characterize the state of the Lithium-atom.
 
 \begin{figure}[H]
 
@@ -51,7 +51,7 @@ With $\gamma=e/(2m_e)$ and $g_J$ being the Landé-factor. The results are new va
 The \textsc{ac}-Stark-Shift arises from the interaction of electric fields with the regarded atom. Before treating this problem quantum-mechanicaly in terms of our Hamiltonian (\ref{Hamiltonian}), we look at the problem in a classical model, that already results in a formula, that is very accurate in certain systems. 
 \subsection{Lorentz Oscillator Model}
 
- Classicaly the problem of light-matter-interaction can be described in terms of an atomic dipole moment induced by an oscillating electric field, following \cite{dipole}. The atom is hereby described as a damped harmonic ocillator driven by the field. Intuitively one can think of the electrons and the core being pulled away from each other by the electric force, resulting in an oscillation against each other. The potential arising from these conditions is the following\footnote{The force on a dipole is given by \cite{factor}:
+ Classically the problem of light-matter-interaction can be described in terms of an atomic dipole moment induced by an oscillating electric field, following \cite{dipole}. The atom is hereby described as a damped harmonic ocillator driven by the field. Intuitively one can think of the electrons and the atomic nucleus being pulled away from each other by the electric force, resulting in an oscillation against each other. The potential arising from these conditions is the following\footnote{The force on a dipole is given by \cite{factor}:
 \begin{equation*}
 \boldsymbol{F}=(\boldsymbol{p}\cdot\nabla)\boldsymbol{E}
 \end{equation*}
@@ -81,19 +81,19 @@ Here $\boldsymbol{p}$ is the induced dipole moment, $\boldsymbol{E}$ the electri
 U=-\frac{1}{2\epsilon_0 c}\mathrm{Re}(\alpha)I
 \end{equation} 
 
-To calculate the exact potential one has to obtain a value for the polarizability $\alpha$. In this classical description an electron is considered bound to the core elastically with the oscillation eigenfrequency $\omega_0$. This corresponds to the optical transition frequency. In our practical case that is the frequency of the Lithium-D2-Line. In a real atom, there are of course multiple resonances, corresponding to multible states of the electron, Thus this approximation yields only for certain cases in which the system can also be regarded as a quantum mechanical two-state-system. We will later see, that while this approach leads to a very accurate calculation for the Lithium ground state, it can not at all be applied to the calculation of the trapping potential for the first excited state, since there exists no single dominant transition, but multiple resonances. They all contribute to the respective energy-shift, in contrast to the groundstate.
+To calculate the exact potential one has to obtain a value for the polarizability $\alpha$. In this classical description an electron is considered bound to the core elastically with the oscillation eigenfrequency $\omega_0$. This corresponds to the optical transition frequency. In our practical case that is the frequency of the Lithium-D2-Line. In a real atom, there are of course multiple resonances, corresponding to multible states of the electron, Thus this approximation matches only  certain cases in which the system can also be regarded as a quantum mechanical two-state-system. We will later see, that while this approach leads to a very accurate calculation for the Lithium ground state, it can not at all be applied to the calculation of the trapping potential for the first excited state. In contrast to the ground state, there exists no single dominant transition, but multiple resonances. They all contribute to the respective energy-shift.
 
 The polarizability now can be calculated by solving the equation of motion of a driven and damped harmonic oscillator.
 \begin{equation}
 \ddot x+\Gamma_\omega\dot x+\omega^2_0x=-\frac{eE(t)}{m_e}
 \end{equation} 
-for that the solution can be calculated using basic tools for differential-equation-solving. The result is then:
+for that the solution can be calculated using basic tools for solving ordinary differential equations. The result is then:
 \begin{equation}
 \alpha=\frac{e^2}{m_e}\frac{1}{\omega^2_0-\omega^2-\mathrm{i}\omega\Gamma_\omega}
 \end{equation} 
 With
 \begin{equation}
-\Gamma_\omega=\frac{e^2\om^2}{6\pi\epsilon_0m_ec^3}
+\Gamma_\omega=\frac{e^2\om^2}{6\pi\epsilon_0m_ec^3}core
 \end{equation}
 We can substitute $e^2/m_e=6\pi\epsilon_0c^3\Gamma_\omega/\om^2$ and define the on-resonance damping rate $\Gamma:=(\om_0/\om)^2\Gamma_\omega$ witch results in the form:
 \begin{equation}
@@ -107,7 +107,7 @@ In this case, the damping parameter $\Gamma$ corresponds to the linewidth of the
 
 \subsection{Energy-Shift in Pertubation Theory}
 
-After this classical treatment, we come back to calculating the same effect quantum-mechanically. For calculating the energy-shift for the first excited state, this is the only way to get a trustworthy result since in contrast to the ground state of Lithium it can not be approximated by a two-level-system with only one transition. Therefore we have to solve the problem more precisely. 
+After this classical treatment, we come back to calculating the same effect quantum mechanically. For calculating the energy-shift for the first excited state, this is the only approach to get a trustworthy result since in contrast to the ground state of Lithium it cannot be approximated by a two-level-system with only one transition. Therefore we have to solve the problem more precisely. 
 
 The interaction of the atom with laser-light is described by the two additional parts in the original Hamiltonian (\ref{Hamiltonian}) $H_L+H_{AL}$. The light-Hamiltonian $H_L$ is hereby negligible, because the regarded laser-light of the used dipole-trap is far detuned from the relevant transition resonances. Therefore the only relevant part of this set of terms is the interaction-Hamiltonian, which depends on the dipole-operator $\mu$ and the electric-field-operator $E$ and has the following form: $H_{AL}=-\hat{\mu} \boldsymbol{E}=-e\boldsymbol{r} \boldsymbol{E}$. It can be treated as a small pertubation of the atomic Hamiltonian, thus in the relevant second-order pertubation-theory the energy-shift is the following \cite{dipole}:
 \begin{equation}

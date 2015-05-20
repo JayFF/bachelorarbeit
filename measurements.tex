@@ -1,23 +1,7 @@
 \chapter{Measurements}
 For evaluating the calulations in the experiment the resonance-frequency of the D2-Line was measured. 
 
-\section{Imaging}
 
-To understand how that has been done, the different methods of imaging used in the setup are described briefly.
-
-\subsection{Absorbtion imaging}
-
-Absorbtion imaging is a common method to image clouds of atoms\cite{ketterle}. A resonant beam is pointed on a camera, through the sample, and partly gets absorbed. Therefore a shadow is visible on the sensor, that shows the density distribution along the cloud. By fitting a gaussian curve on that distribution the atom-number can be estimated.
-
-In this setup we use a tunable, grating stabilised diode laser (Toptica \textsc{dl}-100). To get usable noise-free data three images has to be taken. The first is taken, when the actual imaging is done, with the atom cloud in the beam path. The next is taken when the atom cloud has cleared, with pure laser-light to account for noise of the light source. The last one is taken in the dark to accound for disturbance of the ambient light. When both corrections are subtracted one gets a clear image of the atomic cloud.
-
-This technique is very efficient in imaging clouds of atoms, because the measured time-period is short. Therefore also time-of-flight measurements can be done, when taking pictures after waiting a certain inveral, that enables not only to see the form of the cloud and estimate the atom numbers, but also measure the particles velocities and therefore their momentum.
-
-However, this method is no suitable for resolving single atoms, because a certain density is nessessairy to make an estimate, using the gaussian fit. For this one has to rely on the more basic flourescence imaging.
-
-\subsection{Flourescence imaging}
-
-The method of flourescence imaging is very basic\cite{timo}. Resonant light excites the atoms, that spontaniously re-emit photons, that can be caught on camera. In a large \textsc{mot} this method is canonical, because the trapping beams are in resonance and the resulting flourescence can even be seen with the naked eye. When imaging smaller ammounds of partice the process is less trivial, because spontanious emission is directed randomly and only a small portion of the emitted light is caught on camera. That means a larger ammound of emitted and therefore absorbd photons is nessessairy to get a visible result. But in contrast to absorbtion imaging, it is possible in our setup to even image single atoms. After they are released from the microtrap a smaller \textsc{mot} is activated, that can hold the atoms long enough to catch enough light on the sensor. This however only enables to count the number of the atoms. By knowing the parameters used for preperation it is possible to idetify the quantum state of the system before release. Yet in a multiwell potential or optical lattice it can be also very usefull to resolve the atoms spatially in their respective lattice sites. When exciting the atoms while still keeping the trap lasers acitvated the question is now, whether the atoms can be stored long enough in their potential to emit enough light to see them.
 
 \section{Evaluation}
 \begin{figure}[H]
@@ -85,8 +69,12 @@ The approximate value used for the calculation, taken from \cite{lompe} was 40\m
 
 Trusting the tested theory we now can calculate the depth for the microtrap in that the flourescence imaging is meant to be implemented. The current waist of the trap is 1.3 $\mu$m using laser power of 400 $\mu$\textsc{w}. This leads to a trap depth of
 \begin{align}
-U_g=&-(0.126\pm 0.013)\unit{MHz}h=-(6.03\pm 0.61)\unit{\mu K}k\\
-U_e=&-(0.0813\pm 0.0082)\unit{MHz}h=-(3.90\pm 0.39)\unit{\mu K}k\\
+U_g=&-(6.03\pm 0.61)\unit{\mu K}\ k_B\\
+U_e=&-(3.90\pm 0.39)\unit{\mu K}\ k_B
 \end{align}
-Assuming a 5\%-error on the beams waist. We can use $p_\gamma=h/\lambda$ and $T_{Li}=p^2/2m_{Li}$ to calculate the kinetic energy of an excited Lithium-6 atom. The trap depth corresponts roughly to the momentum of a single photon	
+Assuming a 5\%-error on the beams waist. We can use $p_\gamma=h/\lambda$ and $T_{Li}=p^2/2m_{Li}$ to calculate the kinetic energy of an excited Lithium-6 atom. The trap depth corresponts roughly to the momentum of only a single photon, that is reemitted in a random direction. Therefore the trap is not deep enough for holding an atom for enough absorbtion events to actually measure the fluorescence. However, it is possible in our setup to ramp the laserpower up to about 500 mW, that would correspond to the energy of about 1400 photon recoil energies.
+\begin{align}
+U_g=&-(7.54\pm 0.76)\unit{mK}\ k_B\\
+U_e=&-(4.88\pm 0.49)\unit{mK}\ k_B
+\end{align}
 

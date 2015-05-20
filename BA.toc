@@ -2,44 +2,44 @@
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{5}
+\contentsline {chapter}{\numberline {1}Introduction}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}The Experiment}{7}
+\contentsline {chapter}{\numberline {2}The Experiment}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Theory}{11}
+\contentsline {section}{\numberline {2.1}Imaging}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}The Hamiltonian}{11}
+\contentsline {subsection}{\numberline {2.1.1}Absorbtion imaging}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Lithium Level-structure}{11}
+\contentsline {subsection}{\numberline {2.1.2}Flourescence imaging}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Magnetic Field}{13}
+\contentsline {chapter}{\numberline {3}Theory}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}AC-Stark-Shift}{14}
+\contentsline {section}{\numberline {3.1}The Hamiltonian}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Lorentz Oscillator Model}{14}
+\contentsline {section}{\numberline {3.2}Lithium Level-structure}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.2}Energy-Shift in Pertubation Theory}{15}
+\contentsline {section}{\numberline {3.3}Magnetic Field}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Dipole Traps}{20}
+\contentsline {section}{\numberline {3.4}AC-Stark-Shift}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Calculation of the AC-Stark-Shift}{21}
+\contentsline {subsection}{\numberline {3.4.1}Lorentz Oscillator Model}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Polarizability}{21}
+\contentsline {subsection}{\numberline {3.4.2}Energy-Shift in Pertubation Theory}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Convergence for the calculation}{25}
+\contentsline {section}{\numberline {3.5}Dipole Traps}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Depth of the crossed dipole trap}{26}
+\contentsline {chapter}{\numberline {4}Calculation of the AC-Stark-Shift}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Comparison to the classical formula}{27}
+\contentsline {section}{\numberline {4.1}Polarizability}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Measurements}{29}
+\contentsline {subsection}{\numberline {4.1.1}Convergence for the calculation}{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Imaging}{29}
+\contentsline {section}{\numberline {4.2}Depth of the crossed dipole trap}{28}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.1}Absorbtion imaging}{29}
+\contentsline {section}{\numberline {4.3}Comparison to the classical formula}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.2}Flourescence imaging}{29}
+\contentsline {chapter}{\numberline {5}Measurements}{31}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Evaluation}{30}
+\contentsline {section}{\numberline {5.1}Evaluation}{31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}Microtrap parameters}{33}
+\contentsline {subsection}{\numberline {5.1.1}Microtrap parameters}{34}

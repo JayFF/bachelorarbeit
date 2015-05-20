@@ -34,4 +34,21 @@ It uses the laserbeam of a 200 \textsc{w} Ytterbium fiber-laser (\textsc{ipg ylr
 \caption{Scheme of the laser set-up around the vacuum chamber \cite{lompe}. }
 \label{scheme}
 \end{figure}
+\section{Imaging}
+
+To understand how that has been done, the different methods of imaging used in the setup are described briefly.
+
+\subsection{Absorbtion imaging}
+
+Absorbtion imaging is a common method to image clouds of atoms\cite{ketterle}. A resonant beam is pointed on a camera, through the sample, and partly gets absorbed. Therefore a shadow is visible on the sensor, that shows the density distribution along the cloud. By fitting a gaussian curve on that distribution the atom-number can be estimated.
+
+In this setup we use a tunable, grating stabilised diode laser (Toptica \textsc{dl}-100). To get usable noise-free data three images has to be taken. The first is taken, when the actual imaging is done, with the atom cloud in the beam path. The next is taken when the atom cloud has cleared, with pure laser-light to account for noise of the light source. The last one is taken in the dark to accound for disturbance of the ambient light. When both corrections are subtracted one gets a clear image of the atomic cloud.
+
+This technique is very efficient in imaging clouds of atoms, because the measured time-period is short. Therefore also time-of-flight measurements can be done, when taking pictures after waiting a certain inveral, that enables not only to see the form of the cloud and estimate the atom numbers, but also measure the particles velocities and therefore their momentum.
+
+However, this method is no suitable for resolving single atoms, because a certain density is nessessairy to make an estimate, using the gaussian fit. For this one has to rely on the more basic flourescence imaging.
+
+\subsection{Flourescence imaging}
+
+The method of flourescence imaging is very basic\cite{timo}. Resonant light excites the atoms, that spontaniously re-emit photons, that can be caught on camera. In a large \textsc{mot} this method is canonical, because the trapping beams are in resonance and the resulting flourescence can even be seen with the naked eye. When imaging smaller ammounds of partice the process is less trivial, because spontanious emission is directed randomly and only a small portion of the emitted light is caught on camera. That means a larger ammound of emitted and therefore absorbd photons is nessessairy to get a visible result. But in contrast to absorbtion imaging, it is possible in our setup to even image single atoms. After they are released from the microtrap a smaller \textsc{mot} is activated, that can hold the atoms long enough to catch enough light on the sensor. This however only enables to count the number of the atoms. By knowing the parameters used for preperation it is possible to idetify the quantum state of the system before release. Yet in a multiwell potential or optical lattice it can be also very usefull to resolve the atoms spatially in their respective lattice sites. When exciting the atoms while still keeping the trap lasers acitvated the question is now, whether the atoms can be stored long enough in their potential to emit enough light to see them.
 
