@@ -70,6 +70,23 @@
       \field{title}{Experimentalphysik 3}
       \field{year}{2010}
     \endentry
+    \entry{feynman}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=76c376c1c6574c7dad0b40422ddcb0af}{Feynman}{F\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=76c376c1c6574c7dad0b40422ddcb0af}{Feynman}{F\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{76c376c1c6574c7dad0b40422ddcb0af}
+      \strng{fullhash}{76c376c1c6574c7dad0b40422ddcb0af}
+      \field{sortinit}{F}
+      \field{sortinithash}{9661cce5f16ac30b6b0c804d4583ed99}
+      \field{labeltitle}{Simulating physics with computers}
+      \field{journaltitle}{International Journal of Theoretical Pysics}
+      \field{title}{Simulating physics with computers}
+      \field{volume}{21}
+      \field{year}{1982}
+    \endentry
     \entry{transitions}{online}{}
       \name{labelname}{1}{}{%
         {{hash=a7e8e1ffc15552435a9f692b503665ba}{Freiburg}{F\bibinitperiod}{Universität}{U\bibinitperiod}{}{}{}{}}%
@@ -102,6 +119,25 @@
       \field{labeltitle}{Properties of Lithium-6}
       \field{title}{Properties of Lithium-6}
       \field{year}{2003}
+    \endentry
+    \entry{bloch}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=128121c6747c195be0a4fd9d5240fabc}{Immanuel\bibnamedelima Bloch}{I\bibinitperiod\bibinitdelim B\bibinitperiod}{Jean\bibnamedelima Dalibard}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=22a24ea70f69e80fb450d76b588e30e7}{Nascimbene}{N\bibinitperiod}{Sylvain}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=128121c6747c195be0a4fd9d5240fabc}{Immanuel\bibnamedelima Bloch}{I\bibinitperiod\bibinitdelim B\bibinitperiod}{Jean\bibnamedelima Dalibard}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=22a24ea70f69e80fb450d76b588e30e7}{Nascimbene}{N\bibinitperiod}{Sylvain}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{49ef8864f8955755edb6bca26d37b844}
+      \strng{fullhash}{49ef8864f8955755edb6bca26d37b844}
+      \field{sortinit}{I}
+      \field{sortinithash}{b2e302e575c74beffcc96ef7059003aa}
+      \field{labeltitle}{Quantum simulations with ultracold quantum gases}
+      \field{journaltitle}{Natuer Physics}
+      \field{title}{Quantum simulations with ultracold quantum gases}
+      \field{volume}{8}
+      \field{year}{2012}
     \endentry
     \entry{wigner}{book}{}
       \name{labelname}{1}{}{%
@@ -181,6 +217,21 @@
       \field{labeltitle}{Laser cooling and trapping}
       \field{title}{Laser cooling and trapping}
       \field{year}{1999}
+    \endentry
+    \entry{timo}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=197149518a000baa861522906d83dc12}{Ottenstein}{O\bibinitperiod}{Timo\bibnamedelima Bastian}{T\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=197149518a000baa861522906d83dc12}{Ottenstein}{O\bibinitperiod}{Timo\bibnamedelima Bastian}{T\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{197149518a000baa861522906d83dc12}
+      \strng{fullhash}{197149518a000baa861522906d83dc12}
+      \field{sortinit}{O}
+      \field{sortinithash}{59512cfd31be1dcef4def024230bdc1d}
+      \field{labeltitle}{Few-body physics in ultracold Fermi gases}
+      \field{title}{Few-body physics in ultracold Fermi gases}
+      \field{year}{2010}
     \endentry
     \entry{factor}{online}{}
       \name{labelname}{1}{}{%

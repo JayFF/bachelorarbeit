@@ -1968,12 +1968,12 @@
     <bcf:datasource type="file" datatype="bibtex">BA.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">metcalf</bcf:citekey>
-    <bcf:citekey order="2">doublewell</bcf:citekey>
-    <bcf:citekey order="3">ketterle</bcf:citekey>
-    <bcf:citekey order="4">friedhelm</bcf:citekey>
-    <bcf:citekey order="5">lompe</bcf:citekey>
-    <bcf:citekey order="6">lompe</bcf:citekey>
+    <bcf:citekey order="1">feynman</bcf:citekey>
+    <bcf:citekey order="2">metcalf</bcf:citekey>
+    <bcf:citekey order="3">bloch</bcf:citekey>
+    <bcf:citekey order="4">doublewell</bcf:citekey>
+    <bcf:citekey order="5">ketterle</bcf:citekey>
+    <bcf:citekey order="6">friedhelm</bcf:citekey>
     <bcf:citekey order="7">lompe</bcf:citekey>
     <bcf:citekey order="8">lompe</bcf:citekey>
     <bcf:citekey order="9">lompe</bcf:citekey>
