@@ -120,6 +120,25 @@
       \field{title}{Properties of Lithium-6}
       \field{year}{2003}
     \endentry
+    \entry{greiner}{thesis}{}
+      \name{labelname}{1}{}{%
+        {{hash=28a6aa289448ed258d404c6982cd2dd7}{Greiner}{G\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=28a6aa289448ed258d404c6982cd2dd7}{Greiner}{G\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Ludwig-Maximilians-Universität München}%
+      }
+      \strng{namehash}{28a6aa289448ed258d404c6982cd2dd7}
+      \strng{fullhash}{28a6aa289448ed258d404c6982cd2dd7}
+      \field{sortinit}{G}
+      \field{sortinithash}{480ee01f9ffd559b3258d822f54a8ac2}
+      \field{labeltitle}{Ultracold quantum gases in three-dimensional optical lattice potentials}
+      \field{title}{Ultracold quantum gases in three-dimensional optical lattice potentials}
+      \field{type}{phdthesis}
+      \field{year}{2003}
+    \endentry
     \entry{bloch}{article}{}
       \name{labelname}{2}{}{%
         {{hash=128121c6747c195be0a4fd9d5240fabc}{Immanuel\bibnamedelima Bloch}{I\bibinitperiod\bibinitdelim B\bibinitperiod}{Jean\bibnamedelima Dalibard}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
@@ -134,7 +153,7 @@
       \field{sortinit}{I}
       \field{sortinithash}{b2e302e575c74beffcc96ef7059003aa}
       \field{labeltitle}{Quantum simulations with ultracold quantum gases}
-      \field{journaltitle}{Natuer Physics}
+      \field{journaltitle}{Nature Physics}
       \field{title}{Quantum simulations with ultracold quantum gases}
       \field{volume}{8}
       \field{year}{2012}
@@ -218,12 +237,15 @@
       \field{title}{Laser cooling and trapping}
       \field{year}{1999}
     \endentry
-    \entry{timo}{article}{}
+    \entry{timo}{thesis}{}
       \name{labelname}{1}{}{%
         {{hash=197149518a000baa861522906d83dc12}{Ottenstein}{O\bibinitperiod}{Timo\bibnamedelima Bastian}{T\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
       }
       \name{author}{1}{}{%
         {{hash=197149518a000baa861522906d83dc12}{Ottenstein}{O\bibinitperiod}{Timo\bibnamedelima Bastian}{T\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Universität Heidelberg}%
       }
       \strng{namehash}{197149518a000baa861522906d83dc12}
       \strng{fullhash}{197149518a000baa861522906d83dc12}
@@ -231,6 +253,7 @@
       \field{sortinithash}{59512cfd31be1dcef4def024230bdc1d}
       \field{labeltitle}{Few-body physics in ultracold Fermi gases}
       \field{title}{Few-body physics in ultracold Fermi gases}
+      \field{type}{phdthesis}
       \field{year}{2010}
     \endentry
     \entry{factor}{online}{}
@@ -314,7 +337,9 @@
       \field{sortinit}{Z}
       \field{sortinithash}{9cca09897f0dfd9ed260e065f6d82cd6}
       \field{labeltitle}{Two Fermions in a double well: Exploring a fundamental building block of the Hubbard model}
+      \field{journaltitle}{Physical Review Letters}
       \field{title}{Two Fermions in a double well: Exploring a fundamental building block of the Hubbard model}
+      \field{volume}{144}
       \field{year}{2015}
     \endentry
   \endsortlist
