@@ -1996,7 +1996,9 @@
     <bcf:citekey order="26">magic01</bcf:citekey>
     <bcf:citekey order="27">NIST_ASD</bcf:citekey>
     <bcf:citekey order="28">cohen</bcf:citekey>
-    <bcf:citekey order="29">lompe</bcf:citekey>
+    <bcf:citekey order="29">ketterle</bcf:citekey>
+    <bcf:citekey order="30">timo</bcf:citekey>
+    <bcf:citekey order="31">lompe</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty" type="entry" sortscheme="nty">
   <bcf:sorting>
