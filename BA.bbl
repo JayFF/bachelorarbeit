@@ -343,6 +343,25 @@
       \field{title}{Atom-Photon Interactions}
       \field{year}{1998}
     \endentry
+    \entry{sisyphus}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=b4c21c16f8d6cd9ac7d9863badccd1f9}{Tiarks}{T\bibinitperiod}{"Paul\bibnamedelimb Hamilton;\bibnamedelimb Geena\bibnamedelimb Kim;\bibnamedelimb Trinity\bibnamedelimb Joshi;\bibnamedelimb Biswaroop\bibnamedelimb Mukherjee;\bibnamedelima Daniel}{"\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=55fe646509fdfd8aee0363113f2c9149}{Müller"}{M\bibinitperiod}{Holger}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=b4c21c16f8d6cd9ac7d9863badccd1f9}{Tiarks}{T\bibinitperiod}{"Paul\bibnamedelimb Hamilton;\bibnamedelimb Geena\bibnamedelimb Kim;\bibnamedelimb Trinity\bibnamedelimb Joshi;\bibnamedelimb Biswaroop\bibnamedelimb Mukherjee;\bibnamedelima Daniel}{"\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=55fe646509fdfd8aee0363113f2c9149}{Müller"}{M\bibinitperiod}{Holger}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{75093da7fd562f9556c0a7f130e465c7}
+      \strng{fullhash}{75093da7fd562f9556c0a7f130e465c7}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Sisyphus Cooling of Lithium}
+      \field{journaltitle}{Physical Review A}
+      \field{title}{Sisyphus Cooling of Lithium}
+      \field{volume}{89}
+      \field{year}{2014}
+    \endentry
     \entry{factor}{online}{}
       \name{labelname}{1}{}{%
         {{hash=0abde002e510c0a9bdcbbcdf166d056a}{Pudlik}{P\bibinitperiod}{Ted}{T\bibinitperiod}{}{}{}{}}%
