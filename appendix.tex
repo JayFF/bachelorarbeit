@@ -1,0 +1,43 @@
+\chapter{Appendix}
+
+\section{Potential of an induced dipole moment}
+
+The force on a dipole is given by \cite{factor}:
+\begin{equation}
+\boldsymbol{F}=(\boldsymbol{p}\cdot\nabla)\boldsymbol{E}
+\end{equation}
+We know that the following holds:
+\begin{equation}
+\nabla(\boldsymbol{p}\cdot\boldsymbol{E})=\boldsymbol{p}\times(\nabla\times\boldsymbol{E})+\boldsymbol{E}\times(\nabla\times\boldsymbol{p})+(\boldsymbol{p}\cdot\nabla)\boldsymbol{E}+(\boldsymbol{E}\cdot\nabla)\boldsymbol{p}
+\label{dipoleforce}\end{equation}
+We consider the trap to consist of a retro-reflected laser beam, that is in phase, so the B-field-component of the electromagnetic wave is considered to be 0 as well as $\nabla\times\boldsymbol{E}=-\partial\boldsymbol{B}/\partial t=0$. In our case the dipole-moment is not constant but \(\boldsymbol{p}=\alpha \boldsymbol{E}\) and thus becomes:
+\begin{equation}
+\nabla(\boldsymbol{p}\cdot\boldsymbol{E})=\alpha\boldsymbol{E}\times(\nabla\times\boldsymbol{E})+\alpha\boldsymbol{E}\times(\nabla\times\boldsymbol{E})+(\alpha\boldsymbol{E}\cdot\nabla)\boldsymbol{E}+\alpha(\boldsymbol{E}\cdot\nabla)\boldsymbol{E}
+\end{equation}
+which becomes:
+\begin{align*}
+\nabla(\boldsymbol{p}\cdot\boldsymbol{E})&=2\alpha(\boldsymbol{E}\cdot\nabla)\boldsymbol{E}=2(\boldsymbol{p}\cdot\nabla)\boldsymbol{E}\\
+\Rightarrow \boldsymbol{F}&=\frac{1}{2}\nabla(\boldsymbol{p}\cdot\boldsymbol{E})
+\end{align*}
+To get the corresponding potential one has to integrate the force. For a rapidly oscillating field we further have to take the time average to get an effective value for the trapping potential.
+\begin{equation}
+U=-\frac{1}{2}\mean{\boldsymbol{p E}}
+\end{equation}
+\label{dipolepotential}
+
+\section{Wigner 3-j and 6-j symbols}
+The Wigner 3-j symbol and 6-j symbols are short notations, defined in terms of Clebsch-Gordan-Coefficients:\begin{align}\threej{j_1}{j_2}{j_3}{m_1}{m_2}{m_3}:=&\frac{(-1)^{j_1-j_2-m_3}}{\sqrt{2j_3+1}}\braket{j_1m_1j_2m_2}{j_3-m_3}\\\sixj{j_1}{j_2}{j_3}{j_4}{j_5}{j_6}:=&\sum^6_{m_j}(-1)^{\sum^6_{k=1}(j_k-m_k)}\threej{j_1}{j_2}{j_3}{m_1}{m_2}{-m_3}\threej{j_1}{j_5}{j_6}{-m_1}{m_5}{m_6}\\\times&\threej{j_4}{j_5}{j_3}{m_4}{-m_5}{m_3}\threej{j_4}{j_2}{j_6}{-m_4}{-m_2}{-m_6}\label{jsymbols}\end{align}
+\label{wigner}
+
+\section{Wigner-Eckart theorem}
+The Wigner-Eckart theorem simplifies the calculation of matrix-elements in a spherical basis and breaks it down to the calculation of few reduced matrix elements. For an irreducible tensor-operator $T^r_q$ between two angular-momentum eigenstates the following holds \cite[17]{wigner}:
+\begin{equation}
+\braopket{j,m_j}{T^r_q}{k,m_k}=\braopket{j}{|T^r|}{k}C^{jm_j}_{rqkm_k}
+\end{equation}
+In this formula $r$ denotes the rank of the tensor, and $q$ is simply the respective component of the tensor. Writing this in terms of the 3-j symbols yields:
+\begin{equation}
+\braopket{j,m_j}{T^r_q}{k,m_k}=(-1)^{j-m_j}\threej{j}{r}{k}{-m_j}{q}{m_k}\braopket{j}{|T^r|}{k}
+\end{equation}
+The resulting reduced matrix elements are independent of the respective component of the operator and the $m$-quantum-number. Therefore for every pair of angular-momentum quantum numbers $j$ and $k$ only one reduced matrix element has to be calculated to evaluate all elements of eigenstates involving said angular momenta.
+
+\label{wignereckart}

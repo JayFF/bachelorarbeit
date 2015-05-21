@@ -18,7 +18,296 @@
 
 
 \refsection{0}
-  \sortlist{nty}{nty}
+  \sortlist{none}{none}
+    \entry{cuprates}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=a09ccd02456916b723d47d652971d797}{Anderson}{A\bibinitperiod}{P.\bibnamedelimi W.}{P\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=a09ccd02456916b723d47d652971d797}{Anderson}{A\bibinitperiod}{P.\bibnamedelimi W.}{P\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a09ccd02456916b723d47d652971d797}
+      \strng{fullhash}{a09ccd02456916b723d47d652971d797}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{The resonating valence bond state in La2CuO4 and superconductivity}
+      \field{journaltitle}{Science}
+      \field{title}{The resonating valence bond state in La2CuO4 and superconductivity}
+      \field{volume}{235}
+      \field{year}{1987}
+    \endentry
+    \entry{feynman}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=76c376c1c6574c7dad0b40422ddcb0af}{Feynman}{F\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=76c376c1c6574c7dad0b40422ddcb0af}{Feynman}{F\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{76c376c1c6574c7dad0b40422ddcb0af}
+      \strng{fullhash}{76c376c1c6574c7dad0b40422ddcb0af}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Simulating physics with computers}
+      \field{journaltitle}{International Journal of Theoretical Pysics}
+      \field{title}{Simulating physics with computers}
+      \field{volume}{21}
+      \field{year}{1982}
+    \endentry
+    \entry{metcalf}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=f1ca193d37c9e0341b76b99ef733aac8}{Metcalf}{M\bibinitperiod}{Harold\bibnamedelima J.}{H\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=788904a47e2fa0b6fb05171b2d2ac964}{Straten}{S\bibinitperiod}{Peter\bibnamedelima Van}{P\bibinitperiod\bibinitdelim V\bibinitperiod}{der}{d\bibinitperiod}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=f1ca193d37c9e0341b76b99ef733aac8}{Metcalf}{M\bibinitperiod}{Harold\bibnamedelima J.}{H\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=788904a47e2fa0b6fb05171b2d2ac964}{Straten}{S\bibinitperiod}{Peter\bibnamedelima Van}{P\bibinitperiod\bibinitdelim V\bibinitperiod}{der}{d\bibinitperiod}{}{}}%
+      }
+      \strng{namehash}{f77e705948e6ff6b0dbbab0ec9f96116}
+      \strng{fullhash}{f77e705948e6ff6b0dbbab0ec9f96116}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Laser cooling and trapping}
+      \field{title}{Laser cooling and trapping}
+      \field{year}{1999}
+    \endentry
+    \entry{bloch}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=128121c6747c195be0a4fd9d5240fabc}{Immanuel\bibnamedelima Bloch}{I\bibinitperiod\bibinitdelim B\bibinitperiod}{Jean\bibnamedelima Dalibard}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=22a24ea70f69e80fb450d76b588e30e7}{Nascimbene}{N\bibinitperiod}{Sylvain}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=128121c6747c195be0a4fd9d5240fabc}{Immanuel\bibnamedelima Bloch}{I\bibinitperiod\bibinitdelim B\bibinitperiod}{Jean\bibnamedelima Dalibard}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=22a24ea70f69e80fb450d76b588e30e7}{Nascimbene}{N\bibinitperiod}{Sylvain}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{49ef8864f8955755edb6bca26d37b844}
+      \strng{fullhash}{49ef8864f8955755edb6bca26d37b844}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Quantum simulations with ultracold quantum gases}
+      \field{journaltitle}{Nature Physics}
+      \field{title}{Quantum simulations with ultracold quantum gases}
+      \field{volume}{8}
+      \field{year}{2012}
+    \endentry
+    \entry{greiner}{thesis}{}
+      \name{labelname}{1}{}{%
+        {{hash=28a6aa289448ed258d404c6982cd2dd7}{Greiner}{G\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=28a6aa289448ed258d404c6982cd2dd7}{Greiner}{G\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Ludwig-Maximilians-Universität München}%
+      }
+      \strng{namehash}{28a6aa289448ed258d404c6982cd2dd7}
+      \strng{fullhash}{28a6aa289448ed258d404c6982cd2dd7}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Ultracold quantum gases in three-dimensional optical lattice potentials}
+      \field{title}{Ultracold quantum gases in three-dimensional optical lattice potentials}
+      \field{type}{phdthesis}
+      \field{year}{2003}
+    \endentry
+    \entry{preparation}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=e572aa9bac25000e23b9d94f49967448}{Wenz}{W\bibinitperiod}{F.\bibnamedelimi Serwane;\bibnamedelimb G.\bibnamedelimi Zürn;\bibnamedelimb T.\bibnamedelimi Lompe;\bibnamedelimb T.\bibnamedelimi B.\bibnamedelimi Ottenstein;\bibnamedelima A.N.}{F\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim Z\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=70ea8297ff8a1b4a3ff49113d87d102e}{Jochim}{J\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=e572aa9bac25000e23b9d94f49967448}{Wenz}{W\bibinitperiod}{F.\bibnamedelimi Serwane;\bibnamedelimb G.\bibnamedelimi Zürn;\bibnamedelimb T.\bibnamedelimi Lompe;\bibnamedelimb T.\bibnamedelimi B.\bibnamedelimi Ottenstein;\bibnamedelima A.N.}{F\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim Z\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=70ea8297ff8a1b4a3ff49113d87d102e}{Jochim}{J\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0fa03bcf26392827dec7c9baa466a416}
+      \strng{fullhash}{0fa03bcf26392827dec7c9baa466a416}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Deterministic Preperation of a Tunable Few-Fermion System}
+      \field{journaltitle}{Science}
+      \field{title}{Deterministic Preperation of a Tunable Few-Fermion System}
+      \field{volume}{332}
+      \field{year}{2011}
+    \endentry
+    \entry{friedhelm}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=ba6e698426325addc02945711876d36a}{Serwane}{S\bibinitperiod}{Friedhelm}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=ba6e698426325addc02945711876d36a}{Serwane}{S\bibinitperiod}{Friedhelm}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ba6e698426325addc02945711876d36a}
+      \strng{fullhash}{ba6e698426325addc02945711876d36a}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Deterministic preparation of a tunable few-fermion system}
+      \field{title}{Deterministic preparation of a tunable few-fermion system}
+      \field{year}{2011}
+    \endentry
+    \entry{lompe}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=9793089a7cc464bc8f66bdda7d050813}{Lompe}{L\bibinitperiod}{Thomas}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=9793089a7cc464bc8f66bdda7d050813}{Lompe}{L\bibinitperiod}{Thomas}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{9793089a7cc464bc8f66bdda7d050813}
+      \strng{fullhash}{9793089a7cc464bc8f66bdda7d050813}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Efimov Physics in a three-component Fermi gas}
+      \field{title}{Efimov Physics in a three-component Fermi gas}
+      \field{year}{2011}
+    \endentry
+    \entry{ketterle}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=0e55de05ff7793c4cf9baf5936176830}{W.\bibnamedelimi Ketterle}{W\bibinitperiod\bibinitdelim K\bibinitperiod}{D.S.\bibnamedelimi Durfee}{D\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=713635307e87f65420f5c0ac62acc1dc}{Stamper-Kurn}{S\bibinithyphendelim K\bibinitperiod}{D.M.}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=0e55de05ff7793c4cf9baf5936176830}{W.\bibnamedelimi Ketterle}{W\bibinitperiod\bibinitdelim K\bibinitperiod}{D.S.\bibnamedelimi Durfee}{D\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=713635307e87f65420f5c0ac62acc1dc}{Stamper-Kurn}{S\bibinithyphendelim K\bibinitperiod}{D.M.}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{cd7dc45d637cf39691fc20ea269ee85e}
+      \strng{fullhash}{cd7dc45d637cf39691fc20ea269ee85e}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Making, probing and understanding Bose-Einstein condensates}
+      \field{title}{Making, probing and understanding Bose-Einstein condensates}
+      \field{year}{1999}
+    \endentry
+    \entry{ketterle2}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=34a46a3fdd78c1c2b65b7dd7e8b2b006}{Ketterle}{K\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=5b883e3fc76e8e125cab3483cd415dc7}{zwierlein}{z\bibinitperiod}{M.\bibnamedelimi W.}{M\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=34a46a3fdd78c1c2b65b7dd7e8b2b006}{Ketterle}{K\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=5b883e3fc76e8e125cab3483cd415dc7}{zwierlein}{z\bibinitperiod}{M.\bibnamedelimi W.}{M\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7035ec729dd66fee74f8ea7d2b247175}
+      \strng{fullhash}{7035ec729dd66fee74f8ea7d2b247175}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Making, probing and understanding ultracold Fermi gases}
+      \field{title}{Making, probing and understanding ultracold Fermi gases}
+      \field{year}{2008}
+    \endentry
+    \entry{timo}{thesis}{}
+      \name{labelname}{1}{}{%
+        {{hash=197149518a000baa861522906d83dc12}{Ottenstein}{O\bibinitperiod}{Timo\bibnamedelima Bastian}{T\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=197149518a000baa861522906d83dc12}{Ottenstein}{O\bibinitperiod}{Timo\bibnamedelima Bastian}{T\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Universität Heidelberg}%
+      }
+      \strng{namehash}{197149518a000baa861522906d83dc12}
+      \strng{fullhash}{197149518a000baa861522906d83dc12}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Few-body physics in ultracold Fermi gases}
+      \field{title}{Few-body physics in ultracold Fermi gases}
+      \field{type}{phdthesis}
+      \field{year}{2010}
+    \endentry
+    \entry{gehm}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=9d7dde31bc01c4be34c7d4ec0d147350}{Gehm}{G\bibinitperiod}{Michael\bibnamedelima E.}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=9d7dde31bc01c4be34c7d4ec0d147350}{Gehm}{G\bibinitperiod}{Michael\bibnamedelima E.}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{9d7dde31bc01c4be34c7d4ec0d147350}
+      \strng{fullhash}{9d7dde31bc01c4be34c7d4ec0d147350}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Properties of Lithium-6}
+      \field{title}{Properties of Lithium-6}
+      \field{year}{2003}
+    \endentry
+    \entry{demtroder}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=59654c899d48eff28a4d8063e886fb5f}{Demtröder}{D\bibinitperiod}{Wolfgang}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=59654c899d48eff28a4d8063e886fb5f}{Demtröder}{D\bibinitperiod}{Wolfgang}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{59654c899d48eff28a4d8063e886fb5f}
+      \strng{fullhash}{59654c899d48eff28a4d8063e886fb5f}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Experimentalphysik 3}
+      \field{edition}{4}
+      \field{title}{Experimentalphysik 3}
+      \field{year}{2010}
+    \endentry
+    \entry{transitions}{online}{}
+      \name{labelname}{1}{}{%
+        {{hash=a7e8e1ffc15552435a9f692b503665ba}{Freiburg}{F\bibinitperiod}{Universität}{U\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=a7e8e1ffc15552435a9f692b503665ba}{Freiburg}{F\bibinitperiod}{Universität}{U\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a7e8e1ffc15552435a9f692b503665ba}
+      \strng{fullhash}{a7e8e1ffc15552435a9f692b503665ba}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{day}{11}
+      \field{month}{5}
+      \field{year}{2015}
+      \verb{url}
+      \verb http://ruby.chemie.uni-freiburg.de/Vorlesung/SVG/Methoden_ac/li_spektrum_svg.svg
+      \endverb
+    \endentry
+    \entry{dipole}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=0306f3dfe23c7299e29940f592f9a088}{Rudolf\bibnamedelima Grimm}{R\bibinitperiod\bibinitdelim G\bibinitperiod}{Matthias\bibnamedelima Weidemueller}{M\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=0bc49bab5feed8a1251c27ab768de69e}{Ovchinnikov}{O\bibinitperiod}{Yurii\bibnamedelima B.}{Y\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=0306f3dfe23c7299e29940f592f9a088}{Rudolf\bibnamedelima Grimm}{R\bibinitperiod\bibinitdelim G\bibinitperiod}{Matthias\bibnamedelima Weidemueller}{M\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=0bc49bab5feed8a1251c27ab768de69e}{Ovchinnikov}{O\bibinitperiod}{Yurii\bibnamedelima B.}{Y\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f0b9775d8e3cb1a0fa13d7751a90f86a}
+      \strng{fullhash}{f0b9775d8e3cb1a0fa13d7751a90f86a}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Optical dipole traps for neutral atoms}
+      \field{title}{Optical dipole traps for neutral atoms}
+      \field{year}{1999}
+    \endentry
+    \entry{alpha}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=43913df7c07e91c6a6171700f0b6f369}{Johnson}{J\bibinitperiod}{W.\bibnamedelimi R.}{W\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=43913df7c07e91c6a6171700f0b6f369}{Johnson}{J\bibinitperiod}{W.\bibnamedelimi R.}{W\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{43913df7c07e91c6a6171700f0b6f369}
+      \strng{fullhash}{43913df7c07e91c6a6171700f0b6f369}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Scalar and Tensor Polarizabilities of Atoms}
+      \field{title}{Scalar and Tensor Polarizabilities of Atoms}
+      \field{year}{2009}
+    \endentry
+    \entry{magic01}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=b982e1fb30224945401b6440e77f2e53}{M.\bibnamedelimi S.\bibnamedelimi Safronova}{M\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim S\bibinitperiod}{U.\bibnamedelimi I.\bibnamedelimi Safronova}{U\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=a9c4ba58fa344ab004dde3db37c9f670}{Clark}{C\bibinitperiod}{Charles\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=b982e1fb30224945401b6440e77f2e53}{M.\bibnamedelimi S.\bibnamedelimi Safronova}{M\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim S\bibinitperiod}{U.\bibnamedelimi I.\bibnamedelimi Safronova}{U\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=a9c4ba58fa344ab004dde3db37c9f670}{Clark}{C\bibinitperiod}{Charles\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{aa6ff443089bffc0f16278f1c27d33f3}
+      \strng{fullhash}{aa6ff443089bffc0f16278f1c27d33f3}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Magic wavelengths for optical cooling and trapping of lithium}
+      \field{title}{Magic wavelengths for optical cooling and trapping of lithium}
+      \field{year}{2012}
+    \endentry
     \entry{NIST_ASD}{misc}{}
       \name{labelname}{4}{}{%
         {{hash=c1dc5f19f2cd63eb8829ff2e68fc6f93}{A.\bibnamedelimi Kramida}{K\bibinitperiod}{}{}{}{}{}{}}%
@@ -34,8 +323,8 @@
       }
       \strng{namehash}{57cf97364b4c59d824626f076c80e80a}
       \strng{fullhash}{d03d4efbb23bd38044dd88808edf18af}
-      \field{sortinit}{A}
-      \field{sortinithash}{c8a29dea43e9d2645817723335a4dbe8}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{howpublished}{{NIST Atomic Spectra Database (ver. 5.2), [Online]. Available: {\tt{http://physics.nist.gov/asd}} [2015, May 11]. National Institute of Standards and Technology, Gaithersburg, MD.}}
       \field{year}{2014}
     \endentry
@@ -48,213 +337,11 @@
       }
       \strng{namehash}{38e5259097713faf39227a43c3fddbca}
       \strng{fullhash}{38e5259097713faf39227a43c3fddbca}
-      \field{sortinit}{C}
-      \field{sortinithash}{dd0e4ddd17488a6ebf12cd6de2f2c237}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Atom-Photon Interactions}
       \field{title}{Atom-Photon Interactions}
       \field{year}{1998}
-    \endentry
-    \entry{demtroder}{book}{}
-      \name{labelname}{1}{}{%
-        {{hash=59654c899d48eff28a4d8063e886fb5f}{Demtröder}{D\bibinitperiod}{Wolfgang}{W\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=59654c899d48eff28a4d8063e886fb5f}{Demtröder}{D\bibinitperiod}{Wolfgang}{W\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{59654c899d48eff28a4d8063e886fb5f}
-      \strng{fullhash}{59654c899d48eff28a4d8063e886fb5f}
-      \field{sortinit}{D}
-      \field{sortinithash}{a01c54d1737685bc6dbf0ea0673fa44c}
-      \field{labeltitle}{Experimentalphysik 3}
-      \field{edition}{4}
-      \field{title}{Experimentalphysik 3}
-      \field{year}{2010}
-    \endentry
-    \entry{feynman}{article}{}
-      \name{labelname}{1}{}{%
-        {{hash=76c376c1c6574c7dad0b40422ddcb0af}{Feynman}{F\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=76c376c1c6574c7dad0b40422ddcb0af}{Feynman}{F\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{76c376c1c6574c7dad0b40422ddcb0af}
-      \strng{fullhash}{76c376c1c6574c7dad0b40422ddcb0af}
-      \field{sortinit}{F}
-      \field{sortinithash}{9661cce5f16ac30b6b0c804d4583ed99}
-      \field{labeltitle}{Simulating physics with computers}
-      \field{journaltitle}{International Journal of Theoretical Pysics}
-      \field{title}{Simulating physics with computers}
-      \field{volume}{21}
-      \field{year}{1982}
-    \endentry
-    \entry{transitions}{online}{}
-      \name{labelname}{1}{}{%
-        {{hash=a7e8e1ffc15552435a9f692b503665ba}{Freiburg}{F\bibinitperiod}{Universität}{U\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=a7e8e1ffc15552435a9f692b503665ba}{Freiburg}{F\bibinitperiod}{Universität}{U\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{a7e8e1ffc15552435a9f692b503665ba}
-      \strng{fullhash}{a7e8e1ffc15552435a9f692b503665ba}
-      \field{sortinit}{F}
-      \field{sortinithash}{9661cce5f16ac30b6b0c804d4583ed99}
-      \field{day}{11}
-      \field{month}{5}
-      \field{year}{2015}
-      \verb{url}
-      \verb http://ruby.chemie.uni-freiburg.de/Vorlesung/SVG/Methoden_ac/li_spektrum_svg.svg
-      \endverb
-    \endentry
-    \entry{gehm}{article}{}
-      \name{labelname}{1}{}{%
-        {{hash=9d7dde31bc01c4be34c7d4ec0d147350}{Gehm}{G\bibinitperiod}{Michael\bibnamedelima E.}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=9d7dde31bc01c4be34c7d4ec0d147350}{Gehm}{G\bibinitperiod}{Michael\bibnamedelima E.}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{9d7dde31bc01c4be34c7d4ec0d147350}
-      \strng{fullhash}{9d7dde31bc01c4be34c7d4ec0d147350}
-      \field{sortinit}{G}
-      \field{sortinithash}{480ee01f9ffd559b3258d822f54a8ac2}
-      \field{labeltitle}{Properties of Lithium-6}
-      \field{title}{Properties of Lithium-6}
-      \field{year}{2003}
-    \endentry
-    \entry{greiner}{thesis}{}
-      \name{labelname}{1}{}{%
-        {{hash=28a6aa289448ed258d404c6982cd2dd7}{Greiner}{G\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=28a6aa289448ed258d404c6982cd2dd7}{Greiner}{G\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
-      }
-      \list{institution}{1}{%
-        {Ludwig-Maximilians-Universität München}%
-      }
-      \strng{namehash}{28a6aa289448ed258d404c6982cd2dd7}
-      \strng{fullhash}{28a6aa289448ed258d404c6982cd2dd7}
-      \field{sortinit}{G}
-      \field{sortinithash}{480ee01f9ffd559b3258d822f54a8ac2}
-      \field{labeltitle}{Ultracold quantum gases in three-dimensional optical lattice potentials}
-      \field{title}{Ultracold quantum gases in three-dimensional optical lattice potentials}
-      \field{type}{phdthesis}
-      \field{year}{2003}
-    \endentry
-    \entry{bloch}{article}{}
-      \name{labelname}{2}{}{%
-        {{hash=128121c6747c195be0a4fd9d5240fabc}{Immanuel\bibnamedelima Bloch}{I\bibinitperiod\bibinitdelim B\bibinitperiod}{Jean\bibnamedelima Dalibard}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=22a24ea70f69e80fb450d76b588e30e7}{Nascimbene}{N\bibinitperiod}{Sylvain}{S\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=128121c6747c195be0a4fd9d5240fabc}{Immanuel\bibnamedelima Bloch}{I\bibinitperiod\bibinitdelim B\bibinitperiod}{Jean\bibnamedelima Dalibard}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=22a24ea70f69e80fb450d76b588e30e7}{Nascimbene}{N\bibinitperiod}{Sylvain}{S\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{49ef8864f8955755edb6bca26d37b844}
-      \strng{fullhash}{49ef8864f8955755edb6bca26d37b844}
-      \field{sortinit}{I}
-      \field{sortinithash}{b2e302e575c74beffcc96ef7059003aa}
-      \field{labeltitle}{Quantum simulations with ultracold quantum gases}
-      \field{journaltitle}{Nature Physics}
-      \field{title}{Quantum simulations with ultracold quantum gases}
-      \field{volume}{8}
-      \field{year}{2012}
-    \endentry
-    \entry{wigner}{book}{}
-      \name{labelname}{1}{}{%
-        {{hash=43913df7c07e91c6a6171700f0b6f369}{Johnson}{J\bibinitperiod}{W.\bibnamedelimi R.}{W\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=43913df7c07e91c6a6171700f0b6f369}{Johnson}{J\bibinitperiod}{W.\bibnamedelimi R.}{W\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{43913df7c07e91c6a6171700f0b6f369}
-      \strng{fullhash}{43913df7c07e91c6a6171700f0b6f369}
-      \field{sortinit}{J}
-      \field{sortinithash}{f75b22df8c340a961dce37019e29107f}
-      \field{labeltitle}{Lectures on Atomic Physics}
-      \field{title}{Lectures on Atomic Physics}
-      \field{year}{2006}
-    \endentry
-    \entry{alpha}{article}{}
-      \name{labelname}{1}{}{%
-        {{hash=43913df7c07e91c6a6171700f0b6f369}{Johnson}{J\bibinitperiod}{W.\bibnamedelimi R.}{W\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=43913df7c07e91c6a6171700f0b6f369}{Johnson}{J\bibinitperiod}{W.\bibnamedelimi R.}{W\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{43913df7c07e91c6a6171700f0b6f369}
-      \strng{fullhash}{43913df7c07e91c6a6171700f0b6f369}
-      \field{sortinit}{J}
-      \field{sortinithash}{f75b22df8c340a961dce37019e29107f}
-      \field{labeltitle}{Scalar and Tensor Polarizabilities of Atoms}
-      \field{title}{Scalar and Tensor Polarizabilities of Atoms}
-      \field{year}{2009}
-    \endentry
-    \entry{lompe}{article}{}
-      \name{labelname}{1}{}{%
-        {{hash=9793089a7cc464bc8f66bdda7d050813}{Lompe}{L\bibinitperiod}{Thomas}{T\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=9793089a7cc464bc8f66bdda7d050813}{Lompe}{L\bibinitperiod}{Thomas}{T\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{9793089a7cc464bc8f66bdda7d050813}
-      \strng{fullhash}{9793089a7cc464bc8f66bdda7d050813}
-      \field{sortinit}{L}
-      \field{sortinithash}{c41a2b5886eeae464e75d1a9df4cd13e}
-      \field{labeltitle}{Efimov Physics in a three-component Fermi gas}
-      \field{title}{Efimov Physics in a three-component Fermi gas}
-      \field{year}{2011}
-    \endentry
-    \entry{magic01}{article}{}
-      \name{labelname}{2}{}{%
-        {{hash=b982e1fb30224945401b6440e77f2e53}{M.\bibnamedelimi S.\bibnamedelimi Safronova}{M\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim S\bibinitperiod}{U.\bibnamedelimi I.\bibnamedelimi Safronova}{U\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
-        {{hash=a9c4ba58fa344ab004dde3db37c9f670}{Clark}{C\bibinitperiod}{Charles\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=b982e1fb30224945401b6440e77f2e53}{M.\bibnamedelimi S.\bibnamedelimi Safronova}{M\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim S\bibinitperiod}{U.\bibnamedelimi I.\bibnamedelimi Safronova}{U\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
-        {{hash=a9c4ba58fa344ab004dde3db37c9f670}{Clark}{C\bibinitperiod}{Charles\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{aa6ff443089bffc0f16278f1c27d33f3}
-      \strng{fullhash}{aa6ff443089bffc0f16278f1c27d33f3}
-      \field{sortinit}{M}
-      \field{sortinithash}{4203d16473bc940d4ac780773cb7c5dd}
-      \field{labeltitle}{Magic wavelengths for optical cooling and trapping of lithium}
-      \field{title}{Magic wavelengths for optical cooling and trapping of lithium}
-      \field{year}{2012}
-    \endentry
-    \entry{metcalf}{book}{}
-      \name{labelname}{2}{}{%
-        {{hash=f1ca193d37c9e0341b76b99ef733aac8}{Metcalf}{M\bibinitperiod}{Harold\bibnamedelima J.}{H\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-        {{hash=788904a47e2fa0b6fb05171b2d2ac964}{Straten}{S\bibinitperiod}{Peter\bibnamedelima Van}{P\bibinitperiod\bibinitdelim V\bibinitperiod}{der}{d\bibinitperiod}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=f1ca193d37c9e0341b76b99ef733aac8}{Metcalf}{M\bibinitperiod}{Harold\bibnamedelima J.}{H\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-        {{hash=788904a47e2fa0b6fb05171b2d2ac964}{Straten}{S\bibinitperiod}{Peter\bibnamedelima Van}{P\bibinitperiod\bibinitdelim V\bibinitperiod}{der}{d\bibinitperiod}{}{}}%
-      }
-      \strng{namehash}{f77e705948e6ff6b0dbbab0ec9f96116}
-      \strng{fullhash}{f77e705948e6ff6b0dbbab0ec9f96116}
-      \field{sortinit}{M}
-      \field{sortinithash}{4203d16473bc940d4ac780773cb7c5dd}
-      \field{labeltitle}{Laser cooling and trapping}
-      \field{title}{Laser cooling and trapping}
-      \field{year}{1999}
-    \endentry
-    \entry{timo}{thesis}{}
-      \name{labelname}{1}{}{%
-        {{hash=197149518a000baa861522906d83dc12}{Ottenstein}{O\bibinitperiod}{Timo\bibnamedelima Bastian}{T\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=197149518a000baa861522906d83dc12}{Ottenstein}{O\bibinitperiod}{Timo\bibnamedelima Bastian}{T\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
-      }
-      \list{institution}{1}{%
-        {Universität Heidelberg}%
-      }
-      \strng{namehash}{197149518a000baa861522906d83dc12}
-      \strng{fullhash}{197149518a000baa861522906d83dc12}
-      \field{sortinit}{O}
-      \field{sortinithash}{59512cfd31be1dcef4def024230bdc1d}
-      \field{labeltitle}{Few-body physics in ultracold Fermi gases}
-      \field{title}{Few-body physics in ultracold Fermi gases}
-      \field{type}{phdthesis}
-      \field{year}{2010}
     \endentry
     \entry{factor}{online}{}
       \name{labelname}{1}{}{%
@@ -265,8 +352,8 @@
       }
       \strng{namehash}{0abde002e510c0a9bdcbbcdf166d056a}
       \strng{fullhash}{0abde002e510c0a9bdcbbcdf166d056a}
-      \field{sortinit}{P}
-      \field{sortinithash}{b8af9282ac256b81613dc9012a0ac921}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{day}{8}
       \field{month}{5}
       \field{year}{2015}
@@ -274,73 +361,20 @@
       \verb http://physics.stackexchange.com/questions/38343/why-is-there-a-factor-of-1-2-in-the-interaction-energy-of-an-induced-dipole-with
       \endverb
     \endentry
-    \entry{dipole}{article}{}
-      \name{labelname}{2}{}{%
-        {{hash=0306f3dfe23c7299e29940f592f9a088}{Rudolf\bibnamedelima Grimm}{R\bibinitperiod\bibinitdelim G\bibinitperiod}{Matthias\bibnamedelima Weidemueller}{M\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=0bc49bab5feed8a1251c27ab768de69e}{Ovchinnikov}{O\bibinitperiod}{Yurii\bibnamedelima B.}{Y\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=0306f3dfe23c7299e29940f592f9a088}{Rudolf\bibnamedelima Grimm}{R\bibinitperiod\bibinitdelim G\bibinitperiod}{Matthias\bibnamedelima Weidemueller}{M\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=0bc49bab5feed8a1251c27ab768de69e}{Ovchinnikov}{O\bibinitperiod}{Yurii\bibnamedelima B.}{Y\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{f0b9775d8e3cb1a0fa13d7751a90f86a}
-      \strng{fullhash}{f0b9775d8e3cb1a0fa13d7751a90f86a}
-      \field{sortinit}{R}
-      \field{sortinithash}{ff5a3533ecf9d5a03ff60b1e1389b63d}
-      \field{labeltitle}{Optical dipole traps for neutral atoms}
-      \field{title}{Optical dipole traps for neutral atoms}
-      \field{year}{1999}
-    \endentry
-    \entry{friedhelm}{article}{}
+    \entry{wigner}{book}{}
       \name{labelname}{1}{}{%
-        {{hash=ba6e698426325addc02945711876d36a}{Serwane}{S\bibinitperiod}{Friedhelm}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=43913df7c07e91c6a6171700f0b6f369}{Johnson}{J\bibinitperiod}{W.\bibnamedelimi R.}{W\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
       }
       \name{author}{1}{}{%
-        {{hash=ba6e698426325addc02945711876d36a}{Serwane}{S\bibinitperiod}{Friedhelm}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=43913df7c07e91c6a6171700f0b6f369}{Johnson}{J\bibinitperiod}{W.\bibnamedelimi R.}{W\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{ba6e698426325addc02945711876d36a}
-      \strng{fullhash}{ba6e698426325addc02945711876d36a}
-      \field{sortinit}{S}
-      \field{sortinithash}{4125bb4c3a0eb3eaee3ea6da32eb70c8}
-      \field{labeltitle}{Deterministic preparation of a tunable few-fermion system}
-      \field{title}{Deterministic preparation of a tunable few-fermion system}
-      \field{year}{2011}
-    \endentry
-    \entry{ketterle}{article}{}
-      \name{labelname}{2}{}{%
-        {{hash=0e55de05ff7793c4cf9baf5936176830}{W.\bibnamedelimi Ketterle}{W\bibinitperiod\bibinitdelim K\bibinitperiod}{D.S.\bibnamedelimi Durfee}{D\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=713635307e87f65420f5c0ac62acc1dc}{Stamper-Kurn}{S\bibinithyphendelim K\bibinitperiod}{D.M.}{D\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=0e55de05ff7793c4cf9baf5936176830}{W.\bibnamedelimi Ketterle}{W\bibinitperiod\bibinitdelim K\bibinitperiod}{D.S.\bibnamedelimi Durfee}{D\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=713635307e87f65420f5c0ac62acc1dc}{Stamper-Kurn}{S\bibinithyphendelim K\bibinitperiod}{D.M.}{D\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{cd7dc45d637cf39691fc20ea269ee85e}
-      \strng{fullhash}{cd7dc45d637cf39691fc20ea269ee85e}
-      \field{sortinit}{W}
-      \field{sortinithash}{e560dae78a85a037c3da51c61467873a}
-      \field{labeltitle}{Making, probing and understanding Bose-Einstein condensates}
-      \field{title}{Making, probing and understanding Bose-Einstein condensates}
-      \field{year}{1999}
-    \endentry
-    \entry{doublewell}{article}{}
-      \name{labelname}{2}{}{%
-        {{hash=c2488a0126b9955f718c819079e116aa}{Zürn}{Z\bibinitperiod}{Simon\bibnamedelimb Murmann;\bibnamedelimb Andrea\bibnamedelimb Bergschneider;\bibnamedelimb Vincent\bibnamedelimb M.\bibnamedelimi Klinkhammer;\bibnamedelima Gerhard}{S\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
-        {{hash=084ac77ec29daadd86b99791786428fb}{Jochim}{J\bibinitperiod}{Selim}{S\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=c2488a0126b9955f718c819079e116aa}{Zürn}{Z\bibinitperiod}{Simon\bibnamedelimb Murmann;\bibnamedelimb Andrea\bibnamedelimb Bergschneider;\bibnamedelimb Vincent\bibnamedelimb M.\bibnamedelimi Klinkhammer;\bibnamedelima Gerhard}{S\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
-        {{hash=084ac77ec29daadd86b99791786428fb}{Jochim}{J\bibinitperiod}{Selim}{S\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{1e0b1afa2bfa7f100036628f3edcd6bc}
-      \strng{fullhash}{1e0b1afa2bfa7f100036628f3edcd6bc}
-      \field{sortinit}{Z}
-      \field{sortinithash}{9cca09897f0dfd9ed260e065f6d82cd6}
-      \field{labeltitle}{Two Fermions in a double well: Exploring a fundamental building block of the Hubbard model}
-      \field{journaltitle}{Physical Review Letters}
-      \field{title}{Two Fermions in a double well: Exploring a fundamental building block of the Hubbard model}
-      \field{volume}{144}
-      \field{year}{2015}
+      \strng{namehash}{43913df7c07e91c6a6171700f0b6f369}
+      \strng{fullhash}{43913df7c07e91c6a6171700f0b6f369}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Lectures on Atomic Physics}
+      \field{title}{Lectures on Atomic Physics}
+      \field{year}{2006}
     \endentry
   \endsortlist
 \endrefsection

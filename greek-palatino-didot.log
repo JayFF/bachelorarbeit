@@ -1,0 +1,522 @@
+This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2015.5.11)  21 MAY 2015 13:57
+ restricted \write18 enabled.
+**greek-palatino-didot.tex
+(./greek-palatino-didot.tex
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2013/12/19 v3.12 KOMA-Script document class (article)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-dependent ba
+sics and keyval usage)
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-independent b
+asics and keyval usage)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2013/12/19 v3.12 KOMA-Script package (loading files)
+
+Package scrlfile, 2013/12/19 v3.12 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+))) (/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2013/12/19 v3.12 KOMA-Script package (handling toc-files)
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 115.
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 116.
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 117.
+Class scrartcl Info: File `scrsize11pt.clo' used instead of
+(scrartcl)           file `scrsize11.clo' to setup font sizes on input line 1531
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2013/12/19 v3.12 KOMA-Script font size class option (11pt)
+
+)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2013/12/19 v3.12 KOMA-Script package (type area)
+
+Package typearea, 2013/12/19 v3.12 KOMA-Script package (type area)
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-
+
+\ta@bcor=\skip41
+\ta@div=\count79
+Package typearea Info: You've used standard option `a4paper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=a4'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=a4' there
+(typearea)             instead of `a4paper', too.
+\ta@hblk=\skip42
+\ta@vblk=\skip43
+\ta@temp=\skip44
+\footheight=\skip45
+
+Package typearea Warning: Bad type area settings!
+(typearea)                The detected line width is about 20%
+(typearea)                larger than the heuristically detected line width.
+(typearea)                You should e.g. decrease DIV, increase fontsize
+(typearea)                or change papersize.
+
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 14
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 469.47052pt
+(typearea)              DIV departure   = -20%
+(typearea)              \evensidemargin = -8.25128pt
+(typearea)              \oddsidemargin  = -8.25128pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 677.4003pt
+(typearea)              \topmargin      = -49.30951pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 1330.
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\abovecaptionskip=\skip46
+\belowcaptionskip=\skip47
+\c@pti@nb@sid@b@x=\box26
+\c@figure=\count86
+\c@table=\count87
+\bibindent=\dimen102
+)
+
+Class scrartcl Warning: Usage of package `parskip' together
+(scrartcl)              with a KOMA-Script class is not recommended.
+(scrartcl)              I'd suggest to use option
+(scrartcl)              `parskip' with one of it's several values.
+(scrartcl)              Nevertheless, using requested
+(scrartcl)              package `parskip' on input line 4.
+
+(/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2001/04/09 non-zero parskip adjustments
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/lgrenc.def
+File: lgrenc.def 2013/12/02 v0.11.2 LGR Greek font encoding definitions
+
+(/usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
+File: greek-fontenc.def 2013/11/28 v0.11 Common Greek font encoding definitions
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2014/04/30 v1.2b Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2014/09/25 3.9l The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-greek/greek.ldf
+Language: greek 2014/10/21 v1.9c Greek support for the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2014/09/25 3.9l Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/luababel.def
+luatex-hyphen: using data file: /var/lib/texmf/tex/generic/config/language.dat.l
+ua))
+\bbl@monogreek=\count89
+\bbl@polygreek=\count90
+\bbl@ancientgreek=\count91
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: luatex-loader 2010/03/09 v0.4 Lua module loader (HO)
+
+(/usr/share/texlive/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
+
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks17
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO)
+
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen104
+\Hy@linkcounter=\count92
+\Hy@pagecounter=\count93
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count94
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4319.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count95
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen105
+\Fld@menulength=\count96
+\Field@Width=\dimen106
+\Fld@charsize=\dimen107
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring ON on input line 6313.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count97
+\c@Item=\count98
+\c@Hfootnote=\count99
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count100
+\c@bookmark@seq@number=\count101
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
+2.
+)
+\Hy@SectionHShift=\skip48
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bookmark.sty
+Package: bookmark 2011/12/02 v1.24 PDF bookmarks (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
+File: bkm-pdftex.def 2011/12/02 v1.24 bookmark driver for pdfTeX (HO)
+\BKM@id=\count102
+))
+(/usr/share/texlive/texmf-dist/tex/latex/substitutefont/substitutefont.sty
+Package: substitutefont 2012/07/07 v0.1.3 combine font families
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathpazo.sty
+Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup4
+)
+(/usr/share/texmf/tex/latex/tex-gyre/tgheros.sty
+Package: tgheros 2009/09/27 v1.2 TeX Gyre Heros as default sans serif family
+)
+No file greek-palatino-didot.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 35.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 35.
+(/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
+File: lgrcmr.fd 2013/09/01 v1.0 Greek European Computer Regular
+)
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Try loading font information for T1+pplx on input line 35.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pplx.fd
+File: t1pplx.fd 2004/09/06 font definitions for T1/pplx.
+)
+\AtBeginShipoutBox=\box27
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 137.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count103
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count104
+\scratchdimen=\dimen108
+\scratchbox=\box28
+\nofMPsegments=\count105
+\nofMParguments=\count106
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count107
+\MPscratchDim=\dimen109
+\MPnumerator=\count108
+\makeMPintoPDFobject=\count109
+\everyMPtoPDFconversion=\toks19
+)))
+Package hyperref Info: Link coloring ON on input line 35.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count110
+)
+LaTeX Info: Redefining \ref on input line 35.
+LaTeX Info: Redefining \pageref on input line 35.
+LaTeX Info: Redefining \nameref on input line 35.
+\big@size=\dimen110
+LaTeX Font Info:    Try loading font information for T1+qhv on input line 37.
+
+(/usr/share/texmf/tex/latex/tex-gyre/t1qhv.fd
+File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
+)
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 9.85492pt on input line 37.
+LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
+(Font)              scaled to size 9.85492pt on input line 37.
+LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
+(Font)              scaled to size 12.9599pt on input line 37.
+LaTeX Font Info:    Try loading font information for LGR+udidot on input line 48
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/gfsdidot/lgrudidot.fd)
+LaTeX Font Info:    Font shape `LGR/pplx/m/n' in size <10.95> not available
+(Font)              Font shape `LGR/udidot/m/n' tried instead on input line 48.
+LaTeX Font Info:    Font shape `LGR/udidot/m/n' will be
+(Font)              scaled to size 11.38791pt on input line 48.
+LaTeX Font Info:    Font shape `LGR/pplx/m/it' in size <10.95> not available
+(Font)              Font shape `LGR/udidot/m/it' tried instead on input line 50.
+
+LaTeX Font Info:    Font shape `LGR/udidot/m/it' will be
+(Font)              scaled to size 11.38791pt on input line 50.
+LaTeX Font Info:    Font shape `T1/pplx/m/sl' in size <10.95> not available
+(Font)              Font shape `T1/pplx/m/it' tried instead on input line 52.
+LaTeX Font Info:    Font shape `LGR/pplx/m/sl' in size <10.95> not available
+(Font)              Font shape `LGR/udidot/m/sl' tried instead on input line 52.
+
+LaTeX Font Info:    Font shape `LGR/udidot/m/sl' will be
+(Font)              scaled to size 11.38791pt on input line 52.
+LaTeX Font Info:    Font shape `LGR/pplx/b/n' in size <10.95> not available
+(Font)              Font shape `LGR/udidot/b/n' tried instead on input line 54.
+LaTeX Font Info:    Font shape `LGR/udidot/b/n' will be
+(Font)              scaled to size 11.38791pt on input line 54.
+
+Overfull \hbox (3.55832pt too wide) in paragraph at lines 54--55
+\T1/pplx/b/n/10.95 ABCDEFGHJIKLMNOPRQRSTUVWXYZÄÖÜ \LGR/pplx/b/n/10.95 ABGDEZ
+HJIKLMNXOPRSTUFQYW
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+LaTeX Font Info:    Font shape `LGR/pplx/b/it' in size <10.95> not available
+(Font)              Font shape `LGR/udidot/b/it' tried instead on input line 56.
+
+LaTeX Font Info:    Font shape `LGR/udidot/b/it' will be
+(Font)              scaled to size 11.38791pt on input line 56.
+
+Overfull \hbox (3.43214pt too wide) in paragraph at lines 56--57
+\T1/pplx/b/it/10.95 ABCDEFGHJIKLMNOPRQRSTUVWXYZÄÖÜ \LGR/pplx/b/it/10.95 ABGD
+EZHJIKLMNXOPRSTUFQYW
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+
+ []
+
+LaTeX Font Info:    Font shape `LGR/pplx/m/sc' in size <10.95> not available
+(Font)              Font shape `LGR/udidot/m/sc' tried instead on input line 58.
+
+LaTeX Font Info:    Font shape `LGR/udidot/m/sc' will be
+(Font)              scaled to size 11.38791pt on input line 58.
+LaTeX Font Info:    Try loading font information for LGR+neohellenic on input li
+ne 68.
+(/usr/share/texlive/texmf-dist/tex/latex/gfsneohellenic/lgrneohellenic.fd)
+LaTeX Font Info:    Font shape `LGR/qhv/m/n' in size <10.95> not available
+(Font)              Font shape `LGR/neohellenic/m/n' tried instead on input line
+ 68.
+LaTeX Font Info:    Font shape `LGR/neohellenic/m/n' will be
+(Font)              scaled to size 13.4138pt on input line 68.
+LaTeX Font Info:    Font shape `LGR/qhv/b/n' in size <10.95> not available
+(Font)              Font shape `LGR/neohellenic/b/n' tried instead on input line
+ 70.
+LaTeX Font Info:    Font shape `LGR/neohellenic/b/n' will be
+(Font)              scaled to size 13.4138pt on input line 70.
+
+
+LaTeX Font Warning: Font shape `T1/qhv/m/sl' in size <10.95> not available
+(Font)              Font shape `T1/qhv/m/it' tried instead on input line 72.
+
+LaTeX Font Info:    Font shape `T1/qhv/m/it' will be
+(Font)              scaled to size 9.85492pt on input line 72.
+LaTeX Font Info:    Font shape `LGR/qhv/m/sl' in size <10.95> not available
+(Font)              Font shape `LGR/neohellenic/m/sl' tried instead on input lin
+e 72.
+LaTeX Font Info:    Font shape `LGR/neohellenic/m/sl' will be
+(Font)              scaled to size 13.4138pt on input line 72.
+LaTeX Font Info:    Font shape `T1/qhv/m/sc' will be
+(Font)              scaled to size 9.85492pt on input line 74.
+LaTeX Font Info:    Font shape `LGR/qhv/m/sc' in size <10.95> not available
+(Font)              Font shape `LGR/neohellenic/m/sc' tried instead on input lin
+e 74.
+LaTeX Font Info:    Font shape `LGR/neohellenic/m/sc' will be
+(Font)              scaled to size 13.4138pt on input line 74.
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 85.
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txtt.fd
+File: t1txtt.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for LGR+cmtt on input line 85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmtt.fd
+File: lgrcmtt.fd 2013/09/01 v1.0 Greek European Computer Typewriter
+)
+LaTeX Font Info:    Font shape `LGR/txtt/m/n' in size <10.95> not available
+(Font)              Font shape `LGR/cmtt/m/n' tried instead on input line 85.
+LaTeX Font Info:    Font shape `T1/txtt/m/it' in size <10.95> not available
+(Font)              Font shape `T1/txtt/m/sl' tried instead on input line 87.
+LaTeX Font Info:    Font shape `LGR/txtt/m/it' in size <10.95> not available
+(Font)              Font shape `LGR/cmtt/m/it' tried instead on input line 87.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
+ (./greek-palatino-didot.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 91.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
+)
+
+Here is how much of LuaTeX's memory you used:
+ 8591 strings out of 493787
+ 100000,552014 words of node,token memory allocated
+ 278 words of node memory still in use:
+   2 hlist, 1 vlist, 1 rule, 2 glue, 40 glue_spec, 1 write nodes
+   avail lists: 2:19,3:98,4:491,5:80,6:1815,7:5,8:7,9:75,10:59
+ 12070 multiletter control sequences out of 65536+600000
+ 76 fonts using 2996407 bytes
+ 40i,5n,51p,490b,333s stack positions out of 5000i,500n,10000p,200000b,100000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/gfsneohellenic/neohellenicelsc.en
+c}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec-sc.enc}{/usr/share/texlive/tex
+mf-dist/fonts/enc/dvips/gfsneohellenic/neohellenicel.enc}{/usr/share/texmf/fonts
+/enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/gfsd
+idot/gpdidotusc.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{
+/usr/share/texlive/texmf-dist/fonts/enc/dvips/gfsdidot/gpdidot.enc}{/usr/share/t
+exlive/texmf-dist/fonts/enc/dvips/gfsdidot/gpdidoti.enc}{/usr/share/texlive/texm
+f-dist/fonts/enc/dvips/gfsdidot/gpolga.enc}<</usr/share/texlive/texmf-dist/fonts
+/type1/public/gfsdidot/GFSDidot-Bold.pfb><</usr/share/texlive/texmf-dist/fonts/t
+ype1/public/gfsdidot/GFSDidot-BoldItalic.pfb><</usr/share/texlive/texmf-dist/fon
+ts/type1/public/gfsdidot/GFSDidot-Italic.pfb><</usr/share/texlive/texmf-dist/fon
+ts/type1/public/gfsdidot/GFSDidot.pfb><</usr/share/texlive/texmf-dist/fonts/type
+1/public/gfsneohellenic/GFSNeohellenic-Bold.pfb><</usr/share/texlive/texmf-dist/
+fonts/type1/public/gfsneohellenic/GFSNeohellenic-Regular.pfb><</usr/share/texliv
+e/texmf-dist/fonts/type1/public/gfsdidot/GFSOlga.pfb><</usr/share/texlive/texmf-
+dist/fonts/type1/public/fpl/fplrc8a.pfb><</usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/cbfonts/gtti1095.pfb><</usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/cbfonts/gttn1095.pfb><</usr/share/texmf/fonts/type1/public/tex-gyre/qhvb.pfb>
+<</usr/share/texmf/fonts/type1/public/tex-gyre/qhvr.pfb><</usr/share/texmf/fonts
+/type1/public/tex-gyre/qhvri.pfb><</usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/txfonts/t1xtt.pfb><</usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/u
+plb8a.pfb><</usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb><
+</usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><</usr/share/
+texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on greek-palatino-didot.pdf (1 page, 324272 bytes).
+
+PDF statistics: 108 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
+ 3 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

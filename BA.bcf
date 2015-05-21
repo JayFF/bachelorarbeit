@@ -121,7 +121,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortscheme</bcf:key>
-      <bcf:value>nty</bcf:value>
+      <bcf:value>none</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquelist</bcf:key>
@@ -603,30 +603,7 @@
   <bcf:sorting>
     <bcf:presort>mm</bcf:presort>
     <bcf:sort order="1">
-      <bcf:sortitem order="1">presort</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="2" final="1">
-      <bcf:sortitem order="1">sortkey</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="3">
-      <bcf:sortitem order="1">sortname</bcf:sortitem>
-      <bcf:sortitem order="2">author</bcf:sortitem>
-      <bcf:sortitem order="3">editor</bcf:sortitem>
-      <bcf:sortitem order="4">translator</bcf:sortitem>
-      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="6">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="4">
-      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="2">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="5">
-      <bcf:sortitem order="1">sortyear</bcf:sortitem>
-      <bcf:sortitem order="2">year</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="6">
-      <bcf:sortitem order="1" pad_side="left" pad_width="4" pad_char="0">volume</bcf:sortitem>
-      <bcf:sortitem order="2">0000</bcf:sortitem>
+      <bcf:sortitem order="1">citeorder</bcf:sortitem>
     </bcf:sort>
   </bcf:sorting>
   <!-- DATA MODEL -->
@@ -1968,64 +1945,46 @@
     <bcf:datasource type="file" datatype="bibtex">BA.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">feynman</bcf:citekey>
-    <bcf:citekey order="2">metcalf</bcf:citekey>
-    <bcf:citekey order="3">bloch</bcf:citekey>
-    <bcf:citekey order="4">greiner</bcf:citekey>
-    <bcf:citekey order="5">friedhelm</bcf:citekey>
-    <bcf:citekey order="6">lompe</bcf:citekey>
-    <bcf:citekey order="7">lompe</bcf:citekey>
+    <bcf:citekey order="1">cuprates</bcf:citekey>
+    <bcf:citekey order="2">feynman</bcf:citekey>
+    <bcf:citekey order="3">metcalf</bcf:citekey>
+    <bcf:citekey order="4">bloch</bcf:citekey>
+    <bcf:citekey order="5">greiner</bcf:citekey>
+    <bcf:citekey order="6">preparation</bcf:citekey>
+    <bcf:citekey order="7">friedhelm</bcf:citekey>
     <bcf:citekey order="8">lompe</bcf:citekey>
-    <bcf:citekey order="9">ketterle</bcf:citekey>
-    <bcf:citekey order="10">timo</bcf:citekey>
-    <bcf:citekey order="11">gehm</bcf:citekey>
-    <bcf:citekey order="12">demtroder</bcf:citekey>
-    <bcf:citekey order="13">transitions</bcf:citekey>
-    <bcf:citekey order="14">transitions</bcf:citekey>
-    <bcf:citekey order="15">gehm</bcf:citekey>
+    <bcf:citekey order="9">metcalf</bcf:citekey>
+    <bcf:citekey order="10">preparation</bcf:citekey>
+    <bcf:citekey order="11">lompe</bcf:citekey>
+    <bcf:citekey order="12">lompe</bcf:citekey>
+    <bcf:citekey order="13">ketterle</bcf:citekey>
+    <bcf:citekey order="14">ketterle2</bcf:citekey>
+    <bcf:citekey order="15">timo</bcf:citekey>
     <bcf:citekey order="16">gehm</bcf:citekey>
-    <bcf:citekey order="17">dipole</bcf:citekey>
-    <bcf:citekey order="18">factor</bcf:citekey>
-    <bcf:citekey order="19">gehm</bcf:citekey>
-    <bcf:citekey order="20">dipole</bcf:citekey>
-    <bcf:citekey order="21">alpha</bcf:citekey>
-    <bcf:citekey order="22">wigner</bcf:citekey>
-    <bcf:citekey order="23">dipole</bcf:citekey>
-    <bcf:citekey order="24">magic01</bcf:citekey>
-    <bcf:citekey order="25">magic01</bcf:citekey>
-    <bcf:citekey order="26">NIST_ASD</bcf:citekey>
+    <bcf:citekey order="17">demtroder</bcf:citekey>
+    <bcf:citekey order="18">transitions</bcf:citekey>
+    <bcf:citekey order="19">transitions</bcf:citekey>
+    <bcf:citekey order="20">gehm</bcf:citekey>
+    <bcf:citekey order="21">gehm</bcf:citekey>
+    <bcf:citekey order="22">dipole</bcf:citekey>
+    <bcf:citekey order="23">gehm</bcf:citekey>
+    <bcf:citekey order="24">dipole</bcf:citekey>
+    <bcf:citekey order="25">alpha</bcf:citekey>
+    <bcf:citekey order="26">dipole</bcf:citekey>
     <bcf:citekey order="27">magic01</bcf:citekey>
-    <bcf:citekey order="28">NIST_ASD</bcf:citekey>
-    <bcf:citekey order="29">cohen</bcf:citekey>
-    <bcf:citekey order="30">lompe</bcf:citekey>
+    <bcf:citekey order="28">magic01</bcf:citekey>
+    <bcf:citekey order="29">NIST_ASD</bcf:citekey>
+    <bcf:citekey order="30">magic01</bcf:citekey>
+    <bcf:citekey order="31">NIST_ASD</bcf:citekey>
+    <bcf:citekey order="32">cohen</bcf:citekey>
+    <bcf:citekey order="33">lompe</bcf:citekey>
+    <bcf:citekey order="34">factor</bcf:citekey>
+    <bcf:citekey order="35">wigner</bcf:citekey>
   </bcf:section>
-  <bcf:sortlist section="0" name="nty" type="entry" sortscheme="nty">
+  <bcf:sortlist section="0" name="none" type="entry" sortscheme="none">
   <bcf:sorting>
     <bcf:sort order="1">
-      <bcf:sortitem order="1">presort</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="2" final="1">
-      <bcf:sortitem order="1">sortkey</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="3">
-      <bcf:sortitem order="1">sortname</bcf:sortitem>
-      <bcf:sortitem order="2">author</bcf:sortitem>
-      <bcf:sortitem order="3">editor</bcf:sortitem>
-      <bcf:sortitem order="4">translator</bcf:sortitem>
-      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="6">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="4">
-      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="2">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="5">
-      <bcf:sortitem order="1">sortyear</bcf:sortitem>
-      <bcf:sortitem order="2">year</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="6">
-      <bcf:sortitem order="1" pad_side="left" pad_width="4" pad_char="0">volume</bcf:sortitem>
-      <bcf:sortitem order="2">0000</bcf:sortitem>
+      <bcf:sortitem order="1">citeorder</bcf:sortitem>
     </bcf:sort>
   </bcf:sorting>
   </bcf:sortlist>

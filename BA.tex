@@ -1,5 +1,3 @@
-% !TeX spellcheck = <english>	
-
 \documentclass{scrbook}
 \usepackage[ngerman, main=english]{babel}
 \usepackage{fontspec}
@@ -7,8 +5,10 @@
 \usepackage{csquotes}
 \usepackage{amssymb}
 \usepackage{float}
+\usepackage{hyperref}
+\usepackage{cleveref}
 
-%\usepackage{mathpazo}
+\usepackage{mathpazo}
 \setmainfont[Numbers=OldStyle]{Linux Libertine O}
 \setkomafont{sectioning}{\scshape}
 %\setkomafont{title}{\scshape}
@@ -17,7 +17,7 @@
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage{subcaption}
-\usepackage[backend=biber,style=numeric]{biblatex}
+\usepackage[backend=biber,style=numeric,sorting=none,natbib=true]{biblatex}
 \usepackage{remreset}
  
 
@@ -41,8 +41,12 @@
 \include{theory}
 \include{calculation}
 \include{measurements}
+\begin{appendix}
+\include{appendix}
+\end{appendix}
 
 \printbibliography
+\include{declaration}
 
 \end{document}
 
