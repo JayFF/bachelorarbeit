@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2015.5.11)  21 MAY 2015 17:26
+This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2015.5.11)  21 MAY 2015 17:54
  restricted \write18 enabled.
 **BA.tex
 (./BA.tex
@@ -1482,132 +1482,140 @@ Chapter 4.
 Underfull \vbox (badness 4120) has occurred while \output is active []
 
  [23]
-<alphaground.pdf, id=373, 361.35pt x 210.7875pt>
-File: alphaground.pdf Graphic file (type pdf)
- <use alphaground.pdf>
-Package pdftex.def Info: alphaground.pdf used on input line 55.
-(pdftex.def)             Requested size: 167.29967pt x 97.5906pt.
-luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
-s/vf/adobe/palatino/pplr7t.vf.
-checksum mismatch in font pplr7t.vf ignored 
-luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
-s/vf/adobe/palatino/pplr7t.vf.
-checksum mismatch in font pplr7t.vf ignored 
-luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
-s/vf/public/mathpazo/zplmr7m.vf.
-checksum mismatch in font zplmr7m.vf ignored 
-luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
-s/vf/public/mathpazo/zplmr7m.vf.
-checksum mismatch in font zplmr7m.vf ignored 
-luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
-s/vf/public/mathpazo/zplmr7y.vf.
-checksum mismatch in font zplmr7y.vf ignored 
-luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
-s/vf/public/mathpazo/zplmr7y.vf.
-checksum mismatch in font zplmr7y.vf ignored 
-luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
-s/vf/public/mathpazo/zplmr7v.vf.
-luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
-s/vf/public/mathpazo/zplmr7v.vf.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 56.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 56.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 56.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 56.
-luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
-s/vf/public/mathpazo/zplmr7t.vf.
-checksum mismatch in font zplmr7t.vf ignored 
-luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
-s/vf/public/mathpazo/zplmr7t.vf.
-checksum mismatch in font zplmr7t.vf ignored 
-<alphaexited12.pdf, id=374, 361.35pt x 206.7725pt>
+<alphaexited12.pdf, id=373, 361.35pt x 206.7725pt>
 File: alphaexited12.pdf Graphic file (type pdf)
  <use alphaexited12.pdf>
-Package pdftex.def Info: alphaexited12.pdf used on input line 59.
+Package pdftex.def Info: alphaexited12.pdf used on input line 55.
 (pdftex.def)             Requested size: 167.29967pt x 95.73174pt.
-
-<alphaexited32.pdf, id=375, 361.35pt x 209.78375pt>
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/adobe/palatino/pplr7t.vf.
+checksum mismatch in font pplr7t.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/adobe/palatino/pplr7t.vf.
+checksum mismatch in font pplr7t.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7m.vf.
+checksum mismatch in font zplmr7m.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7m.vf.
+checksum mismatch in font zplmr7m.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7y.vf.
+checksum mismatch in font zplmr7y.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7y.vf.
+checksum mismatch in font zplmr7y.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7v.vf.
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7v.vf.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 56.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 56.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 56.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 56.
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7t.vf.
+checksum mismatch in font zplmr7t.vf ignored 
+luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
+s/vf/public/mathpazo/zplmr7t.vf.
+checksum mismatch in font zplmr7t.vf ignored 
+<alphaexited32.pdf, id=374, 361.35pt x 209.78375pt>
 File: alphaexited32.pdf Graphic file (type pdf)
  <use alphaexited32.pdf>
-Package pdftex.def Info: alphaexited32.pdf used on input line 63.
+Package pdftex.def Info: alphaexited32.pdf used on input line 59.
 (pdftex.def)             Requested size: 167.29967pt x 97.12589pt.
 
-<alphaalltogether.pdf, id=376, 361.35pt x 210.7875pt>
+<alphadiff12.pdf, id=375, 361.35pt x 206.7725pt>
+File: alphadiff12.pdf Graphic file (type pdf)
+ <use alphadiff12.pdf>
+Package pdftex.def Info: alphadiff12.pdf used on input line 63.
+(pdftex.def)             Requested size: 167.29967pt x 95.73174pt.
+
+<alphadiff32.pdf, id=376, 361.35pt x 210.7875pt>
+File: alphadiff32.pdf Graphic file (type pdf)
+ <use alphadiff32.pdf>
+Package pdftex.def Info: alphadiff32.pdf used on input line 67.
+(pdftex.def)             Requested size: 167.29967pt x 97.5906pt.
+
+<alphaground.pdf, id=377, 361.35pt x 210.7875pt>
+File: alphaground.pdf Graphic file (type pdf)
+ <use alphaground.pdf>
+Package pdftex.def Info: alphaground.pdf used on input line 71.
+(pdftex.def)             Requested size: 167.29967pt x 97.5906pt.
+
+<alphaalltogether.pdf, id=378, 361.35pt x 210.7875pt>
 File: alphaalltogether.pdf Graphic file (type pdf)
 
 <use alphaalltogether.pdf>
-Package pdftex.def Info: alphaalltogether.pdf used on input line 67.
+Package pdftex.def Info: alphaalltogether.pdf used on input line 75.
 (pdftex.def)             Requested size: 167.29967pt x 97.5906pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
-[25<./alphaground.pdf><./alphaexited12.pdf><./alphaexited32.pdf><./alphaalltoget
-her.pdf>] <alphascalarconvexcited.pdf, id=461, 361.35pt x 193.72375pt>
+Underfull \vbox (badness 2717) has occurred while \output is active []
+
+ [25<./alphaexited12.pdf><./alphaexited32.pdf><./alphadiff12.pdf><./alphadiff32.
+pdf><./alphaground.pdf><./alphaalltogether.pdf>] [26]
+<alphascalarconvexcited.pdf, id=502, 361.35pt x 193.72375pt>
 File: alphascalarconvexcited.pdf Graphic file (type pdf)
 
 <use alphascalarconvexcited.pdf>
-Package pdftex.def Info: alphascalarconvexcited.pdf used on input line 101.
+Package pdftex.def Info: alphascalarconvexcited.pdf used on input line 109.
 (pdftex.def)             Requested size: 167.29967pt x 89.69041pt.
 
-<alphatensorconvexcited.pdf, id=462, 361.35pt x 202.7575pt>
+<alphatensorconvexcited.pdf, id=503, 361.35pt x 202.7575pt>
 File: alphatensorconvexcited.pdf Graphic file (type pdf)
 
 <use alphatensorconvexcited.pdf>
-Package pdftex.def Info: alphatensorconvexcited.pdf used on input line 105.
+Package pdftex.def Info: alphatensorconvexcited.pdf used on input line 113.
 (pdftex.def)             Requested size: 167.29967pt x 93.87288pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [26]
-<alphascalarconvground1.pdf, id=469, 361.35pt x 212.795pt>
+<alphascalarconvground1.pdf, id=505, 361.35pt x 212.795pt>
 File: alphascalarconvground1.pdf Graphic file (type pdf)
 
 <use alphascalarconvground1.pdf>
-Package pdftex.def Info: alphascalarconvground1.pdf used on input line 119.
+Package pdftex.def Info: alphascalarconvground1.pdf used on input line 127.
 (pdftex.def)             Requested size: 167.29967pt x 98.52003pt.
 
-<alphascalarconvground2.pdf, id=470, 361.35pt x 201.75375pt>
+<alphascalarconvground2.pdf, id=506, 361.35pt x 201.75375pt>
 File: alphascalarconvground2.pdf Graphic file (type pdf)
 
 <use alphascalarconvground2.pdf>
-Package pdftex.def Info: alphascalarconvground2.pdf used on input line 123.
+Package pdftex.def Info: alphascalarconvground2.pdf used on input line 131.
 (pdftex.def)             Requested size: 167.29967pt x 93.40816pt.
 
-<crossed_dipole_trap.png, id=471, 118.4425pt x 433.62pt>
+<crossed_dipole_trap.png, id=507, 118.4425pt x 433.62pt>
 File: crossed_dipole_trap.png Graphic file (type png)
 
 <use crossed_dipole_trap.png>
-Package pdftex.def Info: crossed_dipole_trap.png used on input line 136.
+Package pdftex.def Info: crossed_dipole_trap.png used on input line 144.
 (pdftex.def)             Requested size: 83.64983pt x 306.25131pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [27<./alphascalarconvexcited.pdf><./alphatensorconvexcited.pdf><./alphascalarco
-nvground1.pdf><./alphascalarconvground2.pdf>] <shift.pdf, id=547, 361.35pt x 21
-4.8025pt>
+nvground1.pdf><./alphascalarconvground2.pdf>]
+<shift.pdf, id=584, 361.35pt x 214.8025pt>
 File: shift.pdf Graphic file (type pdf)
-
-<use shift.pdf>
-Package pdftex.def Info: shift.pdf used on input line 146.
+ <use shift.pdf>
+Package pdftex.def Info: shift.pdf used on input line 154.
 (pdftex.def)             Requested size: 167.29967pt x 99.44948pt.
- <difshifterror.pdf, id=548, 361.35pt x 214.8025pt>
+
+<difshifterror.pdf, id=585, 361.35pt x 214.8025pt>
 File: difshifterror.pdf Graphic file (type pdf)
-
-<use difshifterror.pdf>
-Package pdftex.def Info: difshifterror.pdf used on input line 150.
+ <use difshifterror.pdf>
+Package pdftex.def Info: difshifterror.pdf used on input line 158.
 (pdftex.def)             Requested size: 167.29967pt x 99.44948pt.
 
-Underfull \hbox (badness 4467) in paragraph at lines 151--151
+Underfull \hbox (badness 4467) in paragraph at lines 159--159
 [][][]|$\OML/zplm/m/it/10 D[]$\EU2/LinuxLibertineO(0)/m/n/10 -Resonance-Shift (
 blue) and the
  []
 
 
-Underfull \hbox (badness 7133) in paragraph at lines 151--151
+Underfull \hbox (badness 7133) in paragraph at lines 159--159
 \EU2/LinuxLibertineO(0)/m/n/10 er-ror bound-ary (red). Slope of
  []
 
@@ -1632,7 +1640,7 @@ Package epstopdf Info: Source file: <withoutodt.eps>
 .pdf withoutodt.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
-<withoutodt-eps-converted-to.pdf, id=600, 821.0675pt x 574.145pt>
+<withoutodt-eps-converted-to.pdf, id=636, 821.0675pt x 574.145pt>
 File: withoutodt-eps-converted-to.pdf Graphic file (type pdf)
 
 <use withoutodt-eps-converted-to.pdf>
@@ -1649,7 +1657,7 @@ f withodt.eps>
 (epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
 
-<withodt-eps-converted-to.pdf, id=601, 821.0675pt x 574.145pt>
+<withodt-eps-converted-to.pdf, id=637, 821.0675pt x 574.145pt>
 File: withodt-eps-converted-to.pdf Graphic file (type pdf)
 
 <use withodt-eps-converted-to.pdf>
@@ -1667,7 +1675,7 @@ Package epstopdf Info: Source file: <Shift2.eps>
 (epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
 
-<Shift2-eps-converted-to.pdf, id=694, 774.895pt x 593.21625pt>
+<Shift2-eps-converted-to.pdf, id=730, 774.895pt x 593.21625pt>
 File: Shift2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Shift2-eps-converted-to.pdf>
@@ -1684,7 +1692,7 @@ o.pdf shiftintens.eps>
 (epstopdf)             \includegraphics on input line 39.
 Package epstopdf Info: Output file is already uptodate.
 
-<shiftintens-eps-converted-to.pdf, id=696, 774.895pt x 593.21625pt>
+<shiftintens-eps-converted-to.pdf, id=732, 774.895pt x 593.21625pt>
 File: shiftintens-eps-converted-to.pdf Graphic file (type pdf)
 
 <use shiftintens-eps-converted-to.pdf>
@@ -1759,14 +1767,14 @@ Package logreq Info: Writing requests to 'BA.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 31407 strings out of 493787
+ 31423 strings out of 493787
  100000,1144653 words of node,token memory allocated
- 955 words of node memory still in use:
+ 960 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 30 kern, 36 attribute, 53 glue_spec, 36 att
 ribute_list, 2 action, 2 write nodes
-   avail lists: 1:3,2:11608,3:467,4:1399,5:331,6:3782,7:284,8:28,9:645,10:355
- 33693 multiletter control sequences out of 65536+600000
- 157 fonts using 13569839 bytes
+   avail lists: 1:3,2:11608,3:472,4:1395,5:331,6:3782,7:166,8:28,9:645,10:365
+ 33701 multiletter control sequences out of 65536+600000
+ 157 fonts using 13569775 bytes
  70i,15n,60p,2572b,1611s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf>{/usr/share/texl
 ive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/
@@ -1781,10 +1789,10 @@ o/fplmri.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
 /msbm10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb
 ><</usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><</usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on BA.pdf (39 pages, 10227725 bytes).
+Output written on BA.pdf (39 pages, 12120744 bytes).
 
-PDF statistics: 918 PDF objects out of 1000 (max. 8388607)
- 668 compressed objects within 7 object streams
+PDF statistics: 954 PDF objects out of 1000 (max. 8388607)
+ 696 compressed objects within 7 object streams
  161 named destinations out of 1000 (max. 131072)
  201 words of extra memory for PDF output out of 10000 (max. 10000000)
 
