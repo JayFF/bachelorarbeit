@@ -44,10 +44,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.1.1}Microtrap parameters}{36}{subsection.5.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{37}{appendix.A}
+\contentsline {chapter}{\numberline {6}Conclusion and outlook}{37}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Potential of an induced dipole moment}{37}{section.A.1}
+\contentsline {chapter}{\numberline {A}Appendix}{39}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Wigner 3-j and 6-j symbols}{37}{section.A.2}
+\contentsline {section}{\numberline {A.1}Potential of an induced dipole moment}{39}{section.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Wigner-Eckart theorem}{38}{section.A.3}
+\contentsline {section}{\numberline {A.2}Wigner 3-j and 6-j symbols}{39}{section.A.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Wigner-Eckart theorem}{40}{section.A.3}

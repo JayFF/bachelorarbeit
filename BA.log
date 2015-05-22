@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2015.5.11)  22 MAY 2015 12:02
+This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2015.5.11)  22 MAY 2015 14:26
  restricted \write18 enabled.
 **BA.tex
 (./BA.tex
@@ -1156,7 +1156,7 @@ LaTeX Warning: Label `relativealpha' multiply defined.
 
 LaTeX Warning: Label `relativealpha@cref' multiply defined.
 
-) (./measurements.aux) (./appendix.aux) (./declaration.aux))
+) (./measurements.aux) (./conclusion.aux) (./appendix.aux) (./declaration.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
@@ -1376,7 +1376,7 @@ Class scrbook Warning: \float@addtolists detected!
 
 [9]) [10] (./experiment.tex
 Chapter 2.
-<exsetup.PNG, id=209, 560.8453pt x 397.485pt>
+<exsetup.PNG, id=214, 560.8453pt x 397.485pt>
 File: exsetup.PNG Graphic file (type png)
  <use exsetup.PNG>
 Package pdftex.def Info: exsetup.PNG used on input line 10.
@@ -1385,7 +1385,7 @@ Package pdftex.def Info: exsetup.PNG used on input line 10.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<scheme.png, id=216, 558.58687pt x 671.50874pt>
+<scheme.png, id=221, 558.58687pt x 671.50874pt>
 File: scheme.png Graphic file (type png)
  <use scheme.png>
 Package pdftex.def Info: scheme.png used on input line 34.
@@ -1438,7 +1438,7 @@ checksum mismatch in font zplmb7t.vf ignored
 luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
 s/vf/public/mathpazo/zplmb7t.vf.
 checksum mismatch in font zplmb7t.vf ignored 
-<levels2.png, id=254, 932.283pt x 888.921pt>
+<levels2.png, id=259, 932.283pt x 888.921pt>
 File: levels2.png Graphic file (type png)
  <use levels2.png>
 Package pdftex.def Info: levels2.png used on input line 24.
@@ -1454,7 +1454,7 @@ er-ing this Hamil-to-nian leads to a set of wave-functions
 
 
 
-] [16<./levels2.png>] <levels1.png, id=278, 527.72156pt x 497.60907pt>
+] [16<./levels2.png>] <levels1.png, id=283, 527.72156pt x 497.60907pt>
 File: levels1.png Graphic file (type png)
 
 <use levels1.png>
@@ -1489,7 +1489,7 @@ Chapter 4.
 Underfull \vbox (badness 4120) has occurred while \output is active []
 
  [25]
-<alphaexited12.pdf, id=395, 361.35pt x 206.7725pt>
+<alphaexited12.pdf, id=400, 361.35pt x 206.7725pt>
 File: alphaexited12.pdf Graphic file (type pdf)
  <use alphaexited12.pdf>
 Package pdftex.def Info: alphaexited12.pdf used on input line 55.
@@ -1530,31 +1530,31 @@ checksum mismatch in font zplmr7t.vf ignored
 luaotfload | main : loading virtual font file /usr/share/texlive/texmf-dist/font
 s/vf/public/mathpazo/zplmr7t.vf.
 checksum mismatch in font zplmr7t.vf ignored 
-<alphaexited32.pdf, id=396, 361.35pt x 209.78375pt>
+<alphaexited32.pdf, id=401, 361.35pt x 209.78375pt>
 File: alphaexited32.pdf Graphic file (type pdf)
  <use alphaexited32.pdf>
 Package pdftex.def Info: alphaexited32.pdf used on input line 59.
 (pdftex.def)             Requested size: 167.29967pt x 97.12589pt.
 
-<alphadiff12.pdf, id=397, 361.35pt x 206.7725pt>
+<alphadiff12.pdf, id=402, 361.35pt x 206.7725pt>
 File: alphadiff12.pdf Graphic file (type pdf)
  <use alphadiff12.pdf>
 Package pdftex.def Info: alphadiff12.pdf used on input line 63.
 (pdftex.def)             Requested size: 167.29967pt x 95.73174pt.
 
-<alphadiff32.pdf, id=398, 361.35pt x 210.7875pt>
+<alphadiff32.pdf, id=403, 361.35pt x 210.7875pt>
 File: alphadiff32.pdf Graphic file (type pdf)
  <use alphadiff32.pdf>
 Package pdftex.def Info: alphadiff32.pdf used on input line 67.
 (pdftex.def)             Requested size: 167.29967pt x 97.5906pt.
 
-<alphaground.pdf, id=399, 361.35pt x 210.7875pt>
+<alphaground.pdf, id=404, 361.35pt x 210.7875pt>
 File: alphaground.pdf Graphic file (type pdf)
  <use alphaground.pdf>
 Package pdftex.def Info: alphaground.pdf used on input line 71.
 (pdftex.def)             Requested size: 167.29967pt x 97.5906pt.
 
-<alphaalltogether.pdf, id=400, 361.35pt x 210.7875pt>
+<alphaalltogether.pdf, id=405, 361.35pt x 210.7875pt>
 File: alphaalltogether.pdf Graphic file (type pdf)
 
 <use alphaalltogether.pdf>
@@ -1568,35 +1568,35 @@ Underfull \vbox (badness 2717) has occurred while \output is active []
 
  [27<./alphaexited12.pdf><./alphaexited32.pdf><./alphadiff12.pdf><./alphadiff32.
 pdf><./alphaground.pdf><./alphaalltogether.pdf>] [28]
-<alphascalarconvexcited.pdf, id=524, 361.35pt x 193.72375pt>
+<alphascalarconvexcited.pdf, id=529, 361.35pt x 193.72375pt>
 File: alphascalarconvexcited.pdf Graphic file (type pdf)
 
 <use alphascalarconvexcited.pdf>
 Package pdftex.def Info: alphascalarconvexcited.pdf used on input line 109.
 (pdftex.def)             Requested size: 167.29967pt x 89.69041pt.
 
-<alphatensorconvexcited.pdf, id=525, 361.35pt x 202.7575pt>
+<alphatensorconvexcited.pdf, id=530, 361.35pt x 202.7575pt>
 File: alphatensorconvexcited.pdf Graphic file (type pdf)
 
 <use alphatensorconvexcited.pdf>
 Package pdftex.def Info: alphatensorconvexcited.pdf used on input line 113.
 (pdftex.def)             Requested size: 167.29967pt x 93.87288pt.
 
-<alphascalarconvground1.pdf, id=527, 361.35pt x 212.795pt>
+<alphascalarconvground1.pdf, id=532, 361.35pt x 212.795pt>
 File: alphascalarconvground1.pdf Graphic file (type pdf)
 
 <use alphascalarconvground1.pdf>
 Package pdftex.def Info: alphascalarconvground1.pdf used on input line 127.
 (pdftex.def)             Requested size: 167.29967pt x 98.52003pt.
 
-<alphascalarconvground2.pdf, id=528, 361.35pt x 201.75375pt>
+<alphascalarconvground2.pdf, id=533, 361.35pt x 201.75375pt>
 File: alphascalarconvground2.pdf Graphic file (type pdf)
 
 <use alphascalarconvground2.pdf>
 Package pdftex.def Info: alphascalarconvground2.pdf used on input line 131.
 (pdftex.def)             Requested size: 167.29967pt x 93.40816pt.
 
-<crossed_dipole_trap.png, id=529, 118.4425pt x 433.62pt>
+<crossed_dipole_trap.png, id=534, 118.4425pt x 433.62pt>
 File: crossed_dipole_trap.png Graphic file (type png)
 
 <use crossed_dipole_trap.png>
@@ -1604,13 +1604,13 @@ Package pdftex.def Info: crossed_dipole_trap.png used on input line 144.
 (pdftex.def)             Requested size: 83.64983pt x 306.25131pt.
  [29<./alphascalarconvexcited.pdf><./alphatensorconvexcited.pdf><./alphascalarco
 nvground1.pdf><./alphascalarconvground2.pdf>]
-<shift.pdf, id=606, 361.35pt x 214.8025pt>
+<shift.pdf, id=611, 361.35pt x 214.8025pt>
 File: shift.pdf Graphic file (type pdf)
  <use shift.pdf>
 Package pdftex.def Info: shift.pdf used on input line 154.
 (pdftex.def)             Requested size: 167.29967pt x 99.44948pt.
 
-<difshifterror.pdf, id=607, 361.35pt x 214.8025pt>
+<difshifterror.pdf, id=612, 361.35pt x 214.8025pt>
 File: difshifterror.pdf Graphic file (type pdf)
  <use difshifterror.pdf>
 Package pdftex.def Info: difshifterror.pdf used on input line 158.
@@ -1647,7 +1647,7 @@ Package epstopdf Info: Source file: <withoutodt.eps>
 .pdf withoutodt.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
-<withoutodt-eps-converted-to.pdf, id=659, 821.0675pt x 574.145pt>
+<withoutodt-eps-converted-to.pdf, id=664, 821.0675pt x 574.145pt>
 File: withoutodt-eps-converted-to.pdf Graphic file (type pdf)
 
 <use withoutodt-eps-converted-to.pdf>
@@ -1664,7 +1664,7 @@ f withodt.eps>
 (epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
 
-<withodt-eps-converted-to.pdf, id=660, 821.0675pt x 574.145pt>
+<withodt-eps-converted-to.pdf, id=665, 821.0675pt x 574.145pt>
 File: withodt-eps-converted-to.pdf Graphic file (type pdf)
 
 <use withodt-eps-converted-to.pdf>
@@ -1682,7 +1682,7 @@ Package epstopdf Info: Source file: <Shift2.eps>
 (epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
 
-<Shift2-eps-converted-to.pdf, id=753, 774.895pt x 593.21625pt>
+<Shift2-eps-converted-to.pdf, id=758, 774.895pt x 593.21625pt>
 File: Shift2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Shift2-eps-converted-to.pdf>
@@ -1699,7 +1699,7 @@ o.pdf shiftintens.eps>
 (epstopdf)             \includegraphics on input line 39.
 Package epstopdf Info: Output file is already uptodate.
 
-<shiftintens-eps-converted-to.pdf, id=755, 774.895pt x 593.21625pt>
+<shiftintens-eps-converted-to.pdf, id=760, 774.895pt x 593.21625pt>
 File: shiftintens-eps-converted-to.pdf Graphic file (type pdf)
 
 <use shiftintens-eps-converted-to.pdf>
@@ -1713,25 +1713,32 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [34<./Shift2-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35<./shiftintens-eps-converted-to.pdf>]) [36] (./appendix.tex
-Appendix A.
-[37
+ [35<./shiftintens-eps-converted-to.pdf>]) [36] (./conclusion.tex
+Chapter 6.
+) [37
 
 
 
 
-]) [38]
-Overfull \hbox (1.18596pt too wide) in paragraph at lines 49--49
-\EU2/LinuxLibertineO(0)/m/n/10.95 Schmied-mayer. “  Single-particle-sensitive
- imag-ing of freely prop-a-gat-ing ul-tra-cold atoms”.
- []
+] (./appendix.tex [38
 
-[39
 
 
 
 ]
-LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 48.
+Appendix A.
+[39]) [40]
+Overfull \hbox (1.18596pt too wide) in paragraph at lines 50--50
+\EU2/LinuxLibertineO(0)/m/n/10.95 Schmied-mayer. “  Single-particle-sensitive
+ imag-ing of freely prop-a-gat-ing ul-tra-cold atoms”.
+ []
+
+[41
+
+
+
+]
+LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 49.
  (/usr/share/texlive/texmf-dist/tex/latex/euenc/eu2lmtt.fd
 File: eu2lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/lmmono10-regular.
@@ -1749,29 +1756,30 @@ Class scrbook Warning: Usage of deprecated font command `\tt'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\tt' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\tt'
-(scrbook)              by `\normalfont \ttfamily ' on input line 48.
+(scrbook)              by `\normalfont \ttfamily ' on input line 49.
 
 
-Overfull \hbox (106.14697pt too wide) in paragraph at lines 49--49
+Overfull \hbox (106.14697pt too wide) in paragraph at lines 50--50
 [][]\EU2/LinuxLibertineO(0)/m/n/10.95 A. Kramida et al. NIST Atomic Spec-tra Da
 tabase (ver. .), [On-line]. Avail-able: \EU2/lmtt/m/n/10.95 http://physic
 s.nist.gov/asd
  []
 
-[40] (./declaration.tex) [41
+[42] (./declaration.tex) [43
 
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 51.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 51.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
  (./BA.aux (./titlepage.aux) (./Abstract.aux)
 (./inhalt.aux) (./introduction.aux) (./experiment.aux) (./theory.aux)
-(./calculation.aux) (./measurements.aux) (./appendix.aux) (./declaration.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 51.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 51.
+(./calculation.aux) (./measurements.aux) (./conclusion.aux) (./appendix.aux)
+(./declaration.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
 Package rerunfilecheck Info: File `BA.out' has not changed.
-(rerunfilecheck)             Checksum: 8C203BA16B280CA4F943F72A606B8F2D;1638.
+(rerunfilecheck)             Checksum: 5838320E50E3007D942EDB732D85C04B;1696.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1780,15 +1788,15 @@ Package logreq Info: Writing requests to 'BA.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 31441 strings out of 493787
+ 31472 strings out of 493787
  100000,1144653 words of node,token memory allocated
- 962 words of node memory still in use:
+ 965 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 30 kern, 36 attribute, 53 glue_spec, 36 att
 ribute_list, 2 action, 2 write nodes
-   avail lists: 1:3,2:11623,3:478,4:1394,5:331,6:3787,7:166,8:28,9:645,10:352
- 33709 multiletter control sequences out of 65536+600000
- 157 fonts using 13569775 bytes
- 70i,15n,60p,2572b,1611s stack positions out of 5000i,500n,10000p,200000b,100000s
+   avail lists: 1:3,2:11623,3:487,4:1392,5:331,6:3787,7:166,8:29,9:645,10:352
+ 33714 multiletter control sequences out of 65536+600000
+ 157 fonts using 13569839 bytes
+ 70i,15n,60p,2572b,1613s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf>{/usr/share/texl
 ive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/
 opentype/public/libertine/LinLibertine_RI.otf></usr/share/texlive/texmf-dist/fon
@@ -1802,10 +1810,10 @@ o/fplmri.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
 /msbm10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb
 ><</usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><</usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on BA.pdf (41 pages, 12124031 bytes).
+Output written on BA.pdf (43 pages, 12125999 bytes).
 
-PDF statistics: 979 PDF objects out of 1000 (max. 8388607)
- 718 compressed objects within 8 object streams
- 171 named destinations out of 1000 (max. 131072)
- 201 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 993 PDF objects out of 1000 (max. 8388607)
+ 730 compressed objects within 8 object streams
+ 174 named destinations out of 1000 (max. 131072)
+ 209 words of extra memory for PDF output out of 10000 (max. 10000000)
 
