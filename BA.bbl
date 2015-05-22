@@ -108,24 +108,149 @@
       \field{type}{phdthesis}
       \field{year}{2003}
     \endentry
-    \entry{preparation}{article}{}
+    \entry{ketterle}{article}{}
       \name{labelname}{2}{}{%
-        {{hash=e572aa9bac25000e23b9d94f49967448}{Wenz}{W\bibinitperiod}{F.\bibnamedelimi Serwane;\bibnamedelimb G.\bibnamedelimi Zürn;\bibnamedelimb T.\bibnamedelimi Lompe;\bibnamedelimb T.\bibnamedelimi B.\bibnamedelimi Ottenstein;\bibnamedelima A.N.}{F\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim Z\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=70ea8297ff8a1b4a3ff49113d87d102e}{Jochim}{J\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=0e55de05ff7793c4cf9baf5936176830}{W.\bibnamedelimi Ketterle}{W\bibinitperiod\bibinitdelim K\bibinitperiod}{D.S.\bibnamedelimi Durfee}{D\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=713635307e87f65420f5c0ac62acc1dc}{Stamper-Kurn}{S\bibinithyphendelim K\bibinitperiod}{D.M.}{D\bibinitperiod}{}{}{}{}}%
       }
       \name{author}{2}{}{%
-        {{hash=e572aa9bac25000e23b9d94f49967448}{Wenz}{W\bibinitperiod}{F.\bibnamedelimi Serwane;\bibnamedelimb G.\bibnamedelimi Zürn;\bibnamedelimb T.\bibnamedelimi Lompe;\bibnamedelimb T.\bibnamedelimi B.\bibnamedelimi Ottenstein;\bibnamedelima A.N.}{F\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim Z\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=70ea8297ff8a1b4a3ff49113d87d102e}{Jochim}{J\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=0e55de05ff7793c4cf9baf5936176830}{W.\bibnamedelimi Ketterle}{W\bibinitperiod\bibinitdelim K\bibinitperiod}{D.S.\bibnamedelimi Durfee}{D\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=713635307e87f65420f5c0ac62acc1dc}{Stamper-Kurn}{S\bibinithyphendelim K\bibinitperiod}{D.M.}{D\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{0fa03bcf26392827dec7c9baa466a416}
-      \strng{fullhash}{0fa03bcf26392827dec7c9baa466a416}
+      \strng{namehash}{cd7dc45d637cf39691fc20ea269ee85e}
+      \strng{fullhash}{cd7dc45d637cf39691fc20ea269ee85e}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
-      \field{labeltitle}{Deterministic Preperation of a Tunable Few-Fermion System}
-      \field{journaltitle}{Science}
-      \field{title}{Deterministic Preperation of a Tunable Few-Fermion System}
-      \field{volume}{332}
-      \field{year}{2011}
+      \field{labeltitle}{Making, probing and understanding Bose-Einstein condensates}
+      \field{title}{Making, probing and understanding Bose-Einstein condensates}
+      \field{year}{1999}
+    \endentry
+    \entry{greiner2}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=301326ebbddaa4c4f96caebbae9dcb00}{Fölling}{F\bibinitperiod}{Waseem\bibnamedelimb S.\bibnamedelimi Bakr;\bibnamedelimb Jonathon\bibnamedelimb I-Gillen;\bibnamedelimb Amy\bibnamedelimb Peng;\bibnamedelima Simon}{W\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim I\bibinithyphendelim G\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=28a6aa289448ed258d404c6982cd2dd7}{Greiner}{G\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=301326ebbddaa4c4f96caebbae9dcb00}{Fölling}{F\bibinitperiod}{Waseem\bibnamedelimb S.\bibnamedelimi Bakr;\bibnamedelimb Jonathon\bibnamedelimb I-Gillen;\bibnamedelimb Amy\bibnamedelimb Peng;\bibnamedelima Simon}{W\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim I\bibinithyphendelim G\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=28a6aa289448ed258d404c6982cd2dd7}{Greiner}{G\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{6e4c1d1f120fae33bc4c6f073fcedb71}
+      \strng{fullhash}{6e4c1d1f120fae33bc4c6f073fcedb71}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{A quatum gas microscope for detecting single atoms in a Hubbard-regime optical lattice}
+      \field{journaltitle}{Nature}
+      \field{title}{A quatum gas microscope for detecting single atoms in a Hubbard-regime optical lattice}
+      \field{volume}{462}
+      \field{year}{2009}
+    \endentry
+    \entry{bloch2}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=bab08d980ef2025a5d933deb9286e2e9}{Bloch}{B\bibinitperiod}{Jacob\bibnamedelimb F.\bibnamedelimi Sherson;\bibnamedelimb Christof\bibnamedelimb Weitenberg;\bibnamedelimb Manuel\bibnamedelimb Enders;\bibnamedelimb Marc\bibnamedelimb Cheneau;\bibnamedelima Immanuel}{J\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+        {{hash=2d508b9396da73c9ea21411ebe3e84a7}{Kuhr}{K\bibinitperiod}{Stefan}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=bab08d980ef2025a5d933deb9286e2e9}{Bloch}{B\bibinitperiod}{Jacob\bibnamedelimb F.\bibnamedelimi Sherson;\bibnamedelimb Christof\bibnamedelimb Weitenberg;\bibnamedelimb Manuel\bibnamedelimb Enders;\bibnamedelimb Marc\bibnamedelimb Cheneau;\bibnamedelima Immanuel}{J\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+        {{hash=2d508b9396da73c9ea21411ebe3e84a7}{Kuhr}{K\bibinitperiod}{Stefan}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{b2c4512784ba09306fe285a162c7f456}
+      \strng{fullhash}{b2c4512784ba09306fe285a162c7f456}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Single-atom-resolved fluoriscence imaging of an atomic Mott insulator}
+      \field{journaltitle}{Nature}
+      \field{title}{Single-atom-resolved fluoriscence imaging of an atomic Mott insulator}
+      \field{volume}{467}
+      \field{year}{2010}
+    \endentry
+    \entry{greiner3}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=ebf73b9d8baea4f1552e00d0d13cb45f}{Simon}{S\bibinitperiod}{Philipp\bibnamedelimb M.\bibnamedelimi Preiss;\bibnamedelimb Ruicaho\bibnamedelimb Ma;\bibnamedelimb Eric\bibnamedelimb Tai;\bibnamedelima Jonathan}{P\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=28a6aa289448ed258d404c6982cd2dd7}{Greiner}{G\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=ebf73b9d8baea4f1552e00d0d13cb45f}{Simon}{S\bibinitperiod}{Philipp\bibnamedelimb M.\bibnamedelimi Preiss;\bibnamedelimb Ruicaho\bibnamedelimb Ma;\bibnamedelimb Eric\bibnamedelimb Tai;\bibnamedelima Jonathan}{P\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=28a6aa289448ed258d404c6982cd2dd7}{Greiner}{G\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5ce5256b718a358468ca526d2c79012a}
+      \strng{fullhash}{5ce5256b718a358468ca526d2c79012a}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{A quatum gas microscope for detecting single atoms in a Hubbard-regime optical lattice}
+      \field{journaltitle}{Nature}
+      \field{title}{A quatum gas microscope for detecting single atoms in a Hubbard-regime optical lattice}
+      \field{volume}{462}
+      \field{year}{2009}
+    \endentry
+    \entry{kuhr}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=46bb508009ee83698ddfaceef9c61fb0}{Kuhr}{K\bibinitperiod}{Elmar\bibnamedelimb Haller;\bibnamedelimb James\bibnamedelimb Hudson;\bibnamedelimb Andrew\bibnamedelimb Kelly;\bibnamedelimb Dylan\bibnamedelimb A.\bibnamedelimi Cotta;\bibnamedelimb Bruno\bibnamedelimb Peaudecerf;\bibnamedelimb Graham\bibnamedelimb D.\bibnamedelimi Bruce;\bibnamedelima Stefan}{E\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=46bb508009ee83698ddfaceef9c61fb0}{Kuhr}{K\bibinitperiod}{Elmar\bibnamedelimb Haller;\bibnamedelimb James\bibnamedelimb Hudson;\bibnamedelimb Andrew\bibnamedelimb Kelly;\bibnamedelimb Dylan\bibnamedelimb A.\bibnamedelimi Cotta;\bibnamedelimb Bruno\bibnamedelimb Peaudecerf;\bibnamedelimb Graham\bibnamedelimb D.\bibnamedelimi Bruce;\bibnamedelima Stefan}{E\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{46bb508009ee83698ddfaceef9c61fb0}
+      \strng{fullhash}{46bb508009ee83698ddfaceef9c61fb0}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Single-atom imaging of fermions in a quantum -gas microscope}
+      \field{title}{Single-atom imaging of fermions in a quantum -gas microscope}
+      \field{year}{2015}
+    \endentry
+    \entry{doublewell}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=c2488a0126b9955f718c819079e116aa}{Zürn}{Z\bibinitperiod}{Simon\bibnamedelimb Murmann;\bibnamedelimb Andrea\bibnamedelimb Bergschneider;\bibnamedelimb Vincent\bibnamedelimb M.\bibnamedelimi Klinkhammer;\bibnamedelima Gerhard}{S\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=084ac77ec29daadd86b99791786428fb}{Jochim}{J\bibinitperiod}{Selim}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=c2488a0126b9955f718c819079e116aa}{Zürn}{Z\bibinitperiod}{Simon\bibnamedelimb Murmann;\bibnamedelimb Andrea\bibnamedelimb Bergschneider;\bibnamedelimb Vincent\bibnamedelimb M.\bibnamedelimi Klinkhammer;\bibnamedelima Gerhard}{S\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=084ac77ec29daadd86b99791786428fb}{Jochim}{J\bibinitperiod}{Selim}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1e0b1afa2bfa7f100036628f3edcd6bc}
+      \strng{fullhash}{1e0b1afa2bfa7f100036628f3edcd6bc}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Two Fermions in a double well: Exploring a fundamental building block of the Hubbard model}
+      \field{journaltitle}{Physical Review Letters}
+      \field{title}{Two Fermions in a double well: Exploring a fundamental building block of the Hubbard model}
+      \field{volume}{144}
+      \field{year}{2015}
+    \endentry
+    \entry{schmiedmayer}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=ebb16b6b14170001478834d546b18e56}{Schumm}{S\bibinitperiod}{R\bibnamedelima Bücker;\bibnamedelimb A\bibnamedelimb Perrin;\bibnamedelimb S\bibnamedelimb Manz;\bibnamedelimb T\bibnamedelimb Betz;\bibnamedelimb Ch\bibnamedelimb Koller;\bibnamedelimb T\bibnamedelimb Plisson;\bibnamedelimb J\bibnamedelimb Rottmann;\bibnamedelima T}{R\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=666a0bee35a7a955722ce2d124213482}{Schmiedmayer}{S\bibinitperiod}{J}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=ebb16b6b14170001478834d546b18e56}{Schumm}{S\bibinitperiod}{R\bibnamedelima Bücker;\bibnamedelimb A\bibnamedelimb Perrin;\bibnamedelimb S\bibnamedelimb Manz;\bibnamedelimb T\bibnamedelimb Betz;\bibnamedelimb Ch\bibnamedelimb Koller;\bibnamedelimb T\bibnamedelimb Plisson;\bibnamedelimb J\bibnamedelimb Rottmann;\bibnamedelima T}{R\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=666a0bee35a7a955722ce2d124213482}{Schmiedmayer}{S\bibinitperiod}{J}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ceff5fc2e50ba6e7c63172a82c9b12a9}
+      \strng{fullhash}{ceff5fc2e50ba6e7c63172a82c9b12a9}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Single-particle-sensitive imaging of freely propagating ultracold atoms}
+      \field{journaltitle}{New Journal of Physics}
+      \field{title}{Single-particle-sensitive imaging of freely propagating ultracold atoms}
+      \field{volume}{11}
+      \field{year}{2009}
+    \endentry
+    \entry{andersen}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=ba1793053188ecb896785d58ec3614ae}{Carpentier}{C\bibinitperiod}{A.\bibnamedelimi J.\bibnamedelimi Hillard;\bibnamedelimb Y.\bibnamedelimi H.\bibnamedelimi Fung;\bibnamedelimb P.\bibnamedelimi Sompet;\bibnamedelimb A.\bibnamedelimi V.}{A\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim Y\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{hash=4c395cb12bf48edebc3379157622622a}{Andersen}{A\bibinitperiod}{M.\bibnamedelimi F.}{M\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=ba1793053188ecb896785d58ec3614ae}{Carpentier}{C\bibinitperiod}{A.\bibnamedelimi J.\bibnamedelimi Hillard;\bibnamedelimb Y.\bibnamedelimi H.\bibnamedelimi Fung;\bibnamedelimb P.\bibnamedelimi Sompet;\bibnamedelimb A.\bibnamedelimi V.}{A\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim Y\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{hash=4c395cb12bf48edebc3379157622622a}{Andersen}{A\bibinitperiod}{M.\bibnamedelimi F.}{M\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ba6e112e1396e142777d6b4c86b927b3}
+      \strng{fullhash}{ba6e112e1396e142777d6b4c86b927b3}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{In-trap fluorescence detection of atoms in a microscopic dipole trap}
+      \field{title}{In-trap fluorescence detection of atoms in a microscopic dipole trap}
+      \field{year}{2015}
     \endentry
     \entry{friedhelm}{article}{}
       \name{labelname}{1}{}{%
@@ -157,22 +282,24 @@
       \field{title}{Efimov Physics in a three-component Fermi gas}
       \field{year}{2011}
     \endentry
-    \entry{ketterle}{article}{}
+    \entry{preparation}{article}{}
       \name{labelname}{2}{}{%
-        {{hash=0e55de05ff7793c4cf9baf5936176830}{W.\bibnamedelimi Ketterle}{W\bibinitperiod\bibinitdelim K\bibinitperiod}{D.S.\bibnamedelimi Durfee}{D\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=713635307e87f65420f5c0ac62acc1dc}{Stamper-Kurn}{S\bibinithyphendelim K\bibinitperiod}{D.M.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=e572aa9bac25000e23b9d94f49967448}{Wenz}{W\bibinitperiod}{F.\bibnamedelimi Serwane;\bibnamedelimb G.\bibnamedelimi Zürn;\bibnamedelimb T.\bibnamedelimi Lompe;\bibnamedelimb T.\bibnamedelimi B.\bibnamedelimi Ottenstein;\bibnamedelima A.N.}{F\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim Z\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=70ea8297ff8a1b4a3ff49113d87d102e}{Jochim}{J\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
       }
       \name{author}{2}{}{%
-        {{hash=0e55de05ff7793c4cf9baf5936176830}{W.\bibnamedelimi Ketterle}{W\bibinitperiod\bibinitdelim K\bibinitperiod}{D.S.\bibnamedelimi Durfee}{D\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=713635307e87f65420f5c0ac62acc1dc}{Stamper-Kurn}{S\bibinithyphendelim K\bibinitperiod}{D.M.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=e572aa9bac25000e23b9d94f49967448}{Wenz}{W\bibinitperiod}{F.\bibnamedelimi Serwane;\bibnamedelimb G.\bibnamedelimi Zürn;\bibnamedelimb T.\bibnamedelimi Lompe;\bibnamedelimb T.\bibnamedelimi B.\bibnamedelimi Ottenstein;\bibnamedelima A.N.}{F\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim Z\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=70ea8297ff8a1b4a3ff49113d87d102e}{Jochim}{J\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{cd7dc45d637cf39691fc20ea269ee85e}
-      \strng{fullhash}{cd7dc45d637cf39691fc20ea269ee85e}
+      \strng{namehash}{0fa03bcf26392827dec7c9baa466a416}
+      \strng{fullhash}{0fa03bcf26392827dec7c9baa466a416}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
-      \field{labeltitle}{Making, probing and understanding Bose-Einstein condensates}
-      \field{title}{Making, probing and understanding Bose-Einstein condensates}
-      \field{year}{1999}
+      \field{labeltitle}{Deterministic Preperation of a Tunable Few-Fermion System}
+      \field{journaltitle}{Science}
+      \field{title}{Deterministic Preperation of a Tunable Few-Fermion System}
+      \field{volume}{332}
+      \field{year}{2011}
     \endentry
     \entry{ketterle2}{article}{}
       \name{labelname}{2}{}{%
