@@ -1985,9 +1985,10 @@
     <bcf:citekey order="34">NIST_ASD</bcf:citekey>
     <bcf:citekey order="35">cohen</bcf:citekey>
     <bcf:citekey order="36">lompe</bcf:citekey>
-    <bcf:citekey order="37">schmiedmayer</bcf:citekey>
-    <bcf:citekey order="38">factor</bcf:citekey>
-    <bcf:citekey order="39">wigner</bcf:citekey>
+    <bcf:citekey order="37">guck das nach Jonathan!</bcf:citekey>
+    <bcf:citekey order="38">schau nochmal nach Jonathan!</bcf:citekey>
+    <bcf:citekey order="39">factor</bcf:citekey>
+    <bcf:citekey order="40">wigner</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none" type="entry" sortscheme="none">
   <bcf:sorting>

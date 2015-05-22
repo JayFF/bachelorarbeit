@@ -1,16 +1,18 @@
 \chapter{Theory}
 
-To understand the function of an optical dipole-trap one has to understand how far detuned light, more specifically the electric field component, interacts with a neutral atom. There are several models providing different levels of accuracy for the respective application. The atom can be treated rather classically by regarding it as a harmonic oscillator driven by an electric field. It can be treated semi-classically by considering the quantum nature and structure of the atom while still approximate the incoming light as electromagnetic waves. In this model the problem can be solved in second-order pertubation theory. The third approach is treating the atom quantum mechanically as well as the light, now consisting of quantised photons interacting with the atom. For this thesis only the first two approaches were considered. 
+To understand the function of an optical dipole-trap one has to understand how far detuned light, more specifically the electric field component, interacts with a neutral atom. There are several models providing different levels of accuracy for the respective application. The atom can be treated rather classically by regarding it as a harmonic oscillator driven by an electric field. It can be treated semi-classically by considering the quantum nature and structure of the atom while still approximate the incoming light as electromagnetic waves. In this model the problem can be solved in second-order pertubation theory. The third approach is treating the atom quantum mechanically as well as the light, now consisting of quantized photons interacting with the atom. For this thesis only the first two approaches were considered. 
 
 \section{The Hamiltonian}
 
-The problem of interaction between an atom, laser-light and in the case of this experiment also magnetic fields is represented by different parts in the total Hamiltonian. The basis for all calculations is the atomic Hamiltonian of Lithium-atoms $H_A$. The atom-light-interaction is represented by the Hamiltonian of the light itself $H_L$ and the interaction Hamiltonian $H_{AL}$, that will lead to the \textsc{ac}-Stark shift. The last contribution is the magnetic field Hamiltonian $H_M$, that is resulting in the Zeeman effect.
+The problem of interaction between an atom, laser-light and in the case of this experiment also magnetic fields is represented by different parts in the total Hamiltonian. The basis for all calculations is the atomic Hamiltonian of Lithium-atoms $H_A$. The atom-light-interaction is represented by the Hamiltonian of the light itself $H_L$ and the interaction Hamiltonian $H_{AL}$, that will lead to the \textsc{ac}-Stark shift. The last contribution is the magnetic field Hamiltonian $H_M$, that is resulting in the Zeeman effect. 
 \begin{equation}
 H=H_A+H_L+H_{AL}+H_{M}
-\end{equation}\label{Hamiltonian}
+\label{Hamiltonian}
+\end{equation}
+In our case $H_L$ can be neglected and both $H_{AL}$ and $H_M$ will be considered pertubations of the atomic hamiltonian.
 
 \section{Lithium Level-structure}
-The atomic Hamiltonian $H_A$ corresponds to the energy of the atomic species. In our experiment this is Lithium-6, a fermionic alkali-metal, whose electronic structure is mostly dependent of its single valence electron \cite{gehm}. In this approximation, the \textit{central-field approximation}, the two other bound electrons on innermost level only contribute to the central electric field, that is supposed to be spherically symmetric. Thus the calculation can follow the well understood model of hydrogen, that can be read in detail for example in \cite{demtroder}. The approach in this case considers an electron with the reduced mass $\mu$ in a Coulomb-potential.
+The atomic Hamiltonian $H_A$ determines to the energy eigenstates of the atomic species. In our experiment this is Lithium-6, a fermionic alkali-metal, whose electronic structure is mostly dependent of its single valence electron \cite{gehm}. In this approximation, the \textit{central-field approximation}, the two other bound electrons on innermost level only contribute to the central electric field, that is supposed to be spherically symmetric. Thus the calculation can follow the well understood model of hydrogen, that can be read in detail for example in \cite{demtroder}. The approach in this case considers an electron with the reduced mass $\mu$ in a Coulomb-potential.
 \begin{equation}
 U(\boldsymbol{r})=-\frac{e^2Z}{4\pi\epsilon_0\boldsymbol{r}}
 \end{equation}
@@ -18,7 +20,11 @@ That leads to the Hamiltonian:
 \begin{equation}
 H_A=\frac{p^2}{2\mu}-\frac{e^2Z}{4\pi\epsilon_0\boldsymbol{r}}
 \end{equation}
-Solving the Schrödinger-Equation considering this Hamiltonian leads to a set of wave-functions characterized by the quantum numbers $N,L,m_L$, $N$ being the main quantum number, $L$ the angular momentum quantum number and $m_L$ the projection onto the coordinate axis. The energy-levels for different $L$ are degenerate, but when the spin of the valence electron is considered this degeneracy is broken and the coupling of this spin to the orbital angular momentum leads to the fine-structure picture in which $J=l\pm S$  and $m_J=J,J-1,\dots,-J+1,J$ are the respective quantum numbers.
+Solving the Schrödinger-Equation considering this Hamiltonian leads to a set of wave-functions characterized by the quantum numbers $N,L,m_L$, $N$ being the main quantum number, $L$ the angular momentum quantum number and $m_L$ the projection onto the coordinate axis. The energy-levels for different $L$ are degenerate, but when the spin of the valence electron is considered this degeneracy is broken and the coupling of this spin to the orbital angular momentum leads to the fine-structure picture in which for Lithium $J=l\pm S$  and $m_J=J,J-1,\dots,-J+1,J$ are the respective quantum numbers. This leads to corrections, that have the form:
+\begin{equation}
+\Delta E_{FS}=E_n\left[\frac{Z^2\alpha^2}{n}\left(\frac{1}{j+1/2}-\frac{3}{4n}\right)\right]
+\end{equation}
+Where $\alpha$ stands for the fine-structure constant. The formula is composed of several corrections to the initial Hamiltonian. 
 \begin{figure}[H]
 \begin{center}
 \includegraphics[scale=.4] {levels2}
@@ -26,8 +32,11 @@ Solving the Schrödinger-Equation considering this Hamiltonian leads to a set of
 \caption{Level structure of Lithium with the respective transitions, according to selection rules \cite{transitions}.}
 \label{levels2}
 \end{figure}
-Nevertheless the real Lithium-atom has a substructure arising from interaction of the nuclear spin and the valence electrons angular momentum. This effect results in the hyperfine structure that breaks the degeneracy of the levels with same quantum number $J$. In the picture of hyperfine structure the total angular momentum and the nuclear spin $I$ couple to the new total angular momentum $F=J\pm I$ with their respective projections $m_F=F,F-1,\dots,-F+1,F$ that result in a even finer splitting of the lines, which fully characterize the state of the Lithium-atom.
-
+Nevertheless the real Lithium-atom has a substructure arising from interaction of the nuclear spin and the valence electrons angular momentum. This effect results in the hyperfine structure that breaks the degeneracy of the levels with same quantum number $J$. In the picture of hyperfine structure the total angular momentum and the nuclear spin $I$ couple to the new total angular momentum $F=J\pm I$ with their respective projections $m_F=F,F-1,\dots,-F+1,F$ that result in a even finer splitting of the lines, which fully characterize the state of the Lithium-atom. The resulting corrections of the energy eigenvalues are of the form:
+\begin{equation}
+\Delta E_{HFS}=-\boldsymbol{\mu_I}\cdot \boldsymbol{B}_J
+\end{equation}
+where $\boldsymbol{\mu_I}$ is the magnetic moment of the nucleus and $\boldsymbol{B}_J$ is the magnetic field of the orbiting electron.
 \begin{figure}[H]
 
 \begin{center}
@@ -47,8 +56,8 @@ With $\gamma=e/(2m_e)$ and $g_J$ being the Landé-factor. The results are new va
 
 \newpage
 \newpage
-\section{AC-Stark-Shift}
-The \textsc{ac}-Stark-Shift arises from the interaction of electric fields with the regarded atom. Before treating this problem quantum-mechanically in terms of our Hamiltonian (\ref{Hamiltonian}), we look at the problem in a classical model, that already results in a formula, that is very accurate in certain systems. 
+\section{Ac-stark-shift}
+The \textsc{ac}-Stark-Shift arises from the interaction of electric fields with the atom. Before treating this problem quantum-mechanically in terms of our Hamiltonian (\ref{Hamiltonian}), we look at the problem in a classical model, that already results in a formula, that is very accurate in certain systems. 
 \subsection{Lorentz Oscillator Model}
 
  Classically the problem of light-matter-interaction can be described in terms of an atomic dipole moment induced by an oscillating electric field, following \cite{dipole}. The atom is hereby described as a damped harmonic oscillator driven by the field. Intuitively one can think of the electrons and the atomic nucleus being pulled away from each other by the electric force, resulting in an oscillation against each other. The potential arising from these conditions is the following. A detailed derivation of the potential can be studied in the appendix \ref{dipolepotential}.
@@ -61,7 +70,7 @@ Here $\boldsymbol{p}$ is the induced dipole moment, $\boldsymbol{E}$ the electri
 U=-\frac{1}{2\epsilon_0 c}\mathrm{Re}(\alpha)I
 \end{equation} 
 
-To calculate the exact potential one has to obtain a value for the polarizability $\alpha$. In this classical description an electron is considered bound to the core elastically with the oscillation eigen-frequency $\omega_0$. This corresponds to the optical transition frequency. In our practical case that is the frequency of the Lithium-D2-Line. In a real atom, there are of course multiple resonances, corresponding to multiple states of the electron, Thus this approximation matches only  certain cases in which the system can also be regarded as a quantum mechanical two-state-system. We will later see, that while this approach leads to a very accurate calculation for the Lithium ground state, it can not at all be applied to the calculation of the trapping potential for the first excited state. In contrast to the ground state, there exists no single dominant transition, but multiple resonances. They all contribute to the respective energy-shift.
+To calculate the exact potential one has to obtain a value for the polarizability $\alpha$. In this classical description an electron is considered bound to the core elastically with the oscillation eigen-frequency $\omega_0$. This corresponds to the optical transition frequency. In our practical case that is the frequency of the Lithium-D2-Line. In a real atom, there are of course multiple resonances, corresponding to multiple states of the electron, thus this approximation matches only  certain cases in which the system can also be regarded as a quantum mechanical two-state-system. We will later see, that while this approach leads to a very accurate calculation for the Lithium ground state, it can not at all be applied to the calculation of the trapping potential for the first excited state. In contrast to the ground state, there exists no single dominant transition, but multiple resonances. They all contribute to the respective energy-shift.
 
 The polarizability now can be calculated by solving the equation of motion of a driven and damped harmonic oscillator.
 \begin{equation}
@@ -85,7 +94,7 @@ U_{dip}(\boldsymbol{r})=-\frac{3\pi c^2}{2\om^3_0}\left(\frac{\Gamma}{\om_0-\om}
 \label{classic}\end{equation}
 In this case, the damping parameter $\Gamma$ corresponds to the linewidth of the optical transition, which numerical value is $\Gamma=5.8724 \unit{MHz}$ for the considered D2-Line \cite{gehm}.
 
-\subsection{Energy-Shift in Pertubation Theory}
+\subsection{Energy-shift in pertubation theory}
 
 After this classical treatment, we come back to calculating the same effect quantum mechanically. For calculating the energy-shift for the first excited state, this is the only approach to get a trustworthy result since in contrast to the ground state of Lithium it cannot be approximated by a two-level-system with only one transition. Therefore we have to solve the problem more precisely. 
 
@@ -113,7 +122,7 @@ With $\mu=0,\pm1$. Now, we define the following sum, that will be used later on.
 \begin{equation}
 \mathcal{E}(L,m_L):=\sum_{\mu\nu}\sqrt{2L+1}(-1)^{m_L}\threej{1}{1}{L}{\mu}{\nu}{-m_L}E_\mu E_\nu\label{irreducible}
 \end{equation}
-We here also use the Wigner 3-j-symbol-notation, explained in appendix\ref{wigner}. In this terms, we can write the product in (\ref{pertub3}) in terms of this sum: 
+We here also use the Wigner 3-j-symbol-notation, explained in appendix \ref{wigner}. In this terms, we can write the product in (\ref{pertub3}) in terms of this sum: 
 \begin{equation}
 E_\mu E_\nu=\sum^2_{L=0}\sum^L_{m_L=-L}\sqrt{2L+1}(-1)^{m_L}\threej{1}{1}{L}{\mu}{\nu}{-m_L}\mathcal{E}(L,m_L)
 \end{equation}
@@ -130,13 +139,13 @@ After finishing that horrible calculation, the next step is to evaluate the sum 
 
 The first step is to evaluate the inner part, that is the summation over the respective magnetic quantum numbers $m_J$. Thus we give it an own name and define:
 \begin{equation}
-\mathcal{S}(J,m_J)=\sum_{m_k}\sum_{\mu\nu}(-1)^{\mu+\nu}E_\mu E_\nu\braopket{Jm_J}{r_{-\mu}}{Km_K}\braopket{Km_K}{r_{-\nu}}{Jm_J}\label{sum}
+\mathcal{S}(J,m_J)=\sum_{m_k}\sum_{\\mu\nu}(-1)^{\mu+\nu}E_\mu E_\nu\braopket{Jm_J}{r_{-\mu}}{Km_K}\braopket{Km_K}{r_{-\nu}}{Jm_J}\label{sum}
 \end{equation}
 The matrix elements can be calculated using the Wigner-Eckart theorem (See appendix \ref{wignereckart}).
 \begin{align}
 \mathcal{S}(J,m_J)=&(-1)^{J-K}|\braopket{J}{|r|}{K}|^2\times\notag\\&\sum_L\sqrt{2L+1}\sum_{m_L}\mathcal{E}(L,m_L)\sum_{\mu\nu}(-1)^{\mu+\nu}(-1)^{m_L}\threej{1}{1}{L}{\mu}{\nu}{-m_L}\times\notag\\&\sum_{m_K}\left[(-1)^{J-m_J}\threej{J}{1}{K}{-m_J}{-\mu}{m_K}(-1)^{K-m_K}\threej{K}{1}{J}{-m_K}{-\nu}{m_J}\right]\label{sum2}
 \end{align}
-Note, that the first part of this term can be written in this way because because using the Wigner-Eckert theorem the tensor operator in the matrix element now has become the normal spherical coordinate-operator in the respective reduced matrix element, which of course is hermitian. The sum over $\mu,\nu$ and $m_K$ can be evaluated and rewritten in terms of the 6-j symbol.
+Note, that the first part of this term can be written in this way because using the Wigner-Eckert theorem the tensor operator in the matrix element now has become the normal spherical coordinate-operator in the respective reduced matrix element, which of course is hermitian. The sum over $\mu,\nu$ and $m_K$ can be evaluated and rewritten in terms of the 6-j symbol.
 \begin{align}
 &\sum_{\mu\nu}(-1)^{\mu+\nu}(-1)^{m_L}\threej{1}{1}{L}{\mu}{\nu}{-m_L}\times\notag\\&\sum_{m_K}\left[(-1)^{J-m_J}\threej{J}{1}{K}{-m_J}{-\mu}{m_K}(-1)^{K-m_K}\threej{K}{1}{J}{-m_K}{-\nu}{m_J}\right]\notag\\&\ \ =(-1)^{2J}(-1)^{J-m_J}\threej{J}{L}{J}{-m_J}{0}{m_J}\sixj{J}{1}{K}{1}{K}{L}\delta_{m_L,0}
 \end{align}
@@ -152,7 +161,7 @@ in which each of the components can be written, using the form of (\ref{sum3}).
 \begin{align}
 \Delta W^L_{Jm_J}=&-e^2\sum_{K\neq J}\frac{\braopket{J}{|r|}{K}|^2}{W_K-W_J}\mathcal{E}(L,0)\sqrt{2L+1}\notag\\&(-1)^{J+K} (-1)^{J-m_J}\threej{J}{L}{J}{-m_J}{0}{m_J}\sixj{J}{1}{K}{1}{K}{L}\label{pertub4}
 \end{align}
-For this equation we can analyze the only two different cases, namely for $L=0,2$. If we evaluate both components and use the values for $\mathcal{E}(0,0)$ and $\mathcal{E}(2,0)$, we get to the both contributions to the energy-shift:
+For this equation we can analyze the only two different cases, namely for $L=0,2$. If we evaluate both components and use the values for $\mathcal{E}(0,0)$ and $\mathcal{E}(2,0)$, we get to both contributions to the energy-shift:
 \begin{align}
 \Delta W^0_{Jm_J}=&-e^2E^2\frac{1}{3(2J+1)}\sum_{K\neq J}\frac{\braopket{J}{|r|}{K}|^2}{W_K-W_J}\\
 \Delta W^2_{Jm_J}=&-e^2(3E^2_z-E^2)\sqrt{\frac{5J(2J-1)}{6(2J+3)(J+1)(2J+1)}}\ \times\notag\\
@@ -164,7 +173,7 @@ We now choose the electric field to be directed along the z-axis: $\boldsymbol{E
 &\frac{3m^2_J-J(J+1)}{J(2J-1)}\sum_{K\neq J}(-1)^{J+K}\sixj{J}{1}{K}{1}{J}{2}\frac{\braopket{J}{|r|}{K}|^2}{W_K-W_J}\label{alpha21}
 \end{align}
 We are hereby shortening $C:=\sqrt{5J(2J-1)/6(2J+3)(J+1)(2J+1)}$.
-Note, that if the z-direction also defines the quantisation axis in a magnetic field, this means assuming $\pi$-polarized laser-light. If the light is then supposed to be $\sigma$-polarized, the z-component has to be considered individually and is holds $E^2_z=1/2\ E^2$.
+Note, that if the z-direction also defines the quantization axis in a magnetic field, this means assuming $\pi$-polarized laser-light. If the light is then supposed to be $\sigma$-polarized, the z-component has to be considered individually and it holds $E^2_z=1/2\ E^2$.
 We now draw an analogy to the classical calculation and link the total energy-shift to the induced dipole potential by defining a polarizability, composed of the now defined scalar and tensor polarizability. Note that a factor of 1/2 is factored out in this sense.
 \begin{align}
 \alpha:=&e^2\left[\alpha^0_J+\frac{3m^2_J-J(J+1)}{J(2J-1)}\alpha^2_J\right]\\
@@ -178,14 +187,14 @@ U=&-\frac{1}{2}\mean{\alpha E^2}\notag\\
 U=&-\frac{1}{4}e^2\left[\alpha^0_J+\frac{3m^2_J-J(J+1)}{J(2J-1)}\alpha^2_J\right]E^2\label{shift}
 \end{align}
 
-\section{Dipole Traps}
+\section{Dipole traps}
 
-The \textsc{ac}-Stark-Shift, as described above can, as stated in the beginning, be used to trap neutral atoms. We so far have seen, that an electric field induces a dipole moment in the atom that leads to a dipole-potential.The resulting force is proportional to the gradient of the intensity-distribution around the atom, therefore to understand how a dipole trap works exactly, one has to study the properties of the applied beams. Lasers normally emit gaussian beams. The intensity distribution along the radial profile at a given point on the course of the beam is \cite{dipole}:
+The \textsc{ac}-Stark-Shift, as described above can, as stated in the beginning, be used to trap neutral atoms. We so far have seen, that an electric field induces a dipole moment in the atom that leads to a dipole-potential.The resulting force is proportional to the gradient of the intensity-distribution around the atom, therefore to understand how a dipole trap works exactly, one has to study the properties of the applied beams. Lasers normally emit Gaussian beams. The intensity distribution along the radial profile at a given point on the course of the beam is \cite{dipole}:
 \begin{equation}
 I(r)=\frac{2P}{\pi w^2}\mathrm{exp}\left(-2\frac{r^2}{w^2}\right)
 \end{equation}
-With $r$ being the radial coordinate, $P$ the power of the beam and $w$ the waist. In contrast to simple ray-optics, the focus of the gaussian beam is not point-like but has a finite waist $w_0$. At this point the intensity of the focused laser-beam is at its maximum:
+With $r$ being the radial coordinate, $P$ the power of the beam and $w$ the waist. In contrast to simple ray-optics, the focus of the Gaussian beam is not point-like but has a finite waist $w_0$. At this point the intensity of the focused laser-beam is at its maximum:
 \begin{equation}
 I_{\mathrm{max}}=\frac{2P}{\pi w^2_0}
 \end{equation}
-This determines the deepest point in the potential, independent of the exact geometry of the trap, in case the center has a gaussian form. This is the case for both dipole-traps used in the experiment, that are described in the previous section.
+This determines the deepest point in the potential, independent of the exact geometry of the trap, in case the center has a Gaussian form. This is the case for both dipole-traps used in the experiment, that are described in the previous section.
