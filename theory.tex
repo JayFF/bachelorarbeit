@@ -25,7 +25,7 @@ Solving the Schrödinger-Equation considering this Hamiltonian leads to a set of
 \Delta E_{FS}=E_n\left[\frac{Z^2\alpha^2}{n}\left(\frac{1}{j+1/2}-\frac{3}{4n}\right)\right]
 \end{equation}
 Where $\alpha$ stands for the fine-structure constant. The formula is composed of several corrections to the initial Hamiltonian. 
-\begin{figure}[H]
+\begin{figure}[h]
 \begin{center}
 \includegraphics[scale=.4] {levels2}
 \end{center}
@@ -70,7 +70,7 @@ Here $\boldsymbol{p}$ is the induced dipole moment, $\boldsymbol{E}$ the electri
 U=-\frac{1}{2\epsilon_0 c}\mathrm{Re}(\alpha)I
 \end{equation} 
 
-To calculate the exact potential one has to obtain a value for the polarizability $\alpha$. In this classical description an electron is considered bound to the core elastically with the oscillation eigen-frequency $\omega_0$. This corresponds to the optical transition frequency. In our practical case that is the frequency of the Lithium-D2-Line. In a real atom, there are of course multiple resonances, corresponding to multiple states of the electron, thus this approximation matches only  certain cases in which the system can also be regarded as a quantum mechanical two-state-system. We will later see, that while this approach leads to a very accurate calculation for the Lithium ground state, it can not at all be applied to the calculation of the trapping potential for the first excited state. In contrast to the ground state, there exists no single dominant transition, but multiple resonances. They all contribute to the respective energy-shift.
+To calculate the exact potential one has to obtain a value for the polarizability $\alpha$. In this classical description an electron is considered bound to the core elastically with the oscillation Eigenfrequency $\omega_0$. This corresponds to the optical transition frequency. In our practical case that is the frequency of the Lithium-D2-Line. In a real atom, there are of course multiple resonances, corresponding to multiple states of the electron, thus this approximation matches only  certain cases in which the system can also be regarded as a quantum mechanical two-state-system. We will later see, that while this approach leads to a very accurate calculation for the Lithium ground state, it can not at all be applied to the calculation of the trapping potential for the first excited state.
 
 The polarizability now can be calculated by solving the equation of motion of a driven and damped harmonic oscillator.
 \begin{equation}
@@ -82,7 +82,7 @@ for that the solution can be calculated using basic tools for solving ordinary d
 \end{equation} 
 With
 \begin{equation}
-\Gamma_\omega=\frac{e^2\om^2}{6\pi\epsilon_0m_ec^3}core
+\Gamma_\omega=\frac{e^2\om^2}{6\pi\epsilon_0m_ec^3}
 \end{equation}
 We can substitute $e^2/m_e=6\pi\epsilon_0c^3\Gamma_\omega/\om^2$ and define the on-resonance damping rate $\Gamma:=(\om_0/\om)^2\Gamma_\omega$ witch results in the form:
 \begin{equation}
@@ -96,17 +96,17 @@ In this case, the damping parameter $\Gamma$ corresponds to the linewidth of the
 
 \subsection{Energy-shift in pertubation theory}
 
-After this classical treatment, we come back to calculating the same effect quantum mechanically. For calculating the energy-shift for the first excited state, this is the only approach to get a trustworthy result since in contrast to the ground state of Lithium it cannot be approximated by a two-level-system with only one transition. Therefore we have to solve the problem more precisely. 
+After this classical treatment, we come back to calculating the same effect quantum mechanically. For calculating the energy-shift for the first excited state, this is approach gets more trustworthy results since in contrast to the ground state of Lithium it cannot be approximated by a two-level-system with only one transition. Therefore we have to solve the problem more precisely. 
 
-The interaction of the atom with laser-light is described by the two additional parts in the original Hamiltonian (\ref{Hamiltonian}) $H_L+H_{AL}$. The light-Hamiltonian $H_L$ is hereby negligible, because the regarded laser-light of the used dipole-trap is far detuned from the relevant transition resonances. Therefore the only relevant part of this set of terms is the interaction-Hamiltonian, which depends on the dipole-operator $\mu$ and the electric-field-operator $E$ and has the following form: $H_{AL}=-\hat{\mu} \boldsymbol{E}=-e\boldsymbol{r} \boldsymbol{E}$. It can be treated as a small pertubation of the atomic Hamiltonian, thus in the relevant second-order pertubation-theory the energy-shift is the following \cite{dipole}:
+The interaction of the atom with laser-light is described by the two additional parts in the original Hamiltonian (\ref{Hamiltonian}) $H_L+H_{AL}$. The light-Hamiltonian $H_L$ is hereby negligible, because the regarded laser-light of the dipole-trap is far detuned from the relevant transition resonances and is seldomly absorbed by the atoms. Therefore, only the interaction Hamiltonian remains relevant, which depends on the dipole-operator $\hat{p}$ and the electric-field-operator $E$ and has the following form: $H_{AL}=-\hat{p} \boldsymbol{E}=-e\boldsymbol{r} \boldsymbol{E}$. It can be treated as a small pertubation of the atomic Hamiltonian, thus in the relevant second-order pertubation-theory the energy-shift is the following \cite{dipole}:
 \begin{equation}
 \Delta W=\sum_{k\neq j}\frac{|\braopket{j}{H_{AL}}{k}|^2}{W_k-W_j}
 \label{pertub1}
 \end{equation}
-The $j,k$ being all considered states of the atom and $W_j,W_k$ the energy eigenvalues for these states regarding the unpertubed Hamiltonian.
-Although the hyperfine splitting is highly relevant for the experiment itself, it is sufficient for the calculation of the Stark-Shift to only consider the fine-structure regime. Especially at strong fields, the hyperfine Paschen-Back effect is important. The different hyperfine states are close to degeneracy. The Hamiltonian still depends on the product $J\cdot I$, but is considered as a small pertubation. The total angular momentum $J$ therefore is a "good quantum-number" again. In the low-field-regime the corrections due to hyperfine-splitting are small, because of the little energy-differences compared to the relevant transitions between the levels in the fine-structure-regime and the considered large detuning of the dipole-trap-light. Hence also there this picture is sufficient. In this case (\ref{pertub1}) can be expressed in terms of $J$ and $m_J$ and with the explicit form of $H_{AL}$ this becomes\cite{alpha}:
+With $j,k$ being all considered states of the atom and $W_j,W_k$ the energy eigenvalues for these states of the initial Hamiltonian.
+Although the hyperfine splitting is highly relevant for the experiment itself, it is sufficient for the calculation of the Stark-Shift to only consider the fine-structure regime. Especially at strong fields, the hyperfine Paschen-Back effect is important. The different hyperfine states are close to degeneracy. The Hamiltonian still depends on the product $J\cdot I$, but is considered as a small pertubation. The total angular momentum $J$ therefore is a "good quantum-number" again. In the low-field regime the corrections due to hyperfine-splitting are small, because of the small energy differences compared to the relevant transitions between the levels in the fine-structure regime and the considered large detuning of the dipole-trap-light. Hence also there this picture is sufficient. In this case (\ref{pertub1}) can be expressed in terms of $J$ and $m_J$ and with the explicit form of $H_{AL}$ this becomes\cite{alpha}:
 \begin{equation}
-\Delta W_{Jm_j}=-e^2\sum_{K\neq J}\sum_{m_k}\frac{\braopket{Jm_J}{\boldsymbol{r}E}{Km_K}\braopket{Km_K}{\boldsymbol{r}E}{Jm_J}}{W_K-W_J}\boldsymbol{r}E\label{pertub2}
+\Delta W_{Jm_j}=-e^2\sum_{K\neq J}\sum_{m_k}\frac{\braopket{Jm_J}{\boldsymbol{r}E}{Km_K}\braopket{Km_K}{\boldsymbol{r}E}{Jm_J}}{W_K-W_J}\label{pertub2}
 \end{equation}
 The main problem now is to calculate the coupling of different angular momenta. That is why most of the calculation is dedicated to simplify the calculation of all relevant Clebsch-Gordan coefficients.\\\\
 We will now describe the electric field in terms of irreducible tensor operators:
@@ -118,11 +118,11 @@ In this notation we can rewrite (\ref{pertub2}) in terms of these operators:
 \begin{equation}
 \Delta W_{Jm_j}=-e^2\sum_{K\neq J}\sum_{m_k}\sum_{\mu\nu}(-1)^{\mu+\nu}E_\mu E_\nu\frac{\braopket{Jm_J}{r_{-\mu}}{Km_K}\braopket{Km_K}{r_{-\nu}}{Jm_J}}{W_K-W_J}\label{pertub3}
 \end{equation}
-With $\mu=0,\pm1$. Now, we define the following sum, that will be used later on. Note that is a simple shorting for simplification.
+With $\mu=0,\pm1$. Now, we define the following sum, that will be used later on.  for simplification.
 \begin{equation}
 \mathcal{E}(L,m_L):=\sum_{\mu\nu}\sqrt{2L+1}(-1)^{m_L}\threej{1}{1}{L}{\mu}{\nu}{-m_L}E_\mu E_\nu\label{irreducible}
 \end{equation}
-We here also use the Wigner 3-j-symbol-notation, explained in appendix \ref{wigner}. In this terms, we can write the product in (\ref{pertub3}) in terms of this sum: 
+We here also use the Wigner 3-j-symbol-notation, explained in appendix \ref{wigner}. Using it, we can write the product in (\ref{pertub3}) in terms of this sum: 
 \begin{equation}
 E_\mu E_\nu=\sum^2_{L=0}\sum^L_{m_L=-L}\sqrt{2L+1}(-1)^{m_L}\threej{1}{1}{L}{\mu}{\nu}{-m_L}\mathcal{E}(L,m_L)
 \end{equation}
@@ -137,9 +137,9 @@ For later-on simplification, we can calculate (\ref{irreducible}) explicitly for
 \end{align*}
 After finishing that horrible calculation, the next step is to evaluate the sum in (\ref{pertub3}), which is even more terrifying, as you can imagine!
 
-The first step is to evaluate the inner part, that is the summation over the respective magnetic quantum numbers $m_J$. Thus we give it an own name and define:
+The first step is to evaluate the inner part, that is the summation over the respective magnetic quantum numbers $m_K$. Thus we give it an own name and define:
 \begin{equation}
-\mathcal{S}(J,m_J)=\sum_{m_k}\sum_{\\mu\nu}(-1)^{\mu+\nu}E_\mu E_\nu\braopket{Jm_J}{r_{-\mu}}{Km_K}\braopket{Km_K}{r_{-\nu}}{Jm_J}\label{sum}
+\mathcal{S}(J,m_J)=\sum_{m_k}\sum_{\mu\nu}(-1)^{\mu+\nu}E_\mu E_\nu\braopket{Jm_J}{r_{-\mu}}{Km_K}\braopket{Km_K}{r_{-\nu}}{Jm_J}\label{sum}
 \end{equation}
 The matrix elements can be calculated using the Wigner-Eckart theorem (See appendix \ref{wignereckart}).
 \begin{align}
@@ -188,13 +188,19 @@ U=&-\frac{1}{4}e^2\left[\alpha^0_J+\frac{3m^2_J-J(J+1)}{J(2J-1)}\alpha^2_J\right
 \end{align}
 
 \section{Dipole traps}
+\label{sectiondipole}
+The \textsc{ac}-Stark-Shift, as described above can, as stated in the beginning, be used to trap neutral atoms. We have seen so far (see \ref{dipole}, \ref{shift}), that an electric field induces a dipole moment in the atom that leads to a dipole-potential.The resulting force is proportional to the gradient of the intensity-distribution around the atom, therefore to understand how a specific dipole trap works exactly, one has to study the properties of the applied laser beams.
 
-The \textsc{ac}-Stark-Shift, as described above can, as stated in the beginning, be used to trap neutral atoms. We so far have seen, that an electric field induces a dipole moment in the atom that leads to a dipole-potential.The resulting force is proportional to the gradient of the intensity-distribution around the atom, therefore to understand how a dipole trap works exactly, one has to study the properties of the applied beams. Lasers normally emit Gaussian beams. The intensity distribution along the radial profile at a given point on the course of the beam is \cite{dipole}:
+Lasers normally emit Gaussian beams. The intensity distribution along the radial profile at a given point on the course of the beam is \cite{dipole}:
 \begin{equation}
 I(r)=\frac{2P}{\pi w^2}\mathrm{exp}\left(-2\frac{r^2}{w^2}\right)
 \end{equation}
-With $r$ being the radial coordinate, $P$ the power of the beam and $w$ the waist. In contrast to simple ray-optics, the focus of the Gaussian beam is not point-like but has a finite waist $w_0$. At this point the intensity of the focused laser-beam is at its maximum:
+With $r$ being the radial coordinate, $P$ the power of the beam and $w$ the waist, that has the following value along the beam:
+\begin{equation}
+w(z)=w_0\sqrt{1+\left(\frac{z}{z_R}\right)^2}
+\end{equation}
+with $z_R=\pi w^2_0/\lambda$ being the so called Rayleigh range. In contrast to simple ray-optics, the focus of the Gaussian beam is not point-like but has a finite waist $w_0$. At this point the intensity of the focused laser-beam is at its maximum:
 \begin{equation}
 I_{\mathrm{max}}=\frac{2P}{\pi w^2_0}
 \end{equation}
-This determines the deepest point in the potential, independent of the exact geometry of the trap, in case the center has a Gaussian form. This is the case for both dipole-traps used in the experiment, that are described in the previous section.
+This determines the deepest point in the potential, independent of the exact geometry of the trap, in case the center has a Gaussian form. This is the case for both dipole-traps used in the experiment, that are described in the previous chapter.
