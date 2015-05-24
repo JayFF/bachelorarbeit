@@ -1,8 +1,8 @@
-\chapter{Calculation of the AC-Stark-Shift}
+\chapter{Calculation of the ac-stark shift}
 
 The calculation of the \textsc{ac}-Stark-Shift is performed, using the formulas resulting from pertubation theory in the previous sections. The first part of this chapter reviews the main results regarding the polarizabilities of the ground and first excited state. This will reveal also whether the excited state can also be trapped in the high intensity region of the lasers and how the trapping compares to that of the ground state. All calculations use the computer algebra system mathematica.\\For the measurement, concrete shift calculations are made for the crossed dipole trap. At the end of this section, values for the microtrap will be presented, that will suggest, in how far the goal of imaging atoms in small traps and single sites can be managed. The magnetic field, and thus the quantization axis is defined to be along the z-direction.
 
-\section{Polarizability}
+\section{Polarizability of the lithium atom}
 For the calculation of the polarizabilities for the respective states, the geometry and power of the used laser-beams are not important. They only depend on the wavelength of the incoming light and on its polarization, which plays a notable role for the tensor-polarizability in the vicinity of a transition resonance. It renders unimportant, when using very far detuned trap-light. Before talking about concrete results, we recall the formulas given in the theory-section. 
 \begin{align}
 \alpha=&\left[\alpha^0_J+\frac{3m^2_J-J(J+1)}{J(2J-1)}\alpha^2_J\right]\\
@@ -51,21 +51,21 @@ $2p_{3/2}-7d_{5/2}$&0.7696&379.507\\\\\hline
 Figure \ref{alphages} shows how the polarizability behaves for different levels and different wavelengths of the incoming laser light. In this case, $\pi$-polarized light is assumed. The qualitative behavior does not change due to different polarizations, only the magnitude of the tensor polarizability. The differences in the practical case of our experiment will be discussed later on.
 \begin{figure}[H]
 \centering
-\begin{subfigure}[b]{0.4\textwidth}
-               \includegraphics[width=\textwidth]{alphaexited12}
-                \caption{$1s2p_{3/2}, |m_j|=1/2$}
-\end{subfigure}
-\begin{subfigure}[b]{0.4\textwidth}
-               \includegraphics[width=\textwidth]{alphaexited32}
-                \caption{$1s2p_{3/2}, |m_j|=3/2$}
-\end{subfigure}
-\begin{subfigure}[b]{0.4\textwidth}
+%\begin{subfigure}[b]{0.4\textwidth}
+%               \includegraphics[width=\textwidth]{alphaexited12}
+%                \caption{$1s2p_{3/2}, |m_j|=1/2$}
+%\end{subfigure}
+%\begin{subfigure}[b]{0.4\textwidth}
+%               \includegraphics[width=\textwidth]{alphaexited32}
+%                \caption{$1s2p_{3/2}, |m_j|=3/2$}
+%\end{subfigure}
+\begin{subfigure}[b]{0.39\textwidth}
                 \includegraphics[width=\textwidth]{alphadiff12}
-                \caption{Difference to $1s2s_{1/2}$ state for $|m_J|=1/2$}
+                \caption{Difference of the $2p_{3/2}$-state to $2s_{1/2}$ ground state for $|m_J|=1/2$}
 \end{subfigure}
-\begin{subfigure}[b]{0.4\textwidth}
+\begin{subfigure}[b]{0.39\textwidth}
                 \includegraphics[width=\textwidth]{alphadiff32}
-                \caption{Difference to $1s2s_{1/2}$ state for $|m_J|=3/2$}
+                \caption{Difference of the $2p_{3/2}$ to $2s_{1/2}$ ground state for $|m_J|=3/2$}
 \end{subfigure}
 \begin{subfigure}[b]{0.4\textwidth}
                 \includegraphics[width=\textwidth]{alphaground}
@@ -84,7 +84,7 @@ Figure \ref{alphages} shows how the polarizability behaves for different levels 
 \end{figure}
 What can be seen in the plots are some interesting properties. The first important result is, that considering a far detuned light-source, the ground state as well as the excited state show positive polarizabilities. This fundamentally contradicts the picture of a two-level system, for example described in \cite{cohen}. In this model, the excited state will be shifted in opposition to the ground state, i.e. the relative sign in the polarizability flips. This reflects the fact, that in a real atom, especially in the exited states of Lithium, the structure is much more complicated, than what results from the two-level approximation, because many different levels are roughly in the same energy-range and no single transition dominates (see figure \ref{matrixelements}. Practically this results in the fact, that both the ground-state and the first excited states can be trapped in a red-detuned dipole-trap, because the positive polarizability results in a negative potential. Therefore the atoms are attracted to the highest intensity of the laser-beam. The difference lies in the exact values. For far detuned light, the ground state shows a higher polarizability than both excited states, and therefore feels a deeper potential. From figure \label{relativealpha} can be seen, how the different excited states behave relative to the ground state for the both relevant laser-wavelength for the crossed dipole-trap and microtrap in the experiment. The difference though can be considered negligible. 
 
-As stated in the theory-section, the magnetic field shifts the different levels, depending on their respective angular momentum and magnetic quantum numbers. This results in different values for the detuning, that determine the polarizability. However, at 527 G, that is a high field in the framework of the experiment, the shifts due to the Zeeman-effect are very small and the overall change in the resonance is orders of magnitude below the error in predicting the differential light shift altogether. This is an important result, because the trapping efficiency therefore does not significantly change, when applying different magnetic fields, that are used to tune the atoms interaction strength
+As stated in the theory-section, the magnetic field shifts the different levels, depending on their respective angular momentum and magnetic quantum numbers. This results in different values for the detuning, that determine the polarizability. However, at 527 G, that is a high field in the framework of the experiment, the shifts due to the Zeeman-effect are very small and the overall change in the resonance is orders of magnitude below the error in predicting the differential light shift altogether. This is an important result, because the trapping efficiency therefore does not significantly change, when applying different magnetic fields, that are used to tune the atoms interaction strength.
 
 \begin{figure}[h]
 \begin{center}
@@ -181,4 +181,4 @@ We now want to calculate the trap depth and the differential light shift, that c
 
 \section{Comparison to the classical formula}
 
-Since the classical formula in (\ref{classic}) is widely used to calculate depths for optical dipole traps it is interesting to see, in how far it differs from the quantum-mechanical approach. For the excited state, for already stated reasons, it is not possible to calculate a good value using this approach, but the ground state, for that the coupling to other states is dominated by the transition to the first excited state, the formula gives values, that differ only 0.3\% when calculating the shift considering transitions up to $n=7$ and using 1070 nm light. When only considering the D-Line transition, both values are the same in range and differ about 0.01 \%. That shows, that using the approach of a harmonic oscillator to model the dipole-trap potential gives good results, when dealing with a system that can be approximated to only consist of two states. In the case of the Lithium-6 ground state, where for infrared light and higher excited states the transitions are very far detuned, the model gives a good estimate, that is less complicated to calculate than the approach of pertubation theory.
+Since the classical formula in (\ref{classic}) is widely used to calculate depths for optical dipole traps it is interesting to see, in how far it differs from the quantum-mechanical approach. For the excited state, it is not possible to calculate a good value using this approach The the ground state however, for that the coupling to other states is dominated by the transition to the first excited state, the formula gives reasonable results. The values differ only 0.3\% when calculating the shift considering transitions up to $n=7$ and using 1070 nm light. When only considering the D-Line transition, both values are the same in range and differ about 0.01 \%. That shows, that using the approach of a harmonic oscillator to model the dipole-trap potential gives good results, when dealing with a system that can be approximated to only consist of two states. In the case of the Lithium-6 ground state, where for infrared light and higher excited states the transitions are very far detuned, the model gives a good estimate, that is less complicated to calculate than the approach of pertubation theory.

@@ -4,43 +4,45 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{9}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}The Experiment}{11}{chapter.2}
+\contentsline {chapter}{\numberline {2}The experiment}{11}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Imaging}{12}{section.2.1}
+\contentsline {section}{\numberline {2.1}Preparing a fermi gas}{11}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Absorption imaging}{12}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}Imaging}{12}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}fluorescence imaging}{13}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.2.1}Absorption imaging}{12}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}fluorescence imaging}{13}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Theory}{15}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}The Hamiltonian}{15}{section.3.1}
+\contentsline {section}{\numberline {3.1}The lithium hamiltonian}{15}{section.3.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Lithium Level-structure}{15}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Magnetic Field}{18}{section.3.3}
+\contentsline {section}{\numberline {3.3}Magnetic field and zeeman-splitting}{18}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Ac-stark-shift}{19}{section.3.4}
+\contentsline {section}{\numberline {3.4}Ac-stark shift}{19}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Lorentz Oscillator Model}{19}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.1}Lorentz oscillator model}{19}{subsection.3.4.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4.2}Energy-shift in pertubation theory}{20}{subsection.3.4.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.5}Dipole traps}{24}{section.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Calculation of the AC-Stark-Shift}{25}{chapter.4}
+\contentsline {chapter}{\numberline {4}Calculation of the ac-stark shift}{27}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Polarizability}{25}{section.4.1}
+\contentsline {section}{\numberline {4.1}Polarizability of the lithium atom}{27}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Convergence for the calculation}{29}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.1}Convergence for the calculation}{30}{subsection.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Depth of the crossed dipole trap}{30}{section.4.2}
+\contentsline {section}{\numberline {4.2}Depth of the crossed dipole trap}{31}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Comparison to the classical formula}{31}{section.4.3}
+\contentsline {section}{\numberline {4.3}Comparison to the classical formula}{32}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Measurements}{33}{chapter.5}
+\contentsline {chapter}{\numberline {5}Measurement in the dipole trap}{33}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.0.1}Microtrap parameters}{36}{subsection.5.0.1}
+\contentsline {section}{\numberline {5.1}Microtrap parameters}{36}{section.5.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Conclusion and outlook}{37}{chapter.6}
 \defcounter {refsection}{0}\relax 

@@ -2,7 +2,7 @@
 
 To understand the function of an optical dipole-trap one has to understand how far detuned light, more specifically the electric field component, interacts with a neutral atom. There are several models providing different levels of accuracy for the respective application. The atom can be treated rather classically by regarding it as a harmonic oscillator driven by an electric field. It can be treated semi-classically by considering the quantum nature and structure of the atom while still approximate the incoming light as electromagnetic waves. In this model the problem can be solved in second-order pertubation theory. The third approach is treating the atom quantum mechanically as well as the light, now consisting of quantized photons interacting with the atom. For this thesis only the first two approaches were considered. 
 
-\section{The Hamiltonian}
+\section{The lithium hamiltonian}
 
 The problem of interaction between an atom, laser-light and in the case of this experiment also magnetic fields is represented by different parts in the total Hamiltonian. The basis for all calculations is the atomic Hamiltonian of Lithium-atoms $H_A$. The atom-light-interaction is represented by the Hamiltonian of the light itself $H_L$ and the interaction Hamiltonian $H_{AL}$, that will lead to the \textsc{ac}-Stark shift. The last contribution is the magnetic field Hamiltonian $H_M$, that is resulting in the Zeeman effect. 
 \begin{equation}
@@ -46,7 +46,7 @@ where $\boldsymbol{\mu_I}$ is the magnetic moment of the nucleus and $\boldsymbo
 \label{levels1}
 \end{figure}
 
-\section{Magnetic Field}
+\section{Magnetic field and zeeman-splitting}
 
 Within the experiment, the atoms are exposed to strong magnetic fields. Therefore the Zeeman effect moves the respective levels, and therefore changes also the interaction with laser-light, i.e. the \textsc{ac}-Stark-Shift. In this approach we simply regard both effects as independent pertubations to the basic Hamiltonian. At strong magnetic fields, as used in the experiment, the Paschen-Back-Effect for hyperfine states dominates and instead of $F$ and $m_F$, the quantum numbers $J$ and $m_J$ are still “good“. Therefore the formula for the shift of each state is given by:
 \begin{equation}
@@ -56,9 +56,9 @@ With $\gamma=e/(2m_e)$ and $g_J$ being the Landé-factor. The results are new va
 
 \newpage
 \newpage
-\section{Ac-stark-shift}
+\section{Ac-stark shift}
 The \textsc{ac}-Stark-Shift arises from the interaction of electric fields with the atom. Before treating this problem quantum-mechanically in terms of our Hamiltonian (\ref{Hamiltonian}), we look at the problem in a classical model, that already results in a formula, that is very accurate in certain systems. 
-\subsection{Lorentz Oscillator Model}
+\subsection{Lorentz oscillator model}
 
  Classically the problem of light-matter-interaction can be described in terms of an atomic dipole moment induced by an oscillating electric field, following \cite{dipole}. The atom is hereby described as a damped harmonic oscillator driven by the field. Intuitively one can think of the electrons and the atomic nucleus being pulled away from each other by the electric force, resulting in an oscillation against each other. The potential arising from these conditions is the following. A detailed derivation of the potential can be studied in the appendix \ref{dipolepotential}.
 \begin{equation}
@@ -77,6 +77,10 @@ The polarizability now can be calculated by solving the equation of motion of a 
 \ddot x+\Gamma_\omega\dot x+\omega^2_0x=-\frac{eE(t)}{m_e}
 \end{equation} 
 for that the solution can be calculated using basic tools for solving ordinary differential equations. The result is then:
+\begin{equation}
+x(t)=-\frac{e}{m}\frac{1}{\omega^2_0-\omega^2-i\omega\Gamma_\omega}
+\end{equation}
+Where the first part is defined as:
 \begin{equation}
 \alpha=\frac{e^2}{m_e}\frac{1}{\omega^2_0-\omega^2-\mathrm{i}\omega\Gamma_\omega}
 \end{equation} 

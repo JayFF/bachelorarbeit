@@ -1,25 +1,26 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
-\BOOKMARK [0][-]{chapter.2}{The Experiment}{}% 2
-\BOOKMARK [1][-]{section.2.1}{Imaging}{chapter.2}% 3
-\BOOKMARK [2][-]{subsection.2.1.1}{Absorption imaging}{section.2.1}% 4
-\BOOKMARK [2][-]{subsection.2.1.2}{fluorescence imaging}{section.2.1}% 5
-\BOOKMARK [0][-]{chapter.3}{Theory}{}% 6
-\BOOKMARK [1][-]{section.3.1}{The Hamiltonian}{chapter.3}% 7
-\BOOKMARK [1][-]{section.3.2}{Lithium Level-structure}{chapter.3}% 8
-\BOOKMARK [1][-]{section.3.3}{Magnetic Field}{chapter.3}% 9
-\BOOKMARK [1][-]{section.3.4}{Ac-stark-shift}{chapter.3}% 10
-\BOOKMARK [2][-]{subsection.3.4.1}{Lorentz Oscillator Model}{section.3.4}% 11
-\BOOKMARK [2][-]{subsection.3.4.2}{Energy-shift in pertubation theory}{section.3.4}% 12
-\BOOKMARK [1][-]{section.3.5}{Dipole traps}{chapter.3}% 13
-\BOOKMARK [0][-]{chapter.4}{Calculation of the AC-Stark-Shift}{}% 14
-\BOOKMARK [1][-]{section.4.1}{Polarizability}{chapter.4}% 15
-\BOOKMARK [2][-]{subsection.4.1.1}{Convergence for the calculation}{section.4.1}% 16
-\BOOKMARK [1][-]{section.4.2}{Depth of the crossed dipole trap}{chapter.4}% 17
-\BOOKMARK [1][-]{section.4.3}{Comparison to the classical formula}{chapter.4}% 18
-\BOOKMARK [0][-]{chapter.5}{Measurements}{}% 19
-\BOOKMARK [1][-]{subsection.5.0.1}{Microtrap parameters}{chapter.5}% 20
-\BOOKMARK [0][-]{chapter.6}{Conclusion and outlook}{}% 21
-\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 22
-\BOOKMARK [1][-]{section.A.1}{Potential of an induced dipole moment}{appendix.A}% 23
-\BOOKMARK [1][-]{section.A.2}{Wigner 3-j and 6-j symbols}{appendix.A}% 24
-\BOOKMARK [1][-]{section.A.3}{Wigner-Eckart theorem}{appendix.A}% 25
+\BOOKMARK [0][-]{chapter.2}{The experiment}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Preparing a fermi gas}{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{Imaging}{chapter.2}% 4
+\BOOKMARK [2][-]{subsection.2.2.1}{Absorption imaging}{section.2.2}% 5
+\BOOKMARK [2][-]{subsection.2.2.2}{fluorescence imaging}{section.2.2}% 6
+\BOOKMARK [0][-]{chapter.3}{Theory}{}% 7
+\BOOKMARK [1][-]{section.3.1}{The lithium hamiltonian}{chapter.3}% 8
+\BOOKMARK [1][-]{section.3.2}{Lithium Level-structure}{chapter.3}% 9
+\BOOKMARK [1][-]{section.3.3}{Magnetic field and zeeman-splitting}{chapter.3}% 10
+\BOOKMARK [1][-]{section.3.4}{Ac-stark shift}{chapter.3}% 11
+\BOOKMARK [2][-]{subsection.3.4.1}{Lorentz oscillator model}{section.3.4}% 12
+\BOOKMARK [2][-]{subsection.3.4.2}{Energy-shift in pertubation theory}{section.3.4}% 13
+\BOOKMARK [1][-]{section.3.5}{Dipole traps}{chapter.3}% 14
+\BOOKMARK [0][-]{chapter.4}{Calculation of the ac-stark shift}{}% 15
+\BOOKMARK [1][-]{section.4.1}{Polarizability of the lithium atom}{chapter.4}% 16
+\BOOKMARK [2][-]{subsection.4.1.1}{Convergence for the calculation}{section.4.1}% 17
+\BOOKMARK [1][-]{section.4.2}{Depth of the crossed dipole trap}{chapter.4}% 18
+\BOOKMARK [1][-]{section.4.3}{Comparison to the classical formula}{chapter.4}% 19
+\BOOKMARK [0][-]{chapter.5}{Measurement in the dipole trap}{}% 20
+\BOOKMARK [1][-]{section.5.1}{Microtrap parameters}{chapter.5}% 21
+\BOOKMARK [0][-]{chapter.6}{Conclusion and outlook}{}% 22
+\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 23
+\BOOKMARK [1][-]{section.A.1}{Potential of an induced dipole moment}{appendix.A}% 24
+\BOOKMARK [1][-]{section.A.2}{Wigner 3-j and 6-j symbols}{appendix.A}% 25
+\BOOKMARK [1][-]{section.A.3}{Wigner-Eckart theorem}{appendix.A}% 26
