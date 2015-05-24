@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2015.5.11)  24 MAY 2015 21:24
+This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2015.5.11)  24 MAY 2015 21:43
  restricted \write18 enabled.
 **BA.tex
 (./BA.tex
@@ -1483,18 +1483,18 @@ Overfull \vbox (109.36575pt too high) has occurred while \output is active []
 
 
 [17<./levels2.png><./levels1.png>] [18] [19] [20]
-Underfull \hbox (badness 10000) in paragraph at lines 114--117
+Underfull \hbox (badness 10000) in paragraph at lines 113--116
 
  []
 
 Missing character: There is no ² (U+00B2) in font pplr7t!
 Missing character: There is no ² (U+00B2) in font pplr7t!
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2443) has occurred while \output is active []
 
  [21]
 [22]
-Overfull \hbox (0.72766pt too wide) in paragraph at lines 178--182
+Overfull \hbox (0.72766pt too wide) in paragraph at lines 177--181
 \EU2/LinuxLibertineO(0)/m/n/10.95 direction also de-fines the quan-ti-za-tion a
 xis in a mag-netic field, this means as-sum-ing $\OML/zplm/m/it/10.95 $\EU2/Li
 nuxLibertineO(0)/m/n/10.95 -polarized
@@ -1816,7 +1816,7 @@ Here is how much of LuaTeX's memory you used:
 ribute_list, 2 action, 2 write nodes
    avail lists: 1:3,2:11789,3:494,4:1375,5:371,6:3958,7:340,8:29,9:645,10:353
  33754 multiletter control sequences out of 65536+600000
- 159 fonts using 14340927 bytes
+ 159 fonts using 14340999 bytes
  70i,15n,60p,2572b,1613s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf>{/usr/share/texl
 ive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/
@@ -1832,7 +1832,7 @@ pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.p
 fb><</usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb><</usr/s
 hare/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><</usr/share/texlive
 /texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on BA.pdf (43 pages, 10238986 bytes).
+Output written on BA.pdf (43 pages, 10239134 bytes).
 
 PDF statistics: 963 PDF objects out of 1000 (max. 8388607)
  707 compressed objects within 8 object streams
