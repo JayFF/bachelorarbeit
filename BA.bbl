@@ -28,7 +28,6 @@
       }
       \strng{namehash}{a09ccd02456916b723d47d652971d797}
       \strng{fullhash}{a09ccd02456916b723d47d652971d797}
-      \field{labelalpha}{And87}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{The resonating valence bond state in La2CuO4 and superconductivity}
@@ -39,14 +38,13 @@
     \endentry
     \entry{feynman}{article}{}
       \name{labelname}{1}{}{%
-        {{hash=76c376c1c6574c7dad0b40422ddcb0af}{Feynman}{F\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=deb18bff6e44dfb9f9006566c59ab1e1}{Feynman}{F\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
       }
       \name{author}{1}{}{%
-        {{hash=76c376c1c6574c7dad0b40422ddcb0af}{Feynman}{F\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=deb18bff6e44dfb9f9006566c59ab1e1}{Feynman}{F\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{76c376c1c6574c7dad0b40422ddcb0af}
-      \strng{fullhash}{76c376c1c6574c7dad0b40422ddcb0af}
-      \field{labelalpha}{Fey82}
+      \strng{namehash}{deb18bff6e44dfb9f9006566c59ab1e1}
+      \strng{fullhash}{deb18bff6e44dfb9f9006566c59ab1e1}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Simulating physics with computers}
@@ -66,7 +64,6 @@
       }
       \strng{namehash}{107882d40b93f181a1b9c695a4270ebf}
       \strng{fullhash}{107882d40b93f181a1b9c695a4270ebf}
-      \field{labelalpha}{MS99}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Laser cooling and trapping}
@@ -84,9 +81,8 @@
         {{hash=ee0482da6c9ce8083d951d0f62f1a4b7}{Dalibard}{D\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
         {{hash=a6ceb864429d7a6c2b839019380a682e}{Nascimbene}{N\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{caffaebc2c61a2dd2783ff9420f3bfe9}
+      \strng{namehash}{353fc6ea3f86b1548d1e02a2a1201635}
       \strng{fullhash}{caffaebc2c61a2dd2783ff9420f3bfe9}
-      \field{labelalpha}{BDN12}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Quantum simulations with ultracold quantum gases}
@@ -107,7 +103,6 @@
       }
       \strng{namehash}{eab2126ac96f7b0298a10f8916de9872}
       \strng{fullhash}{eab2126ac96f7b0298a10f8916de9872}
-      \field{labelalpha}{Gre03}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Ultracold quantum gases in three-dimensional optical lattice potentials}
@@ -126,9 +121,8 @@
         {{hash=7ac280bad278603aadbbd3ae5499229a}{Durfee}{D\bibinitperiod}{D.S.}{D\bibinitperiod}{}{}{}{}}%
         {{hash=713635307e87f65420f5c0ac62acc1dc}{Stamper-Kurn}{S\bibinithyphendelim K\bibinitperiod}{D.M.}{D\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{ef21feb524260763ed0007c95184a999}
+      \strng{namehash}{d98a8d95147577490adb50e891eacbc5}
       \strng{fullhash}{ef21feb524260763ed0007c95184a999}
-      \field{labelalpha}{KDS99}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Making, probing and understanding Bose-Einstein condensates}
@@ -152,7 +146,6 @@
       }
       \strng{namehash}{f51b81db16215ddf7db9c3eec1b18e70}
       \strng{fullhash}{4294c523987147d11ca368338ca567f2}
-      \field{labelalpha}{Bak+09}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{A quatum gas microscope for detecting single atoms in a Hubbard-regime optical lattice}
@@ -180,7 +173,6 @@
       }
       \strng{namehash}{c70706ef1a42851456dade816a416c88}
       \strng{fullhash}{d8a24e8881eb0759f57b889b7f90a1a1}
-      \field{labelalpha}{She+10}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Single-atom-resolved fluoriscence imaging of an atomic Mott insulator}
@@ -206,7 +198,6 @@
       }
       \strng{namehash}{924a27413205ccfc54c546236e0a914a}
       \strng{fullhash}{8b600acdac1f3903a7bc32a0806e3edd}
-      \field{labelalpha}{Pre+09}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{A quatum gas microscope for detecting single atoms in a Hubbard-regime optical lattice}
@@ -216,23 +207,26 @@
       \field{year}{2009}
     \endentry
     \entry{kuhr}{article}{}
-      \name{labelname}{5}{}{%
+      \name{labelname}{7}{}{%
         {{hash=9377d5de48d08e2904d1be422016e646}{Haller}{H\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
         {{hash=67649f751599ccabdf727addf06f2d44}{Hudson}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
         {{hash=7bc64117cca130c88a37d7d56cb5cb24}{Kelly}{K\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
         {{hash=996d16eafc51a4fae31a6a743370d23b}{Cotta}{C\bibinitperiod}{D.\bibnamedelimi A.}{D\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=bef1f1aeb03b5c99ddaade883f1a277a}{Kuhr}{K\bibinitperiod}{Bruno\bibnamedelimb Peaudecerf;\bibnamedelimb Graham\bibnamedelimb D.\bibnamedelimi Bruce;\bibnamedelima Stefan}{B\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=419c566a2744a234c48d376a007f66c3}{Peaudecerf}{P\bibinitperiod}{Bruno}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=7be7d9e4f0df9e31d0f432c17aca6b31}{Bruce}{B\bibinitperiod}{Graham\bibnamedelima D.}{G\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=126861f78e4a03b28760ee528ab3e425}{Kuhr}{K\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{5}{}{%
+      \name{author}{7}{}{%
         {{hash=9377d5de48d08e2904d1be422016e646}{Haller}{H\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
         {{hash=67649f751599ccabdf727addf06f2d44}{Hudson}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
         {{hash=7bc64117cca130c88a37d7d56cb5cb24}{Kelly}{K\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
         {{hash=996d16eafc51a4fae31a6a743370d23b}{Cotta}{C\bibinitperiod}{D.\bibnamedelimi A.}{D\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=bef1f1aeb03b5c99ddaade883f1a277a}{Kuhr}{K\bibinitperiod}{Bruno\bibnamedelimb Peaudecerf;\bibnamedelimb Graham\bibnamedelimb D.\bibnamedelimi Bruce;\bibnamedelima Stefan}{B\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=419c566a2744a234c48d376a007f66c3}{Peaudecerf}{P\bibinitperiod}{Bruno}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=7be7d9e4f0df9e31d0f432c17aca6b31}{Bruce}{B\bibinitperiod}{Graham\bibnamedelima D.}{G\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=126861f78e4a03b28760ee528ab3e425}{Kuhr}{K\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
       }
       \strng{namehash}{67511fd303c0852dbece6798341a7ca9}
-      \strng{fullhash}{91f667e0a8665f0e281bdf61e1a90c9d}
-      \field{labelalpha}{Hal+15}
+      \strng{fullhash}{e3e53c06aa7600767fc5f2079fb1c20c}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Single-atom imaging of fermions in a quantum -gas microscope}
@@ -256,7 +250,6 @@
       }
       \strng{namehash}{daa4d5b862e99c4844a5dc2ddaa91637}
       \strng{fullhash}{8683afadcb25e59f79631b0ae430dc45}
-      \field{labelalpha}{Mur+15}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Two Fermions in a double well: Exploring a fundamental building block of the Hubbard model}
@@ -290,7 +283,6 @@
       }
       \strng{namehash}{b789463b0bfa2ab01db8b42514744f10}
       \strng{fullhash}{53de05d22682c66ec0a07de48c05dc53}
-      \field{labelalpha}{Büc+09}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Single-particle-sensitive imaging of freely propagating ultracold atoms}
@@ -316,7 +308,6 @@
       }
       \strng{namehash}{2b04b1e63c24e5d601250d599aaec87d}
       \strng{fullhash}{9e52ce128aa3e7ea7886c88901028d36}
-      \field{labelalpha}{Hil+15}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{In-trap fluorescence detection of atoms in a microscopic dipole trap}
@@ -335,7 +326,6 @@
       }
       \strng{namehash}{5f6daac4a227dbc576beba0a52b94ec0}
       \strng{fullhash}{5f6daac4a227dbc576beba0a52b94ec0}
-      \field{labelalpha}{Ser11}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Deterministic preparation of a tunable few-fermion system}
@@ -355,7 +345,6 @@
       }
       \strng{namehash}{9793089a7cc464bc8f66bdda7d050813}
       \strng{fullhash}{9793089a7cc464bc8f66bdda7d050813}
-      \field{labelalpha}{Lom11}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Efimov Physics in a three-component Fermi gas}
@@ -382,7 +371,6 @@
       }
       \strng{namehash}{7dec05a842669ec23b6fc61dc260d1c1}
       \strng{fullhash}{66e8956b36f0fb420c97624514be622d}
-      \field{labelalpha}{Ser+11}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Deterministic Preperation of a Tunable Few-Fermion System}
@@ -402,7 +390,6 @@
       }
       \strng{namehash}{5afe041f2e3da14fc0da2fe4f0465707}
       \strng{fullhash}{5afe041f2e3da14fc0da2fe4f0465707}
-      \field{labelalpha}{KZ08}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Making, probing and understanding ultracold Fermi gases}
@@ -421,7 +408,6 @@
       }
       \strng{namehash}{00a4b10ee8e0b11e480c2dcd1405e560}
       \strng{fullhash}{00a4b10ee8e0b11e480c2dcd1405e560}
-      \field{labelalpha}{Ott10}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Few-body physics in ultracold Fermi gases}
@@ -431,14 +417,13 @@
     \endentry
     \entry{gehm}{article}{}
       \name{labelname}{1}{}{%
-        {{hash=9d7dde31bc01c4be34c7d4ec0d147350}{Gehm}{G\bibinitperiod}{Michael\bibnamedelima E.}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=83e5d55b42c68cc3980f4411360db551}{Gehm}{G\bibinitperiod}{M.\bibnamedelimi E.}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
       }
       \name{author}{1}{}{%
-        {{hash=9d7dde31bc01c4be34c7d4ec0d147350}{Gehm}{G\bibinitperiod}{Michael\bibnamedelima E.}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=83e5d55b42c68cc3980f4411360db551}{Gehm}{G\bibinitperiod}{M.\bibnamedelimi E.}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{9d7dde31bc01c4be34c7d4ec0d147350}
-      \strng{fullhash}{9d7dde31bc01c4be34c7d4ec0d147350}
-      \field{labelalpha}{Geh03}
+      \strng{namehash}{83e5d55b42c68cc3980f4411360db551}
+      \strng{fullhash}{83e5d55b42c68cc3980f4411360db551}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Properties of Lithium-6}
@@ -454,7 +439,6 @@
       }
       \strng{namehash}{6ae1c8f40e86928194f6aad75cdd8eba}
       \strng{fullhash}{6ae1c8f40e86928194f6aad75cdd8eba}
-      \field{labelalpha}{Dem10}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Experimentalphysik 3}
@@ -471,7 +455,6 @@
       }
       \strng{namehash}{a7e8e1ffc15552435a9f692b503665ba}
       \strng{fullhash}{a7e8e1ffc15552435a9f692b503665ba}
-      \field{labelalpha}{Fre15}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{day}{11}
@@ -492,9 +475,8 @@
         {{hash=ececcc8ac50fa72246fb8c354249a4ec}{Weidemueller}{W\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
         {{hash=0bc49bab5feed8a1251c27ab768de69e}{Ovchinnikov}{O\bibinitperiod}{Yurii\bibnamedelima B.}{Y\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{9113b67d584b2bb8c25a7524e03b795c}
+      \strng{namehash}{205fc7f5a3b085b1755c46b766d1d6a9}
       \strng{fullhash}{9113b67d584b2bb8c25a7524e03b795c}
-      \field{labelalpha}{GWO99}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Optical dipole traps for neutral atoms}
@@ -510,7 +492,6 @@
       }
       \strng{namehash}{43913df7c07e91c6a6171700f0b6f369}
       \strng{fullhash}{43913df7c07e91c6a6171700f0b6f369}
-      \field{labelalpha}{Joh09}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Scalar and Tensor Polarizabilities of Atoms}
@@ -528,9 +509,8 @@
         {{hash=ec024457dcf744c2161e72eaa5498c8a}{Safronova}{S\bibinitperiod}{U.\bibnamedelimi I.}{U\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
         {{hash=a9c4ba58fa344ab004dde3db37c9f670}{Clark}{C\bibinitperiod}{Charles\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{b32ef7b8a75d339c8fe74958dffddc68}
+      \strng{namehash}{cdc07ab44666e2381431d9091ed1bf2d}
       \strng{fullhash}{b32ef7b8a75d339c8fe74958dffddc68}
-      \field{labelalpha}{SSC12}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Magic wavelengths for optical cooling and trapping of lithium}
@@ -552,7 +532,6 @@
       }
       \strng{namehash}{57cf97364b4c59d824626f076c80e80a}
       \strng{fullhash}{d03d4efbb23bd38044dd88808edf18af}
-      \field{labelalpha}{A K+14}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{howpublished}{{NIST Atomic Spectra Database (ver. 5.2), [Online]. Available: {\tt{http://physics.nist.gov/asd}} [2015, May 11]. National Institute of Standards and Technology, Gaithersburg, MD.}}
@@ -560,14 +539,13 @@
     \endentry
     \entry{cohen}{book}{}
       \name{labelname}{1}{}{%
-        {{hash=38e5259097713faf39227a43c3fddbca}{Claude\bibnamedelima Cohen-Tannoudji}{C\bibinitperiod\bibinitdelim C\bibinithyphendelim T\bibinitperiod}{Gilbert\bibnamedelima Grynberg}{G\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{Jacques\bibnamedelima Dupont-Roc}{J\bibinitperiod\bibinitdelim D\bibinithyphendelim R\bibinitperiod}}%
+        {{hash=9d2baa68c32c1a2facca1a55ce5943ef}{C.\bibnamedelimi Cohen-Tannoudji}{C\bibinitperiod\bibinitdelim C\bibinithyphendelim T\bibinitperiod}{G.\bibnamedelimi Grynberg}{G\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{J.\bibnamedelimi Dupont-Roc}{J\bibinitperiod\bibinitdelim D\bibinithyphendelim R\bibinitperiod}}%
       }
       \name{author}{1}{}{%
-        {{hash=38e5259097713faf39227a43c3fddbca}{Claude\bibnamedelima Cohen-Tannoudji}{C\bibinitperiod\bibinitdelim C\bibinithyphendelim T\bibinitperiod}{Gilbert\bibnamedelima Grynberg}{G\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{Jacques\bibnamedelima Dupont-Roc}{J\bibinitperiod\bibinitdelim D\bibinithyphendelim R\bibinitperiod}}%
+        {{hash=9d2baa68c32c1a2facca1a55ce5943ef}{C.\bibnamedelimi Cohen-Tannoudji}{C\bibinitperiod\bibinitdelim C\bibinithyphendelim T\bibinitperiod}{G.\bibnamedelimi Grynberg}{G\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{J.\bibnamedelimi Dupont-Roc}{J\bibinitperiod\bibinitdelim D\bibinithyphendelim R\bibinitperiod}}%
       }
-      \strng{namehash}{38e5259097713faf39227a43c3fddbca}
-      \strng{fullhash}{38e5259097713faf39227a43c3fddbca}
-      \field{labelalpha}{Cla98}
+      \strng{namehash}{9d2baa68c32c1a2facca1a55ce5943ef}
+      \strng{fullhash}{9d2baa68c32c1a2facca1a55ce5943ef}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Atom-Photon Interactions}
@@ -583,7 +561,6 @@
       }
       \strng{namehash}{ca8126a778e35f76c6c0a7ebf35a7961}
       \strng{fullhash}{ca8126a778e35f76c6c0a7ebf35a7961}
-      \field{labelalpha}{Pud15}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{day}{8}
@@ -602,7 +579,6 @@
       }
       \strng{namehash}{43913df7c07e91c6a6171700f0b6f369}
       \strng{fullhash}{43913df7c07e91c6a6171700f0b6f369}
-      \field{labelalpha}{Joh06}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Lectures on Atomic Physics}
