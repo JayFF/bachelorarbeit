@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2015.5.11)  25 MAY 2015 22:13
+This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2015.5.11)  25 MAY 2015 23:37
  restricted \write18 enabled.
 **BA.tex
 (./BA.tex
@@ -338,7 +338,7 @@ luatexbase-attr: luatexbase.attributes["luaotfload@cursbase"] = 6
 luatexbase-attr: luatexbase.attributes["luaotfload@curscurs"] = 7
 luatexbase-attr: luatexbase.attributes["luaotfload@cursdone"] = 8
 luatexbase-attr: luatexbase.attributes["luaotfload@state"] = 9
-luaotfload | main : fontloader loaded in 0.021 seconds
+luaotfload | main : fontloader loaded in 0.022 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -1477,7 +1477,8 @@ File: levels1.png Graphic file (type png)
  <use levels1.png>
 Package pdftex.def Info: levels1.png used on input line 43.
 (pdftex.def)             Requested size: 263.86014pt x 248.80392pt.
- [17<./levels1.png>] [18] [19]
+luaotfload | load : Lookup/name: "LinuxLibertineO" -> "LinLibertine_R.otf" [17<.
+/levels1.png>] [18] [19]
 Underfull \hbox (badness 10000) in paragraph at lines 113--116
 
  []
@@ -1669,10 +1670,6 @@ File: withodt-eps-converted-to.pdf Graphic file (type pdf)
 <use withodt-eps-converted-to.pdf>
 Package pdftex.def Info: withodt-eps-converted-to.pdf used on input line 10.
 (pdftex.def)             Requested size: 200.76086pt x 140.38203pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 Package epstopdf Info: Source file: <Shift2.eps>
 (epstopdf)                    date: 2015-05-25 18:15:19
 (epstopdf)                    size: 59887 bytes
@@ -1681,18 +1678,15 @@ Package epstopdf Info: Source file: <Shift2.eps>
 (epstopdf)                    size: 28988 bytes
 (epstopdf)             Command: <repstopdf --outfile=Shift2-eps-converted-to.pdf
  Shift2.eps>
-(epstopdf)             \includegraphics on input line 23.
+(epstopdf)             \includegraphics on input line 21.
 Package epstopdf Info: Output file is already uptodate.
+
 <Shift2-eps-converted-to.pdf, id=628, 774.895pt x 593.21625pt>
 File: Shift2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Shift2-eps-converted-to.pdf>
-Package pdftex.def Info: Shift2-eps-converted-to.pdf used on input line 23.
+Package pdftex.def Info: Shift2-eps-converted-to.pdf used on input line 21.
 (pdftex.def)             Requested size: 334.60571pt x 256.15517pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 Package epstopdf Info: Source file: <shiftintens.eps>
 (epstopdf)                    date: 2015-05-25 18:15:19
 (epstopdf)                    size: 52288 bytes
@@ -1701,15 +1695,22 @@ Package epstopdf Info: Source file: <shiftintens.eps>
 (epstopdf)                    size: 27617 bytes
 (epstopdf)             Command: <repstopdf --outfile=shiftintens-eps-converted-t
 o.pdf shiftintens.eps>
-(epstopdf)             \includegraphics on input line 32.
+(epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
+
 <shiftintens-eps-converted-to.pdf, id=630, 774.895pt x 593.21625pt>
 File: shiftintens-eps-converted-to.pdf Graphic file (type pdf)
 
 <use shiftintens-eps-converted-to.pdf>
-Package pdftex.def Info: shiftintens-eps-converted-to.pdf used on input line 32.
+Package pdftex.def Info: shiftintens-eps-converted-to.pdf used on input line 30.
 
 (pdftex.def)             Requested size: 334.60571pt x 256.15517pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1819,7 +1820,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
 Package rerunfilecheck Info: File `BA.out' has not changed.
-(rerunfilecheck)             Checksum: 613E32D6A958625BC569BA9F8F8D6DD2;1767.
+(rerunfilecheck)             Checksum: 55FF32E30FD379E3DEA723FF8C735946;1767.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1828,14 +1829,14 @@ Package logreq Info: Writing requests to 'BA.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 31564 strings out of 493787
+ 31567 strings out of 493787
  100000,1144653 words of node,token memory allocated
- 1006 words of node memory still in use:
+ 1005 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 34 kern, 40 attribute, 53 glue_spec, 40 att
 ribute_list, 2 action, 2 write nodes
-   avail lists: 1:3,2:11943,3:494,4:1375,5:379,6:3960,7:336,8:29,9:646,10:354
- 33778 multiletter control sequences out of 65536+600000
- 159 fonts using 14341035 bytes
+   avail lists: 1:3,2:11916,3:493,4:1376,5:372,6:3964,7:472,8:29,9:646,10:354
+ 33780 multiletter control sequences out of 65536+600000
+ 160 fonts using 14748199 bytes
  70i,15n,60p,2572b,1613s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf>{/usr/share/texl
 ive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/
@@ -1851,7 +1852,7 @@ pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.p
 fb><</usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb><</usr/s
 hare/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><</usr/share/texlive
 /texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on BA.pdf (41 pages, 10240546 bytes).
+Output written on BA.pdf (41 pages, 10240070 bytes).
 
 PDF statistics: 959 PDF objects out of 1000 (max. 8388607)
  705 compressed objects within 8 object streams
