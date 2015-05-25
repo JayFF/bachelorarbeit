@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2015.5.11)  25 MAY 2015 23:37
+This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2015.5.11)  25 MAY 2015 23:57
  restricted \write18 enabled.
 **BA.tex
 (./BA.tex
@@ -338,7 +338,7 @@ luatexbase-attr: luatexbase.attributes["luaotfload@cursbase"] = 6
 luatexbase-attr: luatexbase.attributes["luaotfload@curscurs"] = 7
 luatexbase-attr: luatexbase.attributes["luaotfload@cursdone"] = 8
 luatexbase-attr: luatexbase.attributes["luaotfload@state"] = 9
-luaotfload | main : fontloader loaded in 0.022 seconds
+luaotfload | main : fontloader loaded in 0.021 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -1836,7 +1836,7 @@ Here is how much of LuaTeX's memory you used:
 ribute_list, 2 action, 2 write nodes
    avail lists: 1:3,2:11916,3:493,4:1376,5:372,6:3964,7:472,8:29,9:646,10:354
  33780 multiletter control sequences out of 65536+600000
- 160 fonts using 14748199 bytes
+ 160 fonts using 14748239 bytes
  70i,15n,60p,2572b,1613s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf>{/usr/share/texl
 ive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/
