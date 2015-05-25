@@ -20,36 +20,36 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Lithium level-structure}{15}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Magnetic field and Zeeman-splitting}{18}{section.3.3}
+\contentsline {section}{\numberline {3.3}Magnetic field and Zeeman-splitting}{17}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Ac-stark shift}{19}{section.3.4}
+\contentsline {section}{\numberline {3.4}Ac-stark shift}{18}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Lorentz oscillator model}{19}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.1}Lorentz oscillator model}{18}{subsection.3.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.2}Energy-shift in pertubation theory}{20}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.2}Energy-shift in pertubation theory}{19}{subsection.3.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Dipole traps}{24}{section.3.5}
+\contentsline {section}{\numberline {3.5}Dipole traps}{23}{section.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Calculation of the ac-stark shift}{27}{chapter.4}
+\contentsline {chapter}{\numberline {4}Calculation of the ac-stark shift}{25}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Polarizability of the lithium atom}{27}{section.4.1}
+\contentsline {section}{\numberline {4.1}Polarizability of the lithium atom}{25}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Convergence for the calculation}{30}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.1}Convergence for the calculation}{28}{subsection.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Depth of the crossed dipole trap}{31}{section.4.2}
+\contentsline {section}{\numberline {4.2}Depth of the crossed dipole trap}{29}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Comparison to the classical formula}{32}{section.4.3}
+\contentsline {section}{\numberline {4.3}Comparison to the classical formula}{30}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Measurement in the dipole trap}{33}{chapter.5}
+\contentsline {chapter}{\numberline {5}Measurement in the dipole trap}{31}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Microtrap parameters}{36}{section.5.1}
+\contentsline {section}{\numberline {5.1}Microtrap parameters}{34}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Conclusion and outlook}{37}{chapter.6}
+\contentsline {chapter}{\numberline {6}Conclusion and outlook}{35}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{39}{appendix.A}
+\contentsline {chapter}{\numberline {A}Appendix}{37}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Potential of an induced dipole moment}{39}{section.A.1}
+\contentsline {section}{\numberline {A.1}Potential of an induced dipole moment}{37}{section.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Wigner 3-j and 6-j symbols}{39}{section.A.2}
+\contentsline {section}{\numberline {A.2}Wigner 3-j and 6-j symbols}{37}{section.A.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Wigner-Eckart theorem}{40}{section.A.3}
+\contentsline {section}{\numberline {A.3}Wigner-Eckart theorem}{38}{section.A.3}

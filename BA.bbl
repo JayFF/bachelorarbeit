@@ -81,7 +81,7 @@
         {{hash=ee0482da6c9ce8083d951d0f62f1a4b7}{Dalibard}{D\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
         {{hash=a6ceb864429d7a6c2b839019380a682e}{Nascimbene}{N\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{353fc6ea3f86b1548d1e02a2a1201635}
+      \strng{namehash}{caffaebc2c61a2dd2783ff9420f3bfe9}
       \strng{fullhash}{caffaebc2c61a2dd2783ff9420f3bfe9}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
@@ -121,7 +121,7 @@
         {{hash=7ac280bad278603aadbbd3ae5499229a}{Durfee}{D\bibinitperiod}{D.S.}{D\bibinitperiod}{}{}{}{}}%
         {{hash=713635307e87f65420f5c0ac62acc1dc}{Stamper-Kurn}{S\bibinithyphendelim K\bibinitperiod}{D.M.}{D\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{d98a8d95147577490adb50e891eacbc5}
+      \strng{namehash}{ef21feb524260763ed0007c95184a999}
       \strng{fullhash}{ef21feb524260763ed0007c95184a999}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
@@ -200,11 +200,11 @@
       \strng{fullhash}{8b600acdac1f3903a7bc32a0806e3edd}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
-      \field{labeltitle}{A quatum gas microscope for detecting single atoms in a Hubbard-regime optical lattice}
-      \field{journaltitle}{Nature}
-      \field{title}{A quatum gas microscope for detecting single atoms in a Hubbard-regime optical lattice}
-      \field{volume}{462}
-      \field{year}{2009}
+      \field{labeltitle}{Quantum gas microscopy with spin, atom-number, and multilayer readout}
+      \field{journaltitle}{Physical Review Letters}
+      \field{title}{Quantum gas microscopy with spin, atom-number, and multilayer readout}
+      \field{volume}{91}
+      \field{year}{2015}
     \endentry
     \entry{kuhr}{article}{}
       \name{labelname}{7}{}{%
@@ -229,9 +229,14 @@
       \strng{fullhash}{e3e53c06aa7600767fc5f2079fb1c20c}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
-      \field{labeltitle}{Single-atom imaging of fermions in a quantum -gas microscope}
-      \field{title}{Single-atom imaging of fermions in a quantum -gas microscope}
+      \field{labeltitle}{Single-atom imaging of fermions in a quantum-gas microscope}
+      \field{eprintclass}{cond-mat.quant-gas}
+      \field{eprinttype}{arXiv}
+      \field{title}{Single-atom imaging of fermions in a quantum-gas microscope}
       \field{year}{2015}
+      \verb{eprint}
+      \verb arXiv:1503.02005
+      \endverb
     \endentry
     \entry{doublewell}{article}{}
       \name{labelname}{5}{}{%
@@ -379,7 +384,7 @@
       \field{volume}{332}
       \field{year}{2011}
     \endentry
-    \entry{ketterle2}{article}{}
+    \entry{ketterle2}{proceedings}{}
       \name{labelname}{2}{}{%
         {{hash=34a46a3fdd78c1c2b65b7dd7e8b2b006}{Ketterle}{K\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
         {{hash=f964bea6699d3a81f5f79dd084d0c892}{Zwierlein}{Z\bibinitperiod}{M.\bibnamedelimi W.}{M\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
@@ -393,6 +398,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Making, probing and understanding ultracold Fermi gases}
+      \field{series}{Proceedings of the International School of Physics "Enrico Fermi"}
       \field{title}{Making, probing and understanding ultracold Fermi gases}
       \field{year}{2008}
     \endentry
@@ -415,19 +421,23 @@
       \field{type}{phdthesis}
       \field{year}{2010}
     \endentry
-    \entry{gehm}{article}{}
+    \entry{gehm}{thesis}{}
       \name{labelname}{1}{}{%
         {{hash=83e5d55b42c68cc3980f4411360db551}{Gehm}{G\bibinitperiod}{M.\bibnamedelimi E.}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
       }
       \name{author}{1}{}{%
         {{hash=83e5d55b42c68cc3980f4411360db551}{Gehm}{G\bibinitperiod}{M.\bibnamedelimi E.}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
       }
+      \list{institution}{1}{%
+        {Duke University}%
+      }
       \strng{namehash}{83e5d55b42c68cc3980f4411360db551}
       \strng{fullhash}{83e5d55b42c68cc3980f4411360db551}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
-      \field{labeltitle}{Properties of Lithium-6}
-      \field{title}{Properties of Lithium-6}
+      \field{labeltitle}{Preparation of an Optically-Trapped Degenerate Fermi Gas of ⁶Li: Finding the Route to Degeneracy}
+      \field{title}{Preparation of an Optically-Trapped Degenerate Fermi Gas of ⁶Li: Finding the Route to Degeneracy}
+      \field{type}{phdthesis}
       \field{year}{2003}
     \endentry
     \entry{demtroder}{book}{}
@@ -475,7 +485,7 @@
         {{hash=ececcc8ac50fa72246fb8c354249a4ec}{Weidemueller}{W\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
         {{hash=0bc49bab5feed8a1251c27ab768de69e}{Ovchinnikov}{O\bibinitperiod}{Yurii\bibnamedelima B.}{Y\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{205fc7f5a3b085b1755c46b766d1d6a9}
+      \strng{namehash}{9113b67d584b2bb8c25a7524e03b795c}
       \strng{fullhash}{9113b67d584b2bb8c25a7524e03b795c}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
@@ -509,7 +519,7 @@
         {{hash=ec024457dcf744c2161e72eaa5498c8a}{Safronova}{S\bibinitperiod}{U.\bibnamedelimi I.}{U\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
         {{hash=a9c4ba58fa344ab004dde3db37c9f670}{Clark}{C\bibinitperiod}{Charles\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{cdc07ab44666e2381431d9091ed1bf2d}
+      \strng{namehash}{b32ef7b8a75d339c8fe74958dffddc68}
       \strng{fullhash}{b32ef7b8a75d339c8fe74958dffddc68}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
@@ -538,19 +548,46 @@
       \field{year}{2014}
     \endentry
     \entry{cohen}{book}{}
-      \name{labelname}{1}{}{%
-        {{hash=9d2baa68c32c1a2facca1a55ce5943ef}{C.\bibnamedelimi Cohen-Tannoudji}{C\bibinitperiod\bibinitdelim C\bibinithyphendelim T\bibinitperiod}{G.\bibnamedelimi Grynberg}{G\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{J.\bibnamedelimi Dupont-Roc}{J\bibinitperiod\bibinitdelim D\bibinithyphendelim R\bibinitperiod}}%
+      \name{labelname}{3}{}{%
+        {{hash=0866ab881a83c572020279e903749986}{Cohen-Tannoudji}{C\bibinithyphendelim T\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=8ddb2693efad1b148d33726d72736ca4}{Dupont-Roc}{D\bibinithyphendelim R\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=ebb4811319cc0e8dbafd423d67540a8c}{Grynberg}{G\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{1}{}{%
-        {{hash=9d2baa68c32c1a2facca1a55ce5943ef}{C.\bibnamedelimi Cohen-Tannoudji}{C\bibinitperiod\bibinitdelim C\bibinithyphendelim T\bibinitperiod}{G.\bibnamedelimi Grynberg}{G\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{J.\bibnamedelimi Dupont-Roc}{J\bibinitperiod\bibinitdelim D\bibinithyphendelim R\bibinitperiod}}%
+      \name{author}{3}{}{%
+        {{hash=0866ab881a83c572020279e903749986}{Cohen-Tannoudji}{C\bibinithyphendelim T\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=8ddb2693efad1b148d33726d72736ca4}{Dupont-Roc}{D\bibinithyphendelim R\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=ebb4811319cc0e8dbafd423d67540a8c}{Grynberg}{G\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{9d2baa68c32c1a2facca1a55ce5943ef}
-      \strng{fullhash}{9d2baa68c32c1a2facca1a55ce5943ef}
+      \strng{namehash}{81ed1f58c8fc69eab6efa6a974a6cbe5}
+      \strng{fullhash}{81ed1f58c8fc69eab6efa6a974a6cbe5}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Atom-Photon Interactions}
       \field{title}{Atom-Photon Interactions}
       \field{year}{1998}
+    \endentry
+    \entry{dwave}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=d2359d98bc31b255d680dee1d55a0ad1}{Trebst}{T\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=ffb4003689bee8db343f7377953faeb9}{Schollwoeck}{S\bibinitperiod}{U.}{U\bibinitperiod}{}{}{}{}}%
+        {{hash=3fa70849b7fd9780aa1636c1cf465007}{Troyer}{T\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=8cdf8cd19f0ecab1f8dae81090756da9}{Zoller}{Z\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=d2359d98bc31b255d680dee1d55a0ad1}{Trebst}{T\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=ffb4003689bee8db343f7377953faeb9}{Schollwoeck}{S\bibinitperiod}{U.}{U\bibinitperiod}{}{}{}{}}%
+        {{hash=3fa70849b7fd9780aa1636c1cf465007}{Troyer}{T\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=8cdf8cd19f0ecab1f8dae81090756da9}{Zoller}{Z\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{19ed89da1c7f89d739a0b0f2357bc9bb}
+      \strng{fullhash}{e5c14bb5d28217bb3ff29fae860fac17}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{d-wave resonating valence bond states of fermionic atoms in optical lattices}
+      \field{journaltitle}{Physical Review Letters}
+      \field{title}{d-wave resonating valence bond states of fermionic atoms in optical lattices}
+      \field{volume}{96}
+      \field{year}{2006}
     \endentry
     \entry{factor}{online}{}
       \name{labelname}{1}{}{%

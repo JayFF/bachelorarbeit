@@ -20,14 +20,14 @@ That leads to the Hamiltonian:
 \begin{equation}
 H_A=\frac{p^2}{2\mu}-\frac{e^2Z}{4\pi\epsilon_0\boldsymbol{r}}
 \end{equation}
-Solving the Schrödinger-Equation considering this Hamiltonian leads to a set of wave-functions characterized by the quantum numbers $N,L,m_L$, $N$ being the main quantum number, $L$ the angular momentum quantum number and $m_L$ the projection onto the coordinate axis. The energy-levels for different $L$ are degenerate, but when the spin of the valence electron is considered this degeneracy is broken and the coupling of this spin to the orbital angular momentum leads to the fine-structure picture in which for Lithium $J=l\pm S$  and $m_J=J,J-1,\dots,-J+1,J$ are the respective quantum numbers. This leads to corrections, that have the form:
+Solving the Schrödinger-Equation considering this Hamiltonian leads to a set of wave-functions characterized by the quantum numbers $N,L,m_L$, $N$ being the main quantum number, $L$ the angular momentum quantum number and $m_L$ the projection onto the coordinate axis. The energy-levels for different $L$ are degenerate, but when the spin of the valence electron is considered this degeneracy is broken and the coupling of this spin to the orbital angular momentum leads to the fine-structure picture in which for Lithium $J=L\pm S$  and $m_J=J,J-1,\dots,-J+1,J$ are the respective quantum numbers. This leads to corrections, that have the form:
 \begin{equation}
 \Delta E_{FS}=E_n\left[\frac{Z^2\alpha^2}{n}\left(\frac{1}{j+1/2}-\frac{3}{4n}\right)\right]
 \end{equation}
 Where $\alpha$ stands for the fine-structure constant. The formula is composed of several corrections to the initial Hamiltonian. 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[scale=.4] {levels2}
+\includegraphics[scale=.3] {levels2}
 \end{center}
 \caption{Level structure of Lithium with the respective transitions, according to selection rules \cite{transitions}.}
 \label{levels2}
@@ -57,7 +57,7 @@ With $\gamma=e/(2m_e)$ and $g_J$ being the Landé-factor. The results are new va
 \newpage
 \newpage
 \section{Ac-stark shift}
-The \textsc{ac}-Stark-Shift arises from the interaction of electric fields with the atom. Before treating this problem quantum-mechanically in terms of our Hamiltonian (\ref{Hamiltonian}), we look at the problem in a classical model, that already results in a formula, that is very accurate in certain systems. 
+The \textsc{ac}-Stark shift arises from the interaction of electric fields with the atom. Before treating this problem quantum-mechanically in terms of our Hamiltonian (\ref{Hamiltonian}), we look at the problem in a classical model, that already results in a formula, that is very accurate in certain systems. 
 \subsection{Lorentz oscillator model}
 
  Classically the problem of light-matter-interaction can be described in terms of an atomic dipole moment induced by an oscillating electric field, following \cite{dipole}. The atom is hereby described as a damped harmonic oscillator driven by the field. Intuitively one can think of the electrons and the atomic nucleus being pulled away from each other by the electric force, resulting in an oscillation against each other. The potential arising from these conditions is the following. A detailed derivation of the potential can be studied in the appendix \ref{dipolepotential}.
@@ -65,12 +65,12 @@ The \textsc{ac}-Stark-Shift arises from the interaction of electric fields with 
 U=-\frac{1}{2}\mean{\boldsymbol{p E}}
 \label{dipole}
 \end{equation} 
-Here $\boldsymbol{p}$ is the induced dipole moment, $\boldsymbol{E}$ the electric field. The time-average is introduced since the electric field in an electromagnetic wave is oscillating very fast and the atom “feels“ an effective potential averaged over the oscillation. If we only consider the real part of $\boldsymbol{p}\boldsymbol{E}\propto \cos^2$, the time average is $\mean{\boldsymbol{p}\boldsymbol{E}}=1/2 \mathrm{ Re}(\alpha)E^2$. One can rewrite (\ref{dipole}) in terms of the Intensity $I=1/2\epsilon_0cE^2 $:
+Here $\boldsymbol{p}$ is the induced dipole moment, $\boldsymbol{E}$ the electric field. The time-average is introduced since the electric field in an electromagnetic wave is oscillating very fast and the atom “feels“ an effective potential averaged over the oscillation. If we only consider the real part of $\boldsymbol{p}\boldsymbol{E}\propto \cos^2$, the time average is $\mean{\boldsymbol{p}\boldsymbol{E}}=1/2\ \mathrm{Re}(\alpha)E^2$. One can rewrite (\ref{dipole}) in terms of the Intensity $I=1/2\epsilon_0cE^2 $:
 \begin{equation}
 U=-\frac{1}{2\epsilon_0 c}\mathrm{Re}(\alpha)I
 \end{equation} 
 
-To calculate the exact potential one has to obtain a value for the polarizability $\alpha$. In this classical description an electron is considered bound to the core elastically with the oscillation Eigenfrequency $\omega_0$. This corresponds to the optical transition frequency. In our practical case that is the frequency of the Lithium-D2-Line. In a real atom, there are of course multiple resonances, corresponding to multiple states of the electron, thus this approximation matches only  certain cases in which the system can also be regarded as a quantum mechanical two-state-system. We will later see, that while this approach leads to a very accurate calculation for the Lithium ground state, it can not at all be applied to the calculation of the trapping potential for the first excited state.
+To calculate the exact potential one has to obtain a value for the polarizability $\alpha$. In this classical description an electron is considered bound to the core elastically with the oscillation Eigenfrequency $\omega_0$. This corresponds to the optical transition frequency. In our practical case that is the frequency of the Lithium-D2-line. In a real atom, there are of course multiple resonances, corresponding to multiple states of the electron, thus this approximation matches only  certain cases in which the system can also be regarded as a quantum mechanical two-state-system. We will later see, that while this approach leads to a very accurate calculation for the Lithium ground state, it can not at all be applied to the calculation of the trapping potential for the first excited state.
 
 The polarizability now can be calculated by solving the equation of motion of a driven and damped harmonic oscillator.
 \begin{equation}
@@ -95,11 +95,11 @@ We now can plug the real part of this expression in (\ref{dipole}) and obtain th
 \begin{equation}
 U_{dip}(\boldsymbol{r})=-\frac{3\pi c^2}{2\om^3_0}\left(\frac{\Gamma}{\om_0-\om}+\frac{\Gamma}{\om_0+\om}\right	)I(\boldsymbol{r})
 \label{classic}\end{equation}
-In this case, the damping parameter $\Gamma$ corresponds to the linewidth of the optical transition, which numerical value is $\Gamma=5.8724 \unit{MHz}$ for the considered D2-Line \cite{gehm}.
+In this case, the damping parameter $\Gamma$ corresponds to the linewidth of the optical transition, which numerical value is $\Gamma=5.8724 \unit{MHz}$ for the considered D2-line \cite{gehm}.
 
 \subsection{Energy-shift in pertubation theory}
 
-After this classical treatment, we come back to calculating the same effect quantum mechanically. For calculating the energy-shift for the first excited state, this is approach gets more trustworthy results since in contrast to the ground state of Lithium it cannot be approximated by a two-level-system with only one transition. Therefore we have to solve the problem more precisely. 
+After this classical treatment, we come back to calculating the same effect quantum mechanically. For calculating the energy-shift for the first excited state, this is approach gets more trustworthy results since in contrast to the ground state of Lithium, it cannot be approximated by a two-level-system with only one transition. Therefore we have to solve the problem more precisely. 
 
 The interaction of the atom with laser-light is described by the two additional parts in the original Hamiltonian (\ref{Hamiltonian}) $H_L+H_{AL}$. The light-Hamiltonian $H_L$ is hereby negligible, because the regarded laser-light of the dipole-trap is far detuned from the relevant transition resonances and is seldomly absorbed by the atoms. Therefore, only the interaction Hamiltonian remains relevant, which depends on the dipole-operator $\hat{p}$ and the electric-field-operator $E$ and has the following form: $H_{AL}=-\hat{p} \boldsymbol{E}=-e\boldsymbol{r} \boldsymbol{E}$. It can be treated as a small pertubation of the atomic Hamiltonian, thus in the relevant second-order pertubation-theory the energy-shift is the following \cite{dipole}:
 \begin{equation}
@@ -129,7 +129,7 @@ We here also use the Wigner 3-j-symbol-notation, explained in appendix \ref{wign
 \begin{equation}
 E_\mu E_\nu=\sum^2_{L=0}\sum^L_{m_L=-L}\sqrt{2L+1}(-1)^{m_L}\threej{1}{1}{L}{\mu}{\nu}{-m_L}\mathcal{E}(L,m_L)
 \end{equation}
-For later-on simplification, we can calculate (\ref{irreducible}) explicitly for different combinations of $L$ and $m_L$.
+For simplification, we can calculate (\ref{irreducible}) explicitly for different combinations of $L$ and $m_L$.
 \begin{align*}
 \mathcal{E}(0,0)&=-\frac{1}{\sqrt{3}}(E^2_0-2E_{-1}E_{1})=-\frac{1}{\sqrt{3}}(E^2_z-2(-\frac{1}{2}(E_x+\mathrm{i}E_y)(E_x+\mathrm{i}E_y))\\&=-\frac{1}{\sqrt{3}}(E^2_z+E²_x+E^2_y)=-\frac{1}{\sqrt{3}}E^2\\
 \mathcal{E}(1,\pm 1)&=0\\
@@ -177,14 +177,14 @@ We now choose the electric field to be directed along the z-axis: $\boldsymbol{E
 \end{align}
 We are hereby shortening $C:=\sqrt{5J(2J-1)/6(2J+3)(J+1)(2J+1)}$.
 Note, that if the z-direction also defines the quantization axis in a magnetic field, this means assuming $\pi$-polarized laser-light. If the light is then supposed to be $\sigma$-polarized, the z-component has to be considered individually and it holds $E^2_z=1/2\ E^2$.
-We now draw an analogy to the classical calculation and link the total energy-shift to the induced dipole potential by defining a polarizability, composed of the now defined scalar and tensor polarizability. Note that a factor of 1/2 is factored out in this sense.
+We now draw an analogy to the classical calculation and link the total energy-shift to the induced dipole potential by defining a polarizability, composed of the now defined scalar and tensor polarizability. Note that a factor of \nicefrac{1}{2} is factored out in this sense.
 \begin{align}
 \alpha:=&e^2\left[\alpha^0_J+\frac{3m^2_J-J(J+1)}{J(2J-1)}\alpha^2_J\right]\\
 \notag\\
 \alpha^0_J=&\frac{2}{3(2J+1)}\sum_{K\neq J}\frac{|\braopket{J}{|r|}{K}|^2}{W_K-W_J}\\
 \alpha^2_J=&4C\sum_{K\neq J}(-1)^{J+K}\sixj{J}{1}{K}{1}{J}{2}\frac{|\braopket{J}{|r|}{K}|^2}{W_K-W_J}
 \end{align}
-An additional factor has to be multiplied as in the classical formula. The electric field is oscillating and the average thus results in another factor of $1/2$, because we did not take the time into account, when calculating the polarizability. 
+An additional factor has to be multiplied as in the classical formula. The electric field is oscillating and the average thus results in another factor of \nicefrac{1}{2}, because we did not take the time into account, when calculating the polarizability. 
 \begin{align}
 U=&-\frac{1}{2}\mean{\alpha E^2}\notag\\
 U=&-\frac{1}{4}e^2\left[\alpha^0_J+\frac{3m^2_J-J(J+1)}{J(2J-1)}\alpha^2_J\right]E^2\label{shift}
@@ -192,7 +192,7 @@ U=&-\frac{1}{4}e^2\left[\alpha^0_J+\frac{3m^2_J-J(J+1)}{J(2J-1)}\alpha^2_J\right
 
 \section{Dipole traps}
 \label{sectiondipole}
-The \textsc{ac}-Stark-Shift, as described above can, as stated in the beginning, be used to trap neutral atoms. We have seen so far (see \ref{dipole}, \ref{shift}), that an electric field induces a dipole moment in the atom that leads to a dipole-potential.The resulting force is proportional to the gradient of the intensity-distribution around the atom, therefore to understand how a specific dipole trap works exactly, one has to study the properties of the applied laser beams.
+The \textsc{ac}-Stark-Shift, as described above can, as stated in the beginning, be used to trap neutral atoms. We have seen so far (see \ref{dipole}, \ref{shift}), that an electric field induces a dipole moment in the atom that leads to a dipole-potential. The resulting force is proportional to the gradient of the intensity-distribution around the atom, therefore to understand how a specific dipole trap works exactly, one has to study the properties of the applied laser beams.
 
 Lasers normally emit Gaussian beams. The intensity distribution along the radial profile at a given point on the course of the beam is \cite{dipole}:
 \begin{equation}
