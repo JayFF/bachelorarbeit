@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.76.0-2013061707 (rev 4627)  (format=lualatex 2013.7.10)  25 MAY 2015 17:42
+This is LuaTeX, Version beta-0.76.0-2013061707 (rev 4627)  (format=lualatex 2013.7.10)  25 MAY 2015 18:10
  \write18 enabled.
  file:line:error style messages enabled.
 **BA.tex
@@ -392,7 +392,7 @@ luaotfload:  then use the possibly updated libraries. The merged
 luaotfload:  version is not supported as it is a frozen instance.
 luaotfload:  Problems can be reported to the ConTeXt mailing list."
 luaotfload: pop namespace from font loader -- non-destructive
-luaotfload: fontloader loaded in 0.130 seconds
+luaotfload: fontloader loaded in 0.103 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -880,8 +880,8 @@ ts/otf/linlibertine-r.luc)
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | resolve : Font family='linuxlibertineo', subfamily='regular' found:
  linlibertine_r.otf
-luaotfload: font no 21 (LinLibertineO) defines feature salt for script latn
-luaotfload: font no 21 (LinLibertineO) defines feature salt for script latn
+luaotfload: font no 21 (LinLibertineO) defines feature frac for script latn
+luaotfload: font no 21 (LinLibertineO) defines feature frac for script latn
 luaotfload: font no 21 (LinLibertineO) defines feature onum for script latn with
  language dflt
 \g_fontspec_family_Linux Libertine O_int=\count348
@@ -2052,7 +2052,7 @@ Here is how much of LuaTeX's memory you used:
 ribute_list, 2 action, 2 write nodes
    avail lists: 1:2,2:11768,3:497,4:1374,5:346,6:3958,7:340,8:29,9:645,10:353
  32986 multiletter control sequences out of 65536+600000
- 158 fonts using 10108083 bytes
+ 158 fonts using 10108047 bytes
  60i,15n,60p,2572b,1601s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2013/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf>{c:/te
 xlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2013/texmf-dist/fo
