@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.76.0-2013061707 (rev 4627)  (format=lualatex 2013.7.10)  12 JUN 2015 18:21
+This is LuaTeX, Version beta-0.76.0-2013061707 (rev 4627)  (format=lualatex 2013.7.10)  14 JUN 2015 19:32
  \write18 enabled.
  file:line:error style messages enabled.
 **presi.tex
@@ -971,7 +971,7 @@ luaotfload:  then use the possibly updated libraries. The merged
 luaotfload:  version is not supported as it is a frozen instance.
 luaotfload:  Problems can be reported to the ConTeXt mailing list."
 luaotfload: pop namespace from font loader -- non-destructive
-luaotfload: fontloader loaded in 0.024 seconds
+luaotfload: fontloader loaded in 0.023 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -1232,8 +1232,8 @@ ts/otf/linlibertine-r.luc)
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | resolve : Font family='linuxlibertineo', subfamily='regular' found:
  linlibertine_r.otf
-luaotfload: font no 22 (LinLibertineO) defines feature smcp for script latn
-luaotfload: font no 22 (LinLibertineO) defines feature smcp for script latn
+luaotfload: font no 22 (LinLibertineO) defines feature mkmk for script latn
+luaotfload: font no 22 (LinLibertineO) defines feature mkmk for script latn
 luaotfload: font no 22 (LinLibertineO) defines feature onum for script latn with
  language dflt
 \g_fontspec_family_Linux Libertine O_int=\count318
@@ -1697,12 +1697,12 @@ l.88 \end{frame}
                [6
 
  <./feder.png>]
-<classicpotential.pdf, id=50, 361.35pt x 210.7875pt>
+<classicpotential.pdf, id=50, 673.51625pt x 409.53pt>
 File: classicpotential.pdf Graphic file (type pdf)
 
 <use classicpotential.pdf>
 Package pdftex.def Info: classicpotential.pdf used on input line 96.
-(pdftex.def)             Requested size: 252.94327pt x 147.55025pt.
+(pdftex.def)             Requested size: 269.40172pt x 163.80908pt.
 LuaTeX warning (ext4): destination with the same identifier (name{\\let\040}) ha
 s been already used, duplicate ignored
 <to be read again> 
@@ -1711,12 +1711,24 @@ l.96 \end{frame}
                [7
 
  <./classicpotential.pdf>]
-<alphaalltogether.pdf, id=76, 361.35pt x 210.7875pt>
-File: alphaalltogether.pdf Graphic file (type pdf)
+<levels2.png, id=72, 932.283pt x 888.921pt>
+File: levels2.png Graphic file (type png)
+ <use levels2.png>
+Package pdftex.def Info: levels2.png used on input line 105.
+(pdftex.def)             Requested size: 205.10289pt x 195.56322pt.
+LuaTeX warning (ext4): destination with the same identifier (name{\\let\040}) ha
+s been already used, duplicate ignored
+<to be read again> 
+\relax 
+l.105 \end{frame}
+                [8
 
-<use alphaalltogether.pdf>
-Package pdftex.def Info: alphaalltogether.pdf used on input line 105.
-(pdftex.def)             Requested size: 252.94327pt x 147.55025pt.
+ <./levels2.png>]
+<polarizegr.pdf, id=78, 1025.8325pt x 631.35875pt>
+File: polarizegr.pdf Graphic file (type pdf)
+ <use polarizegr.pdf>
+Package pdftex.def Info: polarizegr.pdf used on input line 114.
+(pdftex.def)             Requested size: 246.20483pt x 151.52919pt.
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"(load l
 uc: C:/texlive/2013/texmf-var/luatex-cache/generic/fonts/otf/lmroman7-regular.lu
@@ -1734,15 +1746,14 @@ luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
-LaTeX Font Info:    Try loading font information for U+msa on input line 105.
-
-(c:/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Try loading font information for U+msa on input line 114.
+ (c:/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
-LaTeX Font Info:    Try loading font information for U+msb on input line 105.
+LaTeX Font Info:    Try loading font information for U+msb on input line 114.
 
 (c:/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1777,34 +1788,124 @@ ng (ext4): destination with the same identifier (name{\\let\040}) has been alrea
 dy used, duplicate ignored
 <to be read again> 
 \relax 
-l.105 \end{frame}
-                [8
+l.114 \end{frame}
+                [9
+
+ <./polarizegr.pdf>]
+<polarizeex1.pdf, id=103, 898.35625pt x 551.05875pt>
+File: polarizeex1.pdf Graphic file (type pdf)
+ <use polarizeex1.pdf>
+Package pdftex.def Info: polarizeex1.pdf used on input line 123.
+(pdftex.def)             Requested size: 215.6099pt x 132.25679pt.
+LuaTeX warning (ext4): destination with the same identifier (name{\\let\040}) ha
+s been already used, duplicate ignored
+<to be read again> 
+\relax 
+l.123 \end{frame}
+                [10
+
+ <./polarizeex1.pdf>]
+<polarizeex2.pdf, id=127, 1046.91125pt x 644.4075pt>
+File: polarizeex2.pdf Graphic file (type pdf)
+ <use polarizeex2.pdf>
+Package pdftex.def Info: polarizeex2.pdf used on input line 132.
+(pdftex.def)             Requested size: 251.26384pt x 154.66095pt.
+LuaTeX warning (ext4): destination with the same identifier (name{\\let\040}) ha
+s been already used, duplicate ignored
+<to be read again> 
+\relax 
+l.132 \end{frame}
+                [11
+
+ <./polarizeex2.pdf>]
+<alphaalltogether.pdf, id=150, 361.35pt x 210.7875pt>
+File: alphaalltogether.pdf Graphic file (type pdf)
+
+<use alphaalltogether.pdf>
+Package pdftex.def Info: alphaalltogether.pdf used on input line 141.
+(pdftex.def)             Requested size: 252.94327pt x 147.55025pt.
+LuaTeX warning (ext4): destination with the same identifier (name{\\let\040}) ha
+s been already used, duplicate ignored
+<to be read again> 
+\relax 
+l.141 \end{frame}
+                [12
 
  <./alphaalltogether.pdf>]
+<dipolefoto.png, id=173, 830.35219pt x 284.56313pt>
+File: dipolefoto.png Graphic file (type png)
+ <use dipolefoto.png>
+Package pdftex.def Info: dipolefoto.png used on input line 149.
+(pdftex.def)             Requested size: 332.135pt x 113.82323pt.
+
+Overfull \hbox (24.84512pt too wide) in paragraph at lines 149--149
+ [] 
+ []
+
+LuaTeX warning (ext4): destination with the same identifier (name{\\let\040}) ha
+s been already used, duplicate ignored
+<to be read again> 
+\relax 
+l.149 \end{frame}
+                [13
+
+ <./dipolefoto.png>]
+<withwithout.png, id=178, 1403.2425pt x 543.7113pt>
+File: withwithout.png Graphic file (type png)
+ <use withwithout.png>
+Package pdftex.def Info: withwithout.png used on input line 157.
+(pdftex.def)             Requested size: 308.7143pt x 119.61685pt.
+
+Overfull \hbox (1.42442pt too wide) in paragraph at lines 157--157
+ [] 
+ []
+
+LuaTeX warning (ext4): destination with the same identifier (name{\\let\040}) ha
+s been already used, duplicate ignored
+<to be read again> 
+\relax 
+l.157 \end{frame}
+                [14
+
+ <./withwithout.png>]
+<shiftintens-eps-converted-to.pdf, id=184, 774.895pt x 593.21625pt>
+File: shiftintens-eps-converted-to.pdf Graphic file (type pdf)
+
+<use shiftintens-eps-converted-to.pdf>
+Package pdftex.def Info: shiftintens-eps-converted-to.pdf used on input line 165
+.
+(pdftex.def)             Requested size: 232.47029pt x 177.96625pt.
+LuaTeX warning (ext4): destination with the same identifier (name{\\let\040}) ha
+s been already used, duplicate ignored
+<to be read again> 
+\relax 
+l.165 \end{frame}
+                [15
+
+ <./shiftintens-eps-converted-to.pdf>]
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
  (./presi.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 107.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
 Package rerunfilecheck Info: File `presi.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 166.
  )
 
 Here is how much of LuaTeX's memory you used:
- 31366 strings out of 494714
+ 31437 strings out of 494714
  100000,794899 words of node,token memory allocated
- 2934 words of node memory still in use:
-   40 hlist, 10 vlist, 5 rule, 5 disc, 5 math, 74 glue, 5 kern, 27 penalty, 107 
-glyph, 218 attribute, 99 glue_spec, 143 attribute_list, 3 write, 5 local_par, 1 
-pdf_refximage, 22 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nod
-es
-   avail lists: 1:1,2:300,3:58,4:189,5:16,6:171,7:12,8:3,9:79,10:15
- 33712 multiletter control sequences out of 65536+600000
- 61 fonts using 6541391 bytes
+ 1990 words of node memory still in use:
+   34 hlist, 10 vlist, 5 rule, 3 disc, 2 math, 49 glue, 5 kern, 23 penalty, 38 g
+lyph, 131 attribute, 82 glue_spec, 94 attribute_list, 3 write, 4 local_par, 1 pd
+f_refximage, 22 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
+   avail lists: 1:1,2:468,3:76,4:247,5:16,6:261,7:12,8:3,9:85,10:19
+ 33754 multiletter control sequences out of 65536+600000
+ 61 fonts using 6541311 bytes
  60i,11n,55p,431b,415s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2013/texmf-dist/fonts/opentype/public/libertine/linlibertine_ri.otf>
 <c:/texlive/2013/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf><
@@ -1813,10 +1914,10 @@ c:/texlive/2013/texmf-dist/fonts/opentype/public/libertine/linlibertine_r.otf><c
 2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2013/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2013/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy10.pfb>
-Output written on presi.pdf (8 pages, 7623091 bytes).
+Output written on presi.pdf (15 pages, 10896321 bytes).
 
-PDF statistics: 137 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 131072)
+PDF statistics: 269 PDF objects out of 1000 (max. 8388607)
+ 162 compressed objects within 2 object streams
+ 17 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
